@@ -1,2 +1,2 @@
 # getting-started
-Het Generiek Publicatie Platform is het CMS van Antwerpen 
+Start hier voor kennismaking met het Platform.
