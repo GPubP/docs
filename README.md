@@ -10,7 +10,7 @@ link
 ## Wat vind je hier ?
 
 | **Contributors** die...            | **Consumers** die...               |
-|------------------------------------|------------------------------------|
+|:------------------------------------|:------------------------------------|
 | een WCMv4 willen module maken      | een frontend willen maken          |
 | een content component willen maken | content willen aanmaken via de API |
 
