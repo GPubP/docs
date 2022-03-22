@@ -5,7 +5,7 @@
 Het **G**eneriek **Pub**licatie **P**latform - GPubP - is een verzameling van bouwstenen en tools waarmee websites gemaakt kunnen worden. Enerzijds kan er content mee beheerd worden en anderzijds zijn er funcitonaliteiten voor het bouwen van de frontend van websites.
 
 ## Release Notes
-link
+[RELEASE.md](/RELEASE.md)
 
 ## Wat vind je hier ?
 
