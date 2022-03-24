@@ -13,7 +13,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.3.0](#430-2022-03-28) 	| 28 Maa 2022 	| Werken met Navigatie Menu's 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| April 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022-03) 	| Maart 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
-| [4.2.1.hotfix-5](#421hotfix-5-2022-03-17) 	| 17 Maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() 	|
+| [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) 	| 24 Maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() 	|
 | [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) 	| 10 Maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) 	| 03 Maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-2](#421hotfix-2-2022-02-24) 	| 24 Feb 2022 	| Enkele fixes rond uitgifte tijdstip (PZA) | [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
@@ -87,12 +87,13 @@ Daarnaast ook nog volgende
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
-## [4.2.1.hotfix-5]: 2022-03-17
+## [4.2.1.hotfix-5]: 2022-03-14
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15801).
 ### Fixed
-- **Content** De cache zal sneller worden opgebouwd waardoor er minder 'oeps, pagina niet gevonden' zal voorkomen
+- **Content:** De cache zal sneller worden opgebouwd waardoor er minder 'oeps, pagina niet gevonden' zal voorkomen
+- **Navigatie:** enkele kleinere fixes rond het gebruik van de navigatie engine
 
 ## [4.2.1.hotfix-4]: 2022-03-10
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
