@@ -11,8 +11,8 @@ Bekijk hier de [RELEASE notes](/RELEASE.md), hier staan ook reeds de eerstvolgen
 
 | **[Contributors](#)** die...       | **[Consumers](#)** die...          |
 |:-----------------------------------|:-----------------------------------|
-| een [WCMv4 willen module maken](/docs_wcm_contributor) | [een frontend willen maken ](/docs_layout_renderer) |
-| een content component willen maken | [de WCM API willen gebruiken ](/docs_wcm_consumer) |
+| een [WCMv4 willen module maken](https://github.com/GPubP/docs_wcm_contributor) | [een frontend willen maken ](https://github.com/GPubP/docs_layout_renderer) |
+| een content component willen maken | [de WCM API willen gebruiken ](https://github.com/GPubP/docs_wcm_consumer) |
 
 **Note:** Alle platform componenten staan momenteel nog op BitBucket van Digipolis, wil je meer weten hierover, contacteer dan erik.lenaerts@digipolis.be.
 
