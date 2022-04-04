@@ -8,19 +8,18 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | Release 	| Datum 	| Inhoud 	| Status 	|
 |---	|---	|---	|---	|
 | [4.4.1](#441-2022) 	| 2022 	| Bynder Beeldenbank en Chat ondersteuning | [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.4.0](#440-2022-05-30) 	| 30 Mei 2022 	| Meertaligheid 	| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
-| [4.3.1](#431-2022-05-02) 	| 02 Mei 2022 	| Werken met Navigatie URL's en Navigatiestructuur 	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() 	|
-| [4.3.0](#430-2022-03-28) 	| 28 Maa 2022 	| Werken met Navigatie Menu's 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
-| [1.0.0](#100-2022-04) 	| April 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
-| [1.0.0](#100-2022-04) 	| April 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
-| [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) 	| 24 Maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() 	|
-| [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) 	| 10 Maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) 	| 03 Maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-2](#421hotfix-2-2022-02-24) 	| 24 Feb 2022 	| Enkele fixes rond uitgifte tijdstip (PZA) | [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-1](#421hotfix-1-2022-02-17) 	| 17 Feb 2022 	| Fix voor werken met 10+ navigatiebomen 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1](#421-2022-02-14) 	| 14 Feb 2022 	| Uitbreidingen voor PZA 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.1.5](#415-2022-01-10) 	| 10 Jan 2022 	| Rubens release voor A-Stad 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [1.0.0](#100-2021-12-23) 	| 23 Jan 2022 	| Tabel content component 	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() 	|
+| [4.4.0](#440-2022-05-30) 	| 30 mei 2022 	| Meertaligheid 	| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
+| [4.3.0](#430-2022-05-16) 	| 16 mei 2022 	| Werken met Navigatie Menu's, URL patronen en Menu's 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
+| [1.0.0](#100-2022-04) 	| april 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
+| [1.0.0](#100-2022-04) 	| april 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
+| [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) 	| 24 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) 	| 10 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) 	| 03 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-2](#421hotfix-2-2022-02-24) 	| 24 feb 2022 	| Enkele fixes rond uitgifte tijdstip (PZA) | [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-1](#421hotfix-1-2022-02-17) 	| 17 feb 2022 	| Fix voor werken met 10+ navigatiebomen 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1](#421-2022-02-14) 	| 14 feb 2022 	| Uitbreidingen voor PZA 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.1.5](#415-2022-01-10) 	| 10 jan 2022 	| Rubens release voor A-Stad 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [1.0.0](#100-2021-12-23) 	| 23 jan 2022 	| Tabel content component 	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() 	|
 | [4.1.2](#412-2021-12-14) 	| 14 dec 2021 	| MVP Release 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 
 ---
@@ -41,24 +40,19 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 - Bij het maken van een nieuw content item moet eerst nog een taalkeuze gemaakt worden.
 - Per content item kan je eenvoudig zien in welke talen dit reeds vertaald is.
 
-## [4.3.1]: 2022-05-02
+## [4.3.0]: 2022-05-16
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
-
-Deze MTP zal vooral bestaan uit navigatie URL en navigatiestructuur functionaliteiten:
-URL
-- Content beheerders kunnen een URL patroon instellen dat de basis vormt voor de URL's van de content items
-- Redacteurs kunnen - indien ze rechten ervoor hebben - afwijken van dit patroon
-- Ontwikkelaars zullen nooit meer URL's moeten samenstellen in code. De URL's zijn onderdeel van elk content item.
-Navigatiestructuren
-- Content beheerders stellen de navigatiestructuur in. Hiervoor kunnen ze gebruik maken van ofwel patronen ofwel een navigatieboom.
-- Content items worden hiermee soms in een navigatieboom gehangen en soms volgen ze regels van het patroon. Zo zal een redacteur een nieuwsbericht aanmaken en dmv het patroon weten we waar dit in de navigatiestructuur staat. Daarentegen zal de relatie tussen overzicht en infopagina's wel effectief door de redacteurs opgegeven worden. Zo hebben we best of both worlds en hoeven de redacteurs niets te doen (patronen) en daar waar ze willen kunnen ze content items héél specifiek een plek geven (navigatieboom) in de navigatiestructuur.
-
-## [4.3.0]: 2022-03-28
-[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15728).
 
-Deze MTP zal vooral bestaan uit navigatie menu functionaliteiten: 
+Deze MTP zal vooral bestaan uit het beheren van URL patronen, menu's en sitestructuren:
+- Content beheerders kunnen een URL patroon instellen dat de basis vormt voor de URL's van de content items
+- Redacteurs kunnen - indien ze rechten ervoor hebben - afwijken van dit patroon
+- Ontwikkelaars zullen nooit meer URL's moeten samenstellen in code. De URL's zijn onderdeel van elk content item.
+- Site beheerders kunnen kiezen om te werken met een sitestructuur of niet.
+- Content items kunnen in de sitestructuur voorkomen
+- Content items kunnen in op een andere plaats in de sitestructuur voorkomen met een 'secundaire' plaats.
+- Beheer en inzicht van de sitestructuur in z'n geheel 
 - Maken en onderhouden van menu's
 - Menu's gaan meteen meertalig cases ondersteunen
 - Er kunnen interne linken, externe linken en tussentitels opgenomen worden in een menu 
@@ -68,6 +62,8 @@ Deze MTP zal vooral bestaan uit navigatie menu functionaliteiten:
 - Er kan vanuit het totale menu gewerkt worden (de boomstructuur) of vanuit één specifiek content item
 - Wie wat mag doen met menu's gaat via rollen en rechten ingesteld kunnen worden
 - Er wordt een API voorzien om menu data op te halen voor gebruik in de consumers/frontends.
+
+Daarnaast gaat 4.3 een 50-tal bug fixes bevatten. 
 
 Daarnaast ook nog volgende 
 -  **Content** 
