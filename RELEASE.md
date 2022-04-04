@@ -9,7 +9,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 |---	|---	|---	|---	|
 | [4.4.1](#441-2022) 	| 2022 	| Bynder Beeldenbank en Chat ondersteuning | [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
 | [4.4.0](#440-2022-05-30) 	| 30 mei 2022 	| Meertaligheid 	| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
-| [4.3.0](#430-2022-05-16) 	| 16 mei 2022 	| Werken met Navigatie Menu's, URL patronen en Menu's 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
+| [4.3.0](#430-2022-05-16) 	| 16 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) 	| 24 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
