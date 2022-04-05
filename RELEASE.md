@@ -9,7 +9,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 |---	|---	|---	|---	|
 | [4.4.1](#441-2022) 	| 2022 	| Bynder Beeldenbank en Chat ondersteuning | [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
 | [4.4.0](#440-2022-05-30) 	| 30 mei 2022 	| Meertaligheid 	| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
-| [4.3.0](#430-2022-05-16) 	| 16 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
+| [4.3.0](#430-2022-05-16) 	| 16 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) 	| 24 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
@@ -45,30 +45,98 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15728).
 
-Deze MTP zal vooral bestaan uit het beheren van URL patronen, menu's en sitestructuren:
-- Content beheerders kunnen een URL patroon instellen dat de basis vormt voor de URL's van de content items
-- Redacteurs kunnen - indien ze rechten ervoor hebben - afwijken van dit patroon
-- Ontwikkelaars zullen nooit meer URL's moeten samenstellen in code. De URL's zijn onderdeel van elk content item.
-- Site beheerders kunnen kiezen om te werken met een sitestructuur of niet.
-- Content items kunnen in de sitestructuur voorkomen
-- Content items kunnen in op een andere plaats in de sitestructuur voorkomen met een 'secundaire' plaats.
-- Beheer en inzicht van de sitestructuur in z'n geheel 
-- Maken en onderhouden van menu's
-- Menu's gaan meteen meertalig cases ondersteunen
-- Er kunnen interne linken, externe linken en tussentitels opgenomen worden in een menu 
-- Menu's zijn hiërarchisch waarbij menu items verhangen kunnen worden
-- Menu items onderling kunnen in volgorde gezet worden
-- Content beheerders bepalen uit welke menu's redacteurs mogen kiezen
-- Er kan vanuit het totale menu gewerkt worden (de boomstructuur) of vanuit één specifiek content item
-- Wie wat mag doen met menu's gaat via rollen en rechten ingesteld kunnen worden
-- Er wordt een API voorzien om menu data op te halen voor gebruik in de consumers/frontends.
+### Added
+- **Navigatie:** 
+  - Site beheerders kunnen het `URL patroon` van een content type `instellen op site niveau`, zo kan dit anders ingericht worden per site. 
+	> **Nota voor afnemers!** 
+	>
+	> *We nemen standaard het URL patroon over van wat er ingesteld is op tenant niveau van elk content type*.
+  - Er kan gewerkt worden met `URL patroon variabele` voor de opbouw van een URL
+  - Ontwikkelaars zullen nooit meer URL's moeten samenstellen in code. De URL's zijn onderdeel van elk content item.
+  	> **Nota voor afnemers!** 
+  	>
+  	> *Je kan nu URL patronen veel dynamischer instellen. Kijk de code na en verwijder alle hardcoded regels rond het opbouwen/samenstellen van een URL in de frontend code*.
+  - Bij het wijzgingen van een URL patroon, kan je `in bulk` alle content items `bijwerken naar dit nieuw URL patroon`.
+  - Als Redacteur kan je het pad (gedeelte voor de slug) aanpassen als je hiervoor rechten hebt. Zo kan je `afwijken van het vooropgestelde URL Patroon` voor je content item.
+  - Via een Feature toggle kan je de `Menu feature de/activeren` voor je site
+  - Via de API kan ik `alle informatie van een menu opvragen` voor een site
+	> **Nota voor afnemers!** 
+	>
+	> *Menu's werden hiervoor beheerd in de Navigation UI. Op aanvraag kunnen we je bestaande menu's migreren zodat ze vanaf nu vanuit de redactie kunnen beheerd worden.*
+	> *Voor frontend developers is het belangrijkste dat er **geen** navigatie data meer zal bestaan op content items*.
+	> ```javascript
+	> // Het volgende stuk verdwijnt van de payload bij het ophalen van een content item:
+	> ...
+	> "modulesData": {
+    >   "navigation": {
+    >      "navigationTree": "1608",
+    >      "id": 140219
+    >   }
+	> }
+	> ...
+	>```
+  - Er kunnen zoveel menu's als gewenst gemaakt worden
+  - Per menu registratie kunnen extra attributen geregistreerd worden (bv een icon code)
+  - Als redacteur kan je met menu's werken vanuit één content item of vanuit het `volledig menu overzicht`
+  - Menu items kunnen `gesorteerd` worden
+  - Menu items kunnen op andere plekken worden gezet, inclusief alle onderliggende kinderen
+  - Een menu item kan een registratie van en content item zijn, een externe url of een tussentitel
+  - Een content item kan één of meerdere keren voorkomen in éénzelfde of een ander menu.
+  - Content items in een menu houden rekening met de publicatiestatus, maw het menu item is enkel actief als het content item zelf gepubliceerd is. Je kan aangeven dat het menu item automatisch mee geactiveerd wordt wanneer het content item gepubliceerd wordt.
+  - Er kan per content type aangegeven worden welke menu's door de redacteurs gebruikt mogen worden.
+- **Content** 
+  - Er is een nieuw content item info-kaartje dat de essentie van het content item weergeeft in een kaartje. 
+  - Als Content Beheerder kan ik een formulier referentie verplicht of optioneel maken
+  - Als Content Beheerder kan ik de label instellingen voor een formulier referentie inrichten
+- **Search** 
+  - Er is een basis versie waarmee content van een site geïndexeerd wordt in Elastic App Search
+  - Per content type kan aangegeven worden of het geïndexeerd moet worden of niet en welke afbeelding mee in de elastic index moet geregistreerd worden
+  - Een volledige her-indexatie kan gestart worden vanuit de Redactie. 
+  - Afbeelding worden in elastic opgenomen via publiek bereikbare URL's. Deze root hiervan kan in de Redactie ingesteld worden.
+  
 
-Daarnaast gaat 4.3 een 50-tal bug fixes bevatten. 
+### Changed
+- **Navigatie:** 
+  - Via een Feature toggle kan je de `Sitestructuur feature de/activeren` voor je site
+  	> **Nota voor afnemers!** 
+	>
+	> *Redacteurs konden content items in de navigatiestructuur plaatsen voordien. Dit is nu vervangen door uitgebreidere sitestructuur features*
+  - Via de API kan ik `alle informatie van een sitestructuur opvragen` voor een site. Hier kan je alle onderliggende items in een structuur opvragen dat dikwijls gebruikt wordt bij overzichtspagina's voor het tonen van de 'child' pagina's. Anderzijds kan je ook alle bovenliggende elementen in de sitestrucuur opvragen voor bijvoorbeeld het opbouwen van een broodkruimel.
+	> **Nota voor afnemers!** 
+	>
+	> *Voor frontend developers is het belangrijkste dat er **geen** navigatie data meer zal bestaan op content items*.
+	> ```javascript
+	> // Het volgende stuk verdwijnt van de payload bij het ophalen van een content item:
+	> ...
+	> "modulesData": {
+    >   "navigation": {
+    >      "navigationTree": "1608",
+    >      "id": 140219
+    >   }
+	> }
+	> ...
+	>```
+  - Er is slechts één sitestructuur (per taal) per site, zo vormt dit de fysieke samenhang tussen content items
+  - Een content item heeft één primaire/hoofd plaats in de sitestructuur. Daarnaast kan dat zelfde content item extra secundaire voorkomens hebben in de sitestructuur. Deze laatste zijn als het ware virtuele entries
+  - Een sitestructuur item kan een registratie van en content item zijn, een externe url of een tussentitel
+  - Sitesitructuur items kunnen `gesorteerd` worden
+  - Content items in de sitestructuur houden rekening met de publicatiestatus, maw het item in de structuur is enkel actief als het content item zelf gepubliceerd is. Je kan aangeven dat het item in de sitestructuur automatisch mee geactiveerd wordt wanneer het content item gepubliceerd wordt.
+  - Als content beheerder kan ik per content type bepalen hoe redacteurs content in de site structuur kunnen plaatsen. Ofwel niet, ofwel met beperkingen ofwel een kunnen ze een vrije plaats in de structuur kiezen voor het content item.
+  - Indien het content item enkel een vaste plaats heeft in de sitestructuur dan gaan we het niet fysiek registreren. Zo voorkomen we dat duizende nieuws berichten bijvoorbeeld in de sitestructuur geplaatst worden. Het systeem weet wel waar precies waar deze content zou staan. 
+  
+### Fixed
+Een 50-tal bug fixes waarvan de belangrijkste:
+- **Content** 
+  - Linken naar afbeeldingen in een tekstvak met opmaak zijn gefixed
+  - Cross site content referentie werkt nu terug wanneer je het content item bewerkt
+  - Adres content component verliest de gekozen waarde niet meer
+  - Zoeken naar content kan nu ook obv de slug
+  - De GIS referentie gaf een verkeerde waarde terug bij de recyclageparken laag
+  - Filter op status 'gearchiveerd' werkt zoals het hoort
+  - Soms kon je een tabel niet bewerken omdat het ergen achter verscheen.
+- **API** 
+  - de $exist operator voor filteren in views werkt nu wel zoals verwacht
 
-Daarnaast ook nog volgende 
--  **Content** 
-    - Location picker widget improvements 
-    - Aanpassingen aan de opties van keuzelijst zorgde voor problemen bij bestaande content items die daarmee werken
 
 ## [1.0.0]: 2022-03
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
@@ -147,7 +215,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
    -  Bij gebruik van een paragraaf zal er in de payload (meta) van een Content Item een `componentType` en `componentName` uitkomen die respectievelijk het type en de systeemnaam van dat Content Component in de paragraaf bevat.
 -  **Content** 
 	- Extra configuratie opties voor een `Tekstvak met Opmaak`. Je kan nu bepalen of er met afbeeldingen of interne linken gewerkt mag worden. ([Meer info](https://docs.google.com/document/d/19RHSpMWIhUoD4ST7d4fvd1Z-mqxb14shNrsly_mDGs4/edit#heading=h.i6gktat17chj))
-		> **Migratie!** 
+		> **Nota voor afnemers!** 
 		>
 		> *Content Beheerders gaan alle Tekstvak met Opmaak content componenten moeten herconfigureren en een keuze maken van deze nieuwe opties. De content zelf moet niet gemigreerd worden*.
 	- Een nieuw `Formulier Referentie` content component waarmee je een formulier kan kiezen dat gemaakt is via de Form Composer. ([Meer info](https://docs.google.com/document/d/19RHSpMWIhUoD4ST7d4fvd1Z-mqxb14shNrsly_mDGs4/edit#heading=h.imvkzfzdczxy))
