@@ -104,6 +104,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Via de API kan ik `alle informatie van een sitestructuur opvragen` voor een site. Hier kan je alle onderliggende items in een structuur opvragen dat dikwijls gebruikt wordt bij overzichtspagina's voor het tonen van de 'child' pagina's. Anderzijds kan je ook alle bovenliggende elementen in de sitestrucuur opvragen voor bijvoorbeeld het opbouwen van een broodkruimel.
 	> **Nota voor afnemers!** 
 	>
+	> *Navigatie werdt hiervoor beheerd deels in de redactie, deels in de Navigation UI. Op aanvraag kunnen we je bestaande navigatie migreren naar de nieuwe sitestructuur zodat ze volwaardig via de redactie kunnen beheerd worden.*
 	> *Voor frontend developers is het belangrijkste dat er **geen** navigatie data meer zal bestaan op content items*.
 	> ```javascript
 	> // Het volgende stuk verdwijnt van de payload bij het ophalen van een content item:
