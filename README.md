@@ -5,15 +5,14 @@
 Het **G**eneriek **Pub**licatie **P**latform - GPubP - is een verzameling van bouwstenen en tools waarmee websites gemaakt kunnen worden. Enerzijds kan er content mee beheerd worden en anderzijds zijn er funcitonaliteiten voor het bouwen van de frontend van websites.
 
 ## Release Notes
-[RELEASE.md](/RELEASE.md)
+Bekijk hier de [RELEASE notes](/RELEASE.md), hier staan ook reeds de eerstvolgende releases in opgenomen. 
 
 ## Wat vind je hier ?
 
 | **[Contributors](#)** die...       | **[Consumers](#)** die...          |
 |:-----------------------------------|:-----------------------------------|
-| een WCMv4 willen module maken      | een frontend willen maken          |
-| een content component willen maken | content willen aanmaken via de API |
-
+| een [WCMv4 willen module maken](https://github.com/GPubP/docs_wcm_contributor) | [een frontend willen maken ](https://github.com/GPubP/docs_layout_renderer) |
+| een content component willen maken | [de WCM API willen gebruiken ](https://github.com/GPubP/docs_wcm_consumer) |
 
 **Note:** Alle platform componenten staan momenteel nog op BitBucket van Digipolis, wil je meer weten hierover, contacteer dan erik.lenaerts@digipolis.be.
 
