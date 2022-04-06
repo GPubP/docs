@@ -31,6 +31,11 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 
 ## [4.4.0]: 2022-05-30
 [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
+
+> **MTA**
+> 
+> gepland op: 6/4, 15/4, 29/4 en 13/5
+
 - Per site configureer je de talen
 - Allerlei instellingen zoals de site url, preview url gaan taalgevoelig worden
 - Content beheerders bepalen welke content componenten van een content type vertaalbaar zijn en welke niet.
@@ -44,6 +49,10 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15728).
+
+> **MTA**
+> 
+> gepland op: 6/4, 15/4, 29/4 en 13/5
 
 ### Added
 - **Navigatie:** 
