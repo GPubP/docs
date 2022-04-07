@@ -133,6 +133,9 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Content items in de sitestructuur houden rekening met de publicatiestatus, maw het item in de structuur is enkel actief als het content item zelf gepubliceerd is. Je kan aangeven dat het item in de sitestructuur automatisch mee geactiveerd wordt wanneer het content item gepubliceerd wordt.
   - Als content beheerder kan ik per content type bepalen hoe redacteurs content in de site structuur kunnen plaatsen. Ofwel niet, ofwel met beperkingen ofwel een kunnen ze een vrije plaats in de structuur kiezen voor het content item.
   - Indien het content item enkel een vaste plaats heeft in de sitestructuur dan gaan we het niet fysiek registreren. Zo voorkomen we dat duizende nieuws berichten bijvoorbeeld in de sitestructuur geplaatst worden. Het systeem weet wel waar precies waar deze content zou staan. 
+- **Tabel**
+  - Label van de actieknop aangepast bij het toevoegen van cell info
+  - Je kan nu een cell eenvoudiger leegmaken.  
   
 ### Fixed
 Een 50-tal bug fixes waarvan de belangrijkste:
