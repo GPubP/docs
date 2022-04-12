@@ -12,6 +12,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.3.0](#430-2022-05-16) 	| 16 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
+| [4.2.1.hotfix-6](#421hotfix-6-2022-04) 	| april 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
 | [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) 	| 24 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) 	| 10 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) 	| 03 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
@@ -163,6 +164,12 @@ Een 50-tal bug fixes waarvan de belangrijkste:
   - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
+
+## [4.2.1.hotfix-6]: 2022-04
+[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
+
+### Fixed
+- het verwijderen van een navigatie item volgt de nieuwe werkwijze van de navigatie engine
 
 ## [4.2.1.hotfix-5]: 2022-03-14
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
