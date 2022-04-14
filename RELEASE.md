@@ -169,7 +169,7 @@ Een 50-tal bug fixes waarvan de belangrijkste:
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 ### Fixed
-- het verwijderen van een navigatie item volgt de nieuwe werkwijze van de navigatie engine
+- het verwijderen van een navigatie item volgt de nieuwe werkwijze van de recent aangepast navigatie engine ([zie Digipolis nieuws](https://nieuws.digipolis.be/project/46359))
 
 ## [4.2.1.hotfix-5]: 2022-03-14
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
