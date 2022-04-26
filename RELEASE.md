@@ -8,8 +8,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | Release 	| Datum 	| Inhoud 	| Status 	|
 |---	|---	|---	|---	|
 | [4.4.1](#441-2022) 	| 2022 	| Bynder Beeldenbank en Chat ondersteuning | [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.4.0](#440-2022-05-30) 	| 30 mei 2022 	| Meertaligheid 	| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
-| [4.3.0](#430-2022-05-16) 	| 16 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() 	|
+| [4.4.0](#440-2022-05-30) 	| 30 mei 2022 	| Meertaligheid 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
+| [4.3.0](#430-2022-05-30) 	| 30 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022-04) 	| april 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [4.2.1.hotfix-6](#421hotfix-6-2022-04-14) 	| 14 april 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
@@ -31,7 +31,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 - [Teleportel](https://www.teleportel.com/) ondersteuning
 
 ## [4.4.0]: 2022-05-30
-[![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
+[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 > **MTA**
 > 
@@ -46,8 +46,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 - Bij het maken van een nieuw content item moet eerst nog een taalkeuze gemaakt worden.
 - Per content item kan je eenvoudig zien in welke talen dit reeds vertaald is.
 
-## [4.3.0]: 2022-05-16
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+## [4.3.0]: 2022-05-30
+[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15728).
 
