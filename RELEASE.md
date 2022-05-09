@@ -5,25 +5,64 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 *Lees [hier meer](#legende) over het formaat en de structuur van deze release notes.*
 
 ## Index
-| Release 	| Datum 	| Inhoud 	| Status 	|
-|---	|---	|---	|---	|
-| [4.4.1](#441-2022) 	| 2022 	| Bynder Beeldenbank en Chat ondersteuning | [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.4.0](#440-2022-05-30) 	| 30 mei 2022 	| Meertaligheid 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
-| [4.3.0](#430-2022-05-30) 	| 30 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 	|
-| [1.0.0](#100-2022-04) 	| april 2022 	| Logboek module 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
-| [1.0.0](#100-2022-04) 	| april 2022 	| Verzendmodule voor (o.a.) nieuwsbrieven 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
-| [4.2.1.hotfix-6](#421hotfix-6-2022-04-14) 	| 14 april 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) 	| 24 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) 	| 10 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) 	| 03 maart 2022 	| Noodzakelijke fixes op productie 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-2](#421hotfix-2-2022-02-24) 	| 24 feb 2022 	| Enkele fixes rond uitgifte tijdstip (PZA) | [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-1](#421hotfix-1-2022-02-17) 	| 17 feb 2022 	| Fix voor werken met 10+ navigatiebomen 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1](#421-2022-02-14) 	| 14 feb 2022 	| Uitbreidingen voor PZA 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.1.5](#415-2022-01-10) 	| 10 jan 2022 	| Rubens release voor A-Stad 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [1.0.0](#100-2021-12-23) 	| 23 jan 2022 	| Tabel content component 	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() 	|
-| [4.1.2](#412-2021-12-14) 	| 14 dec 2021 	| MVP Release 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| Release 									| Release Datum | Inhoud 														| Status 																	|
+|-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
+| [4.5.0](#450-09-2022) 					| Sep 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.4.1](#441-2022) 	    				| 2022    	    | Bynder Beeldenbank en Chat ondersteuning 						| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.4.0](#440-2022-05-30) 					| 30 mei 2022 	| Meertaligheid 												| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
+| [4.3.0](#430-2022-05-30) 					| 30 mei 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
+| [1.0.0](#100-2022-05) 					| mei 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
+| [1.0.0](#100-2022-05) 					| mei 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-yellow.svg)]() |
+| [4.2.1.hotfix-6](#421hotfix-6-2022-04-14)	| 14 april 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) | 24 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) | 10 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) | 03 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-2](#421hotfix-2-2022-02-24) | 24 feb 2022 	| Enkele fixes rond uitgifte tijdstip (PZA) 					| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1.hotfix-1](#421hotfix-1-2022-02-17) | 17 feb 2022 	| Fix voor werken met 10+ navigatiebomen 						| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.2.1](#421-2022-02-14) 					| 14 feb 2022 	| Uitbreidingen voor PZA 										| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.1.5](#415-2022-01-10) 					| 10 jan 2022 	| Rubens release voor A-Stad 									| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [1.0.0](#100-2021-12-23) 					| 23 jan 2022 	| Tabel content component 										| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
+| [4.1.2](#412-2021-12-14) 					| 14 dec 2021 	| MVP Release 													| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 
 ---
+
+## [4.5.0]: 09-2022
+[![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+Ingestion
+- Als Tenant beheerder kan ik de Search Module activeren voor m’n tenant
+- Als Tenant beheerder kan ik bepalen met welke Elastic App Search installaties er gewerkt kan worden (hun endpoints beheren). ie. Er kan een on-prem of cloud installatie zijn, Stad en PZA kunnen op een andere installatie werken, etc). Meerdere installaties kunnen gedefinieerd worden
+- Site beheerders kunnen ‘Search’ activeren en kunnen aangeven op welke installatie ze gaan werken
+- Site beheerders kunnen per selectie van content types aangeven in welke index (=engine) dit moet terechtkomen. Zo kunnen we alle content in één index zetten, of a la limit voor elk content type een aparte index opgeven. Hierbij kunnen content types meerdere keren voorkomen in andere indexen. Het is dus een M/N relatie tussen content types en indexen
+- Site beheerders kunnen engines kiezen uit een lijst (integratie via de Elastic API’s)
+- Site beheerders kunnen een engine bijmaken vanuit de redactie (integratie via de Elastic API’s)
+- Site/Content beheerders kunnen de mapping eenvoudig beheren van de componenten van een content type naar de velden van het schema van een elastic app engine. De wijze hoe data overgezet wordt ligt vast (hier en hier beschreven), maar wat er waar naar gemapped wordt is dus aanpasbaar. 
+- De bestaande indexering mapping logica, specifiek voor gemaakt voor A-Stad 2.0, kan/mag overgenomen worden. Deze bevat de generieke wijze hoe content componenten gemapped zijn naar schema velden van een Elastic App Search engine.
+- Als Site/Content beheerder kan ik bepalen welke afbeeldingen mee geïndexeerd moeten worden. 
+- Het systeem (her-)indexeert automatisch bij verandering van taxonomie labels uit de taxonomy engine en/of content uit de WCMv4. 
+- Als Sitebeheerder kan ik zelf on-demand een volledige of partiële herindexering starten van content en taxonomie gegevens. Hierbij krijg ik visueel feedback 
+- Als Tenant/Content beheerder kan ik een doorzoekbaar log zien van wat wanneer is geïndexeerd zodat ik kan troubleshooten
+- Inzake privacy & GDPR regelgeving verwerken we geen persoonsgegevens in Elastic App Search. 
+- De migratie van de bestaande A-Stad 2.0 specifieke oplossing naar deze generieke WCMv4 Search Module is onderdeel van deze opdracht.
+- Het verloop van indexering kan gevolgd worden dmv standaard logging.
+- Monitoring (e.g. gebruik health endpoints, checkmk etc) is voorzien volgens de richtlijnen
+
+Search inbouwen in de Frontend
+- Frontend devs kunnen gebruik maken van Layout renderer widgets om zoekpagina’s op te bouwen, i.e. zoekresultaat entry, zoekvak, datum(-range) filter, taxonomy filter, etc). In deze opdracht worden alle widgets voorzien om een search experience te bouwen volgens deze ontwerpen: 
+- ontwerp voor een volledige zoekpagina met taxonomie filters
+- ontwerp voor een volledige zoekpagina met hiërarchische taxonomie filters
+- ontwerp voor widgets die gebruikt worden in zoekregio’s op een bestaande content pagina.
+- ontwerp met een eenvoudig zoekresultatenlijst
+- ontwerp voor mobile devices
+- ontwerp met afbeeldingen in de zoekresultatenlijst
+- Deze widgets worden gedocumenteerd met voorbeelden in de layout-renderer library
+- Content beheerders kunnen een zoekervaring samenstellen en kunnen hierbij kiezen om
+- Al dan niet vaste (onzichtbare) filters 
+- Al dan niet een zoekvak en het gedrag ervan bepalen
+- Filters, zowel vast als dynamisch voor tekst, nummers, datums, taxonomy en geo, al dan niet in enkelvoudige of in bereik vorm
+- Frontend devs kunnen de configuratie van een zoekpagina ophalen zodat de zoekervaring kan gerenderd worden obv de gemaakt widgets, 
+- Frontend devs bekomen de juiste ingrediënten om een zoekopdracht te starten aan de juiste Elastic installatie en Engine. 
+
+
 
 ## [4.4.1]: 2022
 [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
@@ -151,8 +190,7 @@ Een 50-tal bug fixes waarvan de belangrijkste:
 - **API** 
   - de $exist operator voor filteren in views werkt nu wel zoals verwacht
 
-
-## [1.0.0]: 2022-03
+## [1.0.0]: 2022-05
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
 - **Verzendmodule** 
   - De verzendmodule is gemaakt voor PZA om zo automatisch mogelijk nieuwsbrieven naar de pers te sturen. 
