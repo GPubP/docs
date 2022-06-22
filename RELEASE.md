@@ -15,6 +15,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.4.1](#441-2022-07-07) 	   				| 2022    	    | Bijkomende release met bugfixes van 4.3 & 4.4 				| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()  	|
 | [1.0.0](#100-2022-06) 					| jul 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.0.0](#100-2022-06) 					| jul 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
+| [1.2.0](#100-2021-12-23) 					| 23 jan 2022 	| Tabel content component aanpassingen 							| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.4.0](#440-2022-06-23) 					| 23 jun 2022 	| Meertaligheid 												| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
 | [4.3.0](#430-2022-06-23) 					| 23 jun 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
 | [4.2.1.hotfix-6](#421hotfix-6-2022-04-14)	| 14 april 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
@@ -98,6 +99,24 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
 Extra release voor bugfixes van versie 4.3 & 4.4.
 
+## [1.0.0]: 2022-06
+[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+- **Verzendmodule** 
+  - De verzendmodule is gemaakt voor PZA om zo automatisch mogelijk nieuwsbrieven naar de pers te sturen. 
+  - Er kunnen verschillende verzendkanalen worden opgezet.
+  - Per kanaal wordt de content bepaalt en waar het naar verzonden moet worden.
+  - SendGrid (e-mail campagne systeem) is de eerste verzendmethode. het systeem voorziet dat andere verzendmethodes ingeplugd kunnen worden.
+  - Er kan ad hoc, één per één en in bulk verstuurd worden al dan niet time based.
+- **Logboek**
+  - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
+  - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
+  - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
+
+
+## [1.2.0]: 2022-06-23
+[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
+De tabel content component is aangepast met:
+
 ## [4.4.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
@@ -118,10 +137,6 @@ Extra release voor bugfixes van versie 4.3 & 4.4.
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15728).
-
-> **MTA**
-> 
-> gepland op: 6/4, 15/4, 29/4 en 13/5
 
 ### Added
 - **Navigatie:** 
@@ -218,19 +233,6 @@ Een 50-tal bug fixes waarvan de belangrijkste:
   - Soms kon je een tabel niet bewerken omdat het ergen achter verscheen.
 - **API** 
   - de $exist operator voor filteren in views werkt nu wel zoals verwacht
-
-## [1.0.0]: 2022-05
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
-- **Verzendmodule** 
-  - De verzendmodule is gemaakt voor PZA om zo automatisch mogelijk nieuwsbrieven naar de pers te sturen. 
-  - Er kunnen verschillende verzendkanalen worden opgezet.
-  - Per kanaal wordt de content bepaalt en waar het naar verzonden moet worden.
-  - SendGrid (e-mail campagne systeem) is de eerste verzendmethode. het systeem voorziet dat andere verzendmethodes ingeplugd kunnen worden.
-  - Er kan ad hoc, één per één en in bulk verstuurd worden al dan niet time based.
-- **Logboek**
-  - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
-  - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
-  - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
 ## [4.2.1.hotfix-6]: 2022-04-14
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
