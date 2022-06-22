@@ -94,11 +94,6 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 - WCM Bynder Module: Beelden uit [Bynder](https://www.bynder.com/) kunnen gekozen worden door de redacteur rechtstreeks uit de Redactie.
 - Je kan zoeken op een term of op een id van een beeld in Bynder
 - De gekozen afbeelding wordt geïmporteerd in de WCM, alsook de meta dat
-- 
-
-## [1.0.0]: 2022
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
-
 - [Teleportel](https://www.teleportel.com/) ondersteuning
 
 ## [4.4.1]: 2022
