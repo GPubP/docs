@@ -7,12 +7,16 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 ## Index
 | Release 									| Release Datum | Inhoud 														| Status 																	|
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
-| [4.5.0](#450-09-2022) 					| Sep 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.4.1](#441-2022) 	    				| 2022    	    | Bynder Beeldenbank en Chat ondersteuning 						| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.8.0](#480) 							|  	  			| Export & import van structuren en content						| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.7.0](#470-2022) 						| 2022   		| WCM Event module 												| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.6.0](#460-2022-10) 					| Okt 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.5.0](#450-2022-07) 					| Jul 2022   	| Verbeterde werken met BRaaS  									| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()    |
+| [1.0.0](#100-2022) 	    				| 2022    	    | Bynder Beeldenbank en Chat ondersteuning 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
+| [4.4.1](#441-2022-07-07) 	   				| 2022    	    | Bijkomende release met bugfixes van 4.3 & 4.4 				| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()  	|
+| [1.0.0](#100-2022-06) 					| jul 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
+| [1.0.0](#100-2022-06) 					| jul 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [4.4.0](#440-2022-06-23) 					| 23 jun 2022 	| Meertaligheid 												| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
 | [4.3.0](#430-2022-06-23) 					| 23 jun 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
-| [1.0.0](#100-2022-06) 					| jun 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
-| [1.0.0](#100-2022-06) 					| jun 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-yellow.svg)]() |
 | [4.2.1.hotfix-6](#421hotfix-6-2022-04-14)	| 14 april 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) | 24 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) | 10 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
@@ -26,7 +30,15 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 
 ---
 
-## [4.5.0]: 09-2022
+## [4.8.0]
+[![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+Deze release laat toe om content en structuur te exportern en in op een andere plaats te importeren. 
+
+## [4.7.0]: 2022
+[![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
+
+## [4.6.0]: 2022-10
 [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
 Ingestion
 - Als Tenant beheerder kan ik de Search Module activeren voor m’n tenant
@@ -62,12 +74,29 @@ Search inbouwen in de Frontend
 - Frontend devs kunnen de configuratie van een zoekpagina ophalen zodat de zoekervaring kan gerenderd worden obv de gemaakt widgets, 
 - Frontend devs bekomen de juiste ingrediënten om een zoekopdracht te starten aan de juiste Elastic installatie en Engine. 
 
+## [4.5.0]: 2022-07
+[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet: 
+- Bij het bewaren van rechten worden extra controles uitgevoerd of deze acties effectief uitgevoerd zijn of niet
+- APM ofwel Application Performance Monitoring wordt ingebouwd
+- Bij het rollen en rechtenscherm wordt de header vastgeklikt zodat het makkelijk is om rechten te zetten voor de juiste rol
+- Bij het rollen en rechtenscherm worden bij het aanklikken van individule compartimenten de rechten sneller geladen
+- Bij het rollen en rechtenscherm worden bij alle aanpassingen in de individuele compartimenten samen genomen bij het bewaren
 
+## [1.0.0]: 2022
+[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+- WCM Bynder Module: Beelden uit [Bynder](https://www.bynder.com/) kunnen gekozen worden door de redacteur rechtstreeks uit de Redactie.
+- Je kan zoeken op een term of op een id van een beeld in Bynder
+- De gekozen afbeelding wordt geïmporteerd in de WCM, alsook de meta dat
+- 
+
+## [1.0.0]: 2022
+[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+- [Teleportel](https://www.teleportel.com/) ondersteuning
 
 ## [4.4.1]: 2022
-[![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
-- Beelden in [Bynder](https://www.bynder.com/) kunnen gekozen worden door de redacteur rechtstreeks uit de Redactie.
-- [Teleportel](https://www.teleportel.com/) ondersteuning
+[![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
+Extra release voor bugfixes van versie 4.3 & 4.4.
 
 ## [4.4.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
