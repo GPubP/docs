@@ -33,14 +33,17 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 
 ## [4.8.0]
 [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
+
 Deze release laat toe om content en structuur te exportern en in op een andere plaats te importeren. 
 
 ## [4.7.0]: 2022
 [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+
 De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
 
 ## [4.6.0]: 2022-10
 [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+
 Ingestion
 - Als Tenant beheerder kan ik de Search Module activeren voor m’n tenant
 - Als Tenant beheerder kan ik bepalen met welke Elastic App Search installaties er gewerkt kan worden (hun endpoints beheren). ie. Er kan een on-prem of cloud installatie zijn, Stad en PZA kunnen op een andere installatie werken, etc). Meerdere installaties kunnen gedefinieerd worden
@@ -77,6 +80,7 @@ Search inbouwen in de Frontend
 
 ## [4.5.0]: 2022-07
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+
 Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet: 
 - Bij het bewaren van rechten worden extra controles uitgevoerd of deze acties effectief uitgevoerd zijn of niet
 - APM ofwel Application Performance Monitoring wordt ingebouwd
@@ -86,6 +90,7 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 
 ## [1.0.0]: 2022
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+
 - WCM Bynder Module: Beelden uit [Bynder](https://www.bynder.com/) kunnen gekozen worden door de redacteur rechtstreeks uit de Redactie.
 - Je kan zoeken op een term of op een id van een beeld in Bynder
 - De gekozen afbeelding wordt geïmporteerd in de WCM, alsook de meta dat
@@ -93,14 +98,17 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 
 ## [1.0.0]: 2022
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+
 - [Teleportel](https://www.teleportel.com/) ondersteuning
 
 ## [4.4.1]: 2022
 [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
+
 Extra release voor bugfixes van versie 4.3 & 4.4.
 
 ## [1.0.0]: 2022-06
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+
 - **Verzendmodule** 
   - De verzendmodule is gemaakt voor PZA om zo automatisch mogelijk nieuwsbrieven naar de pers te sturen. 
   - Er kunnen verschillende verzendkanalen worden opgezet.
@@ -115,14 +123,11 @@ Extra release voor bugfixes van versie 4.3 & 4.4.
 
 ## [1.2.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
+
 De tabel content component is aangepast met:
 
 ## [4.4.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
-
-> **MTA**
-> 
-> gepland op: 6/4, 15/4, 29/4 en 13/5
 
 - Per site configureer je de talen
 - Allerlei instellingen zoals de site url, preview url gaan taalgevoelig worden
