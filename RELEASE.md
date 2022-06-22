@@ -7,7 +7,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 ## Index
 | Release 									| Release Datum | Inhoud 														| Status 																	|
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
-| [4.8.0](#480) 							|  	  			| Export & import van structuren en content						| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.8.0](#480) 							|  	  			| Export & import van structuren en content						| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
 | [4.7.0](#470-2022) 						| 2022   		| WCM Event module 												| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
 | [4.6.0](#460-2022-10) 					| Okt 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
 | [4.5.0](#450-2022-07) 					| Jul 2022   	| Verbeterde werken met BRaaS  									| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()    |
@@ -31,7 +31,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 ---
 
 ## [4.8.0]
-[![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+[![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
 Deze release laat toe om content en structuur te exportern en in op een andere plaats te importeren. 
 
 ## [4.7.0]: 2022
