@@ -12,7 +12,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.6.0](#460-2022-10) 					| Okt 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
 | [4.5.0](#450-2022-07) 					| Jul 2022   	| Verbeterde werken met BRaaS  									| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()    |
 | [1.0.0](#100-2022) 	    				| 2022    	    | Bynder Beeldenbank en Chat ondersteuning 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
-| [4.4.1](#441-2022-07-07) 	   				| 2022    	    | Bijkomende release met bugfixes van 4.3 & 4.4 				| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()  	|
+| [4.4.1](#441-2022-07-07) 	   				| 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 				| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
 | [1.0.0](#100-2022-06) 					| jul 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.0.0](#100-2022-06) 					| jul 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.2.0](#100-2021-12-23) 					| 23 jan 2022 	| Tabel content component aanpassingen 							| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
@@ -96,8 +96,8 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 - De gekozen afbeelding wordt geïmporteerd in de WCM, alsook de meta dat
 - [Teleportel](https://www.teleportel.com/) ondersteuning
 
-## [4.4.1]: 2022
-[![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
+## [4.4.1]: 2022-07-07
+[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
 
 Extra release voor bugfixes van versie 4.3 & 4.4.
 
