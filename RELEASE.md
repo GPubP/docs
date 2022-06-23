@@ -16,8 +16,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [1.0.0](#100-2022-06) 					| jul 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.0.0](#100-2022-06) 					| jul 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.2.0](#100-2021-12-23) 					| 23 jan 2022 	| Tabel content component aanpassingen 							| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
-| [4.4.0](#440-2022-06-23) 					| 23 jun 2022 	| Meertaligheid 												| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
-| [4.3.0](#430-2022-06-23) 					| 23 jun 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() 		|
+| [4.4.0](#440-2022-06-23) 					| 23 jun 2022 	| Meertaligheid 												| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	|
+| [4.3.0](#430-2022-06-23) 					| 23 jun 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-6](#421hotfix-6-2022-04-14)	| 14 april 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) | 24 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) | 10 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
