@@ -9,13 +9,14 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#480) 							|  	  			| Export & import van structuren en content						| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
 | [4.7.0](#470-2022) 						| 2022   		| WCM Event module 												| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.6.0](#460-2022-10) 					| Okt 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.5.0](#450-2022-07) 					| Jul 2022   	| Verbeterde werken met BRaaS  									| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()    |
+| [4.6.0](#460-2022-10) 					| Okt 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
 | [1.0.0](#100-2022) 	    				| 2022    	    | Bynder Beeldenbank en Chat ondersteuning 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
-| [4.4.1](#441-2022-07-07) 	   				| 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 				| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
 | [1.0.0](#100-2022-06) 					| jul 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
-| [1.0.0](#100-2022-06) 					| jul 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
-| [1.2.0](#100-2021-12-23) 					| 23 jan 2022 	| Tabel content component aanpassingen 							| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
+| [1.0.0](#100-2022-06) 					| jul 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() |
+| [4.5.1](#441-2022-07) 	   				| jul 2022      | Bijkomende release met bugfixes van 4.5       				| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.5.0](#450-2022-07-07) 					| 7 jul 2022   	| Verbeterde werken met BRaaS  									| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
+| [4.4.1](#441-2022-07-07) 	   				| 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [1.2.0](#100-2022-06-23) 					| 23 jun 2022 	| Tabel content component aanpassingen 							| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.4.0](#440-2022-06-23) 					| 23 jun 2022 	| Meertaligheid 												| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	|
 | [4.3.0](#430-2022-06-23) 					| 23 jun 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
 | [4.2.1.hotfix-6](#421hotfix-6-2022-04-14)	| 14 april 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
@@ -42,7 +43,7 @@ Deze release laat toe om content en structuur te exportern en in op een andere p
 De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
 
 ## [4.6.0]: 2022-10
-[![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+[![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()
 
 Ingestion
 - Als Tenant beheerder kan ik de Search Module activeren voor m’n tenant
@@ -78,16 +79,6 @@ Search inbouwen in de Frontend
 - Frontend devs kunnen de configuratie van een zoekpagina ophalen zodat de zoekervaring kan gerenderd worden obv de gemaakt widgets, 
 - Frontend devs bekomen de juiste ingrediënten om een zoekopdracht te starten aan de juiste Elastic installatie en Engine. 
 
-## [4.5.0]: 2022-07
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
-
-Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet: 
-- Bij het bewaren van rechten worden extra controles uitgevoerd of deze acties effectief uitgevoerd zijn of niet
-- APM ofwel Application Performance Monitoring wordt ingebouwd
-- Bij het rollen en rechtenscherm wordt de header vastgeklikt zodat het makkelijk is om rechten te zetten voor de juiste rol
-- Bij het rollen en rechtenscherm worden bij het aanklikken van individule compartimenten de rechten sneller geladen
-- Bij het rollen en rechtenscherm worden bij alle aanpassingen in de individuele compartimenten samen genomen bij het bewaren
-
 ## [1.0.0]: 2022
 [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
 
@@ -96,13 +87,8 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 - De gekozen afbeelding wordt geïmporteerd in de WCM, alsook de meta dat
 - [Teleportel](https://www.teleportel.com/) ondersteuning
 
-## [4.4.1]: 2022-07-07
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
-
-Extra release voor bugfixes van versie 4.3 & 4.4.
-
 ## [1.0.0]: 2022-06
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 - **Verzendmodule** 
   - De verzendmodule is gemaakt voor PZA om zo automatisch mogelijk nieuwsbrieven naar de pers te sturen. 
@@ -115,23 +101,55 @@ Extra release voor bugfixes van versie 4.3 & 4.4.
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
+## [4.5.0]: 2022-07-07
+[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
+
+### Added
+Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet: 
+- Bij het bewaren van rechten worden extra controles uitgevoerd of deze acties effectief uitgevoerd zijn of niet
+- APM ofwel Application Performance Monitoring wordt ingebouwd
+- Bij het rollen en rechtenscherm wordt de header vastgeklikt zodat het makkelijk is om rechten te zetten voor de juiste rol
+- Bij het rollen en rechtenscherm worden bij het aanklikken van individule compartimenten de rechten sneller geladen
+- Bij het rollen en rechtenscherm worden bij alle aanpassingen in de individuele compartimenten samen genomen bij het bewaren
+
+## [4.4.1]: 2022-07-07
+[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16242)
+
+Extra release voor bugfixes van versie 4.3 & 4.4.
+### Added
+- Content wordt geïndexeerd in Elastic per taal in een aparte index/engine
+- Meta data wordt automatisch mee geïndexeerd in Elastic
+- Datums van een activiteit worden in een apart veld geïndexeerd
+- Betere default values voor werken met multilanguage sites
+- verbeterde weergave van de revisies 
+
+### Fixed
+- Punten van nieuwe GIS lagen komen nu wel door
+- verbeteringen in het filteren van views
+- Gearchiveerde / offline pagina's kan je niet ophalen via de API
+- Herindexeren geeft geen HTTP 500 fout meer
+- Taxonomy termen staan nu in de keuzelijst in dezeflde volgorde als in de taxonomy
+- Het aantal content items per taal wordt correct weergegeven in het overzicht 
 
 ## [1.2.0]: 2022-06-23
-[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
+[![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()
 
 De tabel content component is aangepast met:
 
 ## [4.4.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
-- Per site configureer je de talen
-- Allerlei instellingen zoals de site url, preview url gaan taalgevoelig worden
-- Content beheerders bepalen welke content componenten van een content type vertaalbaar zijn en welke niet.
-- Redacteurs werken aan content voor een specifieke taal. 
-- Een content item wordt gemaakt in een bepaalde taal. Heb je 4 vertalingen, dan zijn dit 4 content items
-- Er komt een taalaaduiding in het content overzicht
-- Bij het maken van een nieuw content item moet eerst nog een taalkeuze gemaakt worden.
-- Per content item kan je eenvoudig zien in welke talen dit reeds vertaald is.
+### Added
+  - Per site configureer je de talen
+  - Allerlei instellingen zoals de site url, preview url gaan taalgevoelig worden
+  - Content beheerders bepalen welke content componenten van een content type vertaalbaar zijn en welke niet.
+  - Redacteurs werken aan content voor een specifieke taal. 
+  - Een content item wordt gemaakt in een bepaalde taal. Heb je 4 vertalingen, dan zijn dit 4 content items
+  - Er komt een taalaaduiding in het content overzicht
+  - Bij het maken van een nieuw content item moet eerst nog een taalkeuze gemaakt worden.
+  - Per content item kan je eenvoudig zien in welke talen dit reeds vertaald is.
 
 ## [4.3.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
