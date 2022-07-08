@@ -141,6 +141,8 @@ De tabel content component is aangepast met:
 ## [4.4.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15729).
+
 ### Added
   - Per site configureer je de talen
   - Allerlei instellingen zoals de site url, preview url gaan taalgevoelig worden
