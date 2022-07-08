@@ -139,7 +139,7 @@ Extra release voor bugfixes van versie 4.3 & 4.4.
 De tabel content component is aangepast met:
 
 ## [4.4.0]: 2022-06-23
-[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
+[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 ### Added
   - Per site configureer je de talen
@@ -152,7 +152,7 @@ De tabel content component is aangepast met:
   - Per content item kan je eenvoudig zien in welke talen dit reeds vertaald is.
 
 ## [4.3.0]: 2022-06-23
-[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
+[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15728).
 
