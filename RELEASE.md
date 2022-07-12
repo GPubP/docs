@@ -5,30 +5,30 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 *Lees [hier meer](#legende) over het formaat en de structuur van deze release notes.*
 
 ## Index
-| Release 									| Release Datum | Inhoud 														| Status 																	|
+| Release 									                | Release Datum | Inhoud 													                            	| Status 																	|
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
-| [4.8.0](#480) 							|  	  			| Export & import van structuren en content						| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() 	|
-| [4.7.0](#470-2022) 						| 2022   		| WCM Event module 												| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.6.0](#460-2022-10) 					| Okt 2022   	| Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() 	|
-| [1.0.0](#100-2022) 	    				| 2022    	    | Bynder Beeldenbank en Chat ondersteuning 						| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
-| [1.0.0](#100-2022-06) 					| jul 2022 		| Logboek module 												| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
-| [1.0.0](#100-2022-06) 					| jul 2022 		| Verzendmodule voor (o.a.) nieuwsbrieven 						| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() |
-| [4.5.1](#441-2022-07) 	   				| jul 2022      | Bijkomende release met bugfixes van 4.5       				| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
-| [4.5.0](#450-2022-07-07) 					| 7 jul 2022   	| Verbeterde werken met BRaaS  									| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
-| [4.4.1](#441-2022-07-07) 	   				| 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
-| [1.2.0](#100-2022-06-23) 					| 23 jun 2022 	| Tabel content component aanpassingen 							| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
-| [4.4.0](#440-2022-06-23) 					| 23 jun 2022 	| Meertaligheid 												| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	|
-| [4.3.0](#430-2022-06-23) 					| 23 jun 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-6](#421hotfix-6-2022-04-14)	| 14 april 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) | 24 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) | 10 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) | 03 maart 2022 | Noodzakelijke fixes op productie 								| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-2](#421hotfix-2-2022-02-24) | 24 feb 2022 	| Enkele fixes rond uitgifte tijdstip (PZA) 					| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1.hotfix-1](#421hotfix-1-2022-02-17) | 17 feb 2022 	| Fix voor werken met 10+ navigatiebomen 						| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.2.1](#421-2022-02-14) 					| 14 feb 2022 	| Uitbreidingen voor PZA 										| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [4.1.5](#415-2022-01-10) 					| 10 jan 2022 	| Rubens release voor A-Stad 									| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
-| [1.0.0](#100-2021-12-23) 					| 23 jan 2022 	| Tabel content component 										| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
-| [4.1.2](#412-2021-12-14) 					| 14 dec 2021 	| MVP Release 													| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]() 	|
+| [4.8.0](#480) 						                |  	  		    	| Export & import van structuren en content				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
+| [4.7.0](#470-2022) 			                 	| 2022   	    	| WCM Event module 											                      	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
+| [4.6.0](#460-2022-10)		                	| Okt 2022   	  | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
+| [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
+| [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
+| [4.5.1](#451-2022-08-04)   			          | 4 aug 2022    | Bijkomende release met bugfixes van 4.5               				| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [1.0.0](#100-2022) 			                	| 20 jul 2022   | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
+| [4.5.0](#450-2022-07-07) 					        | 7 jul 2022   	| Verbeterde werken met BRaaS  								                	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
+| [4.4.1](#441-2022-07-07) 	   				      | 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 	         			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [1.2.0](#120-2022-06-23) 					        | 23 jun 2022 	| Tabel content component aanpassingen 					            		| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
+| [4.4.0](#440-2022-06-23) 				        	| 23 jun 2022 	| Meertaligheid 											                        	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	  |
+| [4.3.0](#430-2022-06-23) 				        	| 23 jun 2022 	| Werken met Navigatie Menu's, URL patronen en sitestructuren 	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.2.1.hotfix-6](#421hotfix-6-2022-04-14)	| 14 april 2022 | Noodzakelijke fixes op productie 						              		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.2.1.hotfix-5](#421hotfix-5-2022-03-24) | 24 maart 2022 | Noodzakelijke fixes op productie 							              	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.2.1.hotfix-4](#421hotfix-4-2022-03-10) | 10 maart 2022 | Noodzakelijke fixes op productie 					              			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.2.1.hotfix-3](#421hotfix-3-2022-03-03) | 03 maart 2022 | Noodzakelijke fixes op productie 							              	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.2.1.hotfix-2](#421hotfix-2-2022-02-24) | 24 feb 2022 	| Enkele fixes rond uitgifte tijdstip (PZA) 		          			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.2.1.hotfix-1](#421hotfix-1-2022-02-17) | 17 feb 2022 	| Fix voor werken met 10+ navigatiebomen 					            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.2.1](#421-2022-02-14) 			        		| 14 feb 2022 	| Uitbreidingen voor PZA 								                      	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.1.5](#415-2022-01-10) 			        		| 10 jan 2022 	| Rubens release voor A-Stad 						                  			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [1.0.0](#100-2021-12-23) 			        		| 23 jan 2022 	| Tabel content component 							                  			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
+| [4.1.2](#412-2021-12-14) 		        			| 14 dec 2021 	| MVP Release 											                        		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 
 ---
 
@@ -100,6 +100,14 @@ Search inbouwen in de Frontend
   - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
+
+## [4.5.1]: 2022-08-04
+[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
+> MTA op 29 juli
+
+> MTP op 4 aug
+
+Een bugfix release
 
 ## [4.5.0]: 2022-07-07
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
