@@ -12,7 +12,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.6.0](#460-2022-10)		                	| Okt 2022   	  | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
 | [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
-| [4.5.1](#451-2022-08-04)   			          | 4 aug 2022    | Bijkomende release met bugfixes van 4.5               				| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.5.1](#451-2022-08-04)   			          | 4 aug 2022    | Bijkomende release met bugfixes van 4.5               				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [1.0.0](#100-2022) 			                	| 20 jul 2022   | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
 | [4.5.0](#450-2022-07-07) 					        | 7 jul 2022   	| Verbeterde werken met BRaaS  								                	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
 | [4.4.1](#441-2022-07-07) 	   				      | 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 	         			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
@@ -102,12 +102,21 @@ Search inbouwen in de Frontend
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
 ## [4.5.1]: 2022-08-04
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
-> MTA op 29 juli
+[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
-> MTP op 4 aug
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16308)
 
-Een bugfix release
+### Fixed
+- **API**: Filteren op taxonomieën via views is verbeterd.
+- **Navigatie:** interne linken die gelegd worden in een tekstvak met opmaak worden nu relatief bewaard in de content en absoluut in Elastic. 
+- **Media** 
+  - Validate bij invoer van meerdere bestanden is verbeterd
+  - Beelden kunnen nu hergebruikt worden indien ze voldoen aan de dimensievoorwaarden
+- **Meertaligheid**
+  - Elk content item bevat nu de url's naar de beshcikbare vertalingen ervan
+  - Preview url's worden correct opgebouwd in alle talen
+- **Workflow** Er werd meteen gepubliceerd in plaats van éérst een werkversie te maken bij het bewaren van een content item
+
 
 ## [4.5.0]: 2022-07-07
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
