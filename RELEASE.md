@@ -13,7 +13,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
 | [4.5.1](#451-2022-08-04)   			          | 4 aug 2022    | Bijkomende release met bugfixes van 4.5               				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
-| [1.0.0](#100-2022) 			                	| 20 jul 2022   | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
+| [1.0.0](#100-2022-07-07) 			           	| 7 jul 2022    | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	|
 | [4.5.0](#450-2022-07-07) 					        | 7 jul 2022   	| Verbeterde werken met BRaaS  								                	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
 | [4.4.1](#441-2022-07-07) 	   				      | 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 	         			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [1.2.0](#120-2022-06-23) 					        | 23 jun 2022 	| Tabel content component aanpassingen 					            		| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
@@ -79,14 +79,6 @@ Search inbouwen in de Frontend
 - Frontend devs kunnen de configuratie van een zoekpagina ophalen zodat de zoekervaring kan gerenderd worden obv de gemaakt widgets, 
 - Frontend devs bekomen de juiste ingrediënten om een zoekopdracht te starten aan de juiste Elastic installatie en Engine. 
 
-## [1.0.0]: 2022
-[![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()
-
-- WCM Bynder Module: Beelden uit [Bynder](https://www.bynder.com/) kunnen gekozen worden door de redacteur rechtstreeks uit de Redactie.
-- Je kan zoeken op een term of op een id van een beeld in Bynder
-- De gekozen afbeelding wordt geïmporteerd in de WCM, alsook de meta dat
-- [Teleportel](https://www.teleportel.com/) ondersteuning
-
 ## [1.0.0]: 2022-06
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
@@ -116,6 +108,14 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Elk content item bevat nu de url's naar de beshcikbare vertalingen ervan
   - Preview url's worden correct opgebouwd in alle talen
 - **Workflow** Er werd meteen gepubliceerd in plaats van éérst een werkversie te maken bij het bewaren van een content item
+
+## [1.0.0]: 2022-07-07
+[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
+
+- WCM Bynder Module: Beelden uit [Bynder](https://www.bynder.com/) kunnen gekozen worden door de redacteur rechtstreeks uit de Redactie.
+- Je kan zoeken op een term of op een id van een beeld in Bynder
+- De gekozen afbeelding wordt geïmporteerd in de WCM, alsook de meta dat
+- [Teleportel](https://www.teleportel.com/) ondersteuning
 
 
 ## [4.5.0]: 2022-07-07
