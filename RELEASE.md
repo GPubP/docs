@@ -12,9 +12,9 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.6.0](#460-2022-10)		                	| Okt 2022   	  | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
 | [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
-| [4.5.1](#451-2022-08-04)   			          | 4 aug 2022    | Bijkomende release met bugfixes van 4.5               				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.5.1](#451-2022-08-04)   			          | 4 aug 2022    | Bijkomende release voor BRaaS en bugfixes van 4.5      				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [1.0.0](#100-2022-07-07) 			           	| 7 jul 2022    | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	|
-| [4.5.0](#450-2022-07-07) 					        | 7 jul 2022   	| Verbeterde werken met BRaaS  								                	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
+| [4.5.0](#450-2022-07-07) 					        | 7 jul 2022   	| Verbeterde werking met BRaaS  								                	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
 | [4.4.1](#441-2022-07-07) 	   				      | 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 	         			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [1.2.0](#120-2022-06-23) 					        | 23 jun 2022 	| Tabel content component aanpassingen 					            		| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.4.0](#440-2022-06-23) 				        	| 23 jun 2022 	| Meertaligheid 											                        	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	  |
