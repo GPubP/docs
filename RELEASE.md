@@ -7,7 +7,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 ## Index
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
-| [4.8.0](#480) 						                |  	  		    	| Export & import van structuren en content				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
+| [4.8.0](#480) 						                |  	  		    	| Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
 | [4.7.0](#470-2022-11) 	                 	| nov 2022     	| WCM Event module 											                      	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
 | [1.0.0](#100-2022-10) 		                | okt 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
 | [1.0.0](#100-2022-10) 		                | okt 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
@@ -35,7 +35,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 ## [4.8.0]
 [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
 
-Deze release laat toe om content en structuur te exportern en in op een andere plaats te importeren. 
+Deze release laat toe om structuur te backupen en in een andere tenant te restoren. 
 
 ## [4.7.0]: 2022
 [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
