@@ -59,6 +59,9 @@ De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de 
 ## [4.6.0]: 2022-10-18
 [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()
 
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15730)
+
+
 ### Added
 - **Search** 
   - Als Tenant beheerder kan ik de Search Module activeren voor m’n tenant
