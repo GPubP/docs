@@ -5,16 +5,16 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 *Lees [hier meer](#legende) over het formaat en de structuur van deze release notes.*
 
 ## Index
-| Release 									                | Release Datum | Inhoud 													                            	| Status 																	|
+| Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#480) 						                |  	  		    	| Export & import van structuren en content				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
-| [4.7.0](#470-2022) 			                 	| 2022   	    	| WCM Event module 											                      	| [![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]() 	|
-| [4.6.0](#460-2022-10)		                	| Okt 2022   	  | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
-| [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
-| [1.0.0](#100-2022-06) 		                | jul 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
+| [4.7.0](#470-2022-11) 	                 	| nov 2022     	| WCM Event module 											                      	| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()	|
+| [1.0.0](#100-2022-10) 		                | okt 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
+| [1.0.0](#100-2022-10) 		                | okt 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
+| [4.6.0](#460-2022-10-18)		             	| 18 Okt 2022   | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()	  |
 | [4.5.1](#451-2022-08-04)   			          | 4 aug 2022    | Bijkomende release voor BRaaS en bugfixes van 4.5      				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
-| [1.0.0](#100-2022-07-07) 			           	| 7 jul 2022    | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	|
-| [4.5.0](#450-2022-07-07) 					        | 7 jul 2022   	| Verbeterde werking met BRaaS  								                	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
+| [1.0.0](#100-2022-07-07) 			           	| 7 jul 2022    | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	  |
+| [4.5.0](#450-2022-07-07) 					        | 7 jul 2022   	| Verbeterde werking met BRaaS  								               	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
 | [4.4.1](#441-2022-07-07) 	   				      | 7 jul 2022    | Bijkomende release met bugfixes van 4.3 & 4.4 	         			| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [1.2.0](#120-2022-06-23) 					        | 23 jun 2022 	| Tabel content component aanpassingen 					            		| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.4.0](#440-2022-06-23) 				        	| 23 jun 2022 	| Meertaligheid 											                        	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	  |
@@ -42,44 +42,7 @@ Deze release laat toe om content en structuur te exportern en in op een andere p
 
 De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
 
-## [4.6.0]: 2022-10
-[![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]()
-
-Ingestion
-- Als Tenant beheerder kan ik de Search Module activeren voor m’n tenant
-- Als Tenant beheerder kan ik bepalen met welke Elastic App Search installaties er gewerkt kan worden (hun endpoints beheren). ie. Er kan een on-prem of cloud installatie zijn, Stad en PZA kunnen op een andere installatie werken, etc). Meerdere installaties kunnen gedefinieerd worden
-- Site beheerders kunnen ‘Search’ activeren en kunnen aangeven op welke installatie ze gaan werken
-- Site beheerders kunnen per selectie van content types aangeven in welke index (=engine) dit moet terechtkomen. Zo kunnen we alle content in één index zetten, of a la limit voor elk content type een aparte index opgeven. Hierbij kunnen content types meerdere keren voorkomen in andere indexen. Het is dus een M/N relatie tussen content types en indexen
-- Site beheerders kunnen engines kiezen uit een lijst (integratie via de Elastic API’s)
-- Site beheerders kunnen een engine bijmaken vanuit de redactie (integratie via de Elastic API’s)
-- Site/Content beheerders kunnen de mapping eenvoudig beheren van de componenten van een content type naar de velden van het schema van een elastic app engine. De wijze hoe data overgezet wordt ligt vast (hier en hier beschreven), maar wat er waar naar gemapped wordt is dus aanpasbaar. 
-- De bestaande indexering mapping logica, specifiek voor gemaakt voor A-Stad 2.0, kan/mag overgenomen worden. Deze bevat de generieke wijze hoe content componenten gemapped zijn naar schema velden van een Elastic App Search engine.
-- Als Site/Content beheerder kan ik bepalen welke afbeeldingen mee geïndexeerd moeten worden. 
-- Het systeem (her-)indexeert automatisch bij verandering van taxonomie labels uit de taxonomy engine en/of content uit de WCMv4. 
-- Als Sitebeheerder kan ik zelf on-demand een volledige of partiële herindexering starten van content en taxonomie gegevens. Hierbij krijg ik visueel feedback 
-- Als Tenant/Content beheerder kan ik een doorzoekbaar log zien van wat wanneer is geïndexeerd zodat ik kan troubleshooten
-- Inzake privacy & GDPR regelgeving verwerken we geen persoonsgegevens in Elastic App Search. 
-- De migratie van de bestaande A-Stad 2.0 specifieke oplossing naar deze generieke WCMv4 Search Module is onderdeel van deze opdracht.
-- Het verloop van indexering kan gevolgd worden dmv standaard logging.
-- Monitoring (e.g. gebruik health endpoints, checkmk etc) is voorzien volgens de richtlijnen
-
-Search inbouwen in de Frontend
-- Frontend devs kunnen gebruik maken van Layout renderer widgets om zoekpagina’s op te bouwen, i.e. zoekresultaat entry, zoekvak, datum(-range) filter, taxonomy filter, etc). In deze opdracht worden alle widgets voorzien om een search experience te bouwen volgens deze ontwerpen: 
-- ontwerp voor een volledige zoekpagina met taxonomie filters
-- ontwerp voor een volledige zoekpagina met hiërarchische taxonomie filters
-- ontwerp voor widgets die gebruikt worden in zoekregio’s op een bestaande content pagina.
-- ontwerp met een eenvoudig zoekresultatenlijst
-- ontwerp voor mobile devices
-- ontwerp met afbeeldingen in de zoekresultatenlijst
-- Deze widgets worden gedocumenteerd met voorbeelden in de layout-renderer library
-- Content beheerders kunnen een zoekervaring samenstellen en kunnen hierbij kiezen om
-- Al dan niet vaste (onzichtbare) filters 
-- Al dan niet een zoekvak en het gedrag ervan bepalen
-- Filters, zowel vast als dynamisch voor tekst, nummers, datums, taxonomy en geo, al dan niet in enkelvoudige of in bereik vorm
-- Frontend devs kunnen de configuratie van een zoekpagina ophalen zodat de zoekervaring kan gerenderd worden obv de gemaakt widgets, 
-- Frontend devs bekomen de juiste ingrediënten om een zoekopdracht te starten aan de juiste Elastic installatie en Engine. 
-
-## [1.0.0]: 2022-06
+## [1.0.0]: 2022-10
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 - **Verzendmodule** 
@@ -92,6 +55,102 @@ Search inbouwen in de Frontend
   - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
+
+## [4.6.0]: 2022-10-18
+[![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()
+
+### Added
+- **Search** 
+  - Als Tenant beheerder kan ik de Search Module activeren voor m’n tenant
+  - Als Tenant beheerder kan ik bepalen met welke Elastic App Search installaties er gewerkt kan worden (hun endpoints beheren). ie. Er kan een on-prem of cloud installatie zijn, Stad en PZA kunnen op een andere installatie werken, etc). Meerdere installaties kunnen gedefinieerd worden
+  - Site beheerders kunnen ‘Search’ activeren en kunnen aangeven op welke installatie ze gaan werken
+  - Site beheerders kunnen per selectie van content types aangeven in welke index (=engine) dit moet terechtkomen. Zo kunnen we alle content in één index zetten, of à la limit voor elk content type een aparte index opgeven. Hierbij kunnen content types meerdere keren voorkomen in andere indexen. Het is dus een M/N relatie tussen content types en indexen
+  - Site/Content beheerders kunnen de mapping eenvoudig beheren van de componenten van een content type naar de velden van het schema van een elastic app engine. De wijze hoe data overgezet wordt ligt vast (hier en hier beschreven), maar wat er waar naar gemapped wordt is dus aanpasbaar. 
+  - De bestaande indexering mapping logica, specifiek voor gemaakt voor A-Stad 2.0, is overgenomen. Deze bevat de generieke wijze hoe content componenten gemapped zijn naar schema velden van een Elastic App Search engine.
+  - Als Site/Content beheerder kan ik bepalen welke afbeeldingen mee geïndexeerd moeten worden. 
+  - Het systeem (her-)indexeert automatisch bij verandering van taxonomie labels uit de taxonomy engine en/of content uit de WCMv4. 
+  - Als Sitebeheerder kan ik zelf on-demand een volledige of partiële herindexering starten van content en taxonomie gegevens. Hierbij krijg ik visueel feedback 
+  - Het verloop van indexering kan gevolgd worden dmv standaard logging.
+  - Er is een nieuw zoekindex referentie content component
+  - Er is een nieuw zoekindex veld referentie content component
+- **Content**
+  - Er kan een maximum aantal tekens ingesteld worden bij tekstvakken
+  - ingeval een slug al in gebruik is wordt er automatisch een opvolgingsnummer aan toegevoegd
+  - Alle nieuwe content types gaan standaard een tekstvak met opmaak gebruiken als teaser component.
+  - Er is een nieuw nummerbereik content comoponent
+  - Er is een nieuw tijdbereik content comoponent
+- **Configuratie**
+  - Er is een generieke aanpak om instellingen op tenant niveau te organiseren (ook voor contrib modules)
+  - Er is een generieke aanpak om instellingen op site niveau te organiseren (ook voor contrib modules)
+- **Monitoring:** APM instellingen zijn bijgewerkt
+- **Views:** Views kunnen nu gefilterd worden op uitgifte tijdstip
+
+### Changed
+- **API:** 
+  - Enkele verbeteringen voor het beheren van taxonomieëen waaronder
+    - positie informatie komt eenduidiger uit de API
+    - PUT /terms is op deprecated gezet, in de plaats is nu een functie om termen te ordenen
+    - Elke term kan nu gebruik maken van een externalRef property
+    - De PUT van een /term is opgekuist en je hoeft geen meta data meer mee te geven
+    - property waarden kunnen nu zowel bij een POST als PUT van een term worden meegegeven
+  - Tijdslot (vroegere tijdstip) content component geeft nu een ISO date terug
+    > **Nota voor afnemers!** 
+    >
+    > *Het tijdstip contont component gaat nu een ISO date zonder tijdsaanduiding terug geven
+    > ```json
+    > "startDate": "2021-12-12T23:00:00Z" --> '2021-12-12' 
+    >```
+  - De API geeft nu alle Datetime data terug in UTC. 
+    > **Nota voor afnemers!** 
+    >
+    > Controleer als afnemer dat je datetime info correct als UTC interpreteert en niet als lokale BRU tijd.
+  - afnemers kunnen nu op aanvraag wachten op de meest actuele data. Zonder kan het zjin dat ze nog een oude versie terug krijgen wanneer de cache nog volop aan't bijwerken is.
+    > **Nota voor afnemers!** 
+    >
+    > gebruik hiervoor 
+- **Content** 
+  - redacteurs kunnen nu 3 verschillende YouTube url varianten plakken in de Video embed content component. De API zal steeds de embed variant teruggeven.
+  - Content beheerders kunnnen nu van alle structuurelementen (content types, componenten, blokken, taxonomie,...) de systeemnaam zien in de Redactie. 
+  - Datum Tijd content component is vernieuwd met een betere ingave voor redacteurs
+  - Tijdslot (vroegere tijdstip) content component is vernieuwd met een betere ingave voor redacteurs
+  - Er is een verbeterde Taxonomy Referentie content component
+  - Er is een verbeterde Content Type Referentie content component
+  - voor A-Stad is de maximale bestandsgrootte verhoogd naar 10MB van uploadqs
+- **Navigatie** 
+  - enkele verbetering voor het werken met de navigatie structuren waaronder 
+    - externalRef komt mee bij het ophalen van broodkruimels
+    - beschrijving is niet meer verplicht voor redacteurs bij het plaasen van content in de sitestructuur
+    - de kinderen in een sitestructuur worden nu wel goed gepresenteert
+    - self healing sitestructuur ingeval er één ontbreekt
+- **Search:** tijdslot (het vroegere tijdstip) heeft een specifieke indexeringswijze (zowel in de MVP als definitieve oplossing)
+   
+### Fixed
+- **API** 
+  - Je kan nu een view filteren op basis van gerelateerde data.
+  - Je kan een view filteren op uitgifte tijdstip (issuedOn)
+  - Je kan nu meta data correct uitsluiten uit de API responses
+  - Je kan nu data filteren in een view op basis van gerelateerde (populated) data. 
+- **Content**
+  - Bij het synchroniseren van een afbeelding wordt de metadata in correcte taal ingeladen
+  - De video embed validatie blokkeert het bewaren van het content item niet meer.
+  - De naam van de import applicatie wordt nu correct weergegeven in de Redactie
+  - Het dubbele tijdstip content component is nu verdwenen
+  - Tijd component verplicht maken resulteerd niet meer in een WSOD
+  - Er wordt geen URL meer getoond in het content item overzicht voor content blokken
+  - De vertaal tab is niet meer aanwezig voor content items van sites met één taal.
+  - De broodkruimel van applicatie accounts is goed gezet
+  - Als content beheerder kan je terug de lijst van content types zien bij het gebruik van een content referentie content component
+  - Als redacteur kan je nu correct de taxonomie referentie gebruiken bij de inrichting van search filters
+  - De dubbele 'gearchiveerd' status voor de PZA tenant is verdwenen
+  - vertaal tab is weg bij het bewerken van een content item voor ééntalige sites
+  - het home-segment van de broodkruimel in de Redactie is op enkele plekken goed gezet
+  - Content dat via de API is gemaakt staat nu onder de juiste naam van de auteur, i.e. de toepassing die de content maakte.
+  - het plannen van publicaties van nieuwe en gerecycleerde content items is opgelost
+  - View referenties in een content item kunnen nu verwijderd worden 
+  - Datums worden correct weergegeven wanneer men een content item bekijkt
+  - In het content overzicht wordt de taalfilter ook gereset wanneer men de actie 'Alles leegmaken' kiest
+  - Content types kunnen nu geactiveerd worden voor Sites waar al veel content aanwezig is 
+
 
 ## [4.5.1]: 2022-08-04
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
