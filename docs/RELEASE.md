@@ -8,10 +8,10 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | Q1/2023	    	| Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
-| [4.7.0](#_470-2022-11) 	                 	| nov 2022     	| WCM Event module 											                      	| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
-| [1.0.0](#_100-2022-10) 		                | okt 2022 	  	| Logboek module 										                         		| [![Generic badge](https://img.shields.io/badge/Contrib-DEV-yellow.svg)]() |
-| [1.0.0](#_100-2022-10) 		                | okt 2022 	  	| Verzendmodule voor (o.a.) nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
-| [4.6.0](#_460-2022-10-18)		             	| 18 Okt 2022   | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
+| [4.7.0](#_470-2022-11) 	                 	| nov 2022     	| WCM Event module & Logboek module			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
+| [4.6.5](#_100-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
+| [4.6.0.hotfix-1](#_460hotfix-1-2022-10-24)| 24 okt 2022 	| Fix voor werken met 10+ navigatiebomen 					            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
+| [4.6.0](#_460-2022-10-18)		             	| 18 okt 2022   | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.5.1](#_451-2022-08-04)   			        | 4 aug 2022    | Bijkomende release voor BRaaS en bugfixes van 4.5      				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [1.0.0](#_100-2022-07-07) 			         	| 7 jul 2022    | Bynder Beeldenbank en Chat ondersteuning 				          		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()	  |
 | [4.5.0](#_450-2022-07-07) 					      | 7 jul 2022   	| Verbeterde werking met BRaaS  								               	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()    |
@@ -38,23 +38,34 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 **Visie:** Deze release laat toe om structuur te backupen en in een andere tenant te restoren. 
 
 ## [4.7.0]: 2022-11
-[![Generic badge](https://img.shields.io/badge/Contrib-TODO-teal.svg)]()
+[![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()
+- **Event module**
+  - De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
 
-De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
+- **Logboek module**
+  - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
+  - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
+  - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
-## [1.0.0]: 2022-10
+## [4.6.5]: 2022-11-02
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
-- **Verzendmodule** 
-  - De verzendmodule is gemaakt voor PZA om zo automatisch mogelijk nieuwsbrieven naar de pers te sturen. 
+- **Broadcast module** 
+  - De verzendmodule is gemaakt voor PZA om op automatisch mogelijk nieuwsbrieven naar de pers te sturen. 
   - Er kunnen verschillende verzendkanalen worden opgezet.
   - Per kanaal wordt de content bepaalt en waar het naar verzonden moet worden.
   - SendGrid (e-mail campagne systeem) is de eerste verzendmethode. het systeem voorziet dat andere verzendmethodes ingeplugd kunnen worden.
   - Er kan ad hoc, één per één en in bulk verstuurd worden al dan niet time based.
-- **Logboek**
-  - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
-  - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
-  - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
+
+## [4.6.1.hotfix-1]: 2022-10-24
+[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16424)
+
+### Fixed
+- **Content** 
+  - Performantie verbeteringen van de Redactie UI
+  - Een extra functie dat is toegevoegd ter ondersteuning van data migratie scripts. Deze functie heeft geen impact op de WCMv4 API of de Redactie UI.
 
 ## [4.6.0]: 2022-10-18
 [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()
