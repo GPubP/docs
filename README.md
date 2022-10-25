@@ -9,4 +9,7 @@ Bekijk hier de [RELEASE notes](/docs/RELEASE.md), hier staan ook reeds de eerstv
 
 ## GPubP docs
 
-https://gpubp.github.io/docs/
+Voor redacteurs, content beheerders, ontwikkelaars, project leiders, ... https://gpubp.github.io/docs/
+
+## Contact
+Digipolis - erik.lenaerts@digipolis.be
