@@ -1,1 +1,0 @@
-De release notes zijn verhuis naar https://github.com/GPubP/docs/blob/main/docs/RELEASE.md

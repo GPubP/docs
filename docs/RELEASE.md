@@ -579,11 +579,13 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 ## Legende
 De release notes zijn chronologisch gesorteerd met de meeste recente release eerst. De badges geven aan over welk onderdeel het gaan en in welk stadia het zich bevindt. 
-- [![Generic badge](https://img.shields.io/badge/Core_|_Contrib-gray.svg)]() Gaat de release over de core of over een contributie module.
-- [![Generic badge](https://img.shields.io/badge/Core_|_Contrib-TODO-teal.svg)]() zijn alle features die gaan ontwikkeld worden. 
-- [![Generic badge](https://img.shields.io/badge/Core_|_Contrib-DEV-yellow.svg)]() zijn alle features die momenteel ontwikkeld worden en nog niet beschikbaar zijn.
-- [![Generic badge](https://img.shields.io/badge/Core_|_Contrib-ACC-blue.svg)]() zijn alle features die we momenteel aan't testen zijn. Deze zullen weldra gereleased worden.
-- [![Generic badge](https://img.shields.io/badge/Core_|_Contrib-PRD-green.svg)]() zijn alle features die gereleased zijn voor gebruik.
+| Badge                                                                               | Omschrijving                                                                                 |
+|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-gray.svg)]()       | Gaat de release over de core of over een contributie module.                                 |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-TODO-teal.svg)]()  | zijn alle features die gaan ontwikkeld worden.                                               |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-DEV-yellow.svg)]() | zijn alle features die momenteel ontwikkeld worden en nog niet beschikbaar zijn.             |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-ACC-blue.svg)]()   | zijn alle features die we momenteel aan't testen zijn. Deze zullen weldra gereleased worden. |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-PRD-green.svg)]()  | zijn alle features die gereleased zijn voor gebruik.                                         |
 
 *The formaat is gebaseerd op [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), en maakt gebruik van [Semantic Versioning](https://semver.org/spec/v2.0.0.html).* 
 
