@@ -106,7 +106,6 @@
     * [Form renderer module <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/wcm-react-form-renderer ':target="_blank"')
 
 * [Interessante links](/common/content/links.md)
-* [Interessante links](/common/content/links.md)
 
 * [Meewerken aan de docs](/CONTRIBUTING.md "GPubP Content - Contributie")
-* [Changelog](/CHANGELOG.md "GPubP Content - Changelog")
+* [Changelog docs](/CHANGELOG.md "GPubP Content - Changelog")

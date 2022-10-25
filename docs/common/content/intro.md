@@ -15,7 +15,7 @@ Het GPubP bestaat conceptueel uit 2 delen, deze kan je appart of samen gebruiken
 * In het **Content** luik vind je de [Redactie UI <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://redactie.antwerpen.be ':target="_blank"') alsook de [WCMv4 <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://acpaas.digipolis.be/nl/product/web-content-management-engine/web-content-management-engine-forms-module ':target="_blank"') terug. 
 * In het **Frontend** luik zal je de [Layout Renderer <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://layout-renderer-a.antwerpen.be/ ':target="_blank"')  en de Page & Site builder terugvinden (ETA 2023).
 
-<img src="/common/assets/GPubP.jpg" alt="GPubP high level">
+![GPubP high level](../assets/gpubp.jpg)
 
 ## Lees meer
 
