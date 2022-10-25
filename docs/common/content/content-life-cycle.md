@@ -11,7 +11,7 @@ Elk content item heeft een *publicatie status*, deze geeft aan waar het content 
 2. je sleutelt aan één of meerdere **werkversies** die je op een gegeven moment **publiceert** om het vrij te geven aan afnemers
 3. op het einde **archiveer** je het content item waardoor het niet meer beschikbaar is voor afnemers.
 
-![Content item life cycle](../assets/gpubp-content-life-cycle-1.png)
+![Content item life cycle](../assets/gpubp-content-life-cycle-1.png 'Basis content life cycle' )
 
 Wanneer je het content item ophaalt via de WCMv4 API zal je de status terugvinden in het meta luik.
 
@@ -38,7 +38,7 @@ Wanneer je het content item ophaalt via de WCMv4 API zal je de status terugvinde
 >
 > nieuwere werkversies hebben geen invloed op eerder gepubliceerde versies voor afnemers 
 
-![Content item life cycle](../assets/gpubp-content-life-cycle-3.png)
+![Content item life cycle](../assets/gpubp-content-life-cycle-3.png 'Online versus Offline')
 
 Als je de data van een content item ophaalt staat er in het meta deel of het content item online of offline staat via het <code>published</code> attribuut. 
 
@@ -61,7 +61,7 @@ Dit is een meer realistisch voorbeeld waarbij een content item verschillende ker
 3. versie 5 heeft de voorgaande gepubliceerde versie vervangen, deze staat nu online
 4. de redacteur heeft het content item geachiveerd, bijgevolg is het offline
 
-![Content item life cycle](../assets/gpubp-content-life-cycle-4.png)
+![Content item life cycle](../assets/gpubp-content-life-cycle-4.png 'Revisies en werkversies')
 
 Als je de data van een content item ophaalt staat er in het meta deel of het content item online of offline staat via het <code>published</code> attribuut. 
 
@@ -80,7 +80,7 @@ In het meta luik van een content item kan je verschillende datums opvragen om me
 
 Via de redactie kan je ook de versie geschiedenis bekijken, hiervoor heb je wel de [Revisies module](https://gpubp.github.io/docs_wcm_contributor/#/content/wcm-modules) nodig. Open hiervoor een content item en ga naar de *Revisies* tab.
 
-![Content item publicatie plannen](../assets/gpubp-content-life-cycle-6.jpg)
+![Content item revisies](../assets/gpubp-content-life-cycle-6.jpg 'Content item revisie overzicht')
 
 
 # Standaard statussen
@@ -106,7 +106,7 @@ De redactie heeft een functionaliteit om het één en ander in te plannen.
 
 Hiervoor ga je naar het content item en open je het *Planning* compartiment. Je kan zowel de **publicatie** als de **archivering** inplannen.
 
-![Content item publicatie plannen](../assets/gpubp-content-life-cycle-5.jpg)
+![Content item publicatie plannen](../assets/gpubp-content-life-cycle-5.jpg 'Content item publicatie plannen')
 
 Aan de data kan je aan de volgede attributen zien of een content item gepland is om te publiceren en/of te archiveren:
 
@@ -125,12 +125,12 @@ De meeste afnemers presenteren de publicatie tijdstip op hun pagina's als tijdst
 
 > **Voorbeeld:** Stel je wil nieuwsberichten van de oude site overzetten en ze presenteren met het tijdstip waarin ze vroeger gepubliceerd zijn. 
 
-Hiervoor hebben we een apart *uitgifte tijdstip* dat je als redacteur kan instellen. Een [content beheerder](/redactie/content/onboarding?id=standaard-rollen) kan het gedrag van deze uitgifte tijdstip inrichten. Zo kan er gekozen worden voor:
+Hiervoor hebben we een apart *uitgifte tijdstip* dat je als redacteur kan instellen. Een [content beheerder](/redactie/content/toegang-aanvragen?id=standaard-rollen) kan het gedrag van deze uitgifte tijdstip inrichten. Zo kan er gekozen worden voor:
 
 * Bepaal de default waarde van de uitgifte tijdstip, nl. eerste - of laatste publicatietijdstip
 * Bepaal of de redacteur de uitgifte datum kan aanpassen of niet 
 
-![Content item publicatie plannen](../assets/gpubp-content-life-cycle-7.jpg)
+![Content item uitgifte tijdstip](../assets/gpubp-content-life-cycle-7.jpg 'Werken met een uitgifte tijdstip')
 
 Bij het ophalen van de data kan je het uitgifte tijdstip zo terug vinden:
 

@@ -308,3 +308,20 @@ body.close .sidebar-toggle {
 .footer {
     text-align: center;
 }
+
+.scroll-to-top {
+    border-radius: 0px !important;
+    height: 40px !important;
+    box-shadow: none !important;
+}
+
+.markdown-section img:not(.emoji) {
+    border: none !important;
+    padding: 5px;
+}
+
+.img-caption {
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 24px;
+}

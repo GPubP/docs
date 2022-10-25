@@ -14,7 +14,7 @@ Kies een afbeelding, beschrijf het en stel de crop instellingen in.
     * Exact: de redacteur kan een uitsnede kiezen maar de maten staan vast
 * geef aan of het als decoratief beeld kan gebruikt worden. Bijvoorbeeld als afbeelding bovenaan in de pagina hoofding of als afbeelding in een kaartweergave voor een oplijsting, etc 
 
-![Afbeelding configuratie](.//redactie/assets/afbeelding-config.gif)
+![Afbeelding configuratie](../assets/afbeelding-config.gif)
 
 ([Bekijk dit op YouTube](https://youtu.be/4qVawwLCHnU ':target="_blank"'))
 
@@ -22,7 +22,7 @@ Kies een afbeelding, beschrijf het en stel de crop instellingen in.
 Je kan een afbeelding uploaden of kiezen uit een lijst van reeds opgeladen afbeeldingen
 Je krijgt een preview van de afbeelding die je gekozen hebt
 
-![Afbeelding recactie](.//redactie/assets/afbeelding-red.gif)
+![Afbeelding recactie](../assets/afbeelding-red.gif)
 
 ([Bekijk dit op YouTube](https://youtu.be/XqYR2Klnikc ':target="_blank"'))
 

@@ -7,7 +7,7 @@ Een **tenant** is een aparte werkomgeving die zorgt voor een fysieke scheiding v
 
 
 ## Hoe wordt ik Tenant beheerder?
-Eerst en vooral... zelden. Het is uitzonderlijk dat je de rol Tenant beheerder zal krijgen. Vraag je deze aan via UM, is de kans groot dat de aanvraag afgwezen wordt. Indien het wel correct is, volg dan de [onboarding procedure](/redactie/content/onboarding). Let op dat je in UM deze keer de rol `<tenant>_beheerder` aanvraagt.
+Eerst en vooral... zelden. Het is uitzonderlijk dat je de rol Tenant beheerder zal krijgen. Vraag je deze aan via UM, is de kans groot dat de aanvraag afgwezen wordt. Indien het wel correct is, volg dan de [onboarding procedure](/redactie/content/toegang-aanvragen). Let op dat je in UM deze keer de rol `<tenant>_beheerder` aanvraagt.
 
 
 ## Wat zijn m'n taken als Tenant beheerder?

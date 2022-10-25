@@ -4,7 +4,7 @@
 > Als **Redacteur** ga je voornamelijk **content aanmaken** en **publiceren** zodat deze op de website verschijnt. 
 
 ## Hoe wordt ik redacteur?
-Heb je nog geen toegang? [Vraag dan eerst rechten aan](/redactie/content/onboarding).
+Heb je nog geen toegang? [Vraag dan eerst rechten aan](/redactie/content/toegang-aanvragen).
 
 Eenmaal je rechten hebt tot een [tenant](/redactie/content/tenants) kan een [Site beheerder](/redactie/content/site-beheerder) je een Redacteur rol geven voor een specifieke site. Hierbij kan er gekozen worden uit één van deze 3 standaard rollen: 
 * `Redacteur`

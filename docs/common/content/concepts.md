@@ -23,7 +23,7 @@ Om de grote hoeveelheid aan sites te organiseren en structureren zijn er 3 nivea
 
 Hieronder lees je meer over deze 3 concepten. Doorheen de hele documentatie gebruiken we deze termen regelmatig, best dat je ze goed begrijpt wanneer je aan de slag gaat met het GPubP Content Beheer.
 
-![GPubP niveau's](../assets/gpubp-basisbegrippen-instance.png)
+![GPubP niveau's](../assets/gpubp-basisbegrippen-instance.png 'De verschillende niveau\'s van het GPubP')
 
 #### Multi-instance
 
@@ -33,7 +33,7 @@ Een instantie is een volwaardige deployment van het systeem. Momenteel is er é�
 
 Alle functionaliteiten van het systeem zitten in Modules. Zonder deze modules is de WCM een lege doos. Modules worden geïnstalleerd bij een instantie zodat ze daar beschikbaar zijn voor de tenants. Elke instantie heeft op die manier z'n eigen lijst van geïnstalleerde modules.
 
-![Multi instance](../assets/gpubp-basisbegrippen-modules.png)
+![Multi instance](../assets/gpubp-basisbegrippen-modules.png 'Meerdere instanties van het GPubP')
 
 !> In de afbeeldingen hier tekenen we 2 instanties bij wijze van voorbeeld, in de praktijk is er momenteel slechts één instantie bij Digipolis.
 
@@ -41,15 +41,15 @@ Alle functionaliteiten van het systeem zitten in Modules. Zonder deze modules is
 
 Elke installatie kan logisch opgedeeld worden in tenants. Elke tenant is een afgescheiden geheel waarin content gescheiden is. Maw, redacteurs die in één tenant werken kunnen niet aan content werken uit een andere tenant, tenzij natuurlijk dat ze hier ook de rechten voor hebben. In het voorbeeld hieronder heb ik rechten op 2 verschillende tenants als gebruiker. (Ik vermeld momenteel nog even gebruiker, straks gaan we dieper in op de rollen van het systeem)
 
-![Multi tenant](../assets/gpubp-multi-tenant.jpg)
+![Multi tenant](../assets/gpubp-multi-tenant.jpg 'Een instantie met 2 tenants')
 
 Belangrijk om te vermelden is dat je per tenant kan kiezen welke modules je gaat hanteren. Dit is de lijst van geïnstalleerde [WCM modules](/modules/content/wcm-modules.md) voor de instantie die we hosten op het datacenter van Digipolis. In tenant één maken we alle modules beschikbaar, in tenant twee enkel 6 modules. Wil je echter één module anders inzetten (dus het gedrag veranderen door het anders te configureren), dan richt je best verschillende instanties in.
 
-![Multi instance](../assets/gpubp-basisbegrippen-modules-per-tenant.png)
+![Modules per tenant](../assets/gpubp-basisbegrippen-modules-per-tenant.png 'De verschillende modules per tenant')
 
 **Content Types**, **Content Blokken** en **Content Componenten** zijn allemaal Tenant specifiek, maw, ze gelden voor de hele tenant.
 
-![Multi instance](../assets/gpubp-basisbegrippen-content-types.png)
+![Inrichting per tenant](../assets/gpubp-basisbegrippen-content-types.png 'Content types, blokken en componenten zijn per tenant')
 
 #### Multi-site
 
@@ -57,7 +57,7 @@ Elke tenant bestaat op zijn beurt uit één of meerdere sites. Sites, zijn net z
 
 Een content type of een content blok *geactiveerd* moet worden in een site. Anders gaat ze daar niet bruikbaar zijn. Zo zullen in de praktijk bepaalde content types enkel in één site geactiveerd worden en andere content types op misschien meerdere andere sites.
 
-![Multi site](../assets/gpubp-basisbegrippen-sites.png)
+![Multi site](../assets/gpubp-basisbegrippen-sites.png 'Meerdere sites binnen één tenant')
 
 ### Content types
 
@@ -78,13 +78,13 @@ In plaats van dit allemaal als één doorlopende tekst te beschouwen, gaan we di
 
 De figuur hieronder geeft een lijst van de content types op de PZA tenant:
 
-![Content Types](../assets/gpubp-content-types.jpg)
+![Content Types](../assets/gpubp-content-types.jpg 'Het overzicht van content types in de Redactie')
 
 Eerder beschreven we dat content types op tenant niveau worden gemaakt, in de bovenstaande figuur kan je zien op waar (sites) de content types *geactiveerd* zijn.
 
 Hieronder zie je een voorbeeld van een Nieuwsbericht content type en welke content componenten we daarvoor hebben gedefinieerd.
 
-![Content Types](../assets/gpubp-content-type.jpg)
+![Content Types](../assets/gpubp-content-type.jpg 'Een nieuwsbericht content type')
 
 Zoals je ziet bestaat een content type op zich uit content componenten. Het geheel is dus het sjabloon dat je aan de redacteurs aanbiedt.
 
@@ -111,7 +111,7 @@ Er zijn een 2 typische use cases waarvoor je content blokken gaat inzetten:
 
 Als je aan een redacteur vraagt om een nieuwsartikel te maken, dan stel je haar/hem een scherm voor waarin hij/zij de verschillende onderdelen van het nieuwsartikel kan invoeren. Een titel, een intro, etc. deze onderdelen zijn voorbeelden van content componenten.
 
-![Content Types](../assets/gpubp-content-componenten.jpg)
+![Content Types](../assets/gpubp-content-componenten.jpg 'Content componenten')
 
 ### Content items
 
@@ -119,6 +119,5 @@ Elke keer dat een redacteur iets aanmaakt op basis van een content type of een c
 
 ## Frontend
 
-> [!attention|label:TODO]
-> Documenteer de concepten van de page & site builder & layout rendering framework.
+!> **Todo:** Documenteer de concepten van de page & site builder & layout rendering framework.
 

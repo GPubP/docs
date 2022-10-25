@@ -35,6 +35,7 @@
 | Views                         | :fa-solid fa-check: |                     |                     | <span class="a-badge a-badge--primary">Content</span>   | Laat toe om met views te werken                                                              | :fa-solid fa-code-commit:       | Aanbevolen   | antwerpen.be        | Studio Hyperdrive |
 | Workflow                      | :fa-solid fa-check: | :fa-solid fa-check: | :fa-solid fa-check: | <span class="a-badge a-badge--primary">Workflow</span>  | Om te werken met content life cycle en de rechten daarop                                     | :fa-solid fa-code-commit:       | Noodzakelijk | antwerpen.be        | Studio Hyperdrive |
 
+
 # Specifieke WCM Modules
 
 | Module                        | F                   | B                   | E                   | Categorie                                               | Omschrijving                                                                                 | Core?                           | Oorsprong           | Gemaakt door      | 

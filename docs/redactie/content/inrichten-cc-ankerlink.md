@@ -12,7 +12,7 @@ Gewoonlijk worden er wel in de basisinstellingen voor deze component, gekozen om
 # Voor redacteurs
 Eerst zorg je dat er content is gemaakt obv tekstlijnen die als ankerplaats dienen. Vanaf dan, kan je deze tekstlijnen kiezen in de dropdown voor je nieuwe ankerlink. Standaard wordt de inhoud van de tekstlijn overgenomen als label van de nieuwe ankerlink, maar je kan deze overschrijven naar wens.
 
-![Ankerlink configuratie](.//redactie/assets/ankerlink-config.gif)
+![Ankerlink configuratie](../assets/ankerlink-config.gif)
 
 ([Bekijk dit op YouTube](https://youtu.be/zYJEdosNSVA ':target="_blank"'))
 

@@ -6,10 +6,10 @@ Zie ook Locatie
 # Voor content beheerders
 Vanaf 4.2 kan je een zoekbereik configureren. Hiermee kan je aangeven wat het adres component allemaal herkent. Zo kan je bv uitsluitend deze content component laten zoeken naar pleinen of districten.
 
-![Adres configuratie](.//redactie/assets/adres-config.jpg)
+![Adres configuratie](../assets/adres-config.jpg)
 
 # Voor redacteur
-![Adres configuratie](.//redactie/assets/adres-red.jpg)
+![Adres configuratie](../assets/adres-red.jpg)
 
 # Voor ontwikkelaars
 ## Lege output
