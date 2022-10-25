@@ -9,7 +9,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | Q1/2023	    	| Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
 | [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module & Logboek module			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
-| [4.6.5](#_100-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
+| [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
 | [4.6.0.hotfix-1](#_460hotfix-1-2022-10-24)| 24 okt 2022 	| Performantie fix en data migratie verbetering 	            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [4.6.0](#_460-2022-10-18)		             	| 18 okt 2022   | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.5.1](#_451-2022-08-04)   			        | 4 aug 2022    | Bijkomende release voor BRaaS en bugfixes van 4.5      				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
@@ -61,8 +61,11 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - SendGrid (e-mail campagne systeem) is de eerste aflevermethode. het systeem voorziet dat andere methodes ingeplugd kunnen worden.
   - Er kan ad hoc, één per één en in bulk verstuurd worden al dan niet time of volume gebaseerd.
 
+### Fixed
+  - zie lijst op [Jira](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16423)
 
-## [4.6.1.hotfix-1]: 2022-10-24
+
+## [4.6.0.hotfix-1]: 2022-10-24
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16424)
