@@ -31,16 +31,33 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.1.2](#_412-2021-12-14) 		       			| 14 dec 2021 	| MVP Release 											                        		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 
 ---
+## Legende
+### Badges
+De release notes zijn chronologisch gesorteerd met de meeste recente release eerst. De badges geven aan over welk onderdeel het gaan en in welk stadia het zich bevindt. 
+
+| Badge                                                                               | Omschrijving                                                                               |
+|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-gray.svg)]()       | Gaat de release over de core of over een contributie module.                                 |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-TODO-teal.svg)]()  | zijn alle features die gaan ontwikkeld worden.                                               |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-DEV-yellow.svg)]() | zijn alle features die momenteel ontwikkeld worden en nog niet beschikbaar zijn.             |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-ACC-blue.svg)]()   | zijn alle features die we momenteel aan't testen zijn. Deze zullen weldra gereleased worden. |
+| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-PRD-green.svg)]()  | zijn alle features die gereleased zijn voor gebruik.                                         |
+
+*The formaat is gebaseerd op [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), en maakt gebruik van [Semantic Versioning](https://semver.org/spec/v2.0.0.html).* 
+
+### Release vs Hotfix
+Bij een **release** worden alle zaken die momenteel ontwikkeld zijn - zowel features, changes als bugfixes - meegenomen en gedeployed.
+
+Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die gedeployed. Alle andere zaken die reeds klaar waren, worden dus niet mee gedeployed. 
+
  
 ## [4.8.0]
-[![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
 
 **Visie:** Deze release laat toe om structuur te backupen en in een andere tenant te restoren. 
 
 [Terug naar het overzicht](#_index)
 
 ## [4.7.0]: 2022-11-09
-[![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()
 - **Event module**
   - De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
 
@@ -53,7 +70,6 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 [Terug naar het overzicht](#_index)
 
 ## [4.6.5]: 2022-11-02
-[![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16423)
 
@@ -71,7 +87,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.6.0.hotfix-1]: 2022-10-24
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16424)
 
@@ -83,7 +98,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.6.0]: 2022-10-18
-[![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15730)
 
@@ -184,7 +198,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.5.1]: 2022-08-04
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16308)
 
@@ -202,7 +215,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [1.0.0]: 2022-07-07
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 - WCM Bynder Module: Beelden uit [Bynder](https://www.bynder.com/) kunnen gekozen worden door de redacteur rechtstreeks uit de Redactie.
 - Je kan zoeken op een term of op een id van een beeld in Bynder
@@ -213,7 +225,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 # [4.5.0]: 2022-07-07
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 [Terug naar het overzicht](#_index)
 
@@ -228,7 +239,6 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 [Terug naar het overzicht](#_index)
 
 ## [4.4.1]: 2022-07-07
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16242)
 
@@ -251,14 +261,12 @@ Extra release voor bugfixes van versie 4.3 & 4.4.
 [Terug naar het overzicht](#_index)
 
 ## [1.2.0]: 2022-06-23
-[![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()
 
 De tabel content component is aangepast met:
 
 [Terug naar het overzicht](#_index)
 
 ## [4.4.0]: 2022-06-23
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15729).
 
@@ -275,7 +283,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.3.0]: 2022-06-23
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15728).
 
@@ -362,7 +369,6 @@ Een 50-tal bug fixes waarvan de belangrijkste:
 [Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-6]: 2022-04-14
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 ### Fixed
 - het verwijderen van een navigatie item volgt de nieuwe werkwijze van de recent aangepast navigatie engine ([zie Digipolis nieuws](https://nieuws.digipolis.be/project/46359))
@@ -370,7 +376,6 @@ Een 50-tal bug fixes waarvan de belangrijkste:
 [Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-5]: 2022-03-14
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15801).
 ### Fixed
@@ -380,7 +385,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-4]: 2022-03-10
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15793).
 ### Added
@@ -396,7 +400,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-3]: 2022-03-03
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15792).
 ### Added
@@ -410,7 +413,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-2]: 2022-02-24
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15788).
 ### Fixed
@@ -425,8 +427,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-1]: 2022-02-17
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
-
 
 -  **Navigatie:** Er is een issue ontdekt waarbij redacteurs hun navigatieboom niet meer kunnen kiezen in de keuzelijst. De dropdown toont enkel de eerste 10 entries. We gaan hier in de hotfix zorgen dat er 20 items opgehaald worden, een betere oplossing staat op de backlog weliswaar. Hiermee kunnen de afnemers vandaag meteen verder.  
 
@@ -434,7 +434,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.2.1]: 2022-02-14
-[![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15727).
 ### Added
@@ -485,7 +484,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.1.5]: 2022-01-10
-[![Generic badge](https://img.shields.io/badge/Core-PRD-green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15735).
 ### Changed
@@ -519,7 +517,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [1.0.0] 2021-12-23  
-[![Generic badge](https://img.shields.io/badge/Tabel%20Contrib-PRD-green.svg)]()
 
 - De Tabel module is beschikbaar op Productie. Met deze module kan je een tabel toevoegen aan de content. Merk op dat dit een losstaande content component is en niet een onderdeel van een Tekstvak met Opmaak. Je bepaalt zelf de rijen en kolommen en geeft op wat je in elke cell wil plaatsen zoals bv een tekstvak, een telefoonnummer, etc.
 
@@ -527,7 +524,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 [Terug naar het overzicht](#_index)
 
 ## [4.1.2]: 2021-12-14 
-[![Generic badge](https://img.shields.io/badge/Core-PRD-green.svg)]()
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=15538).
 ### Added
@@ -576,23 +572,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 	- Bewaren van content item in zijn huidige status, ongeacht de ingestelde workflow geeft nu correcte info weer
 	- Ophalen van site rollen is verbeterd (gaf soms een 403)
 	- Als gebruiker met de "workflow update" rechten kan je nu de instellingen van een workflow bewerken
-
-## Legende
-De release notes zijn chronologisch gesorteerd met de meeste recente release eerst. De badges geven aan over welk onderdeel het gaan en in welk stadia het zich bevindt. 
-| Badge                                                                               | Omschrijving                                                                                 |
-|-------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-gray.svg)]()       | Gaat de release over de core of over een contributie module.                                 |
-| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-TODO-teal.svg)]()  | zijn alle features die gaan ontwikkeld worden.                                               |
-| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-DEV-yellow.svg)]() | zijn alle features die momenteel ontwikkeld worden en nog niet beschikbaar zijn.             |
-| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-ACC-blue.svg)]()   | zijn alle features die we momenteel aan't testen zijn. Deze zullen weldra gereleased worden. |
-| [![Generic badge](https://img.shields.io/badge/Core_\|_Contrib-PRD-green.svg)]()  | zijn alle features die gereleased zijn voor gebruik.                                         |
-
-*The formaat is gebaseerd op [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), en maakt gebruik van [Semantic Versioning](https://semver.org/spec/v2.0.0.html).* 
-
-## Release vs Hotfix
-Bij een **release** worden alle zaken die momenteel ontwikkeld zijn - zowel features, changes als bugfixes - meegenomen en gedeployed.
-
-Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die gedeployed. Alle andere zaken die reeds klaar waren, worden dus niet mee gedeployed. 
 
 ## Vragen?
 De releases worden op basis van een lange termijn en korte termijn planning samengesteld op basis van de behoefte van de afnemers van het platform. Staat er iets niet tussen of heb je een vraag over de release notes? contacteer dan erik.lenaerts@digipolis.be
