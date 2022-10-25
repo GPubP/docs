@@ -1,5 +1,6 @@
-# Algemene modules
+# WCM Modules
 
+## Generieke modules
 | Module                        | F                   | B                   | E                   | Categorie                                               | Omschrijving                                                                                 | Core?                           | Gebruik      | Oorsprong           | Gemaakt door      |
 |:------------------------------|:--------------------|:--------------------|:--------------------|:--------------------------------------------------------|:---------------------------------------------------------------------------------------------|:--------------------------------|:-------------|:--------------------|:------------------|
 | Assets                        | :fa-solid fa-check: | :fa-solid fa-check: | :fa-solid fa-check: | <span class="a-badge a-badge--primary">Media</span>     | Laat toe om met afbeeldingen te werken                                                       | :fa-solid fa-code-commit:       | Aanbevolen   | antwerpen.be        | Studio Hyperdrive |
@@ -36,13 +37,13 @@
 | Workflow                      | :fa-solid fa-check: | :fa-solid fa-check: | :fa-solid fa-check: | <span class="a-badge a-badge--primary">Workflow</span>  | Om te werken met content life cycle en de rechten daarop                                     | :fa-solid fa-code-commit:       | Noodzakelijk | antwerpen.be        | Studio Hyperdrive |
 
 
-# Specifieke WCM Modules
+## Specifieke modules
 
 | Module                        | F                   | B                   | E                   | Categorie                                               | Omschrijving                                                                                 | Core?                           | Oorsprong           | Gemaakt door      | 
 |:------------------------------|:--------------------|:--------------------|:--------------------|:--------------------------------------------------------|:---------------------------------------------------------------------------------------------|:--------------------------------|:--------------------|:------------------|
 | Uitdatabank                   |                     | :fa-solid fa-check: |                     | <span class="a-badge a-badge--primary">Integratie</span>| Stuurt content items naar UIT in Vlaanderen systeem                                          | :fa-solid fa-code-pull-request: | Cultuur sites       | Studio Hyperdrive |
 
-# Legende
+## Legende
 * F: Frontend bundle module
 * B: Business Service module
 * E: Engine module

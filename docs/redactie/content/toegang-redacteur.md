@@ -6,7 +6,7 @@
 ## Hoe wordt ik redacteur?
 Heb je nog geen toegang? [Vraag dan eerst rechten aan](/redactie/content/toegang-aanvragen).
 
-Eenmaal je rechten hebt tot een [tenant](/redactie/content/tenants) kan een [Site beheerder](/redactie/content/site-beheerder) je een Redacteur rol geven voor een specifieke site. Hierbij kan er gekozen worden uit één van deze 3 standaard rollen: 
+Eenmaal je rechten hebt tot een [tenant](/common/content/concepts?id=multi-tenant) kan een [Site beheerder](/redactie/content/toegang-site-beheerder) je een Redacteur rol geven voor een specifieke site. Hierbij kan er gekozen worden uit één van deze 3 standaard rollen: 
 * `Redacteur`
 * `Hoofdredacteur`
 * `Eindredacteur`
@@ -22,4 +22,6 @@ Eenmaal je rechten hebt tot een [tenant](/redactie/content/tenants) kan een [Sit
 * Content in de site structuur plaatsen
 * Content in een menu plaatsen
 
-Merk op dat een [Site beheerder](/redactie/content/site-beheerder) meer of minder rechten aan deze rollen kan toekennen. 
+Merk op dat een [Site beheerder](/redactie/content/toegang-site-beheerder) meer of minder rechten aan deze rollen kan toekennen. 
+
+?> Lees hier meer over het beheren van een [content](/redactie/content/content-beheren), [navigatie](/redactie/content/content-navigatie) en [workflows](/redactie/content/content-redactie-workflows).

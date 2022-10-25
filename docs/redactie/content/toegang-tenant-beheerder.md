@@ -3,7 +3,7 @@
 > [!info|label:Definitie]
 > Als **Tenant beheerder** ga je vooral sites opzetten en configureren. Daarnaast ga je met tenant specifieke zaken werken zoals configureratie van events.
 
-Een **tenant** is een aparte werkomgeving die zorgt voor een fysieke scheiding van data. Elke tenant bevat één of meerdere [sites](/redactie/content/sites). Lees hier meer over [het tenant concept](/common/content/concepts?id=multi-tenant).
+Een **tenant** is een aparte werkomgeving die zorgt voor een fysieke scheiding van data. Elke tenant bevat één of meerdere [sites](/common/content/concepts?id=multi-site).
 
 
 ## Hoe wordt ik Tenant beheerder?
@@ -17,6 +17,4 @@ Wil je meer leren over deze rol, ga best even ten rade bij andere Tenant beheerd
 * Sven Baetens
 * Erik Lenaerts
 
-
-## Nieuwe tenant?
-Een nieuwe tenant aanvragen kan je via dit [formulier](https://formulieren.antwerpen.be/v1/generiek-eloket/aanvraag-nieuwe-tenant-gpubp). Doe dit best enkele dagen op voorhand. Let wel op dat er heel wat voorafgaat voordat je een tenant aanvraag kan uitvoeren. Zo zal er een strategische denkoefening bij te pas komen die bepaalt of een aparte tenant gerechtvaardigd is of niet. Voor meer info kan je hier bij Erik Lenaerts en Martijn Gys terecht. 
+?> Lees [hier meer over het inrichten](/redactie/content/inrichten-tenants) van een tenant
