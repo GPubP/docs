@@ -31,7 +31,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.1.2](#_412-2021-12-14) 		       			| 14 dec 2021 	| MVP Release 											                        		| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 
 ---
-
+ 
 ## [4.8.0]
 [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()
 
