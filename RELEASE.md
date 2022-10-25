@@ -1,1 +1,1 @@
-De release notes zijn verhuis naar https://github.com/GPubP/getting-started/blob/main/docs/RELEASE.md
+De release notes zijn verhuis naar https://github.com/GPubP/docs/blob/main/docs/RELEASE.md
