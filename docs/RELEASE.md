@@ -37,6 +37,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 
 **Visie:** Deze release laat toe om structuur te backupen en in een andere tenant te restoren. 
 
+[Terug naar het overzicht](#_index)
 
 ## [4.7.0]: 2022-11-09
 [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()
@@ -48,6 +49,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
+
+[Terug naar het overzicht](#_index)
 
 ## [4.6.5]: 2022-11-02
 [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]()
@@ -65,6 +68,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - zie lijst op [Jira](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16423)
 
 
+[Terug naar het overzicht](#_index)
+
 ## [4.6.0.hotfix-1]: 2022-10-24
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
@@ -74,6 +79,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 - **Content** 
   - Performantie verbeteringen van de Redactie UI
   - Een extra functie dat is toegevoegd ter ondersteuning van data migratie scripts. Deze functie heeft geen impact op de WCMv4 API of de Redactie UI.
+
+[Terug naar het overzicht](#_index)
 
 ## [4.6.0]: 2022-10-18
 [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()
@@ -174,6 +181,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Content types kunnen nu geactiveerd worden voor Sites waar al veel content aanwezig is 
 
 
+[Terug naar het overzicht](#_index)
+
 ## [4.5.1]: 2022-08-04
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
@@ -190,6 +199,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Preview url's worden correct opgebouwd in alle talen
 - **Workflow** Er werd meteen gepubliceerd in plaats van éérst een werkversie te maken bij het bewaren van een content item
 
+[Terug naar het overzicht](#_index)
+
 ## [1.0.0]: 2022-07-07
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
@@ -199,8 +210,12 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 - [Teleportel](https://www.teleportel.com/) ondersteuning
 
 
-## [4.5.0]: 2022-07-07
+[Terug naar het overzicht](#_index)
+
+# [4.5.0]: 2022-07-07
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
+
+[Terug naar het overzicht](#_index)
 
 ### Added
 Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet: 
@@ -209,6 +224,8 @@ Deze release gaat de werking met BRaaS zo goed mogelijk stabiliseren, concreet:
 - Bij het rollen en rechtenscherm wordt de header vastgeklikt zodat het makkelijk is om rechten te zetten voor de juiste rol
 - Bij het rollen en rechtenscherm worden bij het aanklikken van individule compartimenten de rechten sneller geladen
 - Bij het rollen en rechtenscherm worden bij alle aanpassingen in de individuele compartimenten samen genomen bij het bewaren
+
+[Terug naar het overzicht](#_index)
 
 ## [4.4.1]: 2022-07-07
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
@@ -231,10 +248,14 @@ Extra release voor bugfixes van versie 4.3 & 4.4.
 - Taxonomy termen staan nu in de keuzelijst in dezeflde volgorde als in de taxonomy
 - Het aantal content items per taal wordt correct weergegeven in het overzicht 
 
+[Terug naar het overzicht](#_index)
+
 ## [1.2.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()
 
 De tabel content component is aangepast met:
+
+[Terug naar het overzicht](#_index)
 
 ## [4.4.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
@@ -250,6 +271,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Er komt een taalaaduiding in het content overzicht
   - Bij het maken van een nieuw content item moet eerst nog een taalkeuze gemaakt worden.
   - Per content item kan je eenvoudig zien in welke talen dit reeds vertaald is.
+
+[Terug naar het overzicht](#_index)
 
 ## [4.3.0]: 2022-06-23
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
@@ -336,11 +359,15 @@ Een 50-tal bug fixes waarvan de belangrijkste:
 - **API** 
   - de $exist operator voor filteren in views werkt nu wel zoals verwacht
 
+[Terug naar het overzicht](#_index)
+
 ## [4.2.1.hotfix-6]: 2022-04-14
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 ### Fixed
 - het verwijderen van een navigatie item volgt de nieuwe werkwijze van de recent aangepast navigatie engine ([zie Digipolis nieuws](https://nieuws.digipolis.be/project/46359))
+
+[Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-5]: 2022-03-14
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
@@ -349,6 +376,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 ### Fixed
 - **Content:** De cache zal sneller worden opgebouwd waardoor er minder 'oeps, pagina niet gevonden' zal voorkomen
 - **Navigatie:** enkele kleinere fixes rond het gebruik van de navigatie engine
+
+[Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-4]: 2022-03-10
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
@@ -364,6 +393,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Transities worden nu ook geladen voor gebruiker die enkel workflow read-rechten hebben
 
 
+[Terug naar het overzicht](#_index)
+
 ## [4.2.1.hotfix-3]: 2022-03-03
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
@@ -375,6 +406,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Views kunnen nu correct gefiltered worden obv taxonomie term(en)
   - Het gekozen adres (via de location picker) wordt nu correct bewaard in de redactie
   - Instellingen van de voorvertoning module worden nu correct bewaard
+
+[Terug naar het overzicht](#_index)
 
 ## [4.2.1.hotfix-2]: 2022-02-24
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
@@ -389,12 +422,16 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 ---
 
+[Terug naar het overzicht](#_index)
+
 ## [4.2.1.hotfix-1]: 2022-02-17
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
 
 
 -  **Navigatie:** Er is een issue ontdekt waarbij redacteurs hun navigatieboom niet meer kunnen kiezen in de keuzelijst. De dropdown toont enkel de eerste 10 entries. We gaan hier in de hotfix zorgen dat er 20 items opgehaald worden, een betere oplossing staat op de backlog weliswaar. Hiermee kunnen de afnemers vandaag meteen verder.  
 
+
+[Terug naar het overzicht](#_index)
 
 ## [4.2.1]: 2022-02-14
 [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()
@@ -445,6 +482,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 -  **Systeem:** Redactie monitor endpoint geeft nu geen errors meer
 
 
+[Terug naar het overzicht](#_index)
+
 ## [4.1.5]: 2022-01-10
 [![Generic badge](https://img.shields.io/badge/Core-PRD-green.svg)]()
 
@@ -477,11 +516,15 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
    - Je kan nu een workflow correct verwijderen op site niveau.
    - Als je een transitie maakt naar dezelfde status, bv van Werkversie naar Werkversie dan worden nu de rechten en de workflow configuratie correct nageleefd.
 
+[Terug naar het overzicht](#_index)
+
 ## [1.0.0] 2021-12-23  
 [![Generic badge](https://img.shields.io/badge/Tabel%20Contrib-PRD-green.svg)]()
 
 - De Tabel module is beschikbaar op Productie. Met deze module kan je een tabel toevoegen aan de content. Merk op dat dit een losstaande content component is en niet een onderdeel van een Tekstvak met Opmaak. Je bepaalt zelf de rijen en kolommen en geeft op wat je in elke cell wil plaatsen zoals bv een tekstvak, een telefoonnummer, etc.
 
+
+[Terug naar het overzicht](#_index)
 
 ## [4.1.2]: 2021-12-14 
 [![Generic badge](https://img.shields.io/badge/Core-PRD-green.svg)]()
@@ -543,6 +586,11 @@ De release notes zijn chronologisch gesorteerd met de meeste recente release eer
 - [![Generic badge](https://img.shields.io/badge/Core_|_Contrib-PRD-green.svg)]() zijn alle features die gereleased zijn voor gebruik.
 
 *The formaat is gebaseerd op [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), en maakt gebruik van [Semantic Versioning](https://semver.org/spec/v2.0.0.html).* 
+
+## Release vs Hotfix
+Bij een **release** worden alle zaken die momenteel ontwikkeld zijn - zowel features, changes als bugfixes - meegenomen en gedeployed.
+
+Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die gedeployed. Alle andere zaken die reeds klaar waren, worden dus niet mee gedeployed. 
 
 ## Vragen?
 De releases worden op basis van een lange termijn en korte termijn planning samengesteld op basis van de behoefte van de afnemers van het platform. Staat er iets niet tussen of heb je een vraag over de release notes? contacteer dan erik.lenaerts@digipolis.be
