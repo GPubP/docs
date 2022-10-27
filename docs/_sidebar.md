@@ -1,6 +1,7 @@
 <!-- docs/_sidebar -->
 * [Getting Started](/README "Getting started | GPubP")
 * [Release notes](/RELEASE "Release notes | GPubP")
+* [Status](/common/content/status "Status | GPubP")
 
 * [Introductie](/common/content/intro "introductie | GPubP")
   * [Concepten](/common/content/concepts "Concepten | GPubP")
