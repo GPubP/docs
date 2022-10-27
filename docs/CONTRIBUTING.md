@@ -8,7 +8,7 @@ Zie je iets wat je niet aanstaat, breng dan liever een verbetering aan in plaats
 # GitHub
 Alle code is beschikbaar op github. Zowel deze documentatie als de effectieve code van het Generiek Publicatie Platform. Maak je zelf een eigen contributie module, zorg dan dat de code ervan op github staat onder de [GPubP organisatie](https://github.com/GPubP). 
 
-Ben je niet helemaal zeker? Vraag het even na op het :fa-brands fa-slack: [GPubP WCM slack kanaal](https://dgpls.slack.com/archives/C02BCF3SY4R) 
+Ben je niet helemaal zeker? Vraag het even na op het :fa-brands fa-slack: [slack kanaal](https://dgpls.slack.com/archives/C025TLJQL00)
 
 # Maintainers
 
@@ -31,4 +31,4 @@ Studio Hyperdrive kan je helpen met:
 > Nieuwe feaures of changes aan Studio Hyperdrive vragen kan, maar op't einde van de rit wordt het beslist door het [Product](#product) team.
 
 ## Vragen ?
-Is deze contributie gids onvolledig, zit je vast of heb je een idee? Laat het ons weten op het :fa-brands fa-slack: [slack kanaal](https://dgpls.slack.com/archives/C02BCF3SY4R)
+Is deze contributie gids onvolledig, zit je vast of heb je een idee? Laat het ons weten op het :fa-brands fa-slack: [slack kanaal](https://dgpls.slack.com/archives/C025TLJQL00)
