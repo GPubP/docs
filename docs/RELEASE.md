@@ -73,15 +73,50 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16423)
 
+### Added
 - **Broadcast module** 
   - De broadcast module laat toe om content af ergens af te leveren. Ingeval van PZA het nieuwsbriefsysteem.
   - Als content beheerder kan je verschillende verzendkanalen opzetten
   - Per kanaal wordt bepaalt welke content er waar moet afgeleverd worden.
   - SendGrid (e-mail campagne systeem) is de eerste aflevermethode. het systeem voorziet dat andere methodes ingeplugd kunnen worden.
   - Er kan ad hoc, één per één en in bulk verstuurd worden al dan niet time of volume gebaseerd.
+  
 
 ### Fixed
-  - zie lijst op [Jira](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16423)
+- **API** 
+  - De HTTP header `cache-control: no-cache` zal nu altijd de actuele data ophalen, ook al wordt er gepopuleerd. Bij gebruik van deze HTTP cache header kan een API call trager gaan omdat de cache opnieuw opgebouwd moet worden voor dit content item.
+  - Een zoekindex referentie zal nu de naam van de elastic engine terugsturen in plaats van de uuid
+    > [!attention|label:Breaking change]
+    > ```json
+    > {
+    >   "_id": "6352c402f0b7a10007ced26a",
+    >   "fields": {
+    >       "zoekindex": "wcm-algemeen-werk-in-kaart-tenant-test-5-acceptance"
+    >   },
+    >   "uuid": "bb6d59f2-5072-4a86-ae5c-bfab0b1a5930"
+    > }
+    > ```
+- **Content** 
+  - Het verwijderen van een link in een tekstvak met opmaak tas de andere linken in dezelfde alinea niet meer aan
+  - Wanneer je een content item archiveerd zullen ook de wijzigingen die je aanbracht mee bewaard worden.
+  - Linken in content die geplakt is in het tekstvak met opmaak kan je nu bewerken.
+  - Externe linken mogen nu ook met http:// starten (voordien enkel https://)
+  - Uitgiftedatum wordt nu correct gezet, ook al als je meteen een nieuwe content item publiceert
+  - Uitgitedatum wordt correct bijgewerkt op basis van de laatste publicatiedatum (indien het zo is ingesteld op het content type). 
+  - Ingave van start en/of einduur gaat niet meer crashen op Safari
+- **Search** 
+  - Een reeks verbeteringen voor de indexering van data gebaseerd op het Tijdslot en Vaste periode content component
+  - Content indexering gaat nu kijken naar de site url zodat anderstalige content de juiste basis hebben voor hun linken
+  - De vooruitgang wordt nu correct getoont bij de indexatie
+  - De rechten rond herindexatie worden nu correct afgedwongen
+- **Navigatie**
+  - Nieuwe content types hebben nu een default URL patroon 
+  - modulesData is verwijderd uit het content item
+    > [!attention|label:Breaking change]
+    > Alle afnemers die nog gebruik maken van de modulesData om de link naar de navigatienode op te zoeken gaan deze info niet meer terugvinden op het content item. 
+    > Let op, dit is enkel ingeval je gebruik maakt van de nieuwe navigatie module uit release v4.3
+    > In deze nieuwe aanpak ligt de link andersom, vanuit de navigatienode kan je de link vinden naar het content item.
+  
 
 
 [Terug naar het overzicht](#_index)
