@@ -2,7 +2,7 @@
 
 ## Release highlights
 > [!tip|label: New release]
-> Op *2 november* IS **[4.6.5](/RELEASE?id=_465-2022-11-02)** gereleased met de content **WCM Broadcast module**. Deze kan je gebruiken voor het aansturen van e-mail campagne systemen (voorlopig enkel SendGrid). 
+> Op *2 november* is **[4.6.5](/RELEASE?id=_465-2022-11-02)** gereleased met de content **WCM Broadcast module**. Deze kan je gebruiken voor het aansturen van e-mail campagne systemen (voorlopig enkel SendGrid). 
 > 
 > Op *24 oktober* is **[4.6 - hotfix 1](/RELEASE?id=_460hotfix-1-2022-10-24)** gereleased met een performantie verbetering en een migratie feature.
 > 
