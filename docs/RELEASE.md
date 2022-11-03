@@ -8,6 +8,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | Q1/2023	    	| Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
+| [4.7.2](#_472-2022-11)                  	| nov 2022      | Focus punt en ken burns effect voor afbeeldingen            	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() 	|
+| [4.7.1](#_471-2022-11)                  	| nov 2022      | WCM Logboek module			                                    	| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
 | [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module & Logboek module			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
 | [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()   |
 | [4.6.0.hotfix-1](#_460hotfix-1-2022-10-24)| 24 okt 2022 	| Performantie fix en data migratie verbetering 	            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
@@ -57,15 +59,44 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 [Terug naar het overzicht](#_index)
 
-## [4.7.0]: 2022-11-09
+## [4.7.2]: 2022-11
+
+- Focus punt en ken burns effect voor afbeeldingen 
+- max aantal tekens bij invoer van content
+
+[Terug naar het overzicht](#_index)
+
+## [4.7.1]: 2022-11
 - **Event module**
-  - De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
+  - Nieuwe versie van de WCM Event module met ondersteuning voor async API documentatie
 
 - **Logboek module**
   - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
+[Terug naar het overzicht](#_index)
+
+## [4.7.0]: 2022-11-09
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16228)
+
+### Added
+- **Events**
+  - De WCM Event Module laat toe om bepaalde interne gebeurtenissen in de WCM op de Event handler te zetten zodat afnemers hierop kunnen reageren. Content beheerders kunnen heel fijnmazig afstellen welke events er zo naar buiten toe ontsloten worden.
+  - Als content beheerder kan ik aangeven op welke namespaces er mag afgeleverd worden van de Event Handler
+  - Als content beheerder kan ik een aflevering configureren en aangeven welk intern event afgeleverd mag worden
+  - Als content beheerder kan ik extra filters instellen bij een event aflevering, zo kan je nog fijnmaziger inrichten welke events afgeleverd mogen worden. bv enkel van site x, of voor content type y, etc
+  - Als content beheerder kan ik een test event versturen om de integratie ketting te testen
+  
+### Fixed
+- **Navigatie**
+  - Het Content type word nu opgekuist uit het sitestructuur overzicht van zodra de configuratie aangepast wordt 
+  - Het Content type kwam in bepaalde scenario's teveel voor in de sitestructuur
+  - Een Content item wordt nu opgekuist uit het sitestructuur overzicht wanneer het niet meer in de sitestructuur wordt gehangen
+  - Alle navigatiebomen zijn beschikbaar als een content item bewerkt wordt
+
+- **Meertaligheid:** Meta informatie wordt correct overgenomen bij het maken van een vertaling van een content item.
 
 [Terug naar het overzicht](#_index)
 
