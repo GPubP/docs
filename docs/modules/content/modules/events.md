@@ -48,7 +48,8 @@ De WCM bevat een intern Event Register. Dit is het telefoonboek van welke events
   * `be.digipolis.wcm.v4.search.indexed`
 * het json schema dat de data beschrijft van de gebeurtenis.
 
-!> Todo: zet hier een link naar de AsyncAPI docs van het register.
+
+!> Todo: zet hier een link naar de AsyncAPI docs van het register. Voorlopig kunnen we verwijzen naar: https://docs.google.com/spreadsheets/d/1pklN0Bgul3PFirLnTuMGsTPLnCc3cp7gXEia5y3-0oc/edit#gid=0
 
 ### Je eigen interne events ?
 Het is mogelijk om custom, eigengemaakte events te voorzien zodat specifieke scenario’s gesignaleerd kunnen worden waarop de Event module kan reageren. Dit kan door middel van een WCM BSL module te maken. Deze kan luisteren op interne kafka, doet er iets mee en zet op kafka z’n eigen signaal. Deze module zal zoals alle andere modules de custom event registreren in het algemene register. 
