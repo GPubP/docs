@@ -9,7 +9,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | Q1/2023	    	| Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
 | [4.7.2](#_472-2022-12)                  	| dec 2022      | Event module v1.1                                           	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
-| [4.7.1](#_471-2022-12)                  	| 8 dec 2022    | WCM Logboek module. Focus en ken burns afbeelding effecten		| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
+| [4.7.1](#_471-2022-12-08)                	| 8 dec 2022    | WCM Logboek module. Focus en ken burns afbeelding effecten		| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
 | [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module                			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()	|
 | [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.6.0.hotfix-1](#_460hotfix-1-2022-10-24)| 24 okt 2022 	| Performantie fix en data migratie verbetering 	            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
