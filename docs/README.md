@@ -5,13 +5,9 @@
 > Op *9 november* is **[4.7.0](/RELEASE?id=_470-2022-11-09)** gereleased met daarin de **WCM Event module**. Hiermee kan je kiezen welke events je wil afleveren aan de digipolis Event Handler Engine. 
 > 
 > Op *2 november* is **[4.6.5](/RELEASE?id=_465-2022-11-02)** gereleased met de content **WCM Broadcast module**. Deze kan je gebruiken voor het aansturen van e-mail campagne systemen (voorlopig enkel SendGrid). 
-> 
-> Op *24 oktober* is **[4.6 - hotfix 1](/RELEASE?id=_460hotfix-1-2022-10-24)** gereleased met een performantie verbetering en een migratie feature.
-> 
-> Op *18 oktober* is versie **[4.6.0](/RELEASE.md?id=_460-2022-10-18)** gereleased met als hoofdthema de integratie van het GPubP met **Elastic App Search**. 
 
 > [!note|label: Wat komt er aan]
-> In *november* staat de **[4.7.1](/RELEASE?id=_471-2022-11)** release op het menu met daarin de **WCM Logboek module**. Hiermee kunnen tenant, content en site beheerders opvolgen wat er gebeurt in het systeem zonder in audit of container logs te duiken. Daarnaast bevat deze release de nodige 
+> In *begin december* staat de **[4.7.1](/RELEASE?id=_471-2022-11)** release op het menu met daarin de **WCM Logboek module**. Hiermee kunnen tenant, content en site beheerders opvolgen wat er gebeurt in het systeem zonder in audit of container logs te duiken. Daarnaast bevat deze release enkele effecten voor afbeeldingen (Ken Burns, Focus punt)
 
 
 ## Aan de slag
