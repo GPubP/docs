@@ -8,10 +8,10 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | Q1/2023	    	| Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
-| [4.7.2](#_472-2022-11)                  	| nov 2022      | Focus punt en ken burns effect voor afbeeldingen            	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
-| [4.7.1](#_471-2022-11)                  	| nov 2022      | WCM Logboek module			                                    	| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
-| [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module                			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]()	|
-| [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
+| [4.7.2](#_472-2022-12)                  	| dec 2022      | Event module v1.1                                           	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.7.1](#_471-2022-12)                  	| 8 dec 2022    | WCM Logboek module. Focus en ken burns afbeelding effecten		| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
+| [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module                			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()	|
+| [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.6.0.hotfix-1](#_460hotfix-1-2022-10-24)| 24 okt 2022 	| Performantie fix en data migratie verbetering 	            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
 | [4.6.0](#_460-2022-10-18)		             	| 18 okt 2022   | Standaard ondersteuning & integratie met Elastic App Search 	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.5.1](#_451-2022-08-04)   			        | 4 aug 2022    | Bijkomende release voor BRaaS en bugfixes van 4.5      				| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
@@ -61,19 +61,27 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 ## [4.7.2]: 2022-11
 
-- Focus punt en ken burns effect voor afbeeldingen 
-- max aantal tekens bij invoer van content
+- **Event module**
+  - Nieuwe versie van de WCM Event module met ondersteuning voor async API documentatie
 
 [Terug naar het overzicht](#_index)
 
-## [4.7.1]: 2022-11
-- **Event module**
-  - Nieuwe versie van de WCM Event module met ondersteuning voor async API documentatie
+## [4.7.1]: 2022-12-08
+### Added
+- **Afbeeldingen**
+  - Als gebruiker kan je nu naast een crop ook een focus area aangeven. Deze kunnen door frontends gebruikt worden om de focus zone in beeld te houden bij de verschillende device form factors.
+  - Je kan een Hen Burns effect zetten op een afbeelding waar je ofwel in - of uitzoomt.
+
+- **Content**
+  - Het systeem zal aangeven wanneer je het maximum aantal tekens hebt bereikt bij het invoeren van tekst in een tekstvak (met of zonder opmaak).
 
 - **Logboek module**
   - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
+
+### Fixed
+todo
 
 [Terug naar het overzicht](#_index)
 
