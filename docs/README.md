@@ -11,7 +11,7 @@
 > Op *18 oktober* is versie **[4.6.0](/RELEASE.md?id=_460-2022-10-18)** gereleased met als hoofdthema de integratie van het GPubP met **Elastic App Search**. 
 
 > [!note|label: Wat komt er aan]
-> In *november* staat de **[4.7.1](/RELEASE?id=_471-2022-11)** release op het menu met daarin de **WCM Logboek module**. Hiermee kunnen tenant, content en site beheerders opvolgen wat er gebeurt in het systeem zonder in audit of container logs te duiken.
+> In *november* staat de **[4.7.1](/RELEASE?id=_471-2022-11)** release op het menu met daarin de **WCM Logboek module**. Hiermee kunnen tenant, content en site beheerders opvolgen wat er gebeurt in het systeem zonder in audit of container logs te duiken. Daarnaast bevat deze release de nodige 
 
 
 ## Aan de slag
