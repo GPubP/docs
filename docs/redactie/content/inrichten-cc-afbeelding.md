@@ -131,4 +131,4 @@ Je krijgt zowel de originele image alsook de bijgesneden images, inclusief de ui
 }
 ```
 
-?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/cc/standaard-cc.md)
+?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)
