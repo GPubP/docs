@@ -86,4 +86,4 @@ Eerst zorg je dat er content is gemaakt obv tekstlijnen die als ankerplaats dien
 }
 ```
 
-?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/cc/standaard-cc.md)
+?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)

@@ -1,6 +1,7 @@
 # GPubP v4 docs
 
 ## Release highlights
+
 > [!tip|label: New release]
 > Op *9 november* is **[4.7.0](/RELEASE?id=_470-2022-11-09)** gereleased met daarin de **WCM Event module**. Hiermee kan je kiezen welke events je wil afleveren aan de digipolis Event Handler Engine. 
 > 

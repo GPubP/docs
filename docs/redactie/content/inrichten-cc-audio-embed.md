@@ -32,4 +32,4 @@ Een redacteur kan eenvoudigweg een link van SoundCloud plakken in het voorziene 
 }
 ```
 
-?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/cc/standaard-cc.md)
+?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)
