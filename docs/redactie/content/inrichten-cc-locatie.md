@@ -129,7 +129,7 @@ Geef een titel, omschrijving in voor een bijbehorend adres. Enkel de titel is ve
 ```
 
 # Voor bezoekers
-![locatie-bezoeker](..assets/locatie-bezoeker.png)
+![locatie-bezoeker](../assets/locatie-bezoeker.png)
 
 [A-Stad ontwerpen](https://xd.adobe.com/view/2266b523-5427-400b-57f1-d24fad05f06c-5457/screen/f4b7b726-9ef7-4844-9c1d-e4d065914a7e/)
 
