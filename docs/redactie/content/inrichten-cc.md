@@ -15,8 +15,8 @@ Deze vormen de basis van het systeem, zo zijn er Tekstvakken, Keuzelijsten, Taxo
 ## Custom content componenten
 
 ## Lees meer
-* Elk content component heeft enkele [basis eigenschappen](/redactie/content/content-componenten-basis), lees er hier meer over.
+* Elk content component heeft enkele [basis eigenschappen](/redactie/content/inrichten-cc-basis), lees er hier meer over.
 * Hier [zie je video](https://watch.screencastify.com/v/cT6PcWKM6wmLkvyLUP4x ':target="_blank"') hoe een redacteur content aanmaakt en effectief waardes in de content componenten invoert. 
 * In [deze video](https://watch.screencastify.com/v/ZjyAq5pCSHnIbBx61Ayx ':target="_blank"') zie je hoe een content type wordt samengesteld aan de hand van content componenten.
-* Bekijk hier de lijst van [standaard content componenten](/redactie/content/cc/standaard-cc.md)
+* Bekijk hier de lijst van [standaard content componenten](/redactie/content/inrichten-cc-standaard.md)
 

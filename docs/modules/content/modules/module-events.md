@@ -184,3 +184,4 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 > [!tip|label: Tip]
 > Om te kijken waarop je allemaal kan filteren ga je naar het **test scherm van je aflevering**. Daar staat een voorbeeld event payload dat je als lijdraad kan hanteren voor het opbouwen van je paden.
 
+?> Ga terug naar het [overzicht van alle modules](/modules/content/wcm-modules)
