@@ -1,14 +1,11 @@
 # Meta
-
 Laat toe om **meta tags** op te geven alsook een **meta description**.
 
 **Merk op**:
 - Meta, wordt standaard voorzien voor nieuwe content types
 - De meta info wordt standaard overgenomen van de titel en de teaser. Wanneer je dit zelf aanpast, zal dit vanaf dan de aangepaste versie zijn.
 
-
 # Voor content beheerders
-
 Er zijn geen configuratie opties voor de contentbeheerder.
 
 # Voor redacteurs

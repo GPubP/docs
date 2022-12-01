@@ -57,6 +57,7 @@
       * [Meta](/redactie/content/inrichten-cc-meta "Meta | Redactie | GPubP")
       * [Nummer](/redactie/content/inrichten-cc-nummer "Nummer | Redactie | GPubP")
       * [Open graph](/redactie/content/inrichten-cc-opengraph "Open graph | Redactie | GPubP")
+      * [Paragraaf](/redactie/content/inrichten-cc-paragraaf "Paragraaf | Redactie | GPubP")
     * [Taxonomie](/redactie/content/inrichten-taxonomie "Taxonomieën inrichten | Redactie | GPubP")
     * [Workflows](/redactie/content/inrichten-workflows "Workflows inrichten | Redactie | GPubP")
     * [Search](/redactie/content/inrichten-search "Search inrichten | Redactie | GPubP")
