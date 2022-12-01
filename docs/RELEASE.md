@@ -73,7 +73,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 ### Added
 - **Afbeeldingen**
   - Als gebruiker kan je nu naast een crop ook een focus area aangeven. Deze kunnen door frontends gebruikt worden om de focus zone in beeld te houden bij de verschillende device form factors.
-  - Je kan een Hen Burns effect zetten op een afbeelding waar je ofwel in - of uitzoomt.
+  - Je kan een Ken Burns effect zetten op een afbeelding waar je ofwel in - of uitzoomt.
 
 - **Content**
   - Het systeem zal aangeven wanneer je het maximum aantal tekens hebt bereikt bij het invoeren van tekst in een tekstvak (met of zonder opmaak).
