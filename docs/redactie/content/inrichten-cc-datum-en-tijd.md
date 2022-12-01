@@ -1,11 +1,15 @@
 # Datum en tijd
 Net zoals een datum component, maar deze keer kan er eveneens een tijd gekozen worden.
 
+> [!Warning|label:Opgelet]
+>
+> Vanaf WCMv4 zal de content component 'Datum' niet verder worden ondersteund. Gelieve steeds de content component 'Datum en tijd' te gebruiken. 
+
 # Voor content beheerders
 Er zijn geen configuratie opties voor de contentbeheerder.
 
 # Voor redacteurs
-Als redacteur kan je de datum, het uur en de minuten kiezen. Merk op dat je niet per minuut maar per 5 minuten kan werken.
+Als redacteur kan je de datum, het uur en de minuten ingeven.
 
 ![Datum entijd config](../assets/datum-en-tijd-config.png)
 
