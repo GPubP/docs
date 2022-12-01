@@ -77,14 +77,42 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 - **Content**
   - Het systeem zal aangeven wanneer je het maximum aantal tekens hebt bereikt bij het invoeren van tekst in een tekstvak (met of zonder opmaak).
+  
 
 - **Logboek module**
   - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
+### Changed
+- **Content** 
+  - De slug van content items worden nu via een ander algoritme gegenereerd (van KebabCase naar Slugify)
+  - De content type referentie component heeft nu ook een multiple optie
+
+- **Rollen en Rechten:** Door een gebrek aan paging in BRaaS kon de redactie slechts 50 gebruikers tonen. Dit is opgetrokken tot 100. 
+
 ### Fixed
-todo
+- **API** 
+  - Je kon onterecht via de API gearchiveerde content ophalen indien je `populate=true` meegaf.
+  - het `meta.urlPath` wordt correct bijgewerkt indien deze automatisch door de Redactie is aangepast
+  
+- **Content**
+  - Wanneer de slug manueel wordt aangepast zal het systeem de slug (opnieuw) veilig maken voor gebruik in een URL. Zo zullen blanco's bv vervangen worden door een `-`. De redactie zal in deze gevallen een melding aan de redacteur tonen.
+  - De bewaarknop is terug in orde en wordt terug actief na het bewerken van crops van een afbeelding.
+  - De tijden zijn nu verplicht bij het invoeren van een vaste periode.
+  - Tijdslot content component geeft nu het correct aantal tijdsloten weer dat er gegenereerd gaat worden volgens een ingesteld herhaal patroon.
+  - De bewaar knop bleef actief na een bewaar actie voor sommige content items.
+  - Een content type referentie component behoud nu correct z'n ingestelde waarde door de redacteur.
+  - Doel en opmaak instellingen bij een content referentie tonen geen vuilbak icons meer voor de redacteur
+  - Overzicht van revisies toont terug de twee geselecteerde revisies als je van de vergelijkenpagina terugkeert naar het overzicht.
+  - De redactie toonde soms dubbele tooltips, een blauwe van het redactie systeem en daarbovenop een zwarte die de browser zelf (op safari) voorzag.
+
+- **Navigatie**
+  - De leave popup wordt niet meer getoond van een net bewaard content item als je naar het sitestructuur compartiment gaat.
+  - Context popup van een content item laad correct als je dit opvraag vanuit de sitestructuur
+
+- **Wiews:** Bij het tonen van de voorbeeld inhoud van een view werkt de paginering nu correct. 
+- **Workflow:** Een custom status wordt nu correct gepresenteerd in de redactie en niet meer als `werkversie`.
 
 [Terug naar het overzicht](#_index)
 
