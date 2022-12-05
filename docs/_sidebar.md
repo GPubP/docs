@@ -91,6 +91,7 @@
       * [Config Helper (FE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/config-helper_package_nodejs ':target="_blank"')
       * [Antwerp UI (FE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://a-ui.github.io/core_branding_scss ':target="_blank"')
       * [Editorial UI (FE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://github.com/digipolisantwerp/editorial-ui_react ':target="_blank"')
+      * [Event Registry Helper (BE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/event-registry-helper_package_nodejs ':target="_blank"')
     * [Assets module <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/redactie-assets_module_react ':target="_blank"')
     * [Content-types module <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/redactie-content-types_module_react ':target="_blank"')
     * [Content module <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/redactie-content_module_react ':target="_blank"')

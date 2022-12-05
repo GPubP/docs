@@ -17,7 +17,7 @@ Deze documentatie is voor iedereen die met het GPubP aan de slag wil. Je vindt h
 * Wil je de **basis concepten en terminologie** leren? Bekijk dan de [intro](common/content/intro) sectie.
 * Wil je een content model voor een site **inrichten**? Bekijk dan de [getting started](/redactie/content/inrichten) voor content beheerders.
 * Wil je meteen beginnen **ontwikkelen** met de WCMv4 API? Bekijk dan de [getting started](/wcmv4/content/getting-started) voor ontwikkelaars.
-* Wil je een module **contibueren**? Bekijk dan de [getting started](/modules/content/getting-started) voor ontwikkelaars.
+* Wil je een module **contribueren**? Bekijk dan de [getting started](/modules/content/getting-started) voor ontwikkelaars.
 * Wil je met de redactie aan de slag? Zie hier hoe je [toegang kan aanvragen](/redactie/content/toegang-aanvragen).
 
 !> Is het GPubP nog allemaal wat nieuw voor jou, check dan zeker [de video's](/common/content/videos), altijd handig om het systeem in actie te zien ;).
