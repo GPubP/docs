@@ -9,7 +9,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 |-------------------------------------------|---------------|---------------------------------------------------------------|---------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | Q1/2023	    	| Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
 | [4.7.2](#_472-2022-12)                  	| dec 2022      | Event module v1.1                                           	| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
-| [4.7.1](#_471-2022-12-08)                	| 8 dec 2022    | WCM Logboek module. Focus en ken burns afbeelding effecten		| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
+| [4.7.1](#_471-2022-12-06)                	| 6 dec 2022    | WCM Logboek module. Focus en ken burns afbeelding effecten		| [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
 | [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module                			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()	|
 | [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.6.0.hotfix-1](#_460hotfix-1-2022-10-24)| 24 okt 2022 	| Performantie fix en data migratie verbetering 	            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
@@ -66,22 +66,53 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 [Terug naar het overzicht](#_index)
 
-## [4.7.1]: 2022-12-08
+## [4.7.1]: 2022-12-06
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16431)
+
 ### Added
 - **Afbeeldingen**
   - Als gebruiker kan je nu naast een crop ook een focus area aangeven. Deze kunnen door frontends gebruikt worden om de focus zone in beeld te houden bij de verschillende device form factors.
-  - Je kan een Hen Burns effect zetten op een afbeelding waar je ofwel in - of uitzoomt.
+  - Je kan een Ken Burns effect zetten op een afbeelding waar je ofwel in - of uitzoomt.
 
 - **Content**
   - Het systeem zal aangeven wanneer je het maximum aantal tekens hebt bereikt bij het invoeren van tekst in een tekstvak (met of zonder opmaak).
+  
 
 - **Logboek module**
   - Er is een logboek dat de verzendgebeurtenissen weergeeft. 
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
+### Changed
+- **Content** 
+  - De slug van content items worden nu via een ander algoritme gegenereerd (van KebabCase naar Slugify)
+  - De content type referentie component heeft nu ook een multiple optie
+
+- **Rollen en Rechten:** Door een gebrek aan paging in BRaaS kon de redactie slechts 50 gebruikers tonen. Dit is opgetrokken tot 100. 
+
 ### Fixed
-todo
+- **API** 
+  - Je kon onterecht via de API gearchiveerde content ophalen indien je `populate=true` meegaf.
+  - het `meta.urlPath` wordt correct bijgewerkt indien deze automatisch door de Redactie is aangepast
+  
+- **Content**
+  - Wanneer de slug manueel wordt aangepast zal het systeem de slug (opnieuw) veilig maken voor gebruik in een URL. Zo zullen blanco's bv vervangen worden door een `-`. De redactie zal in deze gevallen een melding aan de redacteur tonen.
+  - De bewaarknop is terug in orde en wordt terug actief na het bewerken van crops van een afbeelding.
+  - De tijden zijn nu verplicht bij het invoeren van een vaste periode.
+  - Tijdslot content component geeft nu het correct aantal tijdsloten weer dat er gegenereerd gaat worden volgens een ingesteld herhaal patroon.
+  - De bewaar knop bleef actief na een bewaar actie voor sommige content items.
+  - Een content type referentie component behoud nu correct z'n ingestelde waarde door de redacteur.
+  - Doel en opmaak instellingen bij een content referentie tonen geen vuilbak icons meer voor de redacteur
+  - Overzicht van revisies toont terug de twee geselecteerde revisies als je van de vergelijkenpagina terugkeert naar het overzicht.
+  - De redactie toonde soms dubbele tooltips, een blauwe van het redactie systeem en daarbovenop een zwarte die de browser zelf (op safari) voorzag.
+
+- **Navigatie**
+  - De leave popup wordt niet meer getoond van een net bewaard content item als je naar het sitestructuur compartiment gaat.
+  - Context popup van een content item laad correct als je dit opvraag vanuit de sitestructuur
+
+- **Wiews:** Bij het tonen van de voorbeeld inhoud van een view werkt de paginering nu correct. 
+- **Workflow:** Een custom status wordt nu correct gepresenteerd in de redactie en niet meer als `werkversie`.
 
 [Terug naar het overzicht](#_index)
 

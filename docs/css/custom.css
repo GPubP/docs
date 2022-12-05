@@ -316,12 +316,14 @@ body.close .sidebar-toggle {
 }
 
 .markdown-section img:not(.emoji) {
-    border: none !important;
     padding: 5px;
+    box-shadow: 10px 10px 5px gray;
+    border: 1px solid gray !important;
 }
 
 .img-caption {
     font-style: italic;
     text-align: center;
     padding-bottom: 24px;
+    padding-top: 18px;
 }

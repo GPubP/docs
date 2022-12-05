@@ -8,7 +8,7 @@ Vanaf 4.2 kan je een zoekbereik configureren. Hiermee kan je aangeven wat het ad
 
 ![Adres configuratie](../assets/adres-config.jpg)
 
-# Voor redacteur
+# Voor redacteurs
 ![Adres configuratie](../assets/adres-red.jpg)
 
 # Voor ontwikkelaars
@@ -128,4 +128,4 @@ curl --location --request GET 'https://locationpicker-app1-a.antwerpen.be/api/v2
 --header 'apikey: {{apikey}}' \
 ```
 
-?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/cc/standaard-cc.md)
+?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)
