@@ -103,6 +103,7 @@
         * [Hoofdstuk 3 - Nieuwe WCM module opzetten](/modules/content/developer-guides/greetings/step-3-wcm-module-setup "GPubP Content - Hello world example")
         * [Hoofdstuk 4 - Greetings endpoint voorzien](/modules/content/developer-guides/greetings/step-4-greetings-endpoint "GPubP Content - Hello world example")
         * [Hoofdstuk 5 - Greetings endpoint aanspreken](/modules/content/developer-guides/greetings/step-5-greetings-endpoint-access "GPubP Content - Hello world example")
+        * [Hoofdstuk 6 - Werken met events](/modules/content/developer-guides/greetings/step-6-events "GPubP Content - Hello world example")
         * [Extra - Eigen user als afzender weergeven](/modules/content/developer-guides/greetings/extra-own-user-display "GPubP Content - Hello world example")
     * Oplevering
       * [DoD](/modules/content/oplevering/dod) 
@@ -116,6 +117,7 @@
         * [Config Helper (FE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/config-helper_package_nodejs ':target="_blank"')
         * [Antwerp UI (FE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://a-ui.github.io/core_branding_scss ':target="_blank"')
         * [Editorial UI (FE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://github.com/digipolisantwerp/editorial-ui_react ':target="_blank"')
+        * [Event Registry Helper (BE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/event-registry-helper_package_nodejs ':target="_blank"')
       * [Assets module <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/redactie-assets_module_react ':target="_blank"')
       * [Content-types module <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/redactie-content-types_module_react ':target="_blank"')
       * [Content module <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/redactie-content_module_react ':target="_blank"')
