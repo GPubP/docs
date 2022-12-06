@@ -8,7 +8,9 @@
 > Op *2 november* is **[4.6.5](/RELEASE?id=_465-2022-11-02)** gereleased met de content **WCM Broadcast module**. Deze kan je gebruiken voor het aansturen van e-mail campagne systemen (voorlopig enkel SendGrid). 
 
 > [!note|label: Wat komt er aan]
-> Op *6 december* staat de **[4.7.1](/RELEASE?id=_471-2022-12-06)** release op het menu met daarin o.a. de **WCM Logboek module**. Hiermee kunnen tenant, content en site beheerders opvolgen wat er gebeurt in het systeem zonder in audit of container logs te duiken. Daarnaast bevat deze release enkele **effecten voor afbeeldingen** (Ken Burns, Focus punt).
+> Op *6 december* staat de **[4.7.1](/RELEASE?id=_471-2022-12-06)** release op het menu met daarin enkele **effecten voor afbeeldingen** (Ken Burns, Focus punt) alsook de lang verwachtte features waarbij redacteurs snel zien of de lengte van hun tekst binnen de grenzen valt.
+> 
+> Verder in *december* staat op de **[4.7.2](/RELEASE?id=_472-2022-12)** release de **WCM Logboek module**. Hiermee kunnen tenant, content en site beheerders opvolgen wat er gebeurt in het systeem zonder in audit of container logs te duiken. Vervolgens is er een v1.1 van zowel de [Events module](/modules/content/modules/module-events) als de [nieuwsbrieven module](/modules/content/modules/module-broadcast) voorzien.
 
 
 ## Aan de slag
