@@ -14,3 +14,5 @@ Belangrijk om te vermelden is dat je per tenant kan kiezen welke [modules](/comm
 **[Content Types](/common/content/concept-ct)**, **[Content Blokken](/common/content/concept-cb)** en **[Content Componenten](/common/content/concept-cc)** zijn allemaal Tenant specifiek, maw, ze gelden voor de hele tenant.
 
 ![Inrichting per tenant](../assets/gpubp-basisbegrippen-content-types.png 'Content types, blokken en componenten zijn per tenant')
+
+?> Bekijk [dit artikel](/redactie/content/inrichten-tenants) als je zelf (als [tenant beheerder](/redactie/content/toegang-tenant-beheerder)) een tenant wil inrichting 

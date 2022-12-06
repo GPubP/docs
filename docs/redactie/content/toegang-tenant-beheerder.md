@@ -1,7 +1,7 @@
 # Werken met tenants
 
 > [!info|label:Definitie]
-> Als **Tenant beheerder** ga je vooral sites opzetten en configureren. Daarnaast ga je met tenant specifieke zaken werken zoals configureratie van events.
+> Als **[Tenant](/common/content/concept-tenant) beheerder** ga je vooral sites opzetten en configureren. Daarnaast ga je met tenant specifieke zaken werken zoals configureratie van events.
 
 Een **tenant** is een aparte werkomgeving die zorgt voor een fysieke scheiding van data. Elke tenant bevat één of meerdere [sites](/common/content/concepts?id=multi-site).
 

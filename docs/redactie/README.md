@@ -6,8 +6,6 @@
 
 ![Screenshot van het content overzicht in de Redactie](/assets/redactie-content-overzicht.jpg 'Screenshot van het content overzicht in de Redactie')
 
-
-
 * [Vraag toegang aan](/redactie/content/toegang-aanvragen) als gebruiker
 * Wil je...
   * werken als [Redacteur](/redactie/content/toegang-redacteur)
