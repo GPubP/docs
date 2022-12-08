@@ -11,7 +11,7 @@ Zie je iets wat je niet aanstaat, breng dan liever een verbetering aan in plaats
 
 Alle code is beschikbaar op github. Zowel deze documentatie als de effectieve code van het Generiek Publicatie Platform. Maak je zelf een eigen contributie module, zorg dan dat de code ervan op github staat onder de [GPubP organisatie](https://github.com/GPubP). 
 
-Ben je niet helemaal zeker? Vraag het even na op het :fa-brands fa-slack: [GPubP WCM slack kanaal](https://dgpls.slack.com/archives/C02BCF3SY4R) 
+Ben je niet helemaal zeker? Vraag het even na op het  :fa-brands fa-microsoft: [GPubP kanaal op Teams](https://teams.microsoft.com/l/team/19%3a6uuXXYDlT5uFxiLp9Se5_2ZtFQ0S-vyhUAJxBG0aMhk1%40thread.tacv2/conversations?groupId=dfced4c7-5ceb-4fa6-a8e8-0888440f2b75&tenantId=0b8b489f-5ab3-4ecb-8b0a-77c7a2138f3c)
 
 ## Maintainers
 
@@ -35,4 +35,4 @@ Studio Hyperdrive kan je helpen met:
 
 ### Vragen ?
 
-Is deze contributie gids onvolledig, zit je vast of heb je een idee? Laat het ons weten op het :fa-brands fa-slack: [slack kanaal](https://dgpls.slack.com/archives/C02BCF3SY4R)
+Is deze contributie gids onvolledig, zit je vast of heb je een idee? Laat het ons weten op het  :fa-brands fa-microsoft: [GPubP kanaal op Teams](https://teams.microsoft.com/l/team/19%3a6uuXXYDlT5uFxiLp9Se5_2ZtFQ0S-vyhUAJxBG0aMhk1%40thread.tacv2/conversations?groupId=dfced4c7-5ceb-4fa6-a8e8-0888440f2b75&tenantId=0b8b489f-5ab3-4ecb-8b0a-77c7a2138f3c)
