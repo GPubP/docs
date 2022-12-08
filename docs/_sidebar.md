@@ -109,11 +109,11 @@
         * [Hoofdstuk 5 - Greetings endpoint aanspreken](/modules/content/developer-guides/greetings/step-5-greetings-endpoint-access "GPubP Content - Hello world example")
         * [Hoofdstuk 6 - Werken met events](/modules/content/developer-guides/greetings/step-6-events "GPubP Content - Hello world example")
         * [Extra - Eigen user als afzender weergeven](/modules/content/developer-guides/greetings/extra-own-user-display "GPubP Content - Hello world example")
-    * Oplevering
+    * [Oplevering](#)
       * [DoD](/modules/content/oplevering/dod) 
       * [Review](/modules/content/oplevering/review)
       * [Deploy](/modules/content/oplevering/deploy)
-    * API referentie
+    * [API referentie](#)
       * [Overzicht](/modules/content/api-references "GPubP Content - API referentie")
       * Core
         * [Core package (FE) <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://gpubp.github.io/redactie-core_package_js ':target="_blank"')
