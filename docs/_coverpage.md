@@ -11,9 +11,8 @@
 - Contributie gids voor zelf maken van WCMv4 modules, 
 - ... vele voorbeelden, video's, basis spelregels en praktische tips.
 
-<h3>Disclaimer: Momenteel zijn deze docs volop in opbouw.</h3>
+<h3>PS: Momenteel zijn we hard aan deze docs aan't werken.</h3>
 
-<!-- [GitHub](https://github.com/digipolisantwerpdocumentation/api-system) -->
-[Ga naar de DRAFT / BETA docs](#main)
+[Ga naar de docs](#main)
 
 ![color](#0057b7)

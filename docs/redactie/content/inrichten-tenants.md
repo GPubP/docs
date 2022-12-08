@@ -9,7 +9,7 @@ Een tenant inrichten is voorbehouden voor [tenant beheerders](/redactie/content/
 
 ## Nieuwe tenant aanvragen
 
-Je kan ook een nieuwe tenant aanvragen via **dit formulier**. Merk op dat je niet zomaar een nieuwe tenant zal krijgen vermits dat het toch behoorlijk wat computer resources verbruikt. Bovendien zal je eerst een intake gesprek moeten houden om na te gaan of je recht hebt op een nieuwe tenant. Tijdens een intake gesprek kan je toelichten wat je plannen zijn en kunnen we nagaan of het systeem voor jou toereikend is, [wat er zit aan te komen](/RELEASE) en wat de timing van je project is.
+Je kan ook een nieuwe tenant aanvragen via [dit formulier](https://formulieren.antwerpen.be/v1/generiek-eloket/aanvraag-nieuwe-tenant-gpubp). Merk op dat je niet zomaar een nieuwe tenant zal krijgen vermits dat het toch behoorlijk wat computer resources verbruikt. Bovendien zal je eerst een intake gesprek moeten houden om na te gaan of je recht hebt op een nieuwe tenant. Tijdens een intake gesprek kan je toelichten wat je plannen zijn en kunnen we nagaan of het systeem voor jou toereikend is, [wat er zit aan te komen](/RELEASE) en wat de timing van je project is.
 
 > Contacteer erik.lenaerts@digipolis.be voor intake gesprek.
 
