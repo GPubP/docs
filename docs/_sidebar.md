@@ -99,7 +99,6 @@
         * [Core](/modules/content/setup/wcm/core "GPubP Content - WCM Core setup")
         * [Modules](/modules/content/setup/wcm/modules "GPubP Content - WCM modules setup")
     * [Designer guides](/modules/content/designer-guides/index)
-      * [Design richtlijnen](#)
     * [Developer guides](/modules/content/developer-guides/index "GPubP Content - Developer guides")
       * [Greetings module](/modules/content/developer-guides/greetings/index "GPubP Content - Hello world example")
         * [Hoofdstuk 1 - Nieuwe Redactie module opzetten](/modules/content/developer-guides/greetings/step-1-redactie-module-setup "GPubP Content - Hello world example")
