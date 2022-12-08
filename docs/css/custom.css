@@ -176,7 +176,11 @@ body.close .sidebar-toggle {
     padding-left: 1.5rem;
 }
 .markdown-section li {
-    padding: 0.3rem 0 0.3rem;
+    padding: 0.15rem 0 0.15rem 0;
+}
+
+.markdown-section li > p {
+    margin: 12px 0px 6px 0px;
 }
 
 .markdown-section p.tip:before {
@@ -224,6 +228,9 @@ body.close .sidebar-toggle {
 .markdown-section em {
     color: #6f6f6f;
 }
+
+
+
 
 .alert p {
     color: #141414;
@@ -320,6 +327,13 @@ body.close .sidebar-toggle {
     box-shadow: 10px 10px 5px gray;
     border: 1px solid gray !important;
 }
+
+.markdown-section img[src^='https://img.shields.io/badge'] {
+    padding: 0px !important;;
+    box-shadow: none !important;;
+    border: none !important;
+}
+
 
 .img-caption {
     font-style: italic;
