@@ -2,7 +2,7 @@
 
 Een locatie is een adres met een extra titel en omschrijving, je kan dit gebruiken om bijvoorbeeld points of interest te laten invoeren zoals een zwembad of een kantoor.
 
-Wil je enkel een straat of een adres, dan gebruik je de [adres component](/redactie/content/inrichten-cc-adres). 
+Wil je enkel een straat of een adres, dan gebruik je de [Adres](/redactie/content/inrichten-cc-adres) component. 
 
 # Voor content beheerders
 
