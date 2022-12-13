@@ -119,7 +119,7 @@ Je kan de inhoud van het content item waar je naar verwijst, meteen mee ophalen,
    "uuid": "05711d21-47da-49fc-ae37-29229b9bd13f"
 }
 ```
-In dit voorbeeld is de content referentie naar een [contentblok](https://docs.google.com/document/d/1Npgx9sR1cCf6mKrFynA3q6sIy9qENecNYd94WGqW8rU/edit#heading=h.4uevkqt5k7q3).
+In dit voorbeeld is de content referentie naar een [contentblok](/common/content/concept-cb.md).
 
 # Voor bezoekers
 ![content-referentie-bezoeker](../assets/content-referentie-bezoeker.png)
