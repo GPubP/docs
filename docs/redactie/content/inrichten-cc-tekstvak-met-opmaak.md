@@ -49,7 +49,7 @@ Hieronder is een overzicht van welke knoppen de redacteuren ter beschikking krij
 | een horizontale lijn        |             |           |         |      x     |
 | een speciaal symbool        |             |           |    x    |      x     |
                 
-(*) er is een [uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#uitbreidingen) die het standaard gedrag van de link knop veranderd (zie hieronder)
+(*) er is een [uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#Uitbreidingen) die het standaard gedrag van de link knop veranderd (zie hieronder)
 
 > [!info|label:Tip]
 > Merk op dat er ook een ‘geen opmaak’-profiel  bestaat. Deze is handig in geval je als contentbeheerder nog niet zeker bent dat je wel of niet opmaak wil toestaan. In 
@@ -111,7 +111,7 @@ Een Tekstvak met opmaak zal resulteren in HTML.
 
 ## Interne linken
 
-Wanneer een interne link wordt gelegd (als [deze uitbreiding](https://docs.google.com/document/d/19RHSpMWIhUoD4ST7d4fvd1Z-mqxb14shNrsly_mDGs4/edit#heading=h.kzgykewvqpka) geactiveerd is)
+Wanneer een interne link wordt gelegd (als [deze uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#Ondersteuning-voor-interne-linken) geactiveerd is)
 
 ```json
 {
