@@ -73,6 +73,7 @@
       * [Vaste periode](/redactie/content/inrichten-cc-vaste-periode "Vaste periode | Redactie | GPubP")
       * [Video embed](/redactie/content/inrichten-cc-video-embed "Video embed | Redactie | GPubP")
       * [View referentie](/redactie/content/inrichten-cc-view-referentie "View referentie | Redactie | GPubP")
+    * [Views](/redactie/content/inrichten-views "Views | Redactie | GPubP")
     * [Taxonomie](/redactie/content/inrichten-taxonomie "Taxonomieën inrichten | Redactie | GPubP")
     * [Workflows](/redactie/content/inrichten-workflows "Workflows inrichten | Redactie | GPubP")
     * [Search](/redactie/content/inrichten-search "Search inrichten | Redactie | GPubP")
