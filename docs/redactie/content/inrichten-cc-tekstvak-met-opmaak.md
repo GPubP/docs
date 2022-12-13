@@ -60,7 +60,7 @@ Hieronder is een overzicht van welke knoppen de redacteuren ter beschikking krij
 
 Volgende uitbreidingen kunnen aangevraagd worden bij de Tenant Beheerder die extra WCM [modules](https://docs.google.com/spreadsheets/d/1OIwIALMTWy9D8o6iJOCiN6axOqGOdtirJ0Khe3-6BFQ/edit#gid=0) zal activeren voor jouw tenant. 
 
-## Afbeeldingen of bestanden invoegen
+### Afbeeldingen of bestanden invoegen
 
 **Module**: Ckeditor assets upload plugin
 
@@ -70,7 +70,7 @@ Via deze module komen er 2 opties bij voor de redacteurs
 - invoegen van bijlagen
     - enkel uploads, deze komen wel in de beeldenbank terecht
 
-## Ondersteuning voor interne linken
+### Ondersteuning voor interne linken
 
 **Module**: CKEditor plugin link module
 
