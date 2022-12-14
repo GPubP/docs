@@ -1,6 +1,6 @@
 # Hoofdstuk 4: Greetings endpoint voorzien
 
-We hebben nu een [eigen BSL service draaien binnen de WCM context](/content/developer-guides/greetings/step-3-wcm-module-setup.md).
+We hebben nu een [eigen BSL service draaien binnen de WCM context](/modules/content/developer-guides/greetings/step-3-wcm-module-setup.md).
 
 Binnen dit hoofdstuk gaan we een greetings endpoint beschikbaar stellen om een begroeting op te vragen.\
 We voorzien hierbij de nodige rechten en rechten checks zodat enkel gebruikers met een `greetings-read` recht toegang krijgen tot de endpoint.

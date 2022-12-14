@@ -64,7 +64,7 @@ Er moet een versie op de Digipolis Nexus repository of main NPM repository staan
 
 ## Stap 3: Greetings module configureren in WCM Admin
 
-Van zodra de module beschikbaar is in de registry, kunnen we deze [module configureren in de WCM Admin interface](/content/setup/redactie/dev-setup?id=module-registreren-in-wcm-admin-interface).
+Van zodra de module beschikbaar is in de registry, kunnen we deze [module configureren in de WCM Admin interface](/modules/content/setup/redactie/dev-setup?id=module-registreren-in-wcm-admin-interface).
 
 Maak een nieuwe module aan en stel deze als volgt in:
 
@@ -74,7 +74,7 @@ Voeg daarna een versie aan deze module toe met de volgende waarden en bewaar de 
 
 ![Hello world module aanmaken](../../../assets/hello-world-module-version-setup.png ':size=500')
 
-Als laatste moet de nieuw geregistreerde module nog [ingesteld worden op een tenant](/content/setup/redactie/dev-setup?id=module-instellen-op-tenant)
+Als laatste moet de nieuw geregistreerde module nog [ingesteld worden op een tenant](/modules/content/setup/redactie/dev-setup?id=module-instellen-op-tenant)
 
 ## Stap 4: Module lokaal mounten
 
@@ -103,7 +103,7 @@ Om deze nieuwe configuratie door te voeren, moet de redactie app herstart worden
 docker-compose down && docker-compose up
 ```
 
-Meer info over modules lokaal mounten vind je [hier](/content/setup/redactie/dev-setup?id=module-koppelen-aan-lokale-redactie-instantie).
+Meer info over modules lokaal mounten vind je [hier](/modules/content/setup/redactie/dev-setup?id=module-koppelen-aan-lokale-redactie-instantie).
 
 ## Stap 5: Testen
 
