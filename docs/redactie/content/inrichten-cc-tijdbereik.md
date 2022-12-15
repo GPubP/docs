@@ -15,10 +15,23 @@ Een redacteur kan een tijdbereik invoeren via het keyboard of één te kiezen vi
 
 # Voor ontwikkelaars
 
-!> To Do
+## Output met tijdbereik input
+
+```json
+{
+    "_id": "639b2607f07ca50007092544",
+    "fields": {
+        "tijd-bereik-test": {
+            "startTime": "22:01",
+            "endTime": "23:05"
+        },
+    "uuid": "2e038d59-aa5b-4744-8b36-dd3823347396",
+    ...
+}
+```
 
 # Voor bezoekers
 
-!> To Do
+NA
 
 ?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)
