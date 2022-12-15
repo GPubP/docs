@@ -13,7 +13,22 @@ Een redacteur kan eenvoudigweg een videolink plakken in het voorziene vak en er 
 
 # Voor ontwikkelaars
 
-!> To Do
+## Output met autostart van videofragment
+
+```json
+{
+    "_id": "639b2607f07ca50007092544",
+    "fields": {
+        "test-video-embed": {
+            "opties": [
+                "autoplay"
+            ],
+            "video": "https://www.youtube.com/embed/GwoYSWYDC0E"
+        },
+    "uuid": "2e038d59-aa5b-4744-8b36-dd3823347396",
+    ...
+}
+```
 
 ?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)
 
