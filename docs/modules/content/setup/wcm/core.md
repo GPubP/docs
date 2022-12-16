@@ -70,7 +70,7 @@ Een tenant aanmaken kan door te navigeren naar http://localhost:3999 en daar een
 7. Vul onder `Database` het volgende in en laat het overige leeg:
     - Database name: `wcm-content-dev` (zelf te kiezen)
     - Database URI: `mongodb://host.docker.internal:27008`
-8. Selecter onder `Modules` die je wil instellen op de tenant (zie [Modules setup](/content/setup/wcm/modules.md) indien je er geen kan toevoegen).
+8. Selecter onder `Modules` die je wil instellen op de tenant (zie [Modules setup](/modules/content/setup/wcm/modules.md) indien je er geen kan toevoegen).
 9. Klik op `Save website`
 
 ![Website aanmaken](../../../assets/wcm-admin-website.png ':size=900')

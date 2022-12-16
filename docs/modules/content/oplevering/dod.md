@@ -1,14 +1,14 @@
 # Definition of Done
 
-Studio Hyperdrive, die de rol opneemt van Technical maintainer binnen het GPubP Content beheer platform, heeft de opdracht gekregen van Digipolis om steeds een code review te voorzien voor elke contributies.
+[De technical maintainer](/CONTRIBUTING?id=technical) van het GPubP Content beheer platform, heeft de opdracht gekregen van Digipolis om steeds een code review te voorzien voor elke contributies.
 
 Op deze manier willen we contributors bijstaan bij hun ontwikkelingen en ervoor zorgen dat de algemene beveiliging, core principes en best practices gehanteerd worden.
 
-Voor elke MTA en MTP moet er een nieuwe review aangevraagd worden via Erik Lenearts <erik.lenearts@digipolis.be>.
+Voor elke MTA en MTP moet er een nieuwe review aangevraagd worden via Erik Lenearts \<erik.lenearts@digipolis.be\>.
 
 > [!warning] Een aanvraag voor een review dient tijdig te gebeuren.\
-> Er wordt sterk aangeraden om bij aanvang van het traject Studio Hyperdrive (via Erik) op de hoogte te houden van de verwachte review momenten.
-> Op deze manier kan Studio Hyperdrive hiermee rekening houden in hun planning en zijn er geen onverwachte vertragingen.
+> Er wordt sterk aangeraden om bij aanvang van het traject [de technical maintainer](/CONTRIBUTING?id=technical) (via Erik) op de hoogte te houden van de verwachte review momenten.
+> Op deze manier kunnen zij hiermee rekening houden in hun planning en zijn er geen onverwachte vertragingen.
 
 Een review gaat een set van vaste en variabele parameters nagaan. 
 Verder vind je de huidige vaste checklist die momenteel overlopen wordt.

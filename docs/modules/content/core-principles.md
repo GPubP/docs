@@ -18,7 +18,7 @@ Dit betekent dat alle functionaliteit (backend en frontend) voorzien moet worden
 #### Architecturaal
 De WCM v4 en Redactie architectuur is opgedeeld in 3 lagen.\
 Elke laag heeft een specifiek doel waarbij de componenten binnen deze laag niet buiten deze doeleinden mag vallen.\
-Alle info over de lagen en hun doeleinden vind je hier: [Architectuur](/architecture/index.md)
+Alle info over de lagen en hun doeleinden vind je hier: [Architectuur](/modules/content/architecture/index.md)
 
 #### Inhoudelijk
 Elke module beheert steeds 1 entiteit en zijn sub-entiteiten.\
@@ -87,7 +87,7 @@ Daarnaast zorgt dit er ook voor dat alle copy centraal beheerd wordt. Dit maakt 
 Dit is een relatief nieuw gegeven en werd ook in de core nog niet overal retroactief voorzien.\
 Het is echter wel de bedoeling dat alle nieuwe integraties hier gebruik van maken (core en contributies).
 
-Voor meer informatie over het gebruik hiervan, kan je terecht bij de geüpdatete boilerplate module en bijbehorende [documentatie](/content/developer-guides/greetings/step-2-greetings-page?id=vertalingen).
+Voor meer informatie over het gebruik hiervan, kan je terecht bij de geüpdatete boilerplate module en bijbehorende [documentatie](/modules/content/developer-guides/greetings/step-2-greetings-page?id=vertalingen).
 
 ### 2.2 APIs & connectors
 
@@ -102,7 +102,7 @@ De WCM Core is Multi-tenant. Deze multitenancy is volledig software matig. Dit b
 De module moeten dus overweg kunnen met de volgende gevolgen hiervaan:
 - Een module instantie kan een request krijgen voor elke tenant (waarvoor de module is ingesteld).
 - Een module moet altijd verwachten dat een actie in functie van een tenant gebeurd (uitzonderingen hierop moeten goed doordacht zijn)
-- De Gateway doet reeds bepaalde validaties maar een module staat ook zelf in voor het nagaan of de request geldig is in context van de tenant. Hiervoor zijn de nodige tools voorzien. (zie [Greetings module gids](/content/developer-guides/greetings/index.md)
+- De Gateway doet reeds bepaalde validaties maar een module staat ook zelf in voor het nagaan of de request geldig is in context van de tenant. Hiervoor zijn de nodige tools voorzien. (zie [Greetings module gids](/modules/content/developer-guides/greetings/index.md))
 
 ### 3.2 Request validatie
 Een BSL of Engine is in zijn basis niet meer of minder dan een losse service gehost binnen de VPN van Digipolis.\
@@ -121,7 +121,7 @@ De JWT token bevat inhoudelijk o.a.:
 - Het contract die gebruikt is geweest voor de request (proxy of admin)
 
 Indien je met NodeJS werkt heeft het Technical maintainer team al de nodige tools voorzien om deze validatie uit te voeren.\
-Meer uitleg hierover vind je [hier](/content/developer-guides/greetings/step-4-greetings-endpoint?id=stap-2-module-beveiligen).
+Meer uitleg hierover vind je [hier](/modules/content/developer-guides/greetings/step-4-greetings-endpoint?id=stap-2-module-beveiligen).
 
 #### Tenant key verificatie
 De JWT verificate verifiëert enkel of de request de WCM Gateway gepasseerd is maar deze verifiëerd niet of de module toegang heeft tot de tenant waarvoor deze request is uitgevoerd.
@@ -138,7 +138,7 @@ De WCM gateway stuurt in de inhoud van zijn JWT token steeds tenant key waarvoor
 > Dit kan via de WCM Admin interface gedaan worden door een WCM Admin.
 
 Indien je met NodeJS werkt heeft het Technical maintainer team al de nodige tools voorzien om deze validatie uit te voeren.\
-Meer uitleg hierover vind je [hier](/content/developer-guides/greetings/step-4-greetings-endpoint?id=stap-2-module-beveiligen).
+Meer uitleg hierover vind je [hier](/modules/content/developer-guides/greetings/step-4-greetings-endpoint?id=stap-2-module-beveiligen).
 
 ### 3.3 Interne communicatie (BSL => BSL)
 Communicatie tussen BSL's kan gebeuren op 3 manieren:
@@ -150,7 +150,7 @@ Communicatie tussen BSL's kan gebeuren op 3 manieren:
 Event based communicatie gebeurt binnen de WCM enkel tussen de BSL's, WCM Core en WCM Core componenten.\
 Deze services zijn de enige services die toegang krijgen tot de WCM kafka topics.
 
-Er wordt typisch een topic voorzien per hoofd entiteit. Indien ["separation of concerns"](/content/core-principles?id=_12-separation-of-concerns) regel gerespecteerd is, betekent dit meestal dat er een topic wordt aangemaakt per module.
+Er wordt typisch een topic voorzien per hoofd entiteit. Indien ["separation of concerns"](/modules/content/core-principles?id=_12-separation-of-concerns) regel gerespecteerd is, betekent dit meestal dat er een topic wordt aangemaakt per module.
 
 Modules kunnen lees rechten krijgen op topics van andere modules maar hebben doorgaans enkel schrijfrechten op hun eigen topic.\
 Op deze manier kan er tussen modules event based gecommuniceerd worden.
