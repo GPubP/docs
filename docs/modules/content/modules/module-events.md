@@ -54,6 +54,9 @@ De WCM bevat een intern Event Register. Dit is het telefoonboek van welke events
 ### Je eigen interne events ?
 Het is mogelijk om custom, eigengemaakte events te voorzien zodat specifieke scenario’s gesignaleerd kunnen worden waarop de Event module kan reageren. Dit kan door middel van een WCM BSL module te maken. Deze kan luisteren op interne kafka, doet er iets mee en zet op kafka z’n eigen signaal. Deze module zal zoals alle andere modules de custom event registreren in het algemene register. 
 
+In de [Greetings developer gids](/modules/content/developer-guides/greetings/step-6-events) kan je een voorbeeld hiervan zien:
+
+
 ## Configuratie
 Een [tenant beheerder](/redactie/content/toegang-tenant-beheerder) kan `bestemminngen` en `afleveringen` configureren via de Redactie. Via een bestemming kan je aangeven welke namespace er gebruikt zal worden voor het afleveren van events. In een aflevering specifieer je wat je gaat afleveren op die bestemming. Hieronder zie 
 

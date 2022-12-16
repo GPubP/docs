@@ -66,10 +66,10 @@ a.anchor,
     margin: 0;
 }
 
-h1, .h1 { font-size: 2.25rem !important;}
-h2, .h2 { font-size: 1.50rem !important;}
-h3, .h3 { font-size: 1.25rem !important;}
-h4, .h4 { font-size: 1.15rem !important;}
+h1, .h1 { margin: 2rem 0 1.5rem 0 !important; font-size: 2.25rem !important;}
+h2, .h2 { margin: 1.75rem 0 1.25rem 0 !important; font-size: 1.50rem !important;}
+h3, .h3 { margin: 1.50rem 0 1rem 0 !important; font-size: 1.25rem !important;}
+h4, .h4 { margin: 1.25rem 0 0.75rem 0 !important; font-size: 1.15rem !important;}
 
 .sidebar {
     border-right-color: #949494;
@@ -228,9 +228,6 @@ body.close .sidebar-toggle {
 .markdown-section em {
     color: #6f6f6f;
 }
-
-
-
 
 .alert p {
     color: #141414;

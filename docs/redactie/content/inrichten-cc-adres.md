@@ -6,10 +6,10 @@ Zie ook bij de component [Locatie](/redactie/content/inrichten-cc-locatie.md)
 # Voor content beheerders
 Vanaf 4.2 kan je een zoekbereik configureren. Hiermee kan je aangeven wat het adres component allemaal herkent. Zo kan je bv uitsluitend deze content component laten zoeken naar pleinen of districten.
 
-![Adres configuratie](../assets/adres-config.jpg)
+![Adres configuratie](../assets/adres-config.jpg 'Configuratie opties van een Adres content component')
 
 # Voor redacteurs
-![Adres configuratie](../assets/adres-red.jpg)
+![Adres configuratie](../assets/adres-red.jpg 'Invoeren van een adres als redacteur')
 
 # Voor ontwikkelaars
 ## Lege output
