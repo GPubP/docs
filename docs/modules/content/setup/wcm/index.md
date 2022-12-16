@@ -7,7 +7,7 @@ De WCM Admin API en WCM gateway vormen samen de (technische) core van het WCM.
 De andere services worden gezien als modules of delen van modules.
 
 ## WCM Core opzetten & instellen
-[WCM Core opzetten & instellen](/content/setup/wcm/core.md)
+[WCM Core opzetten & instellen](/modules/content/setup/wcm/core.md)
 
 ## Modules opzetten & instellen
-[Modules opzetten & instellen](/content/setup/wcm/modules.md)
+[Modules opzetten & instellen](/modules/content/setup/wcm/modules.md)

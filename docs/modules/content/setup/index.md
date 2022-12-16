@@ -1,7 +1,7 @@
 # Setup
 
-[Redactie opzetten](/content/setup/redactie/index.md)
+[Redactie opzetten](/modules/content/setup/redactie/index.md)
 
-[WCM opzetten](/content/setup/wcm/index.md)
+[WCM opzetten](/modules/content/setup/wcm/index.md)
 
 More info coming soon!

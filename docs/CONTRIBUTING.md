@@ -20,7 +20,7 @@ Digipolis beheert het product en de [roadmap](https://github.com/GPubP/getting-s
 ### Technical
 De Technical maintainer van het GPubP Content luik is Studio Hyperdrive (SHD). Zij bewaken de eindkwaliteit van alle code, zowel core als contributies. 
 
-Studio Hyperdrive kan je helpen met: 
+Studio Hyperdrive kan je helpen met:
 - een kickoff van je contributie project om je op het juiste spoor te zetten
 - een review van je contributie code met tips om te verbeteren, vaak gaat het over aangeven van helper functies en/of het gebruik van design patterns
 - beantwoorden van vragen
