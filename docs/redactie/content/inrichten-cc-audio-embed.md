@@ -4,14 +4,14 @@ Geef een url van een audiofragment - momenteel enkel op SoundCloud. Dit werkt he
 # Voor contentbeheerders
 De enigste configuratie optie is om aan te geven aan de frontend dat een audiofragment automatisch mag afgespeeld worden.
 
-![Audio embed configuratie](../assets/audio-embed-config.gif)
+![Audio embed configuratie](../assets/audio-embed-config.gif 'Configureer een audio embed content component')
 
 ([Bekijk dit op YouTube](https://youtu.be/GwoYSWYDC0E ':target="_blank"'))
 
 # Voor redacteurs
 Een redacteur kan eenvoudigweg een link van SoundCloud plakken in het voorziene vak en er komt een preview zodat de redacteur kan zien / horen of de juiste link geplakt is.
 
-![Audio embed redactie](../assets/audio-embed-red.jpg)
+![Audio embed redactie](../assets/audio-embed-red.jpg 'Als redacteur krijg je een audio preview voor je ingevoerde url')
 
 # Voor ontwikkelaars
 ```json
