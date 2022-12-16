@@ -3,7 +3,7 @@ Wordt typisch gebruikt om bovenaan een pagina een reeks (anker)linken te voorzie
 
 Geeft de mogelijkheid om een reeks ankerlinken op te geven naar eerder gedefinieerde ankerplaatsen.
 
-Het idee is dat je eerst ankerplaatsen aanlegt. Momenteel is de enigste manier om deze aan te leggen door gebruik te maken van [tekstlijnen](/redactie/content/cc/tekstlijn-cc.md). 
+Het idee is dat je eerst ankerplaatsen aanlegt. Momenteel is de enigste manier om deze aan te leggen door gebruik te maken van [tekstlijnen](/redactie/content/inrichten-cc-tekstlijn.md). 
 
 # Voor contentbeheerders
 Er zijn in eerste instantie geen configuratie opties voor de contentbeheerder. 

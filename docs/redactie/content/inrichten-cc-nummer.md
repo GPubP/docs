@@ -4,7 +4,20 @@ Laat toe om een **nummer** in te voeren.
 
 # Voor content beheerders
 
-Er zijn geen configuratie opties voor de contentbeheerder.
+> [!Warning|label:Opgelet]
+>
+> De configuratie voor de component nummer vind je momenteel terug onder het 'validatie' compartiment. (En dus niet onder 'configuratie')
+>
+> ![nummer-validatie](../assets/nummer-validatie.png)
+
+
+
+
+Als beheerder kan je : 
+- aanvinken of deze component verplicht moet worden ingevuld.
+- een minimum en/of maximum waarde ingeven dat geaccepteerd zal worden. Deze keuze is restrictief.
+
+![nummer-config](../assets/nummer-config.png)
 
 # Voor redacteurs
 

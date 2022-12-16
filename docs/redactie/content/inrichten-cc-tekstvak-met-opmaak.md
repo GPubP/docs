@@ -49,7 +49,7 @@ Hieronder is een overzicht van welke knoppen de redacteuren ter beschikking krij
 | een horizontale lijn        |             |           |         |      x     |
 | een speciaal symbool        |             |           |    x    |      x     |
                 
-(*) er is een [uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#uitbreidingen) die het standaard gedrag van de link knop veranderd (zie hieronder)
+(*) er is een [uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#Uitbreidingen) die het standaard gedrag van de link knop veranderd (zie hieronder)
 
 > [!info|label:Tip]
 > Merk op dat er ook een ‘geen opmaak’-profiel  bestaat. Deze is handig in geval je als contentbeheerder nog niet zeker bent dat je wel of niet opmaak wil toestaan. In 
@@ -60,7 +60,7 @@ Hieronder is een overzicht van welke knoppen de redacteuren ter beschikking krij
 
 Volgende uitbreidingen kunnen aangevraagd worden bij de Tenant Beheerder die extra WCM [modules](https://docs.google.com/spreadsheets/d/1OIwIALMTWy9D8o6iJOCiN6axOqGOdtirJ0Khe3-6BFQ/edit#gid=0) zal activeren voor jouw tenant. 
 
-## Afbeeldingen of bestanden invoegen
+### Afbeeldingen of bestanden invoegen
 
 **Module**: Ckeditor assets upload plugin
 
@@ -70,7 +70,7 @@ Via deze module komen er 2 opties bij voor de redacteurs
 - invoegen van bijlagen
     - enkel uploads, deze komen wel in de beeldenbank terecht
 
-## Ondersteuning voor interne linken
+### Ondersteuning voor interne linken
 
 **Module**: CKEditor plugin link module
 
@@ -111,7 +111,7 @@ Een Tekstvak met opmaak zal resulteren in HTML.
 
 ## Interne linken
 
-Wanneer een interne link wordt gelegd (als [deze uitbreiding](https://docs.google.com/document/d/19RHSpMWIhUoD4ST7d4fvd1Z-mqxb14shNrsly_mDGs4/edit#heading=h.kzgykewvqpka) geactiveerd is)
+Wanneer een interne link wordt gelegd (als [deze uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#Ondersteuning-voor-interne-linken) geactiveerd is)
 
 ```json
 {

@@ -29,10 +29,38 @@ Een redacteur kan :
 
 # Voor ontwikkelaars
 
-!> To Do
+## Output zonder opmaak
+
+```json
+{
+    "_id": "639b2607f07ca50007092544",
+    "fields": {
+        "tekstlijn-test": {
+            "textType": "div",
+            "text": "Tekstlijntesten"
+        },
+    "uuid": "2e038d59-aa5b-4744-8b36-dd3823347396",
+    ...
+}
+```
+
+## Output met opmaak
+
+```json
+{
+    "_id": "639b2607f07ca50007092544",
+    "fields": {
+        "tekstlijn-test": {
+            "textType": "h3",
+            "text": "Tekstlijntesten"
+        },
+    "uuid": "2e038d59-aa5b-4744-8b36-dd3823347396",
+    ...
+}
+```
 
 # Voor bezoekers
 
-!> To Do
+NA
 
 ?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)

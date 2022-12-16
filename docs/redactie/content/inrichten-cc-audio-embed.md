@@ -1,5 +1,5 @@
 # Audio embed
-Geef een url van een audiofragment - momenteel enkel op SoundCloud. Dit werkt heel gelijkaardig zoals een [video embed](/redactie/content/cc/video-cc.md) component.
+Geef een url van een audiofragment - momenteel enkel op SoundCloud. Dit werkt heel gelijkaardig zoals een [video embed](/redactie/content/inrichten-cc-video-embed.md) component.
 
 # Voor contentbeheerders
 De enigste configuratie optie is om aan te geven aan de frontend dat een audiofragment automatisch mag afgespeeld worden.

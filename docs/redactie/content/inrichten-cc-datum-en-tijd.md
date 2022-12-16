@@ -20,6 +20,19 @@ Als redacteur kan je de datum, het uur en de minuten ingeven.
 # Voor ontwikkelaars
 Hieronder is een voorbeeld waar je een tijdstip in [ISODate](https://www.iso.org/iso-8601-date-and-time-format.html) kan terugvinden.
 
+## Output met datum-tijdinput
+
+```json
+{
+    "_id": "639b2607f07ca50007092544",
+    "fields": {
+        "datum-tijd-test": "2022-12-01T12:56:00.000Z"
+        },
+    "uuid": "2e038d59-aa5b-4744-8b36-dd3823347396",
+    ...
+}
+```
+
 # Voor bezoekers
 ![Datum en tijd bezoeker](../assets/datum-en-tijd-bezoeker.png)
 

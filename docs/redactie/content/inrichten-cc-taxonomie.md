@@ -1,8 +1,8 @@
 # Taxonomie
-Hiermee geef je een redacteur de mogelijkheid om een content item te **klasseren of taggen**. Dikwijls wordt dit gebruikt om hiermee te kunnen filteren in een [view](/redactie/content/inrichten-cc-view.md), bijvoorbeeld, toon een pagina met een lijst van nieuwsberichten volgens een tag die de websitebezoeker heeft gekozen.
+Hiermee geef je een redacteur de mogelijkheid om een content item te **klasseren of taggen**. Dikwijls wordt dit gebruikt om hiermee te kunnen filteren in een [view](/redactie/content/inrichten-views.md), bijvoorbeeld, toon een pagina met een lijst van nieuwsberichten volgens een tag die de websitebezoeker heeft gekozen.
 
 # Voor content beheerders
-Vooraleer je een taxonomie kan gebruiken, zal je deze eerst moeten aanmaken. Het aanmaken kan je enkel op [tenant](https://docs.google.com/document/d/1Npgx9sR1cCf6mKrFynA3q6sIy9qENecNYd94WGqW8rU/edit#heading=h.vl3pwkiqjqrn) niveau.
+Vooraleer je een taxonomie kan gebruiken, zal je deze eerst moeten aanmaken. Het aanmaken kan je enkel op [tenant](/common/content/concept-tenant.md) niveau.
 
 ## Taxonomie aanmaken
 

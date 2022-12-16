@@ -17,10 +17,8 @@ De WCMv4 moet toegang krijgen tot jouw tenant op de Forms Engine. De WCM is geke
 > [!Warning|label:Module]
 >
 > Form referentie werkt enkel wanneer de Form BSL en Form module geactiveerd zijn voor deze tenant.
-
-> [!Warning|label:Opmerking]
 >
-> Vergis je niet met de Form renderer module, deze wordt intern gebruikt door de redactie voor de opbouw van de content invoerschermen.
+> **Opmerking** : Vergis je niet met de Form renderer module, deze wordt intern gebruikt door de redactie voor de opbouw van de content invoerschermen.
 
 In de Form BSL kan je de Forms tenant configureren voor jouw WCMv4/Redactie tenant dmv de volgende configuratie: 
 
