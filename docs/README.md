@@ -3,6 +3,8 @@
 ## Release highlights
 
 > [!tip|label: New release]
+> Op *7 februari* is **[4.7.1](/RELEASE?id=_471-2022-11-09)** gereleased met daarin essentiële bugfixes.
+> 
 > Op *9 november* is **[4.7.0](/RELEASE?id=_470-2022-11-09)** gereleased met daarin de **WCM Event module**. Hiermee kan je kiezen welke events je wil afleveren aan de digipolis Event Handler Engine. 
 > 
 > Op *2 november* is **[4.6.5](/RELEASE?id=_465-2022-11-02)** gereleased met de content **WCM Broadcast module**. Deze kan je gebruiken voor het aansturen van e-mail campagne systemen (voorlopig enkel SendGrid). 
