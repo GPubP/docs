@@ -9,7 +9,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 |:------------------------------------------|:--------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | TBD	    	    | Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
 | [4.7.2](#_472)                          	| TBD           | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1             | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
-| [4.7.1](#_471)                          	| TBD           | Focus en Ken burns afbeelding effecten + bug fixes		        | [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() 	|
+| [4.7.1](#_471-2023-02-07)                	| 7 feb 2023    | Focus en Ken burns afbeelding effecten + bug fixes		        | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module                			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()	|
 | [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.6.0.hotfix-1](#_460hotfix-1-2022-10-24)| 24 okt 2022 	| Performantie fix en data migratie verbetering 	            	| [![Generic badge](https://img.shields.io/badge/Core-PROD-Green.svg)]()  	|
@@ -69,10 +69,13 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
   - Het logboek kan ook door andere modules gebruikt worden in het systeem om zo een goe beeld te krijgen wat en wanneer er allemaal gebeurt. 
   - Het logboek kan een handig hulpmiddel zijn voor troubleshooting. 
 
+- **Broadcasting module**
+  - todo
+
 
 [Terug naar het overzicht](#_index)
 
-## [4.7.1]
+## [4.7.1]: 2023-02-07
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16431)
 
@@ -107,6 +110,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Overzicht van revisies toont terug de twee geselecteerde revisies als je van de vergelijkenpagina terugkeert naar het overzicht.
   - De redactie toonde soms dubbele tooltips, een blauwe van het redactie systeem en daarbovenop een zwarte die de browser zelf (op safari) voorzag.
 
+- **Search**
+  - Bij het herindexeren van grote sites loopt het systeem niet meer vast
 - **Navigatie**
   - De leave popup wordt niet meer getoond van een net bewaard content item als je naar het sitestructuur compartiment gaat.
   - Context popup van een content item laad correct als je dit opvraag vanuit de sitestructuur
