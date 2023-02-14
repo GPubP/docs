@@ -8,7 +8,7 @@ De essentie van deze module is om logs te centraliseren per site en tenant zodat
 
 Ga hiervoor naar de tenant of site naar keuze en selecteer `logboek`.
 
-![Logbook module concept](.//modules/assets/wcm-logbook-module-1.png 'Menu van de logbook module.')
+![Logbook module concept](.//modules/assets/logbook-module-1.png 'Menu van de logbook module.')
 
 ## zoeken in het logbook
 !> todo
