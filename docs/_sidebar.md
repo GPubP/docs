@@ -88,6 +88,7 @@
   * [Bestaande modules](/modules/content/wcm-modules "Bestaande modules | WCM Modules | GPubP")  
     * [Broadcast](/modules/content/modules/module-broadcast "Broadcast module | WCM modules | GPubp")
     * [Events](/modules/content/modules/module-events "Events module | WCM modules | GPubp")
+    * [Logbook](/modules/content/modules/module-logbook "Logbook module | WCM modules | GPubp")
   * [Maak je eigen module](/modules/content/getting-started "Maak je eigen module | WCM Modules | GPubP")  
     * [Architectuur](/modules/content/architecture/index "GPubP Content - Architectuur")
     * [Best practices](/modules/content/best-practices "GPubP Content - Best principes")
