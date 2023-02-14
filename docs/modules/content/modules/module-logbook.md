@@ -3,16 +3,21 @@
 > [!info|label:Definitie]
 > Met deze module kan je logs sturen naar een gecentraliseerde log in de WCM. De logs zijn rechtrstreeks beschikbaar en doorzoekbaar in de WCM.
 
-## Logs versturen
-De essentie van deze module is om logs te centraliseren per site en tenant. Als [Content beheerder](/redactie/content/toegang-content-beheerder) kan je deze logs raadplegen en doorzoeken. Ga hiervoor naar de tenant of site naar keuze en selecteer `logboek`.
+## Logs raadplegen
+De essentie van deze module is om logs te centraliseren per site en tenant zodat [Content beheerders](/redactie/content/toegang-content-beheerder) of [Site beheerders](/redactie/content/toegang-site-beheerder) een eerste idee kunnen vormen van de gebeurtenissen in het systeem. Hiermee kunnen ze een indicatie krijgen ingeval van problemen. Voor uitgebreide logging is het wel noodzakelijk om de technische logs erbij te nemen. 
+
+Ga hiervoor naar de tenant of site naar keuze en selecteer `logboek`.
 
 ![Logbook module concept](.//modules/assets/wcm-logbook-module-1.png 'Menu van de logbook module.')
 
-## Implementatie
+## zoeken in het logbook
+!> todo
+
+## Hoe gebruik ik als ontwikkelaar het logbook 
 
 Door gebruik te maken van de `requestModule` functie van `tenantConfig` kan de logbook module aangesproken worden door andere WCM modules. De logbook module verwacht een body met volgende parameters: 
 
-```
+```json
 {
   "title": "Logging entry title",
   "date": "yyyy-MM-ddTHH:mm:ssZ",
@@ -24,7 +29,7 @@ De `date` parameter verwacht een UTC formaat. De `Title` en de `content` zijn be
 
 Voor het schrijven naar de logbook module voor een site kan de volgende implementatie gebruikt worden:
 
-```
+```javascript
 await tenantConfig.requestModule(
     tenantKey,
     'logbook',
@@ -38,7 +43,7 @@ await tenantConfig.requestModule(
 
 Voor het schrijven naar de logbook module voor een tenant kan de volgende implementatie gebruikt worden:
 
-```
+```javascript
 await tenantConfig.requestModule(
     tenantKey,
     'logbook',
@@ -50,7 +55,7 @@ await tenantConfig.requestModule(
 )
 ```
 
-Waarbij tenantKey opgehaald kan worden via: 
+Waarbij `tenantKey` opgehaald kan worden via: 
 
 ```
 static getTenantKey(tenantApikey: string): string {
