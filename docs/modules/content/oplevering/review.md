@@ -1,4 +1,4 @@
-# Review
+# Code review
 
 ## Aanvragen
 Een nieuwe aanvraag voor een review kan steeds per mail via Erik Lenearts \<erik.lenearts@digipolis.be\>.

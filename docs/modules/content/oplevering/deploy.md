@@ -1,4 +1,4 @@
-# Deploy
+# Deploy aanvragen
 Een deploy van je contributie module kan aangevraagd worden en wordt praktisch uitgevoerd door de Technical Maintainer (SHD) op de acceptatie en productie omgeving.
 Op de development omgeving wordt er verwacht dat de contributor dit zelf voorziet.
 
