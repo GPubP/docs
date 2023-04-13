@@ -1,20 +1,20 @@
 # Toegang aanvragen als gebruiker
-Je kan toegang vragen tot de `Redactie`, start hiervoor bij UME.
+Je kan toegang vragen tot de `Redactie`, start hiervoor `Mijn toegang` op. 
 
-1. Ga naar [UME <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](http://um.antwerpen.be ':target="_blank"')
-2. Start een nieuwe aanvraag
+1. Ga naar [Mijn toegang <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://mijntoegang.antwerpen.be ':target="_blank"')
+2. Meld je aan
+3. Start een nieuwe aanvraag
 
-![UME](.//redactie/assets/ume-1.jpg)
+![Mijn toegang](.//redactie/assets/mt-1.png)
 
-1. Stel je naam in (van jezelf of een collega voor wie je de aanvraag doet)
-2. Kies `Stad Antwerpen` als organisatie
-3. vervolgens kies je de toepassing `REDACTIE`
-4. en voeg de rol `<tenant>_gebruiker` toe voor de tenant waar je in wil werken. 
-5. Klik op `Aanvragen`
+1. Kies `Stad Antwerpen` als organisatie
+2. vervolgens kies je de applicatie `REDACTIE`
+3. en kies de rol `<tenant>_gebruiker` toe voor de tenant waar je in wil werken. 
+4. Werk de aanvraag verder af.
 
-![UME](.//redactie/assets/ume-2.jpg)
+![Mijn toegang](.//redactie/assets/mt-2.png)
 
 
 ?> Bekijk hier de [video](https://watch.screencastify.com/v/EVbwFYYCuD1hEs2ZcF8G) hoe je toegang tot de redactie kan aanvragen.
 
-Eenmaal je toegang hebt, kan je aan een beheerder vragen om toegang te krijgen tot een site. Hij of zij zal je dan een [een rol toekennen](/redactie/content/toegang-rollen-rechten).
+Eenmaal je toegang hebt, kan je aan een [beheerder](/redactie/content/toegang-site-beheerder) vragen om toegang te krijgen tot een site. Hij of zij zal je dan een [een rol toekennen](/redactie/content/toegang-rollen-rechten).
