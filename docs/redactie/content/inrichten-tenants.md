@@ -3,7 +3,7 @@
 Het eerste wat je moet doen om een [tenant](/common/content/concept-tenant) te kunnen inrichten is toegang krijgen tot de tenant. Gebruik hiervoor [deze procedure](/redactie/content/toegang-aanvragen):
 
 > [!warning|labelVisibility:hidden|iconVisibility:hidden]
-> Let op dat je kiest voor de `<tenant>_beheerder` rol in UM.
+> Let op dat je kiest voor de `<tenant>_beheerder` rol in Mijn toegang.
 
 Een tenant inrichten is voorbehouden voor [tenant beheerders](/redactie/content/toegang-tenant-beheerder).
 
