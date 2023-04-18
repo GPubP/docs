@@ -9,7 +9,7 @@ Een tenant inrichten is voorbehouden voor [tenant beheerders](/redactie/content/
 
 ## Nieuwe tenant aanvragen
 
-Je kan ook een nieuwe tenant aanvragen via [dit formulier](https://formulieren.antwerpen.be/v1/generiek-eloket/aanvraag-nieuwe-tenant-gpubp). Merk op dat je niet zomaar een nieuwe tenant zal krijgen vermits dat het toch behoorlijk wat computer resources verbruikt. Bovendien zal je eerst een intake gesprek moeten houden om na te gaan of je recht hebt op een nieuwe tenant. Tijdens een intake gesprek kan je toelichten wat je plannen zijn en kunnen we nagaan of het systeem voor jou toereikend is, [wat er zit aan te komen](/RELEASE) en wat de timing van je project is.
+Je kan ook een nieuwe tenant aanvragen via [dit formulier](https://formulieren.antwerpen.be/v1/generiek-eloket/aanvraag-nieuwe-tenant-gpubp). Merk op dat je niet zomaar een nieuwe tenant zal krijgen vermits dat het toch behoorlijk wat resources verbruikt. Bovendien zal je eerst een intake gesprek moeten houden om na te gaan of je recht hebt op een nieuwe tenant. Tijdens een intake gesprek kan je toelichten wat je plannen zijn en kunnen we nagaan of het systeem voor jou toereikend is, [wat er zit aan te komen](/RELEASE) en wat de timing van je project is.
 
 > Contacteer erik.lenaerts@digipolis.be voor intake gesprek.
 
@@ -21,10 +21,11 @@ Bij de aanvraag van een tenant kan je aangeven welke [modules](/modules/README) 
 
 ## Tenant specifieke instellingen 
 
-!> Todo: sites, meertaligheid, workflows, events, logboek, structuur elementen
+Eenmaal de tenant up & running is en je bent aangemeld als tenant beheerder kan je enkele tenant specifieke instellingen opzetten zoals: 
 
-## Een site maken
-
-Tenant beheerders maken [sites](/common/content/concept-site), die beheerd worden door [site beheerders](/redactie/content/toegang-site-beheerder). Een site aanmaken doe je als volgt: 
-
-!> Todo
+* [Talen](/redactie/content/inrichten-meertaligheid)
+* [Sites](/redactie/content/inrichten-sites)
+* [Workflows](/redactie/content/inrichten-workflows)
+* Structuur elementen zoals [content types](/redactie/content/inrichten-content-types), [blokken](/redactie/content/inrichten-content-types), [compnenten](/redactie/content/inrichten-cc) & [Taxonomie](/redactie/content/inrichten-taxonomie)
+* Gebruikers
+* Events
