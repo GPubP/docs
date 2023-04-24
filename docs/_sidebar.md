@@ -86,6 +86,10 @@
 
 * [WCM API](/wcmv4/README "WCM API | GPubP")
   * [Voorbereiding](/wcmv4/content/preparation "Voorbereiding | WCM API | GPubP")
+  * [Datums en tijd](/wcmv4/content/datetime "Datums en tijd | WCM API | GPubP")
+  * [API reference](/wcmv4/content/api-reference "API reference | WCM API | GPubP")
+  * [Content](/wcmv4/content/content "Datums en tijd | WCM API | GPubP")
+    * [Content item opvragen](/wcmv4/content/content-item-read "Content item opvragen | WCM API | GPubP")
   * [FAQ](/wcmv4/content/troubleshooting "FAQ | WCM API | GPubP")
   
 * [WCM Modules](/modules/README "WCM Modules | GPubP")
