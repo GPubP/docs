@@ -11,3 +11,7 @@
 + De inrichting & instellingen staan niet op punt +
   
   Voor elke site zijn er heel wat instelling te doen, URL patronen, sitestructuur, menu's, voorvertoning, etc. Vraag je [content beheerder](/redactie/content/toegang-content-beheerder) om je te helpen alles goed te zetten. Ben je zelf een content beheerder, [bekijk hier de documentatie](/redactie/content/inrichten.md) om de inrichting op punt te zetten.
+
++ Ik kan geen content aanmaken in m'n site +
+  
+  Vooraleer je content kan aanmaken moet je een [content type hebben dat geactiveerd](/redactie/content/inrichten-content-types) is voor jouw site. Als dit in orde is kan je [content beginnen aanmaken](/redactie/content/content-beheren-schrijven). 
