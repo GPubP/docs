@@ -1,4 +1,4 @@
-# Meertaligheid
+# Meertaligheid inrichten
 
 Sommige afnemers willen content in meerdere talen aanbieden aan hun gebruikers. Hierbij denken we aan: 
 
@@ -15,6 +15,9 @@ Vooraleer je kan bepalen welke talen er gebruikt gaan wordt per site, moet je - 
 2. Kies `Talen` in het menu
 3. Voeg de talen toe die je wenst ter beschikking te stellen voor de sites.
 
+> Het systeem maakt achterliggend gebruik van [ISO 3166-1](https://nl.wikipedia.org/wiki/ISO_3166-1) taalcodes.
+
+
 ## Talen instellen per site
 
 Voor elke site kan een [site beheerder](/redactie/content/toegang-site-beheerder) aangeven welke talen er gebruikt mogen worden. Hier kan gekozen worden uit de talen die voorzien zijn bij de tenant.
@@ -22,13 +25,19 @@ Voor elke site kan een [site beheerder](/redactie/content/toegang-site-beheerder
 1. Ga hiervoor naar de instellingen van de site
 2. activeer/deactiveer de talen die je wenst
 
-?> **Tip:** Op het instellingen scherm van de site kan je opvolgen hoeveel content items er aanwezig zijn per taal.
+**Tip:** Op het instellingen scherm van de site kan je opvolgen hoeveel content items er aanwezig zijn per taal.
 
 ## Content vertalen
 
 Zie het luik [vertalen](/redactie/content/content-beheren-vertalen) onder content beheer.
 
-## Content items in de WCM
+## Taxonomie vertalen
+
+Zie het luik [taxonomie](/redactie/content/content-beheren-taxonomie) onder content beheer.
+
+## Content items in de WCM 
+
+!> Todo: dit stuk nog verplaatsen naar het WCM hoofdstuk
 
 Als redacteur kan je een [content item](/common/content/concept-ci) invoeren in een specifieke taal en kan je hiervan een vertaling maken. In de praktijk komt het erop neer dat het systeem meerdere content items aanmaakt en aan elkaar linkt door middel van één en dezelfde `translationId`.
 

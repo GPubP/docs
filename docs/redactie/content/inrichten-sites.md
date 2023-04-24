@@ -18,7 +18,7 @@ Tenant beheerders maken [sites](/common/content/concept-site), die beheerd worde
 * Selecteer minstens één taal uit de lijst. Staat er een taal niet bij, ga je dit eerst nog moeten [aangeven](/redactie/content/inrichten-meertaligheid)
 * Klik op `Bewaar en ga verder` voor het volgende deel. 
 
-!> Merk op dat nu de site **aangemaakt wordt**. Van zodra de klaar is, verschijnen er extra opties (tabs).
+Merk op dat nu de site **aangemaakt wordt**. Van zodra de klaar is, verschijnen er extra opties (tabs).
 
 ## Site id
 

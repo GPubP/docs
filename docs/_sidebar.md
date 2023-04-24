@@ -32,6 +32,7 @@
     * [Vertalen](/redactie/content/content-beheren-vertalen "Content vertalen | Redactie | GPubP")
     * [Workflows](/redactie/content/content-beheren-workflows "Redactionele workflows | Redactie | GPubP")
     * [Slugs & URL's](/redactie/content/content-navigatie-url "URL's | Redactie | GPubP")
+    * [Taxonomie](/redactie/content/content-beheren-taxonomie "Taxonomie | Redactie | GPubP")
     * [Sitestructuur](/redactie/content/content-navigatie-sitestructuur "Sitestructuur | Redactie | GPubP")
     * [Menu's](/redactie/content/content-navigatie-menu "Menu's | Redactie | GPubP")
   * [Redactie inrichten](/redactie/content/inrichten "Redactie inrichten | Redactie | GPubP")
