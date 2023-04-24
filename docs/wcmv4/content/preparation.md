@@ -1,13 +1,9 @@
 # Voorbereiding
 
-## ... om content te lezen
+Vooraleer je aan de slag gaat met de WCM API kan je jezelf voorbereiden door volgende info te bekijken. 
 
-In essentie volg je deze stappen om content te
+* Bekijk hier de [API richtlijnen van Antwerpen](https://antwerp-api.digipolis.be/#/).
+* [ACPaaS portaal](https://acpaas.digipolis.be/)
+* [Hoe koppel je een toepassing met een API van Antwerpen?](https://acpaas.digipolis.be/nl/docs/koppelen-met-api)
 
-1. Leg een contract aan met de <code>WCM Proxy</code> API of <code>WCM Content Manager</code> API. Hier bekom je uw **API key**. 
-2. Bezorg de API key aan de beheerder van de **WCM tenant** waarmee je wil werken zodat je met deze key hier toegang tot krijgt.
-3. Zoek de <code>site id</code> op in de Redactie. 
-
-## ... om content te schrijven
-
-!> TODO: Nog over te zetten naar hier: [documentatie op google docs](https://docs.google.com/document/d/1cMGpDkgqBnVhzlr7nr00YK8xciIESvIX1YmffqT6VzE/edit#heading=h.l67yrjqrohp5) 
+?> Bekijk hier de [FAQ](/wcmv4/content/troubleshooting) indien je nog vragen hebt over de inrichting van de WCM.
