@@ -3,7 +3,9 @@
 
 [Intro](https://watch.screencastify.com/v/6ZDRvr2HjzdGkRUks6G4" ':target="_blank"'): high level overzicht van het GPubP *(5 min)*
 
-[Toegang aanvragen](https://watch.screencastify.com/v/EVbwFYYCuD1hEs2ZcF8G ':target="_blank"'): Van start gaan en toegang aanvragen via UM *(4 min)*
+[Toegang aanvragen](https://watch.screencastify.com/v/EVbwFYYCuD1hEs2ZcF8G ':target="_blank"'): Van start gaan en toegang aanvragen via UM *(4 min)* 
+
+!> TODO: maak nieuwe video op basis van `Mijn toegang`.
 
 [Rollen en rechten](https://watch.screencastify.com/v/mFKQnDDjDayw8rKRm1p2 ':target="_blank"'): Welke rollen zijn er en wat kan je ermee *(9 min)*
 

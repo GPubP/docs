@@ -58,20 +58,20 @@ Een tenant aanmaken kan door te navigeren naar http://localhost:3999 en daar een
 2. Klik op `New Website`.
 3. Vul een naam in dat ook bestaat op DEV.
 
-> [!note] Users kunnen toegang krijgen tot een tenant via rechten, ingesteld op UM (User Management toepassing van Antwerpen).
+> [!note] Users kunnen toegang krijgen tot een tenant via rechten, ingesteld op Mijn toegang.
 > De rechten worden gechecked op basis van systeemnaam. 
 > Hierdoor is het belangrijk dat de systeemnaam bij het aanmaken van een lokale tenant overeenkomt met een systeemnaam op dev.
 >
-> Zo kan je "meegenieten" van de UM rechten die reeds ingesteld zijn en hoef je geen eigen UM rechten laten registeren voor je lokale omgeving.
+> Zo kan je "meegenieten" van de UM rechten die reeds ingesteld zijn en hoef je geen eigen Mijn toegang rechten laten registeren voor je lokale omgeving.
 
-4. Vink `enabled` aan.
-5. Valideer onder `Advanced` dat de `Name` overeenkomt met een `Name` op een tenant op dev (best een waar jouw gebruiker toegang toe heeft).
-6. Vul als onder `Domain url` `http://localhost:3102/` in.
-7. Vul onder `Database` het volgende in en laat het overige leeg:
+1. Vink `enabled` aan.
+2. Valideer onder `Advanced` dat de `Name` overeenkomt met een `Name` op een tenant op dev (best een waar jouw gebruiker toegang toe heeft).
+3. Vul als onder `Domain url` `http://localhost:3102/` in.
+4. Vul onder `Database` het volgende in en laat het overige leeg:
     - Database name: `wcm-content-dev` (zelf te kiezen)
     - Database URI: `mongodb://host.docker.internal:27008`
-8. Selecter onder `Modules` die je wil instellen op de tenant (zie [Modules setup](/modules/content/setup/wcm/modules.md) indien je er geen kan toevoegen).
-9. Klik op `Save website`
+5. Selecter onder `Modules` die je wil instellen op de tenant (zie [Modules setup](/modules/content/setup/wcm/modules.md) indien je er geen kan toevoegen).
+6. Klik op `Save website`
 
 ![Website aanmaken](../../../assets/wcm-admin-website.png ':size=900')
 
