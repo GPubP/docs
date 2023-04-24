@@ -68,6 +68,6 @@ Onder meta vind je metadata terug van het content item. Dit is informatie dat de
 }
 ```
 
-?> Wil je draft content ophalen, oftewel content dat niet online staat, gebruik dan de WCM Content Manager API history call.
+?> Wil je draft content ophalen, oftewel content dat niet online staat, gebruik dan de WCM Content Manager [API history call](/wcmv4/content/content-history).
 
 

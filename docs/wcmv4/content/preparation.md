@@ -1,4 +1,4 @@
-# Voorbereiding
+# Voorbereiding en afspraken
 
 Vooraleer je aan de slag gaat met de WCM API kan je jezelf voorbereiden door volgende info te bekijken. 
 
