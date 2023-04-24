@@ -86,10 +86,13 @@
 
 * [WCM API](/wcmv4/README "WCM API | GPubP")
   * [Voorbereiding](/wcmv4/content/preparation "Voorbereiding | WCM API | GPubP")
-  * [Datums en tijd](/wcmv4/content/datetime "Datums en tijd | WCM API | GPubP")
+    * [Datums en tijd](/wcmv4/content/datetime "Datums en tijd | WCM API | GPubP")
+    * [Rate limiting](/wcmv4/content/content-rate-limiting "Rate limiting | WCM API | GPubP")
   * [API reference](/wcmv4/content/api-reference "API reference | WCM API | GPubP")
-  * [Content](/wcmv4/content/content "Datums en tijd | WCM API | GPubP")
+  * [Content API](/wcmv4/content/content "Datums en tijd | WCM API | GPubP")
     * [Content item opvragen](/wcmv4/content/content-item-read "Content item opvragen | WCM API | GPubP")
+    * [Cache control](/wcmv4/content/content-cache-control "Content cache | WCM API | GPubP")
+    * [Content historiek](/wcmv4/content/content-history "Content historiek | WCM API | GPubP")
   * [FAQ](/wcmv4/content/troubleshooting "FAQ | WCM API | GPubP")
   
 * [WCM Modules](/modules/README "WCM Modules | GPubP")
