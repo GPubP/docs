@@ -106,6 +106,7 @@
       * [Content sorteren](/wcmv4/content/content-views-sort "Content sorteren | WCM API | GPubP")    
       * [Content filteren](/wcmv4/content/content-views-filter "Content filteren | WCM API | GPubP")    
       * [View referenties](/wcmv4/content/content-views-references "View referenties | WCM API | GPubP")    
+    * [Paragrafen](/wcmv4/content/content-paragraphs "Werken met paragrafen | WCM API | GPubP")    
   * [FAQ](/wcmv4/content/troubleshooting "FAQ | WCM API | GPubP")
   
 * [WCM Modules](/modules/README "WCM Modules | GPubP")
