@@ -4,7 +4,7 @@ By default [haal je content op dat online](/wcmv4/content/content-item-read) is,
 Wil je bijvoorbeeld de werkversie ophalen die een redacteur heeft bewaard na een eerdere publicatie, dan kan je dit via de [WCM Content Manager API](/wcmv4/content/api-content-manager).
  
 ```shell
-curl --location --request GET 'https://api-gw-a.antwerpen.be/acpaas/wcm-content-manager/v4/proxy/admin/content/v1/sites/<site-id>/content/<uuid>/history/<historyType>' \
+curl --location --request GET '/wcm-content-manager/v4/proxy/admin/content/v1/sites/<site-id>/content/<uuid>/history/<historyType>' \
 --header 'apikey: <api-key>'
 ```
 
