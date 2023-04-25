@@ -1,7 +1,13 @@
-# URL paden 
-Elk content item heeft in het `meta` luik een `urlPath` waarin informatie zit over het pad van dit content item.
+# URL paths
+Elk content item heeft in het `meta` luik een `urlPath` waarin informatie zit over het pad van dit content item. Het grote voordeel is dat frontends op die manier geen berekening moeten maken van het pad. 
 
-Het grote voordeel is dat frontends op die manier geen berekening moeten maken van het pad. 
+Haal je een content item op via bijvoorbeeld
+
+```shell
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug={slug}&lang={lang}
+```
+
+dan krijg je volgende payload. 
 
 ```json
  {
@@ -23,7 +29,12 @@ Het grote voordeel is dat frontends op die manier geen berekening moeten maken v
  }
 ```
 
-Het patroon wordt bepaald op het content type zelf tijdens de inrichting:
+De volledige absolute URL kan je opbouwen door url basis uit de [site info](/wcmv4/content/site) te combineren met deze urlPath values.
+
+In de payload vind je:
+
+* **standardPattern/standardValue:** dit is het patroon en de  waarde dat je normaal zou krijgen wat er [geconfigureerd](/redactie/content/inrichten-navigatie) is op het content type
+* **pattern/value:** dit is het patroon en de waarde dat voor dit content item
 
 ## URL paden van gerelateerde content
 Wil je van gerelateerde content ook een meta.urlPath meekrijgen dan ga je voorlopig een `populate=true` query parameter moeten hanteren. 
