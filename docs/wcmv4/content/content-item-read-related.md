@@ -3,31 +3,31 @@ Wanneer je content ophaalt, is dit enkel de data van dat item met de gegeven slu
 1. het kan één of meerdere content referenties bevatten naar andere content items
 2. het kan een view referentie bevatten dat op zich resulteert in een lijst van content items
 
-Gerelateerde content kan je ophalen door bijkomende ([WCM Proxy](/wcmv4/content/api-proxy)) API calls uit te voeren. Dit kan soms tot heel veel bijkomend API calls & netwerk trafiek leiden, wat voor performantie nadelig is. 
+Gerelateerde content kan je ophalen door bijkomende ([WCM Proxy](/wcmv4/content/endpoint-proxy)) API calls uit te voeren. Dit kan soms tot heel veel bijkomend API calls & netwerk trafiek leiden, wat voor performantie nadelig is. 
 
 ## Content referenties ophalen
 > Gerelateerde content mee opvragen in één call, samen met het hoofd content item kan via de optionele populate parameter.
 
 De `populate` (query) parameter zet je na de andere parameters zoals `slug` en `lang`.
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug={slug}&populate=...&lang={lang} 
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug={slug}&populate=...&lang={lang} 
 ```
 
 de populate query parameter werkt als volgt: Je geeft de naam op van het content referentie veld waarvan je de content wil toevoegen aan het resultaat. Enkele voorbeelden: 
 
 *Haal content item regio-noord op, inclusief de content van het gelinkte kantoor.*
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=regio-noord&populate=kantoor&lang=nl
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=regio-noord&populate=kantoor&lang=nl
 ```
 
 *Haal het product frisbee-rood op, inclusief de content van de gelinkte reviews. In dit voorbeeld heeft het product een content referentie onder de naam reviews dat ingesteld is op multiple. De redacteur kan dus meerdere reviews kiezen voor dit product.*
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=frisbee-rood&populate=reviews&lang=nl 
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=frisbee-rood&populate=reviews&lang=nl 
 ```
 
 *Haal het homepage content item home op, inclusief de content dat resulteert uit de gelinkte belangrijk-nieuws view.*
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=home&populate=belangrijk-nieuws&lang=nl 
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=home&populate=belangrijk-nieuws&lang=nl 
 ```
 
 Uit deze voorbeelden zie je dat je enkel de naam van het veld (content component) moet meegeven wat je wil populeren. Als je een naam opgeeft van een veld dat op zich geen content referentie is, dan gebeurt er niets. Geef je een naam op van een veld dat niet bestaat krijg je eveneens een HTTP 200 terug.
@@ -37,7 +37,7 @@ Als je van een content item, meteen 2 of meerdere gerelateerde content wil ophal
 
 *Stel je hebt een `factuur`, waarvan je de `factuurlijnen` en de `klant` wil ophalen in één call.*
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=INV0012&populate=invoicelines,customer&lang=nl
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=INV0012&populate=invoicelines,customer&lang=nl
 ```
 
 > Geen spaties gebruiken voor of na de komma. (zie ook [RFC1738](https://www.rfc-editor.org/rfc/rfc1738)) 
@@ -48,13 +48,13 @@ Er zijn situaties waarbij je content model bestaat uit meerdere niveaus. Zo heb 
 !> Momenteel laat de API niet toe om dieper liggende gerefereerde content op te halen. 
 
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=home&populate=projecten,projecten.team&lang=nl
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=home&populate=projecten,projecten.team&lang=nl
 -> HTTP 400 
 ```
 
 *Haal de `homepage` op, met de content referenties (links) die vervat zit in een `toptaken` content component.*
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=home&populate=toptaken-list.links&lang=nl
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=home&populate=toptaken-list.links&lang=nl
 ```
 Geen spaties gebruiken voor of na het punt. (zie ook [RFC1738](https://www.rfc-editor.org/rfc/rfc1738)) 
 
@@ -63,14 +63,14 @@ Stel je hebt een content model waarbij je verwijst naar een content item van het
 
 *Haal content item Jefke op, inclusief z’n vriend (Jos). De vrienden van Jos worden niet opgehaald.*  
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=jefke&populate=vriend-van&lang=nl 
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=jefke&populate=vriend-van&lang=nl 
 ```
 ## Alle content populeren
 Wil je meteen alle content van het content item in één instructie populeren, gebruik je `populate=true`. 
 
 *Stel je hebt een `factuur`, waarvan je de `factuurlijnen`, `klant`, `producten`, etc. wil ophalen.*
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=INV0012&populate=true&lang=nl
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug=INV0012&populate=true&lang=nl
 ```
 
 ## Content referenties voor fieldgroup en multiple

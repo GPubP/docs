@@ -1,10 +1,10 @@
 # URL paths
 Elk content item heeft in het `meta` luik een `urlPath` waarin informatie zit over het pad van dit content item. Het grote voordeel is dat frontends op die manier geen berekening moeten maken van het pad. 
 
-Haal je een content item op via bijvoorbeeld
+[Haal je een content item op](/wcmv4/content/content-item-read) via bijvoorbeeld
 
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug={slug}&lang={lang}
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug={slug}&lang={lang}
 ```
 
 dan krijg je volgende payload. 

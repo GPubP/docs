@@ -11,8 +11,10 @@ In volgend sequence diagram zie je hoe dit by default werkt:
 ## Request HTTP headers
 Met de `Cache-Control` header kan je als consumer aangeven om niet de gecachte versie terug te geven maar de actuele data. Dit kan in sommige gevallen even duren omdat het systeem intern het content item nog moet samenstellen.
 
+We maken hieronder gebruik van de [WCM Proxy endpoint](/wcmv4/content/endpoint-proxy).
+
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=xyz&lang=nl
+GET /wcm-proxy/v4/content/v1/sites/{sId}/content?slug=xyz&lang=nl
 --header 'Cache-Control: no-cache'
 ```
 

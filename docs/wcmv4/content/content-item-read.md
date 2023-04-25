@@ -1,9 +1,9 @@
 # Een conten item opvragen
 
-Via de [WCM Proxy API](/wcmv4/content/api-proxy) kan je één content item opvzagen via z’n slug:
+Via het [WCM Proxy endpoint](/wcmv4/content/endpoint-proxy) kan je één content item opvragen via z’n slug:
 
 ```shell
-GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug={slug}&lang={lang}
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug={slug}&lang={lang}
 ```
 
 De slug vind je terug in de redactie tool.
