@@ -95,7 +95,7 @@
   * [Content API](/wcmv4/content/content "Content | WCM API | GPubP")
     * [Content](/wcmv4/content/content-read "Content opvragen | WCM API | GPubP")    
       * [Content item](/wcmv4/content/content-item-read "Content item opvragen | WCM API | GPubP")
-      * [Content referenties](/wcmv4/content/content-item-read-related "Content referenties | WCM API | GPubP")
+      * [Content referenties](/wcmv4/content/content-item-references "Content referenties | WCM API | GPubP")
       * [Content type vs blok](/wcmv4/content/content-item-read-type-vs-blok "Content types versus blokken | WCM API | GPubP")
       * [Content historiek](/wcmv4/content/content-history "Content historiek | WCM API | GPubP")
       * [Payload optimaliseren](/wcmv4/content/content-payload "Payload optimaliseren | WCM API | GPubP")
