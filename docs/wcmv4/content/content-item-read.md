@@ -59,7 +59,7 @@ Onder meta vind je metadata terug van het content item. Dit is informatie dat de
   },
   "meta": {
     "slug": {
-       "nl": "kantoor-noorderlaan”
+       "nl": "kantoor-noorderlaan"
     },
     "label": "Kantoor Noorderlaan",
     "contenttype": "kantoor",

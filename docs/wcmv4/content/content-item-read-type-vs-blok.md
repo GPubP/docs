@@ -8,7 +8,7 @@ Ingeval het gemaakt is van een content type krijg je:
   ...
   "meta": {
     "slug": {
-       "nl": "kantoor-noorderlaan”
+       "nl": "kantoor-noorderlaan"
     },
     "label": "Kantoor Noorderlaan",
     "contenttype": "kantoor",
