@@ -97,9 +97,9 @@
       * [Content item](/wcmv4/content/content-item-read "Content item opvragen | WCM API | GPubP")
       * [Content relaties](/wcmv4/content/content-item-read-related "Content relaties | WCM API | GPubP")
       * [Content type vs blok](/wcmv4/content/content-item-read-type-vs-blok "Content types versus blokken | WCM API | GPubP")
-      * [Content linken](/wcmv4/content/content-url-path "Content linken | WCM API | GPubP")
-      * [Cache control](/wcmv4/content/content-cache-control "Content cache | WCM API | GPubP")
       * [Content historiek](/wcmv4/content/content-history "Content historiek | WCM API | GPubP")
+    * [Url Paths](/wcmv4/content/content-url-path "Url Paths | WCM API | GPubP")
+    * [Cache control](/wcmv4/content/content-cache-control "Content cache | WCM API | GPubP")
   * [FAQ](/wcmv4/content/troubleshooting "FAQ | WCM API | GPubP")
   
 * [WCM Modules](/modules/README "WCM Modules | GPubP")
