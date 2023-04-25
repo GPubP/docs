@@ -3,7 +3,7 @@
 Via de [WCM Proxy API](/wcmv4/content/api-proxy) kan je één content item opvzagen via z’n slug:
 
 ```shell
-GET /v1/sites/{siteId}/content?slug={slug}&lang={lang}
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug={slug}&lang={lang}
 ```
 
 De slug vind je terug in de redactie tool.

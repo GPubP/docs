@@ -10,7 +10,7 @@ Gerelateerde content kan je ophalen door bijkomende API calls uit te voeren. Dit
 
 De `populate` (query) parameter zet je na de andere parameters zoals `slug` en `lang`.
 ```shell
-GET /v1/sites/{siteId}/content?slug={slug}&lang={lang}&populate=... 
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug={slug}&lang={lang}&populate=... 
 ```
 
 de populate query parameter werkt als volgt: Je geeft de naam op van het content referentie veld waarvan je de content wil toevoegen aan het resultaat. Enkele voorbeelden: 
@@ -22,12 +22,12 @@ GET .../content?slug=regio-noord&lang=nl&populate=kantoor
 
 *Haal het product frisbee-rood op, inclusief de content van de gelinkte reviews. In dit voorbeeld heeft het product een content referentie onder de naam reviews dat ingesteld is op multiple. De redacteur kan dus meerdere reviews kiezen voor dit product.*
 ```shell
-GET .../content?slug=frisbee-rood&lang=nl&populate=reviews 
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=frisbee-rood&lang=nl&populate=reviews 
 ```
 
 *Haal het homepage content item home op, inclusief de content dat resulteert uit de gelinkte belangrijk-nieuws view.*
 ```shell
-GET .../content?slug=home&lang=nl&populate=belangrijk-nieuws 
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=home&lang=nl&populate=belangrijk-nieuws 
 ```
 
 Uit deze voorbeelden zie je dat je enkel de naam van het veld (content component) moet meegeven wat je wil populeren. Als je een naam opgeeft van een veld dat op zich geen content referentie is, dan gebeurt er niets. Geef je een naam op van een veld dat niet bestaat krijg je eveneens een HTTP 200 terug.
@@ -37,7 +37,7 @@ Als je van een content item, meteen 2 of meerdere gerelateerde content wil ophal
 
 *Stel je hebt een `factuur`, waarvan je de `factuurlijnen` en de `klant` wil ophalen in één call.*
 ```shell
-GET .../content?slug=INV0012&lang=nl&populate=invoicelines,customer
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=INV0012&lang=nl&populate=invoicelines,customer
 ```
 
 > Geen spaties gebruiken voor of na de komma. (zie ook [RFC1738](https://www.rfc-editor.org/rfc/rfc1738)) 
@@ -48,13 +48,13 @@ Er zijn situaties waarbij je content model bestaat uit meerdere niveaus. Zo heb 
 !> Momenteel laat de API niet toe om dieper liggende gerefereerde content op te halen. 
 
 ```shell
-GET .../content?slug=home&lang=nl&populate=projecten,projecten.team
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=home&lang=nl&populate=projecten,projecten.team
 -> HTTP 400 
 ```
 
 *Haal de `homepage` op, met de content referenties (links) die vervat zit in een `toptaken` content component.*
 ```shell
-GET .../content?slug=home&lang=nl&populate=toptaken-list.links
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=home&lang=nl&populate=toptaken-list.links
 ```
 Geen spaties gebruiken voor of na het punt. (zie ook [RFC1738](https://www.rfc-editor.org/rfc/rfc1738)) 
 
@@ -63,14 +63,14 @@ Stel je hebt een content model waarbij je verwijst naar een content item van het
 
 *Haal content item Jefke op, inclusief z’n vriend (Jos). De vrienden van Jos worden niet opgehaald.*  
 ```shell
-GET .../content?slug=jefke&lang=nl&populate=vriend-van 
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=jefke&lang=nl&populate=vriend-van 
 ```
 ## Alle content populeren
 Wil je meteen alle content van het content item in één instructie populeren, gebruik je `populate=true`. 
 
 *Stel je hebt een `factuur`, waarvan je de `factuurlijnen`, `klant`, `producten`, etc. wil ophalen.*
 ```shell
-GET .../content?slug=INV0012&lang=nl&populate=true
+GET {baseUrl}/wcm-proxy/v4/content/v1/sites/{siteId}/content?slug=INV0012&lang=nl&populate=true
 ```
 
 ## Content referenties voor fieldgroup en multiple
