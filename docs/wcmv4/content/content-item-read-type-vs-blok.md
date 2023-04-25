@@ -35,4 +35,5 @@ Ingeval het gemaakt is van een content blok krijg je:
 Het verschil is in `meta.slug` wat wel (content type) of niet (content blok) opgevuld gaat zijn. 
 
 > PS1: je zou verwachten dat de property `meta.contenttype` ook zou veranderen naar bv `meta.contentblok`, maar dit is niet het geval.
+
 > PS2: ingeval je een conversie van een content type naar een content blok hebt laten uitvoeren zullen oude content items nog steeds hun slug behouden.
