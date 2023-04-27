@@ -2,6 +2,18 @@
 
 Dit is de changelog van de GPubP v4 docs - documentatie. 
 
+## [1.4.0]: 2023-04-27
+### Added
+- sectie voor frontend development
+- redactie inrichting (tenant, sites, etc)
+- WCMv4 API basis (content items, relaties, paragraphs, cache control, ...)
+
+### Changed
+- navigatie geherstructureerd
+- gewisseld van start pagina 
+
+
+
 ## [1.3.0]: 2022-05-06
 ### Added
 - extra [content componenten](/redactie/content/inrichten-cc) gedocumenteerd
