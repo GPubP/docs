@@ -1,4 +1,6 @@
-# Site informatie
+# Site API
+
+## Site informatie opvragen
 
 Via de WCM kan je site informatie opvragen. Gebruik hiervoor de volgende API call:
 
