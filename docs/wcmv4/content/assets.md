@@ -3,6 +3,8 @@
 ## Assets ophalen
 Het ophalen van afbeeldingen of bestanden is vrij eenvoudig en je hebt hiervoor enkel een `id` nodig. Deze id kan je terugvinden wanneer je [content ophaalt](/wcmv4/content/content-item-read) waarin een [afbeelding content component](/redactie/content/inrichten-cc-afbeelding) voorkomt.
 
+Maak gebruik van het [WCM Proxy endpoint](http://localhost:3000/#/wcmv4/content/endpoint-proxy).
+
 *Via deze call haal je één specifieke asset op*
 ```shell
 GET .../assets/v1/sites/[siteId]/assets/cb293e6c-e10a-4dda-a296-3fee2840d86e/file 
