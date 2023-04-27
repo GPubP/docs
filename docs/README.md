@@ -8,8 +8,8 @@ Het **G**eneriek **Pub**licatie **P**latform is een verzameling van *bouwstenen*
 ## Content versus Frontend
 Het GPubP bestaat conceptueel uit 2 delen, deze kan je appart of samen gebruiken:
 
-* In het **Content** luik vind je de [Redactie UI <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://redactie.antwerpen.be ':target="_blank"') alsook de [WCMv4 <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://acpaas.digipolis.be/nl/product/web-content-management-engine/web-content-management-engine-forms-module ':target="_blank"') terug. 
-* In het **Frontend** luik zal je de [Layout Renderer <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://layout-renderer-a.antwerpen.be/ ':target="_blank"')  en de Page & Site builder terugvinden.
+* In het [Content](/common/content/content-beheer) luik vind je de Redactie alsook de WCMv4 terug. 
+* In het [Frontend](/common/content/frontend-beheer) luik zal je het layout rendering framework en de Page & Site builder terugvinden.
 
 ![GPubP high level](../common/assets/gpubp.jpg 'High level overzicht van het GPubP')
 

@@ -1,7 +1,7 @@
 <!-- docs/_sidebar -->
 
 * [Introductie](/#main "introductie | GPubP")
-  * [Content beheer](/common/content/content-beheer "Content beheer | GPubP")
+  * [Content](/common/content/content-beheer "Content beheer | GPubP")
     * [Instance](/common/content/concept-instance "Instance | Concepten | GPubP")
     * [Tenant](/common/content/concept-tenant "Tenant | Concepten | GPubP")
     * [Site](/common/content/concept-site "Site | Concepten | GPubP")
@@ -12,10 +12,10 @@
     * [Content item](/common/content/concept-ci "Content item | Concepten | GPubP")
     * [Content life cycle](/common/content/content-life-cycle "Content life cycle | GPubP")
     * [Videos](/common/content/videos "Videos | GPubP")
-  * [Frontend beheer](/common/content/content-beheer "Content beheer | GPubP")
+  * [Frontend](/common/content/frontend-beheer "Frontend beheer | GPubP")
 * [Getting Started](/common/content/getting-started "Getting started | GPubP")
 * [Release notes](/RELEASE "Release notes | GPubP")
-* [Content beheer](/common/content/content-beheer "Content beheer | GPubP")
+* [Redactie & WCM](/common/content/redactie-wcm "De Redactie & WCM | GPubP")
   * [Redactie](/redactie/README "Redactie | GPubP")
     * [Gebruikers beheren](/redactie/content/toegang-gebruikers "Gebruikers | Redactie | GPubP")
       * [Toegang aanvragen](/redactie/content/toegang-aanvragen "Toegang aanvragen | Redactie | GPubP")
