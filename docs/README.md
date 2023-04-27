@@ -1,33 +1,17 @@
-# GPubP v4 docs
+# Introductie
+Het **G**eneriek **Pub**licatie **P**latform is een verzameling van *bouwstenen* en tools ter *ondersteuning* voor de bouw en uitbating van web platformen waaronder www.antwerpen.be, www.politieantwerpen.be, ... maar ook de Mijn Antwerpen App.
 
-## Release highlights
-
-> [!tip|label: New release]
-> Op *7 februari* is **[4.7.1](/RELEASE?id=_471-2022-11-09)** gereleased met daarin essentiële bugfixes.
-> 
-> Op *9 november* is **[4.7.0](/RELEASE?id=_470-2022-11-09)** gereleased met daarin de **WCM Event module**. Hiermee kan je kiezen welke events je wil afleveren aan de digipolis Event Handler Engine. 
-> 
-> Op *2 november* is **[4.6.5](/RELEASE?id=_465-2022-11-02)** gereleased met de content **WCM Broadcast module**. Deze kan je gebruiken voor het aansturen van e-mail campagne systemen (voorlopig enkel SendGrid). 
-
-> [!attention|label: Wat komt er aan]
-> Door de cyberaanval zijn alle nieuwe releases met features en bugfixes on hold gezet. 
+* De bouwstenen zijn er voor **afnemers** die websites willen *maken*. 
+* De tools voor hoofdzakelijk **redacteurs** die de websites willen *beheren*.
 
 
-## Aan de slag
-Deze documentatie is voor iedereen die met het GPubP aan de slag wil. Je vindt hier de alle info om van start te gaan als *absolute beginner* tot specs voor de *doorgewinterde WCM developer*.  
+## Content versus Frontend
+Het GPubP bestaat conceptueel uit 2 delen, deze kan je appart of samen gebruiken:
 
-* Wil je de **basis concepten en terminologie** leren? Bekijk dan de [intro](common/content/intro) sectie.
-* Wil je een content model voor een site **inrichten**? Bekijk dan de [getting started](/redactie/content/inrichten) voor content beheerders.
-* Wil je meteen beginnen **ontwikkelen** met de WCMv4 API? Bekijk dan de [getting started](/wcmv4/README) voor ontwikkelaars.
-* Wil je een module **contribueren**? Bekijk dan de [getting started](/modules/content/getting-started) voor ontwikkelaars.
-* Wil je met de redactie aan de slag? Zie hier hoe je [toegang kan aanvragen](/redactie/content/toegang-aanvragen).
+* In het **Content** luik vind je de [Redactie UI <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://redactie.antwerpen.be ':target="_blank"') alsook de [WCMv4 <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://acpaas.digipolis.be/nl/product/web-content-management-engine/web-content-management-engine-forms-module ':target="_blank"') terug. 
+* In het **Frontend** luik zal je de [Layout Renderer <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://layout-renderer-a.antwerpen.be/ ':target="_blank"')  en de Page & Site builder terugvinden.
 
-!> Is het GPubP nog allemaal wat nieuw voor jou, check dan zeker [de video's](/common/content/videos), altijd handig om het systeem in actie te zien ;).
+![GPubP high level](../common/assets/gpubp.jpg 'High level overzicht van het GPubP')
 
-> [!warning|label: Wat vind je hier niet]
-> Deze docs gaan over het platform, de tools. Je zal hier geen documentatie vinden over specifieke redactionele werkingen. Elk redactieteam, elke site heeft z'n eigen procedures, z'n eigen [inrichting](/redactie/content/inrichten). De documentatie daarover vind je hier dus niet terug.
-
-## Vragen over deze docs?
-Heb je nog een vraag of een idee om iets te verbeteren/bij te dragen aan deze documentatie? Kijk even naar de [Contributie](/CONTRIBUTING.md) aanpak.
-
-De volledige changelog van de documentatie kan je [hier](/CHANGELOG.md) vinden.
+> [!NOTE|label:Wist je dat]
+> Het GPubP is een evolutie van de ACPaaS Web Content Management Engine (WCM) v3, een ACPaaS engine waar reeds veel websites (30+) mee gemaakt zijn voor de groep Antwerpen.

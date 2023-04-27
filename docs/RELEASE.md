@@ -2,6 +2,8 @@
 
 Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie**, aka **WCMv4**), één van de onderdelen van het [Generiek Publicatie Platform](/README.md). 
 
+!> Door de cyberaanval zijn alle nieuwe releases met features en bugfixes on hold gezet. 
+
 *Lees [hier meer](#legende) over het formaat en de structuur van deze release notes.*
 
 ## Index
