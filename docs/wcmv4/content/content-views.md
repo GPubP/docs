@@ -9,4 +9,4 @@ Van zodra je meerdere content items wil ophalen ga je te werk gaan via `views`. 
 
 ?> Wil je views beheren, bekijk dan [dit hoofdstuk](/redactie/content/inrichten-views).
 
-!> Todo : uitschrijven van het werken met Elastic App Search voor het ophalen van content lijsten
+?> Wil je **complexere lijst scenario's** zoals gecombineerde content types, geavanceerde sortering, etc. Maak dan gebruik van de [Search functionaliteiten](/wcmv4/content/search).
