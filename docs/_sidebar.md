@@ -168,7 +168,6 @@
         * [Paragrafen](/wcmv4/content/content-paragraphs "Werken met paragrafen | WCM API | GPubP")    
         * [Formulieren](/wcmv4/content/form-engine-integratie "Formulieren integreren| WCM API | GPubP")    
       * [Content bewerken](/wcmv4/content/content-write "Content bewerken | WCM API | GPubP")    
-        * [Voorbereiding](/wcmv4/content/content-write-preparation "Voorbereiding | WCM API | GPubP")    
         * [Create content](/wcmv4/content/content-write-create "Create content | WCM API | GPubP")    
         * [Update content](/wcmv4/content/content-write-update "Update content | WCM API | GPubP")    
       * [Views](/wcmv4/content/content-views "Views | WCM API | GPubP")    
