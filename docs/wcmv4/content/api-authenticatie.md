@@ -1,6 +1,4 @@
-# Authenticatie voor API calls 
-
-Authenticatie voor:
+# Authenticatie & authorisatie voor API calls 
 
 1. [content lezen](/wcmv4/content/api-authenticatie?id=content-lezen)
 2. [content bewerken](/wcmv4/content/api-authenticatie?id=content-bewerken)
@@ -21,7 +19,7 @@ Zorg ervoor dat je een geldig [contract](/wcmv4/content/api-contract) hebt. Er z
 Wanneer je content gaat bewerken via het [WCM Content Manager endpoint](/wcmv4/content/endpoint-content-manager) zal je bijkomende stappen moeten ondernemen, namelijk: 
 
 1. [BRaaS inrichten](/wcmv4/content/api-authenticatie?id=braas)
-2. [Redactie inrichten](/wcmv4/content/api-authenticatie?id=redactie-configureren) 
+2. [Authorisatie in de redactie inrichten](/wcmv4/content/api-authenticatie?id=redactie-configureren) 
 
 
 ### BRaaS
@@ -90,6 +88,25 @@ Zonder deze stap ga je een foutboodschap krijgen wanneer je content wil aanpasse
 ```
 "State transitions not allowed"
 ```
+
+
+## Schema’s
+Hier een schema van de voorbereiding en hoe die aan elkaar hangt:
+### Via de API store (deprecated)
+![API voorbereiding](../assets/api-prep-access.png 'De API voorbereiding (API store)')
+
+
+### Via de Open Platform Marketplace
+![API voorbereiding](../assets/api-prep-access-2.png 'De API voorbereiding (Open platform)')
+
+
+### Flow bij content bewerken
+![API calls](../assets/api-write-schema.png 'API calls om content te bewerken')
+
+In bovenstaande afbeelding is de waarde van de `Application identifier`
+
+* Open Programma = `Moniker`
+* API store (deprecated) = `OrganisationId + AppId + VersionId`
 
 ?> Lees [hier hoe je een workflow inricht](/redactie/content/inrichten-workflows).
 
