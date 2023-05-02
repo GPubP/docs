@@ -25,3 +25,8 @@ Merk op dat nu de site **aangemaakt wordt**. Van zodra de klaar is, verschijnen 
 Vanop de instellingen van de site kan je de Site Id kopiëren. Deze ga je op verschillend plekken kunnen gebruiken, vooral als je via de [WCM API](/wcmv4/README) content wil opvragen.
 
 ![Site id](../assets/site-id.jpg 'Site id kopieren')
+
+## Feature toggles
+
+* **Voorvertoning**: Aan/uitzetten van de [preview](/redactie/content/inrichten-preview) feature.
+* **Elastic App Search**: Aan/uitzetten van de [Search](/redactie/content/inrichten-search) features.
