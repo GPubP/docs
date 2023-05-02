@@ -1,9 +1,7 @@
 # Content historiek
-By default [haal je content op dat online](/wcmv4/content/content-item-read) is. Je kan dus enkel gepubliceerde content ophalen 
+By default [haal je content op dat online](/wcmv4/content/content-item-read) is oftwel gepubliceerde content. Wil je toch een werkversie ophalen die een redacteur heeft bewaard na een eerdere publicatie, dan kan je dit via onderstaande call doen. 
 
-?> lees meer over het [online concept](/common/content/content-life-cycle?id=online-vs-offline)
-
-Wil je toch bijvoorbeeld een werkversie ophalen die een redacteur heeft bewaard na een eerdere publicatie, dan kan je dit via onderstaande call doen. Merk dat je hier gebruik moet maken van het [WCM Content Manager endpoint](/wcmv4/content/endpoint-content-manager).
+!> Merk dat je hier gebruik moet maken van het [WCM Content Manager endpoint](/wcmv4/content/endpoint-content-manager).
  
 ```shell
 GET '/wcm-content-manager/v4/proxy/admin/content/v1/sites/{sId}/content/{uuid}/history/{historyType}' \
@@ -18,4 +16,6 @@ Je kan gebruik maken van de volgende `historyTypes`:
 * `pending_review` - hiermee haal je de laatste bewaarde revisie op van het content item met dat als status ‘klaar voor nakijken’
 * `pending_publish` - hiermee haal je de laatste bewaarde revisie op van het content item met dat als status ‘klaar voor publicatie’
 * `unpublished` - hiermee haal je de laatste bewaarde revisie op van het content item met dat als status ‘gearchiveerd’
+
+?> lees meer over het [online/offline concept](/common/content/content-life-cycle?id=online-vs-offline)
 
