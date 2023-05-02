@@ -9,8 +9,7 @@ Een update van een content item doe je best in deze stappen:
 
 ## GET Content
 ```shell
-'GET /acpaas/wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content/{uuid}' \
---header 'apikey: <api-key>'
+GET /acpaas/wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content/{uuid}
 ```
 
 Je kan het volledige resultaat hiervan gebruiken als payload van de PUT call. Er zijn op ‘t eerste zicht heel wat berekende velden en id’s, het systeem kan hier weliswaar mee overweg.
@@ -24,8 +23,7 @@ De volgende data haal je best uit de payload uit vooraleer je deze als basis geb
 ## PUT Content
 Gebruik de `PUT` operatie op de ACPaaS WCM Content Manager API zoals hieronder staat afgebeeld.
 ```shell
-'PUT /wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content/{uuid}/{status}' \
---header 'apikey: <api-key>' \
+PUT /wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content/{uuid}/{status}' \
 --header 'Content-Type: application/json' \
 --data-raw '<content payload>’
 ```
@@ -54,7 +52,6 @@ Voorbeeld PUT call
 
 ```shell
 PUT /wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content/{uuid}/published' \
---header 'apikey: <api-key>' \
 --header 'Content-Type: application/json' \
 --data-raw '<content payload>’
 ```

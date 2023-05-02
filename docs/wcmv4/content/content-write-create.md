@@ -4,7 +4,6 @@ Gebruik de `POST` operatie via het [ACPaaS WCM Content Manager endpoint](/wcmv4/
 
 ```shell
 POST '/acpaas/wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content' \
---header 'apikey: <api-key>' \
 --header 'Content-Type: application/json' \
 --data-raw '<content payload>’
 ```
@@ -19,8 +18,7 @@ POST '/acpaas/wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content' 
 Het gemakkelijkste is dat je eerst in de redactie manueel een content item aanmaakt. Dit content item vraag je vervolgens op via de API en zo bekom je een sample payload die je kan gebruiken in je POST operatie. Het opvragen van deze sample, doe je ook via de WCM Content Manager API.
 
 ```shell
-GET '/acpaas/wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content/{content-uuid}' \
---header 'apikey: <api-key>'
+GET '/acpaas/wcm-content-manager/v4/proxy/admin/content/v1/sites/{id}/content/{content-uuid}
 ```
 
 > Om content te schrijven heb je het interne id nodig van het content type. Dit content type id kan je enkel ophalen via de WCM Content Manager API. *(Er is een story op de backlog waarmee je straks ook content kunt aanmaken door de naam te geven van het content type ipv de interne id.)*
