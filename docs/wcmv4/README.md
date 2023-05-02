@@ -2,4 +2,15 @@
 
 Hier beschrijven we de WCMv4 Content API als je aan de slag wil gaan als ontwikkelaar voor de *bouw* van o.a. een frontend website of app.
 
-De WCM API docs staan momenteel nog in [dit Google doc](https://docs.google.com/document/d/1cMGpDkgqBnVhzlr7nr00YK8xciIESvIX1YmffqT6VzE/edit#). Bedoeling is om dit hier over te nemen op deze docs site.
+Vooraleer je van start gaat, lees zeker de [afspraken en doe de nodige voorbereidingen](/wcmv4/content/preparation).
+
+De WCM API bevat verschillende luiken, namelijk: 
+
+* [Content](/wcmv4/content/content)
+* [Assets](/wcmv4/content/assets)
+* [Navigatie](/wcmv4/content/navigation)
+* Taxonomie
+* [Menu](/wcmv4/content/navigation-menu)
+* [Sitestructuur](/wcmv4/content/navigation-sitestructure)
+
+!> todo verder uitwerken.
