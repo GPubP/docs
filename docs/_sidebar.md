@@ -170,6 +170,7 @@
       * [Content bewerken](/wcmv4/content/content-write "Content bewerken | WCM API | GPubP")    
         * [Create content](/wcmv4/content/content-write-create "Create content | WCM API | GPubP")    
         * [Update content](/wcmv4/content/content-write-update "Update content | WCM API | GPubP")    
+        * [Delete content](/wcmv4/content/content-write-delete "Delete content | WCM API | GPubP")    
       * [Views](/wcmv4/content/content-views "Views | WCM API | GPubP")    
         * [Content opvragen](/wcmv4/content/content-views-read "Content opvragen| WCM API | GPubP")    
         * [Content sorteren](/wcmv4/content/content-views-sort "Content sorteren | WCM API | GPubP")    
