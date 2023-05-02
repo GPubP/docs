@@ -19,6 +19,23 @@ Bij de aanvraag van een tenant kan je aangeven welke [modules](/modules/README) 
 
 Bekijk hier de volledige lijst van [bestaande modules](/modules/content/wcm-modules).
 
+## Toegang geven voor afnemers
+
+Via de [WCM admin](https://wcm-admin.antwerpen.be) toepassing kan je een `Server credential` toevoegen. 
+
+Je kan op 2 manieren de afnemer identificeren:
+
+1. via de afnemer z'n `Application Identifier` (voorkeur)
+2. via de afnemer z'n `API key`
+
+Bij elke API call zal de afnemer de `API key` mee geven. De API gateway zal deze call verrijken met de `moniker` (= application identifier) op basis van een [goedgekeurd contract](/wcmv4/content/api-contract). Beide identifiers zijn bruikbaar. Wij geven de voorkeur aan opzetten van toegang op basis van de `Application identifier`. Een `API key` kan makkelijker wijzigen (b.v. door een reset van deze key na compromitatie), de `moniker` blijft stabiel. 
+
+> Merk op dat afnemers nooit zelf deze `moniker` kunnen meegeven, dat kan alleen de API gateway.
+
+Vergeet zeker niet de nieuw aangemaakte credential te `enablen` via het vinkje bovenaan.
+
+![WCM Admin](../assets/wcm-admin-server-credential.jpg 'Server credential via WCM Admin')
+
 ## Tenant specifieke instellingen 
 
 Eenmaal de tenant up & running is en je bent aangemeld als tenant beheerder kan je enkele tenant specifieke instellingen opzetten zoals: 

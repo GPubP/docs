@@ -5,12 +5,16 @@
 
 ## Content lezen
 
-Zorg ervoor dat je een geldig [contract](/wcmv4/content/api-contract) hebt. Er zijn 2 manieren om geldige API calls uit te voeren. Hierbij kan je kiezen voor: 
+Zorg ervoor dat je een geldig [contract](/wcmv4/content/api-contract) hebt. Je krijgt hiervoor een `API key`, deze vind je: 
 
-- API key
-- API identifier
+* in de Publisher van het open programma
+* onder de instellingen van de app (registratie)
+* bij `Client keys` 
+* onder de kolom `Client key`
 
-!> todo: verder toelichten wat er nu moet gebeuren
+![Publisher](../assets/publisher-client-key.jpg 'Client keys in de publisher')
+
+!> **Geef bij elke API call deze `apikey` mee**. Zonder deze sleutel weet de WCM Gateway niet wie afnemer is die de request uitvoert. 
 
 ?> Done, nu kan je aan de slag en [API calls](/wcmv4/content/content-read) uitvoeren om content te lezen.
 
