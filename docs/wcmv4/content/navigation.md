@@ -1,4 +1,4 @@
-# Navigatie
+# Navigation API
 
 Eerst en vooral willen we benadrukken dat het werken met navigatie gerelateerde zaken zoals broodkruimels, site structuren en menu’s **via de WCM API’s moet lopen**. Achterliggend werkt de WCM met de Navigation engine maar voegt daarbovenop nog enkele features aan toe die je gaat missen als je rechtstreeks met deze engine zou werken.
 
