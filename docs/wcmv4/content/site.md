@@ -5,7 +5,7 @@
 Via de WCM kan je site informatie opvragen. Gebruik hiervoor de volgende API call:
 
 ```shell
-GET /wcm-proxy/v4/sites/v1/sites/{id}'
+GET /wcm-proxy/v4/sites/v1/sites/{id}
 ```
 
 De output is als volgt. Hier vind je onder andere de geconfigureerd [content types](/redactie/content/inrichten-content-types) en [talen](/redactie/content/inrichten-meertaligheid). Vooral de `data.url` waarde is belangrijk voor afnemers, deze vormt de basis voor de [url paden](/wcmv4/content/content-url-path).
