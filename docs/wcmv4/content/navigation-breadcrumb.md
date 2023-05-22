@@ -22,6 +22,11 @@ Met deze payload:
                 "externalUrl": "",
                 "publishStatus": "published",
                 "weight": 17,
+                "parents": [ ... ],
+                "slug": "dienstverlening",
+                "properties": {
+                    "type": "section"
+                },                
                 "items": [
                     {
                         "id": 141580,
@@ -34,17 +39,29 @@ Met deze payload:
                         "publishStatus": "published",
                         "weight": 0,
                         "parents": [ ... ],
-                        "slug": "preventie-1",
+                        "slug": "preventie",
                         "properties": {
                             "type": "section"
-                        }
+                        },
+                        "items": [
+                            {
+                                "id": 141581,
+                                "treeId": 2159,
+                                "logicalId": "aa26ca27-f1a1-4c2c-a9b5-a9ec2126e5bb",
+                                "parentId": 141580,
+                                "label": "verkeer",
+                                "description": "verkeer",
+                                "externalUrl": "",
+                                "publishStatus": "published",
+                                "weight": 0,
+                                "parents": [ ... ],
+                                "slug": "verkeer",
+                                "properties": {
+                                    "type": "section"
+                                }
+                            }
                     }
-                ],
-                "parents": [ ... ],
-                "slug": "dienstverlening-2",
-                "properties": {
-                    "type": "section"
-                }
+                ]
             }
         ]
     },
@@ -57,6 +74,24 @@ Met deze payload:
 }
 ```
 
-Je zal merken dat de broodkruimel begint vanaf de root met dan het eerste element `dienstverlening` in de resourceList en in de items collectie ervan zit het kind `preventie`. 
+Je zal merken dat de broodkruimel begint vanaf de root met dan het eerste element `dienstverlening` in de resourceList en in de items collectie ervan zit het kind `preventie`. In dit geval kan je de broodkruimel als volgt opbouwen: 
 
-Het gevraagde content item zit **niet** mee in de broodkruimel.
+1. Haal de [root url op van je site](/wcmv4/content/site), je krijgt bijvoorbeeld:
+
+ https://www.pizzaslicer.be  
+
+2. haal het `label` en de `slug` op van het eerste segment dat je vind als eerste in de `resourceList`. Voeg de **slug** toe aan de root, je voorbeeld wordt dan: 
+   
+   https://www.pizzaslicer.be/dienstverlening
+   
+3. haal het `label` en de `slug` op van het volgende segment in de `items` array.
+   
+   https://www.pizzaslicer.be/dienstverlening/preventie
+   
+4. Herhaal stap 3 tot er geen onderliggende items meer zijn.
+   
+   https://www.pizzaslicer.be/dienstverlening/preventie/verkeer
+   
+
+> [!WARNING|label:Opmerking]
+> Het gevraagde content item, o.b.v. de `contentId` in de API call, zit **niet** mee in de broodkruimel.
