@@ -33,7 +33,7 @@ De volledige absolute URL kan je opbouwen door url basis uit de [site info](/wcm
 
 In de payload vind je:
 
-* **standardPattern/standardValue:** dit is het patroon en de  waarde dat je normaal zou krijgen wat er [geconfigureerd](/redactie/content/inrichten-navigatie) is op het content type
+* **standardPattern/standardValue:** dit is het patroon en de  waarde dat je normaal zou krijgen wat er [geconfigureerd](/redactie/content/inrichten-content-types?id=url-patronen) is op het content type
 * **pattern/value:** dit is het patroon en de waarde dat voor dit content item
 
 ## URL paden van gerelateerde content
