@@ -16,11 +16,12 @@ Door gebruik te maken van de `requestModule` functie van `tenantConfig` kan de l
 {
   "title": "Logging entry title",
   "date": "yyyy-MM-ddTHH:mm:ssZ",
-  "content": "Log content"
+  "content": "Log content",
+  "source": "Log source"
 }
 ```
 
-De `date` parameter verwacht een UTC formaat. De `Title` en de `content` zijn beide Strings. 
+De `date` parameter verwacht een UTC formaat. De `Title`, `content` en `source` zijn Strings. 
 
 Voor het schrijven naar de logbook module voor een site kan de volgende implementatie gebruikt worden:
 
