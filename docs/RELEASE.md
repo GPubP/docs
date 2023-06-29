@@ -10,7 +10,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |:------------------------------------------|:--------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | TBD	    	    | Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
-| [4.7.2](#_472)                          	| TBD           | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1             | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.7.3](#_473-2023-02-07)                	| juli 2023    | Solr afbouw             | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.7.2](#_472-2023-02-07)                	| 7 feb 2023    | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1             | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()  	|
 | [4.7.1](#_471-2023-02-07)                	| 7 feb 2023    | Focus en Ken burns afbeelding effecten + bug fixes		        | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
 | [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module                			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]()	|
 | [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-Green.svg)]() |
@@ -61,8 +62,29 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 [Terug naar het overzicht](#_index)
 
-## [4.7.2]
+## [4.7.3]: 2023-07
 
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16705)
+
+### Added
+- **API:** Je kan nu de term data ophalen van een taxonomy zonder dat je de `taxonomyId` moet meegeven (enkel `termId`)
+
+- **Search** 
+  - Als redacteur kan ik kiezen, per content item, om deze niet mee op te nemen in één of meerdere indexen van Elastic Search
+  - Als site beheerder kan ik voor een content blok een content referentie opgeven wat de basis vormt voor de url
+
+### Fixed
+- **Search** 
+  - verwijderde content wordt nu ook uit elastic verwijderd.
+  - gearchiveerde content worden nu uit elastic verwijderd, ook bij een herindexering.
+  - de vuilbak iconen komen nu niet meer voor bij de opmaak van een content referentie en een link.
+  - de alt-tekst van een afbeelding vloeit niet meer van één content item naar een ander in geval er in meerdere talen content wordt ingegeven. 
+
+## [4.7.2]: 2023-02-07
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16432)
+
+### Added
 - **Event module**
   - Nieuwe versie van de WCM Event module met ondersteuning voor async API documentatie
 
@@ -74,6 +96,7 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 - **Broadcasting module**
   - todo
 
+### Fixed
 
 [Terug naar het overzicht](#_index)
 
