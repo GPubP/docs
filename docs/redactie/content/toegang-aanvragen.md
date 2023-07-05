@@ -14,7 +14,4 @@ Je kan toegang vragen tot de `Redactie`, start hiervoor `Mijn toegang` op.
 
 ![Mijn toegang](.//redactie/assets/mt-2.png)
 
-
-?> Bekijk hier de [video](https://watch.screencastify.com/v/EVbwFYYCuD1hEs2ZcF8G) hoe je toegang tot de redactie kan aanvragen.
-
 Eenmaal je toegang hebt, kan je aan een [beheerder](/redactie/content/toegang-site-beheerder) vragen om toegang te krijgen tot een site. Hij of zij zal je dan een [een rol toekennen](/redactie/content/toegang-rollen-rechten).
