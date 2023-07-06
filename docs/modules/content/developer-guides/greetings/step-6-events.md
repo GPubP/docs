@@ -1,5 +1,7 @@
 # Hoofdstuk 6: Werken met events
 
+?> Benieuwd wat het event register juist is? Lees dan eerst even de [functionele docs van het Event systeem](/modules/content/modules/module-events).
+
 We bouwen verder op de greetings module en we gaan op basis van onze call een event uitsturen.
 
 ## Stap 1: Installeren van event registry helper package en opzet event registry instance
