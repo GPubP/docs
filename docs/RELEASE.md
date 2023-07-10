@@ -6,11 +6,12 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 
 *Lees [hier meer](#legende) over het formaat en de structuur van deze release notes.*
 
+
 ## Index
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |:------------------------------------------|:--------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | TBD	    	    | Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
-| [4.7.3](#_473-2023-02-07)                	| juli 2023    | Solr afbouw             | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.7.3](#_473-2023-07)                	  | juli 2023    | Solr afbouw + bug fixes            | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
 | [4.7.2.hotfix-1](#_472hotfix-1-2023-07-06)| 6 jul 2023    | fix voor ophalen taxonomy termen                              | [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]()  	|
 | [4.7.2](#_472-2023-02-07)                	| 7 feb 2023    | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1             | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]()  	|
 | [4.7.1](#_471-2023-02-07)                	| 7 feb 2023    | Focus en Ken burns afbeelding effecten + bug fixes		        | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
@@ -68,11 +69,9 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16705)
 
 ### Added
-- **API:** Je kan nu de term data ophalen van een taxonomy zonder dat je de `taxonomyId` moet meegeven (enkel `termId`)
-
 - **Search** 
   - Als redacteur kan ik kiezen, per content item, om deze niet mee op te nemen in één of meerdere indexen van Elastic Search
-  - Als site beheerder kan ik voor een content blok een content referentie opgeven wat de basis vormt voor de url
+  - Als site beheerder kan ik voor een content blok een content referentie opgeven wat de basis vormt voor de url.
 
 ### Fixed
 - **Search** 
@@ -82,8 +81,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - de alt-tekst van een afbeelding vloeit niet meer van één content item naar een ander in geval er in meerdere talen content wordt ingegeven. 
 
 ## [4.7.2.hotfix-1]: 2023-07-06
-### Fixed
-- Nu kunnen taxonomie termen opgehaald worden zonder de taxonomyId. Met deze fix kan o.a. antwerpen.be opnieuw analyses per tag doen in GA.
+### Added
+- **API:** Je kan nu de term data ophalen van een taxonomy zonder dat je de `taxonomyId` moet meegeven (enkel `termId`)
 
 ## [4.7.2]: 2023-02-07
 
