@@ -11,7 +11,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |:------------------------------------------|:--------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------|
 | [4.8.0](#_480) 						                | TBD	    	    | Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
-| [4.7.3](#_473-2023-07)                	  | 21 aug 2023    | Solr afbouw + bug fixes            | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.7.3](#_473-2023-08-21)                	  | 21 aug 2023    | Solr afbouw + bug fixes            | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
 | [4.7.2.hotfix-1](#_472hotfix-1-2023-07-06)| 6 jul 2023    | fix voor ophalen taxonomy termen                              | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]()  	|
 | [4.7.2](#_472-2023-02-07)                	| 7 feb 2023    | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1             | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]()  	|
 | [4.7.1](#_471-2023-02-07)                	| 7 feb 2023    | Focus en Ken burns afbeelding effecten + bug fixes		        | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
