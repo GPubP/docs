@@ -10,10 +10,12 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 ## Index
 | Release 									                | Release Datum | Inhoud 													                            	| Status 																	                                  |
 |:------------------------------------------|:--------------|:--------------------------------------------------------------|:--------------------------------------------------------------------------|
-| [4.8.0](#_480) 						                | TBD	    	    | Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]()   	|
-| [4.7.3](#_473-2023-08-21)                	  | 21 aug 2023    | Solr afbouw + bug fixes            | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
-| [4.7.2.hotfix-1](#_472hotfix-1-2023-07-06)| 6 jul 2023    | fix voor ophalen taxonomy termen                              | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]()  	|
-| [4.7.2](#_472-2023-02-07)                	| 7 feb 2023    | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1             | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]()  	|
+| [4.9.0](#_490) 						                | Q4 2023	 	    | Backup & restore van structuren         				          		| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()   	|
+| [4.8.0](#_480-2023-09) 						        | sept/ok 2023  | Volledige technische upgrade ikv MT      				          		| [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()   	|
+| [4.7.3](#_473-2023-09)                	  | sept 2023     | Solr afbouw + bug fixes (deel II)                             | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.7.3](#_473-2023-08-21)                	| 21 aug 2023   | Solr afbouw + bug fixes (deel I)                              | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]()  	|
+| [4.7.2.hotfix-1](#_472hotfix-1-2023-07-06)| 6 jul 2023    | fix voor ophalen taxonomy termen                              | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
+| [4.7.2](#_472-2023-02-07)                	| 7 feb 2023    | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1             | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.7.1](#_471-2023-02-07)                	| 7 feb 2023    | Focus en Ken burns afbeelding effecten + bug fixes		        | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.7.0](#_470-2022-11-09)                	| 9 nov 2022    | WCM Event module                			                      	| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]()	|
 | [4.6.5](#_465-2022-11-02)                 | 2 nov 2022 	 	| Broadcast module voor o.a. nieuwsbrieven 			          			| [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
@@ -58,13 +60,20 @@ Bij een **release** worden alle zaken die momenteel ontwikkeld zijn - zowel feat
 Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die gedeployed. Alle andere zaken die reeds klaar waren, worden dus niet mee gedeployed. 
 
  
-## [4.8.0]
+## [4.9.0]
 
 **Visie:** Deze release laat toe om structuur te backupen en in een andere tenant te restoren. 
 
 [Terug naar het overzicht](#_index)
 
-## [4.7.3]: 2023-08-21
+## [4.8.0]: 2023-09
+
+### Changed
+* alle services zijn gereviewed en aangepast zodat ze werken met de laatste nieuwe versie van programeertalen, frameworks en dependencies. 
+
+[Terug naar het overzicht](#_index)
+
+## [4.7.4]: 2023-09
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16705)
 
@@ -74,11 +83,25 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   - Als site beheerder kan ik voor een content blok een content referentie opgeven wat de basis vormt voor de url.
 
 ### Fixed
+- **Content**
+  - Publiceren bij een mislukte geplande publicatie is hersteld
+  - De vuilbak iconen komen nu niet meer voor bij de opmaak van een content referentie en een link.
+- **Search** 
+  - Indexering van een site in het nederlands creëert geen engines meer voor de andere talen van de tenant
+
+## [4.7.3]: 2023-08-21
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16705)
+
+### Added
+### Fixed
+- **Content**
+  - Geen dubbele hulpteksten meer bij Teksvak met opmaak
+- **Meertaligheid**
+  - de alt-tekst van een afbeelding vloeit niet meer van één content item naar een ander in geval er in meerdere talen content wordt ingegeven. 
 - **Search** 
   - verwijderde content wordt nu ook uit elastic verwijderd.
   - gearchiveerde content worden nu uit elastic verwijderd, ook bij een herindexering.
-  - de vuilbak iconen komen nu niet meer voor bij de opmaak van een content referentie en een link.
-  - de alt-tekst van een afbeelding vloeit niet meer van één content item naar een ander in geval er in meerdere talen content wordt ingegeven. 
 
 ## [4.7.2.hotfix-1]: 2023-07-06
 ### Added
