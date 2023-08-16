@@ -9,7 +9,7 @@ Met deze module kan je:
 ## Inhoud van deze module
 Deze module bevat een [feature toggle op site](/redactie/content/inrichten-sites) niveau waarmee je Search features aan/uit kan zetten.
 
-Bevat de mogelijkheid om [indexen op te zetten](/redactie/content/inrichten-search).
+Bevat de mogelijkheid om [indexen op te zetten](/redactie/content/inrichten-search-beheren).
 
 bevat de content componenten
 * [zoekindex](/redactie/content/inrichten-cc-zoekindex)
