@@ -86,7 +86,7 @@ Naast de content componenten die je kiest om mee op te nemen in de index, zal he
 | last_indexed 	| Wanneer is dit content item voor het laatst geïndexeerd? 	| 2023-02-27T14:01:41.382Z 	|
 | created 	| Wanneer is dit content item gemaakt in de Redactie 	|  	|
 | last_modified 	| Wanneer is dit content item laatst aangepast in de Redactie 	|  	|
-| issued_on 	| Wat is het uitgifte tijdstip van dit content item 	|  	|
+| issued_on 	| Wat is het [uitgifte tijdstip](/common/content/content-life-cycle?id=uitgifte-tijdstip) van dit content item 	|  	|
 | first_published 	| Wanneer is dit content item eerst gepubliceerd? 	|  	|
 | url 	| De volwaardige, absolute url naar het content item in de frontend 	|  	|
 | raw 	| De volledige JSON data zoals ze uit de WCM API komt. 	|  	|
