@@ -84,13 +84,13 @@ Naast de content componenten die je kiest om mee op te nemen in de index, zal he
 | user_roles 	| Voor backwards compatibiliteit 	| ["anonymous"] 	|
 | lang 	| De taal van deze content 	| nl 	|
 | last_indexed 	| Wanneer is dit content item voor het laatst geïndexeerd? 	| 2023-02-27T14:01:41.382Z 	|
-| created 	| Wanneer is dit content item gemaakt in de Redactie 	|  	|
-| last_modified 	| Wanneer is dit content item laatst aangepast in de Redactie 	|  	|
-| issued_on 	| Wat is het [uitgifte tijdstip](/common/content/content-life-cycle?id=uitgifte-tijdstip) van dit content item 	|  	|
-| first_published 	| Wanneer is dit content item eerst gepubliceerd? 	|  	|
-| url 	| De volwaardige, absolute url naar het content item in de frontend 	|  	|
-| raw 	| De volledige JSON data zoals ze uit de WCM API komt. 	|  	|
-| body 	| De verzameling van alle tekstuele informatie aan elkaar geplakt zonder enige vorm van opmaak. Ideaal om een full text search op te baseren. 	|  	|
+| created 	| Wanneer is dit content item gemaakt in de Redactie 	| 2022-11-08T08:35:06.918Z 	|
+| last_modified 	| Wanneer is dit content item laatst aangepast in de Redactie 	| 2022-11-08T08:36:18.304Z 	|
+| issued_on 	| Wat is het uitgifte tijdstip van dit content item 	| 2022-11-08T08:36:18.304Z 	|
+| first_published 	| Wanneer is dit content item eerst gepubliceerd? 	| 2022-11-08T08:36:18.304Z 	|
+| url 	| De volwaardige, absolute url naar het content item in de frontend 	| https://www.politieantwerpen.be/nieuws/man-die-kattenbakvulling-op-straat-gooit-is-gevat 	|
+| raw 	| De volledige JSON data zoals ze uit de WCM API komt. 	| { ... } 	|
+| body 	| De verzameling van alle tekstuele informatie aan elkaar geplakt zonder enige vorm van opmaak. Ideaal om een full text search op te baseren. 	| lorum ipsum 	|
 
 ## Index activeren
 
