@@ -57,137 +57,15 @@ Het register speelt een cruciale rol in het Event mechanisme. Zonder dit kan de 
 ### Eigen events registreren en uitsturen
 Het is mogelijk om custom, eigengemaakte events te voorzien zodat specifieke scenario’s gesignaleerd kunnen worden waarop de Event module kan reageren. Dit kan door middel van een WCM BSL module te maken. Deze kan luisteren op interne kafka, doet er iets mee en zet op kafka z’n eigen signaal. Deze module zal zoals alle andere modules de custom event registreren in het algemene register. 
 
-In de [Greetings developer gids](/modules/content/developer-guides/greetings/step-6-events) kan je een voorbeeld hiervan zien:
+In de [Greetings developer gids - Hoofdstuk 6 werken met Events](/modules/content/developer-guides/greetings/step-6-events) kan je een voorbeeld hiervan zien.
 
+## Events configureren
 
-## Configuratie
-Een [tenant beheerder](/redactie/content/toegang-tenant-beheerder) kan `bestemminngen` en `afleveringen` configureren via de Redactie. Via een bestemming kan je aangeven welke namespace er gebruikt zal worden voor het afleveren van events. In een aflevering specifieer je wat je gaat afleveren op die bestemming. Hieronder zie 
+In de Redactie kan je de [events inrichten](/redactie/content/inrichten-events). 
 
-![Event bestemmingen](.//modules/assets/wcmv4-event-handler-module-simplified-4.png 'Configureer je afleveringen')
+## Events consumeren
 
-### Aflevering
-Je kan een aflevering (delivery) als volgt opzetten:
+Als afnemer van het GPubP kan je luisteren (subscriben) naar de geconfigureerde events. [Lees hier](/frontend/content/events-consumeren) hoe je ermee aan de slag gaat.
 
-1. kies het event
-2. kies je bestemming
-3. selecteer je topic voor de gekozen bestemming
-4. optioneel stel je nog een extra filter in.
-
-### Events verder filteren in een aflevering 
-
-Niet alle interne events van een bepaald type moeten buiten gaan. Neem nu het `content.draft_changed` event, dat kan zijn dat de workflowstatus veranderd is naar `my-state` of naar `another-state` en je bent misschien enkel in deze laatste geïnteresseerd.
-Of bijvoorbeeld het `created` event van de content module, je wil niet alle nieuwe content items, maar heel specifiek die van nieuwsberichten. 
-
-Soms zijn er andere gebeurtenissen zoals een `changed` event van de taxonomie bron. Hier zal je een keuze van taxonomie boom moeten maken of misschien zelfs in uitzonderlijke gevallen slechts van een bepaalde tak van deze taxonomie boom. 
-
-Door gebruik te maken van filters kan nauwer of breder te werk gaan. Zo kan je een filter maken voor alle gepubliceerde crisisberichten van de politieantwerpen.be site van deze tenant:
-
-* `site.name == “politieantwerpen.be”`
-* `contentType.name == “crisis-bericht”`
-
-Vanwege de technische aard van deze module is er gekozen om voor de filters een bepaalde syntax te hanteren, i.e. json voor het geheel en https://jsonpath.com voor de paden.
-
-Een filter bestaat uit een boolean expression dat resulteert in true of false. 
-
-```json
-{
-  "operator": "AND",
-  "conditions": [
-    {
-      "operator": "<operator>",
-      "path": "<path>",
-      "value": "<value>"
-    }
-  ]
-}
-```
-
-Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters gaat dmv een logische AND operatie. De volle
-
-#### Voorbeelden
-
-**Filter op site**
-```json
-{
-  "operator": "AND",
-  "conditions": [
-    {
-      "operator": "=",
-      "path": "$.data.site.name",
-      "value": "politieantwerpen.be"
-    }
-  ]
-}
-```
-
-**Filter op meerdere content types**
-```json
-{
-  "operator": "OR",
-  "conditions": [
-    {
-      "operator": "=",
-      "path": "$.data.contentType.name",
-      "value": "crisis-bericht"
-    },
-    {
-      "operator": "=",
-      "path": "$.data.contentType.name",
-      "value": "nieuws-bericht"
-    }
-  ]
-}
-```
-
-**Filter op site en content type**
-```json
-{
-  "operator": "AND",
-  "conditions": [
-    {
-      "operator": "=",
-      "path": "$.data.contentType.name",
-      "value": "crisis-bericht"
-    },
-    {
-      "operator": "=",
-      "path": "$.data.site.name",
-      "value": "politieantwerpen.be"
-    }
-  ]
-}
-```
-
-**Filter op site en twee verschillende content types**
-```json
-{
-  "operator": "AND",
-  "conditions": [
-    {
-      "operator": "=",
-      "path": "$.data.site.name",
-      "value": "politieantwerpen.be"
-    },
-    {
-      "operator": "OR",
-      "conditions": [
-        {
-          "operator": "=",
-          "path": "$.data.contentType.name",
-          "value": "crisis-bericht"
-        },
-        {
-          "operator": "=",
-          "path": "$.data.contentType.name",
-          "value": "nieuws-bericht"
-        }
-      ]
-    }
-  ]
-}
-```
-
-> [!tip|label: Tip]
-> Om te kijken waarop je allemaal kan filteren ga je naar het **test scherm van je aflevering**. Daar staat een voorbeeld event payload dat je als lijdraad kan hanteren voor het opbouwen van je paden.
 
 ?> Ga terug naar het [overzicht van alle modules](/modules/content/wcm-modules)

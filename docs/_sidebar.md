@@ -196,6 +196,7 @@
     * [FAQ](/wcmv4/content/troubleshooting "FAQ | WCM API | GPubP")
   * [Search API](/wcmv4/content/search "Search API | WCM API | GPubP")
 * [Frontend development](/frontend/content/frontend-development "Frontent development | GPubP")
+  * [Events consumeren](/frontend/content/events-consumeren "Events consumeren | GPubP")
   * [Formulieren tonen](/frontend/content/form-renderer "Formulieren tonen | GPubP")
 * [Status](/common/content/status "Status | GPubP")
 * [Interessante links](/common/content/links)
