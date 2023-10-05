@@ -1,9 +1,12 @@
 # Taxonomy termen
 
 ## Read term
+
+Om termen te lezen gebruik je de  [WCM Proxy endpoint](/wcmv4/content/endpoint-proxy).
+
 ### Eén term 
 ```shell
-GET '/wcm-content-manager/v4/proxy/admin/taxonomies/v1/taxonomies/{id}/terms/{termid}'
+GET '/wcm-proxy/v4/taxonomies/v1/taxonomies/{id}/terms/{termid}'
 ```
 
 In het pad geef je de `id` van de taxonomie.
@@ -11,7 +14,7 @@ In het pad geef je de `termid` van de term die je wenst op te vragen.
 
 ### Alle termen (de collectie)
 ```shell
-GET /wcm-content-manager/v4/proxy/admin/taxonomies/v1/taxonomies/{id}/terms'
+GET /wcm-proxy/v4/taxonomies/v1/taxonomies/{id}/terms'
 ```
 
 In het pad geef je de `id` van de taxonomie waarvan je de termen wenst op te vragen.
@@ -128,6 +131,9 @@ Het resultaat van deze call is als volgt. De volgorde van de ‘siblings’ word
 ```
 
 ## Create term
+
+Gebruik de `POST` operatie via het [ACPaaS WCM Content Manager endpoint](/wcmv4/content/endpoint-content-manager) zoals hieronder staat afgebeeld.
+
 ```shell
 POST '/wcm-content-manager/v4/proxy/admin/taxonomies/v1/taxonomies/{id}/terms'
 --header 'Content-Type: application/json' \
@@ -174,6 +180,9 @@ Waarbij
   * `externalRef`: Een extra referentie veld, vrij te gebruiken.
 
 ## Update term
+
+Gebruik de `PUT` operatie via het [ACPaaS WCM Content Manager endpoint](/wcmv4/content/endpoint-content-manager) zoals hieronder staat afgebeeld.
+
 ```shell
 PUT '/wcm-content-manager/v4/proxy/admin/taxonomies/v1/taxonomies/{id}/terms/{termid}'
 --header 'Content-Type: application/json' \
@@ -223,6 +232,8 @@ Gebruik deze functie om de volgorde van de termen aan te passen in de taxonomy. 
 
 > Je kan kiezen om alle termen mee te geven of slechts een deel. In dit laatste geval moet je er zelf voor zorgen dat de volgorde correct blijft over alle termen heen en dat er bijvoorbeeld geen termen met dezelfde positie ontstaan. Of dat je hiërarchie fouten maakt zoals een kind dat eveneens z’n eigen ouder is.
 
+Gebruik de `PUT` operatie via het [ACPaaS WCM Content Manager endpoint](/wcmv4/content/endpoint-content-manager) zoals hieronder staat afgebeeld.
+
 ```shell
 PUT '/wcm-content-manager/v4/proxy/admin/taxonomies/v1/taxonomies/{id}/terms/reorder'
 --header 'Content-Type: application/json' \
@@ -265,6 +276,9 @@ Als payload geef je het volgende mee:
 ```
 
 ## Delete term
+
+Gebruik de `DELETE` operatie via het [ACPaaS WCM Content Manager endpoint](/wcmv4/content/endpoint-content-manager) zoals hieronder staat afgebeeld.
+
 ```shell
 DELETE '/wcm-content-manager/v4/proxy/admin/taxonomies/v1/taxonomies/{id}/terms/{termid}'
 ```
