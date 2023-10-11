@@ -1,4 +1,11 @@
-# Toegang aanvragen als gebruiker
+# Toegang aanvragen
+> [!info|label:Definitie]
+> Toegang geeft je het recht om met de Redactie tool te werken maar nog niet het recht om te werken als redacteur of contentbeheerder. Hiervoor moet je nog een rol toebedeeld krijgen.
+
+> [!warning]
+> Je kan via onderstaande beschrijving toegang aanvragen op de productieomgeving (redactie.antwerpen.be). Wil je toegang tot de acceptatieomgeving (redactie-a.antwerpen.be) dan zal je dit via een servicedesk ticket moeten aanvragen.
+
+## Toegang aanvragen als gebruiker
 Je kan toegang vragen tot de `Redactie`, start hiervoor `Mijn toegang` op. 
 
 1. Ga naar [Mijn toegang <i class="fa-solid fa-xs fa-arrow-up-right-from-square"></i>](https://mijntoegang.antwerpen.be ':target="_blank"')
