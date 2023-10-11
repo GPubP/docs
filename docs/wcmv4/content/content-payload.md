@@ -129,3 +129,19 @@ GET .../content?slug=regio-noord&populate=kantoor&fields=kantoor(naam,adres(stad
 GET .../content?slug=regio-noord&populate=kantoor&fields=kantoor(naam,adres(stad))&meta=kantoor(created)&lang=nl 
 ```
 
+## Filter voorrang regels
+Ingeval je een conflicterende vraag stelt zoals onderstaande gaat de API de meest optimale payload bezorgen. 
+
+```shell
+fields=parent,parent(child),parent(child(grandchild)) 
+```
+
+Bovenstaand voorbeeld gaat als volgt
+1. Je vraagt een parent element op met alle onderliggende data - parent
+2. Je vraagt vervolgens om van die parent één child element terug te geven - parent(child)
+3. Je vraagt als laatste om een nog gedetailleerde element uit die structuur terug te geven - parent(child(grandchild)) 
+
+het resultaat is dat de payload gefiltered zal zijn volgens regel 3, het meest specifieke.
+
+> [!warning]
+> Deze behaviour is nieuw vanaf release 4.8.0 doordat dit de nieuwe werkwijze is in een onderliggende package waarmee het systeem met de data omgaat in MongoDB
