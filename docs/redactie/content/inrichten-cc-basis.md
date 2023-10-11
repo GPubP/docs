@@ -12,14 +12,14 @@ Dit geeft aan of de redacteur van een gegeven component er één of meerdere kan
 
 Standaard staat meerdere/multiple uit en kan er slechts één ding ingegeven worden.
 
-![GPubP high level](../assets/GPubP-cc-meerdere.jpg)
+![GPubP high level](..//redactie/assets/GPubP-cc-meerdere.jpg)
 
 Voor ontwikkelaars zal het verschil merkbaar zijn of de content al dan niet in een array gewrapped zal worden.
 
 ### Verplicht
 Duid aan dat dit content component verplicht moet ingevuld worden door de redacteur. Een content beheerder kan deze validatie optie vinden in de validatie tab van het content component.
 
-![GPubP high level](../assets/GPubP-cc-verplicht.jpg)
+![GPubP high level](..//redactie/assets/GPubP-cc-verplicht.jpg)
 
 ### Vertaalbaar
 todo
@@ -29,7 +29,7 @@ Dit content component zit wel in het content type/blok/custom component, maar is
 
 Meestal wordt dit gecombineerd met een standaard waarde en gebruik je dit om dit mee te geven aan de frontend zonder dat de redacteur hierover lastig gevallen moet worden. 
 
-![GPubP high level](../assets/GPubP-cc-verborgen.jpg)
+![GPubP high level](..//redactie/assets/GPubP-cc-verborgen.jpg)
 
 ## Start content componenten
 
