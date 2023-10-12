@@ -19,7 +19,7 @@ Met deze payload:
                 "logicalId": "14b21fce-2fab-4f32-ac62-f542fe09bec7",
                 "label": "dienstverlening",
                 "description": "dienstverlening",
-                "externalUrl": "",
+                "externalUrl": "https://www.pizzaslicer.be/dienstverlening",
                 "publishStatus": "published",
                 "weight": 17,
                 "parents": [ ... ],
@@ -35,7 +35,7 @@ Met deze payload:
                         "parentId": 141579,
                         "label": "preventie",
                         "description": "preventie",
-                        "externalUrl": "",
+                        "externalUrl": "https://www.pizzaslicer.be/dienstverlening/preventie",
                         "publishStatus": "published",
                         "weight": 0,
                         "parents": [ ... ],
@@ -51,7 +51,7 @@ Met deze payload:
                                 "parentId": 141580,
                                 "label": "verkeer",
                                 "description": "verkeer",
-                                "externalUrl": "",
+                                "externalUrl": "https://www.pizzaslicer.be/dienstverlening/preventie/verkeer",
                                 "publishStatus": "published",
                                 "weight": 0,
                                 "parents": [ ... ],
@@ -78,19 +78,19 @@ Je zal merken dat de broodkruimel begint vanaf de root met dan het eerste elemen
 
 1. Haal de [root url op van je site](/wcmv4/content/site), je krijgt bijvoorbeeld:
 
-   Home(https://www.pizzaslicer.be)
+   Home = https://www.pizzaslicer.be
 
-2. haal het `label` en de `slug` op van het eerste segment dat je vind als eerste in de `resourceList`. Voeg de **slug** toe aan de root, je voorbeeld wordt dan: 
+2. haal het `label` en de `externalUrl` op van het eerste segment dat je vind als eerste in de `resourceList`. Voeg de **slug** toe aan de root, je voorbeeld wordt dan: 
    
-   Home > dienstverlening(https://www.pizzaslicer.be/dienstverlening)
+   Home > dienstverlening = https://www.pizzaslicer.be/dienstverlening
    
 3. haal het `label` en de `slug` op van het volgende segment in de `items` array.
    
-   Home > dienstverlening > preventie(https://www.pizzaslicer.be/dienstverlening/preventie)
+   Home > dienstverlening > preventie = https://www.pizzaslicer.be/dienstverlening/preventie
    
 4. Herhaal stap 3 tot er geen onderliggende items meer zijn.
    
-   Home > dienstverlening > preventie > verkeer(https://www.pizzaslicer.be/dienstverlening/preventie/verkeer)
+   Home > dienstverlening > preventie > verkeer = https://www.pizzaslicer.be/dienstverlening/preventie/verkeer
    
 
 > [!WARNING|label:Opmerking]
