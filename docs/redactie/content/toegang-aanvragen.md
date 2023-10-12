@@ -1,6 +1,6 @@
 # Toegang aanvragen
 > [!info|label:Definitie]
-> Toegang geeft je het recht om met de Redactie tool te werken maar nog niet het recht om te werken als redacteur of contentbeheerder. Hiervoor moet je nog een [rol](/#/redactie/content/toegang-werken-als) toebedeeld krijgen.
+> Toegang geeft je het recht om met de Redactie tool te werken maar nog niet het recht om te werken als redacteur of contentbeheerder. Hiervoor moet je nog een [rol](/redactie/content/toegang-werken-als) toebedeeld krijgen.
 
 > [!warning]
 > Je kan via onderstaande beschrijving toegang aanvragen op de productieomgeving - PRD (redactie.antwerpen.be). Wil je toegang tot de acceptatieomgeving - ACC (redactie-a.antwerpen.be) dan zal je dit via een **servicedesk** ticket moeten aanvragen.
