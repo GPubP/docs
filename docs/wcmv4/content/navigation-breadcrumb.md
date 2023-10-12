@@ -84,7 +84,7 @@ Je zal merken dat de broodkruimel begint vanaf de root met dan het eerste elemen
 
    Home > dienstverlening = <https://www.pizzaslicer.be/dienstverlening>
 
-3. haal het `label` en de `slug` op van het volgende segment in de `items` array.
+3. haal het `label` en de `externalUrl` op van het volgende segment in de `items` array.
 
    Home > dienstverlening > preventie = <https://www.pizzaslicer.be/dienstverlening/preventie>
 
