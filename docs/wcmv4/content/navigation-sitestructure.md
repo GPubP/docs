@@ -621,10 +621,10 @@ met deze onderstaande payload
 ```
 
 ## Haal de kinderen op van een content item
-Vaak wil je in de frontend een pagina tonen met inhoud en een overzicht van alle pagina's die 'eronder hangen', zeg maar de kinderen van die pagina. Op deze manier kan men grote luiken content opdelen in hoofd en sub pagina's. 
+Vaak wil je in de frontend een pagina tonen met inhoud en een overzicht van alle pagina's die 'eronder hangen', zeg maar de kinderen van die pagina. Op deze manier kan men content opdelen in hoofd en sub pagina's. 
 
-> [!WARNING|label:Belangrijk]
-> Belangrijk om hier te onthouden is dat onderstaande call een lijst van sub pagina's geeft van zowel [primaire als secundaire registraties](/wcmv4/content/navigation-sitestructure?id=primaire-versus-secundaire-plaatsen) in de boom. Dat je hier ook de secundaire registraties krijgt is één van de bestaansredenen van dit concept. Vaak heb je een pagina ergens in de boomstructuur hangen waarop de [broodkruimel](/wcmv4/content/navigation-breadcrumb) gebasseerd wordt. Daarnaast wil je dat diezelfde pagina ook kan verschijnen op andere overzicht pagina's. De plaatsen waar je het nog wil laten verschijnen zijn dan de secundaire registraties.
+Onderstaande call geeft een lijst van alle content item registraties voor een gegeven content item, dit van zowel [primaire als secundaire registraties](/wcmv4/content/navigation-sitestructure?id=primaire-versus-secundaire-plaatsen) in de boom. 
+
 
 ```shell
 GET .../proxy/public/navigations/v1/sites/{siteId}/content/{contentId}/subset
