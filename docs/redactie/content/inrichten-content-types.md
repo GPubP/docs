@@ -3,8 +3,8 @@
 > [!info|label:Definitie]
 > Een Content Type is de essentie van elk CMS, ook dat van het GPubP. Het is definitie, een sjabloon, een blauwdruk waarmee redacteurs [content items](/common/content/concept-ci) maken.
 
-!> todo
+!> Interesse in deze pagina? Geef een seintje aan erik.lenaerts@digipolis.be en we werken dit uit.
 
 ## url patronen
 
-!> todo
+!> Interesse in deze pagina? Geef een seintje aan erik.lenaerts@digipolis.be en we werken dit uit.
