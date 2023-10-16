@@ -18,7 +18,7 @@ Er zijn heel veel interne gebeurtenissen die doorheen het systeem vloeien. Een a
 | Bron              | Gebeurtenis          | Omschrijving                                                                                 |
 |-------------------|----------------------|----------------------------------------------------------------------------------------------|
 | content           | created              | Wanneer een content item gemaakt is                                                          |
-| content           | published            | Waneer het content item gepubliceerd is. mogelijks een archived date = geplande archivering  |
+| content           | published            | Elke keer wanneer het content item gepubliceerd is.                                          |
 | content           | archived             | Waneer het content item gearchiveerd is.                                                     |
 | content           | draft_saved          | Waneer het content item als werkversie bewaard is. Dit is ook voor workflowState verandering |
 | content           | publish_planned      | Waneer het content item gepland is om te publiceren.                                         |
@@ -88,12 +88,12 @@ Een filter bestaat uit een boolean expression dat resulteert in true of false.
 
 ```json
 {
-  "operator": "AND",
-  "conditions": [
+  'operator': 'AND',
+  'conditions': [
     {
-      "operator": "<operator>",
-      "path": "<path>",
-      "value": "<value>"
+      'operator': '<operator>',
+      'path': '<path>',
+      'value': '<value>'
     }
   ]
 }
@@ -106,12 +106,12 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op site**
 ```json
 {
-  "operator": "AND",
-  "conditions": [
+  'operator': 'AND',
+  'conditions': [
     {
-      "operator": "=",
-      "path": "$.data.site.name",
-      "value": "politieantwerpen.be"
+      'operator': '=',
+      'path': '$.data.site.name',
+      'value': 'politieantwerpen.be'
     }
   ]
 }
@@ -120,17 +120,17 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op meerdere content types**
 ```json
 {
-  "operator": "OR",
-  "conditions": [
+  'operator': 'OR',
+  'conditions': [
     {
-      "operator": "=",
-      "path": "$.data.contentType.name",
-      "value": "crisis-bericht"
+      'operator': '=',
+      'path': '$.data.contentType.name',
+      'value': 'crisis-bericht'
     },
     {
-      "operator": "=",
-      "path": "$.data.contentType.name",
-      "value": "nieuws-bericht"
+      'operator': '=',
+      'path': '$.data.contentType.name',
+      'value': 'nieuws-bericht'
     }
   ]
 }
@@ -139,17 +139,17 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op site en content type**
 ```json
 {
-  "operator": "AND",
-  "conditions": [
+  'operator': 'AND',
+  'conditions': [
     {
-      "operator": "=",
-      "path": "$.data.contentType.name",
-      "value": "crisis-bericht"
+      'operator': '=',
+      'path': '$.data.contentType.name',
+      'value': 'crisis-bericht'
     },
     {
-      "operator": "=",
-      "path": "$.data.site.name",
-      "value": "politieantwerpen.be"
+      'operator': '=',
+      'path': '$.data.site.name',
+      'value': 'politieantwerpen.be'
     }
   ]
 }
@@ -158,25 +158,25 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op site en twee verschillende content types**
 ```json
 {
-  "operator": "AND",
-  "conditions": [
+  'operator': 'AND',
+  'conditions': [
     {
-      "operator": "=",
-      "path": "$.data.site.name",
-      "value": "politieantwerpen.be"
+      'operator': '=',
+      'path': '$.data.site.name',
+      'value': 'politieantwerpen.be'
     },
     {
-      "operator": "OR",
-      "conditions": [
+      'operator': 'OR',
+      'conditions': [
         {
-          "operator": "=",
-          "path": "$.data.contentType.name",
-          "value": "crisis-bericht"
+          'operator': '=',
+          'path': '$.data.contentType.name',
+          'value': 'crisis-bericht'
         },
         {
-          "operator": "=",
-          "path": "$.data.contentType.name",
-          "value": "nieuws-bericht"
+          'operator': '=',
+          'path': '$.data.contentType.name',
+          'value': 'nieuws-bericht'
         }
       ]
     }
@@ -186,6 +186,30 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 
 > [!tip|label: Tip]
 > Om te kijken waarop je allemaal kan filteren ga je naar het **test scherm van je aflevering**. Daar staat een voorbeeld event payload dat je als lijdraad kan hanteren voor het opbouwen van je paden.
+
+## Hou je content cache up to date
+Configureer volgende events waarop je kan luisteren om je eigen content cache up te date te houden: 
+
+Maak 2 `topics` aan in de Event Handler
+- Content.Published
+- Content.Removed
+
+
+Configureer 3 `afleveringen` aan in de Redactie
+- Content.Published naar topic Content.Published
+- Content.Archived naar topic Content.Removed
+- Content.Removed naar topic Content.Removed
+
+Voorzie al dan niet extra filters zoals bijvoorbeeld een site filter. 
+
+Merk op dat het Content.Published event elke keer wordt afgevuurd bij een publicatie. Of het nu gaat over een nieuw content item dat gepubliceerd wordt of reeds een bestaand dat geherpubliceerd wordt. 
+
+Zoals je merkt worden zowel de `Removed` als `Archived` events naar hetzelfde topic gestuurd in de Event Handler met deze configuratie. Voor een cache is dit hetzelfde, het content item mag niet meer voorkomen in je toepassing.
+
+
+
+> [!Warning]
+> Op het moment van schrijven is er nog geen `view.content.changed` event. Hierdoor is het nog niet mogelijk om te ontdekken dat content van een view veranderd is. 
 
 ## Events consumeren
 
