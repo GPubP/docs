@@ -67,10 +67,21 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 [Terug naar het overzicht](#_index)
 
-## [4.8.0]: 2023-09
+## [4.8.1]: 2023-10
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16911)
+
 
 ### Changed
 * alle services zijn gereviewed en aangepast zodat ze werken met de laatste nieuwe versie van programeertalen, frameworks en dependencies. 
+* het reduceren van de payload bij het ophalen van content via de WCM API is aangepast
+    > [!attention|label:Breaking change]
+    > Als je zowel parent als child objecten filtert in de request zal er nu enkel de child content terugkomen in de payload. [Je kan hier de details bekijken](/wcmv4/content/content-payload?id=filter-voorrang-regels).
+
+### Fixed
+* het maken van grotere en complexere Content Types is verbeterd.
+* Gearchiveerde content items kan je niet meer ophalen via de reguliere WCM Content API calls
+
 
 [Terug naar het overzicht](#_index)
 
