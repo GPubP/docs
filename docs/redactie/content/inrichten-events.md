@@ -88,6 +88,15 @@ Een filter bestaat uit een boolean expression dat resulteert in true of false.
 
 ```json
 {
+    operator: '<operator>',
+    path: '<path>',
+    value: '<value>'
+}
+```
+Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters gaat dmv een logische AND operatie. Je kan naast `AND` ook gebruik maken van `OR`.
+
+```json
+{
   operator: 'AND',
   conditions: [
     {
@@ -99,21 +108,14 @@ Een filter bestaat uit een boolean expression dat resulteert in true of false.
 }
 ```
 
-Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters gaat dmv een logische AND operatie. De volle
-
 #### Voorbeelden
 
 **Filter op site**
 ```json
 {
-  operator: 'AND',
-  conditions: [
-    {
-      operator: '=',
-      path: '$.data.site.name',
-      value: 'politieantwerpen.be'
-    }
-  ]
+    operator: '=',
+    path: '$.data.site.name',
+    value: 'politieantwerpen.be'
 }
 ```
 
@@ -186,6 +188,10 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 
 > [!tip|label: Tip]
 > Om te kijken waarop je allemaal kan filteren ga je naar het **test scherm van je aflevering**. Daar staat een voorbeeld event payload dat je als lijdraad kan hanteren voor het opbouwen van je paden.
+
+> [!tip|label: Tip]
+> Je kan gebruik maken van https://webhook.site om je event data te zien aan de andere kant. Hiervoor moet je deze webhook url wel als subscriber inrichten in de event handler.
+
 
 ## Hou je content cache up to date
 Configureer volgende events waarop je kan luisteren om je eigen content cache up te date te houden: 
