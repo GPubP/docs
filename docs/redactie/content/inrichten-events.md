@@ -202,11 +202,13 @@ Maak 2 `topics` aan in de Event Handler
 
 
 Configureer 3 `afleveringen` aan in de Redactie
-- Content.Published naar topic Content.Published
-- Content.Archived naar topic Content.Removed
-- Content.Removed naar topic Content.Removed
+- <prefix>.Content.Published naar topic Content.Published
+- <prefix>.Content.Archived naar topic Content.Removed
+- <prefix>.Content.Removed naar topic Content.Removed
 
 Voorzie al dan niet extra filters zoals bijvoorbeeld een site filter. 
+
+Het is een best practice om de aflevering een prefix te geven op basis van de afnemer. Zo kan je sneller jouw afleveringen vinden tussen de lijst.
 
 Merk op dat het Content.Published event elke keer wordt afgevuurd bij een publicatie. Of het nu gaat over een nieuw content item dat gepubliceerd wordt of reeds een bestaand dat geherpubliceerd wordt. 
 
