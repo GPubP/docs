@@ -18,7 +18,7 @@ Ga naar http://publisher.digipolis.be en registreer je afnemer die de API gaat a
 
 ## Zoek je API en vraag een nieuw contract aan
 
-Ga naar https://marketplace.digipolis.be en zoek je API. Vraag een contract aan voor de App die je net hebt aangemaakt en wacht totdat deze is goedgekeurd. 
+Ga naar https://marketplace.digipolis.be en zoek je API (check de [beschikbare endpoints hier](/wcmv4/content/endpoints)). Vraag een contract aan voor de App die je net hebt aangemaakt en wacht totdat deze is goedgekeurd. 
 
 ![Marketplace](../assets/marketplace-contract-request.jpg 'Vraag een nieuw contract aan')
 
@@ -33,9 +33,9 @@ Vraag aan de [tenant beheerder](/redactie/content/toegang-tenant-beheerder) om j
 
 ![Publisher](../assets/publisher-copy-moniker.jpg 'Kopieer de moniker van de publisher')
 
-## App config opzetten
+## App config opzetten (optioneel)
 
-!> Deze stap is zeker nodig als je [content wil bewerken](/wcmv4/content/content-write).
+!> Deze stap is nodig als je [content wil bewerken](/wcmv4/content/content-write).
 
 Zet je een app op in app config (op ACC en/of PROD). Stel onder de Advanced Settings de identifier in als volgt:
 
