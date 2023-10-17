@@ -88,12 +88,12 @@ Een filter bestaat uit een boolean expression dat resulteert in true of false.
 
 ```json
 {
-  'operator': 'AND',
-  'conditions': [
+  operator: 'AND',
+  conditions: [
     {
-      'operator': '<operator>',
-      'path': '<path>',
-      'value': '<value>'
+      operator: '<operator>',
+      path: '<path>',
+      value: '<value>'
     }
   ]
 }
@@ -106,12 +106,12 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op site**
 ```json
 {
-  'operator': 'AND',
-  'conditions': [
+  operator: 'AND',
+  conditions: [
     {
-      'operator': '=',
-      'path': '$.data.site.name',
-      'value': 'politieantwerpen.be'
+      operator: '=',
+      path: '$.data.site.name',
+      value: 'politieantwerpen.be'
     }
   ]
 }
@@ -120,17 +120,17 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op meerdere content types**
 ```json
 {
-  'operator': 'OR',
-  'conditions': [
+  operator: 'OR',
+  conditions: [
     {
-      'operator': '=',
-      'path': '$.data.contentType.name',
-      'value': 'crisis-bericht'
+      operator: '=',
+      path: '$.data.contentType.name',
+      value: 'crisis-bericht'
     },
     {
-      'operator': '=',
-      'path': '$.data.contentType.name',
-      'value': 'nieuws-bericht'
+      operator: '=',
+      path: '$.data.contentType.name',
+      value: 'nieuws-bericht'
     }
   ]
 }
@@ -139,17 +139,17 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op site en content type**
 ```json
 {
-  'operator': 'AND',
-  'conditions': [
+  operator: 'AND',
+  conditions: [
     {
-      'operator': '=',
-      'path': '$.data.contentType.name',
-      'value': 'crisis-bericht'
+      operator: '=',
+      path: '$.data.contentType.name',
+      value: 'crisis-bericht'
     },
     {
-      'operator': '=',
-      'path': '$.data.site.name',
-      'value': 'politieantwerpen.be'
+      operator: '=',
+      path: '$.data.site.name',
+      value: 'politieantwerpen.be'
     }
   ]
 }
@@ -158,25 +158,25 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 **Filter op site en twee verschillende content types**
 ```json
 {
-  'operator': 'AND',
-  'conditions': [
+  operator: 'AND',
+  conditions: [
     {
-      'operator': '=',
-      'path': '$.data.site.name',
-      'value': 'politieantwerpen.be'
+      operator: '=',
+      path: '$.data.site.name',
+      value: 'politieantwerpen.be'
     },
     {
-      'operator': 'OR',
-      'conditions': [
+      operator: 'OR',
+      conditions: [
         {
-          'operator': '=',
-          'path': '$.data.contentType.name',
-          'value': 'crisis-bericht'
+          operator: '=',
+          path: '$.data.contentType.name',
+          value: 'crisis-bericht'
         },
         {
-          'operator': '=',
-          'path': '$.data.contentType.name',
-          'value': 'nieuws-bericht'
+          operator: '=',
+          path: '$.data.contentType.name',
+          value: 'nieuws-bericht'
         }
       ]
     }
