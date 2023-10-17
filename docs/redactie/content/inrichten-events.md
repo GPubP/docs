@@ -54,21 +54,31 @@ De configuratie kan je vinden op [tenant](/common/content/concept-tenant) niveau
 ### Bestemmingen
 Het eerste wat je zal configureren is een bestemming op de Event Handler. In essentie stel je hier de `namespace` en de `ownerkey` in. Je kan deze bestemming hergebruiken voor verschillende [afleveringen](/redactie/content/inrichten-events?id=aflevering). 
 
+De `naam` van de bestemming kan je best instellen zodat het duidelijk is wie de events gaat consumeren. bv **Mijn Antwerpen app** of **Cache PZA burgerportaal**.
+
 > **Namespace** en **Ownerkey** zijn concepten uit de ([ACPaaS Event Handler Engine](https://acpaas.digipolis.be/nl/product/event-handler-engine/v2.0.0/features)). 
+
 
 ### Aflevering
 Hier configureer welke [interne gebeurtenis](/redactie/content/inrichten-events?id=interne-gebeurtenissen) je wil doorsluizen naar de Event Handler Engine. 
 
 Je kan een aflevering (delivery) als volgt opzetten:
 
-1. kies het event
-2. kies je bestemming
-3. selecteer je topic (*) voor de gekozen bestemming
-4. optioneel stel je nog een extra filter in.
-5. test je event aflevering
-6. activeer het afleveren. (Dit is vooral handig om tijdelijk de stroom de pauzeren)
+1. Geef je aflevering een **naam** <sup>(1)</sup>
+2. kies het <sup>**(1)**</sup>, bv Content.Published <sup>(2)</sup>
+3. kies je **bestemming**
+4. selecteer je **topic** <sup>(3)</sup> voor de gekozen bestemming
+5. optioneel stel je nog een extra [filter](/redactie/content/inrichten-events?id=events-verder-filteren-in-een-aflevering) in.
+6. **test** je event aflevering
+7. **activeer** het afleveren.<sup>**(4)**</sup>
 
-> (*) **Topic** is een concept uit de Event Handler Engine
+<sup>**(1)**</sup> We stellen voor om de naam uit 3 delen op te bouwen: [prefix].[naam-bron].[naam-event]. bv `MA.Content.Published` waar MA staat voor het acroniem **Mijn Antwerpen**.
+
+<sup>**(2)**</sup> Elk event heeft ook een versie aanduiding. Zo kan het zijn dat de payload van het event verschilt tussen een v1 en een v2.
+
+<sup>**(3)**</sup> **Topic** is een concept uit de Event Handler Engine.
+
+<sup>**(4)**</sup> Bij het aanmaken van een aflevering staat dit gedeactiveerd. Zo beginnen er nog geen events door te stromen zolang je nog bezig bent met de config (bv filters). Vergeet dan wel niet om het te activeren wanneer je klaar bent.
 
 ### Events verder filteren in een aflevering 
 
@@ -196,25 +206,19 @@ Er kunnen meerdere filters gecombineerd worden. De combinatie van alle filters g
 ## Hou je content cache up to date
 Configureer volgende events waarop je kan luisteren om je eigen content cache up te date te houden: 
 
-Maak 2 `topics` aan in de Event Handler
-- Content.Published
-- Content.Removed
-
-
-Configureer 3 `afleveringen` aan in de Redactie
-- <prefix>.Content.Published naar topic Content.Published
-- <prefix>.Content.Archived naar topic Content.Removed
-- <prefix>.Content.Removed naar topic Content.Removed
-
-Voorzie al dan niet extra filters zoals bijvoorbeeld een site filter. 
-
-Het is een best practice om de aflevering een prefix te geven op basis van de afnemer. Zo kan je sneller jouw afleveringen vinden tussen de lijst.
+1. Maak 2 `topics` aan in de **Event Handler**
+   * Content.Published
+   * Content.Removed
+2. Configureer één `bestemming` in de **Redactie** obv de namespace en ownerkey uit de Event Handler
+3. Configureer 3 `afleveringen` aan in de **Redactie**
+   * [prefix].Content.Published naar topic Content.Published
+   * [prefix].Content.Archived naar topic Content.Removed
+   * [prefix].Content.Removed naar topic Content.Removed
+4. Voorzie al dan niet extra [filters](/redactie/content/inrichten-events?id=events-verder-filteren-in-een-aflevering) zoals bijvoorbeeld een site filter. 
 
 Merk op dat het Content.Published event elke keer wordt afgevuurd bij een publicatie. Of het nu gaat over een nieuw content item dat gepubliceerd wordt of reeds een bestaand dat geherpubliceerd wordt. 
 
 Zoals je merkt worden zowel de `Removed` als `Archived` events naar hetzelfde topic gestuurd in de Event Handler met deze configuratie. Voor een cache is dit hetzelfde, het content item mag niet meer voorkomen in je toepassing.
-
-
 
 > [!Warning]
 > Op het moment van schrijven is er nog geen `view.content.changed` event. Hierdoor is het nog niet mogelijk om te ontdekken dat content van een view veranderd is. 
