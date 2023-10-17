@@ -26,7 +26,10 @@ Ga naar https://marketplace.digipolis.be en zoek je API. Vraag een contract aan 
 
 De WCM heeft een eigen Gateway, bovenop de API gateway. Hiermee regelen we welke afnemer mag werken met welke tenant. 
 
-Vraag aan de [tenant beheerder](/redactie/content/toegang-tenant-beheerder) om je [toepassing rechten te geven](/redactie/content/inrichten-tenants?id=toegang-geven-voor-afnemers). Geef hierbij de `moniker` van het open platform, deze kan je makkelijk kopiëren vanop de publisher toepassing.
+Vraag aan de [tenant beheerder](/redactie/content/toegang-tenant-beheerder) om je [toepassing rechten te geven](/redactie/content/inrichten-tenants?id=toegang-geven-voor-afnemers). Geef hierbij:
+- Van welke tenant wil je data opvragen
+- Wat is de naam van de toepassing die data gaat opvragen 
+- de `moniker` van het open platform, deze kan je makkelijk kopiëren vanop de publisher toepassing.
 
 ![Publisher](../assets/publisher-copy-moniker.jpg 'Kopieer de moniker van de publisher')
 
