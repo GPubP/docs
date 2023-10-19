@@ -14,10 +14,17 @@ Je kan toegang vragen tot de `Redactie`, start hiervoor `Mijn toegang` op.
 
 ![Mijn toegang](.//redactie/assets/mt-1.png)
 
-1. Kies `Stad Antwerpen` als organisatie
-2. vervolgens kies je de applicatie `REDACTIE`
-3. en kies de rol `<tenant>_gebruiker` toe voor de tenant waar je in wil werken. 
+1. Kies **`Stad Antwerpen`** als organisatie
+2. vervolgens kies je de applicatie **`REDACTIE`**
+3. en kies de rol **`<tenant>_gebruiker`** toe voor de tenant waar je in wil werken. 
 4. Werk de aanvraag verder af.
+
+> [!tip]
+> Hou rekening met dit bij je aanvraag in Mijn Toegangg:  
+> * **`<tenant>_gebruiker`** deze is voor [Redacteurs](/redactie/content/toegang-redacteur), [Site](/redactie/content/toegang-site-beheerder) en [Content beheerders](/redactie/content/toegang-content-beheerder). 
+> * **`<tenant>_beheerder`** deze is voorbehouden voor [tenant beheerders](/redactie/content/toegang-tenant-beheerder). 
+
+
 
 ![Mijn toegang](.//redactie/assets/mt-2.png)
 
