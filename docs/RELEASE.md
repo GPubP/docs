@@ -13,8 +13,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 | [4.8.4](#_484-2023-11) | Nov 2023 | Technische upgrade ikv Move To Orange - deel II | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.3](#_483-2023-11) | Nov 2023 | Solr afbouw + bug fixes (deel II) | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.2](#_482-2023-11) | Nov 2023 | GIS module v2 | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
-| [4.8.1](#_481-2023-10) | Okt 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
-| [4.7.3](#_473-2023-08-31) | 23 aug 2023 | Solr afbouw + bug fixes (deel I) | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.8.1](#_481-2023-10) | Okt 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
+| [4.7.3](#_473-2023-08-31) | 23 aug 2023 | Solr afbouw + bug fixes (deel I) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.7.2.hotfix-1](#_472hotfix-1-2023-07-06) | 6 jul 2023 | fix voor ophalen taxonomy termen | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.7.2](#_472-2023-02-07) | 7 feb 2023 | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1 | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.7.1](#_471-2023-02-07) | 7 feb 2023 | Focus en Ken burns afbeelding effecten + bug fixes | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
