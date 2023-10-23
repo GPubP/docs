@@ -143,5 +143,5 @@ Bovenstaand voorbeeld gaat als volgt
 
 het resultaat is dat de payload gefiltered zal zijn volgens regel 3, het meest specifieke.
 
-> [!warning]
-> Deze behaviour is nieuw vanaf release 4.8.0 doordat dit de nieuwe werkwijze is in een onderliggende package waarmee het systeem met de data omgaat in MongoDB
+> [!attention]
+> Deze behaviour is anders vanaf [release 4.8.1](/RELEASE?id=_481-2023-10) doordat dit de nieuwe werkwijze is in een onderliggende package waarmee het systeem met de data omgaat in MongoDB. Voor release 4.8.1 kreeg je het meest volledige (regel 1 in bovenstaand voorbeeld) 
