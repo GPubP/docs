@@ -71,26 +71,26 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16911)
 
-De MTP in oranje zal gefaseerd gaan volgens onderstaand release schedule:
-
-| Release | Fase | MTP datum (2023)  | Impact op afnemers | Impact op Redacteurs |
-|---|---|---|---|---|
-| 4.8.1.a | voorbereiding (geen deploy) | 27 oktober  09:00 uur | geen | geen |
-| 4.8.1.b | Niet kritieke services | 31 oktober 09:00 uur  | geen | downtime 2 à 3 minuten. Bynder: Geen afbeeldingen uit bynder kunnen halen Forms: Geen nieuwe form referenties kunnen leggen in content |
-| 4.8.1.c | Navigatie & taxonomy | 2 november 09:00 uur  | downtime 2 à 3 minuten geen taxonomie en navigatie data 	ophalen/bewerken recovery 1 uur   | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
-| 4.8.1.d | Assets & translations | 7 november 09:00 uur  | downtime 2 à 3 minuten geen afbeeldingen en bijlagen kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
-| 4.8.1.e | Content | 8 november 09:00 uur  | downtime 2 à 3 minuten geen content kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
-| 4.8.1.f | Workflow & Sites | 9 november 09:00 uur  | downtime 2 à 3 minuten geen content kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
-| 4.8.1.g | Search & Sockets  | 14 november 09:00 uur  | geen | downtime 2 à 3 minuten geen nieuwe search inrichtingen kunnen opzetten mogelijks herindexatie nodig recovery 1 uur   |
-| 4.8.1.h | BRaaS | 15 november 09:00 uur  | geen | downtime 2 à 3 minuten mogelijks Not Allowed Errors Na de switch best opnieuw aanmelden recovery 1 uur   |
-| 4.8.1.i | Core services | 16 november 09:00 uur  | downtime 2 à 3 minuten geen taxonomie, navigatie data, content, afbeeldingen, bijlagen ophalen/bewerken recovery 1 uur   | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
-| 4.8.1.j | Yapla modules | 21 november 09:00 uur  | TBD | TBD |
-| 4.8.1.k | Redactie UI | TBD | geen | TBD  |
-
-
 
 ### Changed
 * alle services zijn gereviewed en aangepast zodat ze werken met de laatste nieuwe versie van programeertalen, frameworks en dependencies. 
+  
+  De MTP in oranje zal gefaseerd gaan volgens onderstaand release schedule:
+
+  | Release | Fase | MTP datum (2023)  | Impact op afnemers | Impact op Redacteurs |
+  |---|---|---|---|---|
+  | 4.8.1.a | voorbereiding (geen deploy) | 27 oktober  09:00 uur | geen | geen |
+  | 4.8.1.b | Niet kritieke services | 31 oktober 09:00 uur  | geen | downtime 2 à 3 minuten. Bynder: Geen afbeeldingen uit bynder kunnen halen Forms: Geen nieuwe form referenties kunnen leggen in content |
+  | 4.8.1.c | Navigatie & taxonomy | 2 november 09:00 uur  | downtime 2 à 3 minuten geen taxonomie en navigatie data 	ophalen/bewerken recovery 1 uur   | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
+  | 4.8.1.d | Assets & translations | 7 november 09:00 uur  | downtime 2 à 3 minuten geen afbeeldingen en bijlagen kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
+  | 4.8.1.e | Content | 8 november 09:00 uur  | downtime 2 à 3 minuten geen content kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
+  | 4.8.1.f | Workflow & Sites | 9 november 09:00 uur  | downtime 2 à 3 minuten geen content kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
+  | 4.8.1.g | Search & Sockets  | 14 november 09:00 uur  | geen | downtime 2 à 3 minuten geen nieuwe search inrichtingen kunnen opzetten mogelijks herindexatie nodig recovery 1 uur   |
+  | 4.8.1.h | BRaaS | 15 november 09:00 uur  | geen | downtime 2 à 3 minuten mogelijks Not Allowed Errors Na de switch best opnieuw aanmelden recovery 1 uur   |
+  | 4.8.1.i | Core services | 16 november 09:00 uur  | downtime 2 à 3 minuten geen taxonomie, navigatie data, content, afbeeldingen, bijlagen ophalen/bewerken recovery 1 uur   | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
+  | 4.8.1.j | Yapla modules | 21 november 09:00 uur  | TBD | TBD |
+  | 4.8.1.k | Redactie UI | TBD | geen | TBD  |
+
 * het reduceren van de payload bij het ophalen van content via de WCM API is aangepast
     > [!attention|label:Breaking change]
     > Als je zowel parent als child objecten filtert in de request zal er nu enkel de child content terugkomen in de payload. [Je kan hier de details bekijken](/wcmv4/content/content-payload?id=filter-voorrang-regels).
