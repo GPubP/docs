@@ -7,18 +7,18 @@ In dat geval kan je terecht in de readme van de module zelf.
 We raden aan om onderstaande stappen door te voeren voor minstens de volgende services.\
 Op basis van de startup dependency kolom kan je achterhalen in welke volgorde de services best opgestart worden.
 
-| Naam         | Beschrijving                                   | Type   | Startup dependency        |
-|--------------|------------------------------------------------|--------|---------------------------|
-| WCM          | Content, Content-types & views management      | Engine | WCM Admin                 |
-| Content BSL  | Content, Content-types & views management      | BSL    | WCM Admin, BraaS BSL, WCM |
-| BraaS BSL    | Roles & rights                                 | BSL    | WCM Admin                 |
-| Sites        | Sites management                               | Engine | WCM Admin                 |
-| Sites BSL    | Sites management                               | BSL    | WCM Admin, BraaS BSL      |
-| Assets       | Asset management including translation files   | Engine | WCM Admin                 |
-| Assets BSL   | Asset management                               | BSL    | WCM Admin, BraaS BSL      |
-| Trans BSL    | Translations service (uses assets)             | BSL    | WCM Admin, BraaS BSL      |
-| Worklfow     | Allows content to follow a predefined workflow | Engine | WCM Admin                 |
-| Worklfow BSL | Allows content to follow a predefined workflow | BSL    | WCM Admin, BraaS BSL      |
+| Naam                                                                                                     | Beschrijving                                   | Type   | Startup dependency        |
+|----------------------------------------------------------------------------------------------------------|------------------------------------------------|--------|---------------------------|
+| [WCM](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm/browse)                                      | Content, Content-types & views management      | Engine | WCM Admin                 |
+| [Content BSL](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-content-bsl_service_nodejs/browse)   | Content, Content-types & views management      | BSL    | WCM Admin, BraaS BSL, WCM |
+| [BraaS BSL ](https://bitbucket.antwerpen.be/projects/WCM/repos/braas-bsl_service_nodejs/browse)          | Roles & rights                                 | BSL    | WCM Admin                 |
+| [Sites](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-sites_service_nodejs/browse)               | Sites management                               | Engine | WCM Admin                 |
+| [Sites BSL ](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-sites-bsl_service_nodejs/browse)      | Sites management                               | BSL    | WCM Admin, BraaS BSL      |
+| [Assets](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-assets_service_nodejs/browse)             | Asset management including translation files   | Engine | WCM Admin                 |
+| [Assets BSL](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-assets-bsl_service_nodejs/browse)     | Asset management                               | BSL    | WCM Admin, BraaS BSL      |
+| [Trans BSL  ](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-trans-bsl_service_nodejs/browse)     | Translations service (uses assets)             | BSL    | WCM Admin, BraaS BSL      |
+| [Worklfow](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-workflow_service_nodejs/browse)         | Allows content to follow a predefined workflow | Engine | WCM Admin                 |
+| [Worklfow BSL](https://bitbucket.antwerpen.be/projects/WCM/repos/wcm-workflow-bsl_service_nodejs/browse) | Allows content to follow a predefined workflow | BSL    | WCM Admin, BraaS BSL      |
 
 **Opgelet!** De modules hebben meer dependencies met elkaar dan hier weergegeven. Dit gaat enkel over de start volgorde.
 
