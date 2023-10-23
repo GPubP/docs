@@ -75,8 +75,8 @@ De MTP in oranje zal gefaseerd gaan volgens onderstaand release schedule:
 
 | Release | Fase | MTP datum (2023)  | Impact op afnemers | Impact op Redacteurs |
 |---|---|---|---|---|
-| 4.8.1.a | voorbereiding | 27 oktober  09:00 uur | geen | geen |
-| 4.8.1.b | Niet kritieke services | 31 oktober 09:00 uur  | geen | Bynder: Geen afbeeldingen uit bynder kunnen halen Forms: Geen nieuwe form referenties kunnen leggen in content |
+| 4.8.1.a | voorbereiding (geen deploy) | 27 oktober  09:00 uur | geen | geen |
+| 4.8.1.b | Niet kritieke services | 31 oktober 09:00 uur  | geen | downtime 2 à 3 minuten. Bynder: Geen afbeeldingen uit bynder kunnen halen Forms: Geen nieuwe form referenties kunnen leggen in content |
 | 4.8.1.c | Navigatie & taxonomy | 2 november 09:00 uur  | downtime 2 à 3 minuten geen taxonomie en navigatie data 	ophalen/bewerken recovery 1 uur   | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
 | 4.8.1.d | Assets & translations | 7 november 09:00 uur  | downtime 2 à 3 minuten geen afbeeldingen en bijlagen kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
 | 4.8.1.e | Content | 8 november 09:00 uur  | downtime 2 à 3 minuten geen content kunnen ophalen recovery 1 uur | downtime 2 à 3 minuten redactie onbeschikbaar recovery 1 uur   |
