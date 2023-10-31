@@ -97,6 +97,7 @@
   * [Modules](/modules/README "Modules | GPubP")
     * [Bestaande modules](/modules/content/wcm-modules "Bestaande modules | WCM Modules | GPubP")  
       * [Broadcast](/modules/content/modules/module-broadcast "Broadcast module | WCM modules | GPubp")
+      * [Bynder](/modules/content/modules/module-bynder "Bynder module | WCM modules | GPubp")
       * [Events](/modules/content/modules/module-events "Events module | WCM modules | GPubp")
       * [Forms](/modules/content/modules/module-forms "Forms module | WCM modules | GPubp")
       * [Logbook](/modules/content/modules/module-logbook "Logbook module | WCM modules | GPubp")
