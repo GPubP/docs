@@ -75,6 +75,7 @@
       * [Preview](/redactie/content/inrichten-preview "Preview | Redactie | GPubP")
       * [Taxonomie](/redactie/content/inrichten-taxonomie "Taxonomieën inrichten | Redactie | GPubP")
       * [Workflows](/redactie/content/inrichten-workflows "Workflows inrichten | Redactie | GPubP")
+      * [Bynder](/redactie/content/inrichten-bynder "Bynder inrichten | Redactie | GPubP")
       * [Formulieren](/redactie/content/inrichten-forms "Formulieren inrichten | Redactie | GPubP")
       * [Search](/redactie/content/inrichten-search "Search inrichten | Redactie | GPubP")
         * [Voorbereiding](/redactie/content/inrichten-search-voorbereiding "Voorbereiding | Search module | WCM modules | GPubp")
