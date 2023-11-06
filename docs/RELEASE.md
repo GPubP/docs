@@ -77,6 +77,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   
   De MTP in oranje zal gefaseerd gaan volgens onderstaand release schedule:
 
+
 | Release 	| Fase                                                                                               	| MTP datum (2023)                       	| Impact op API afnemers                                                                                                                                                            	| Impact op Redacteurs                                                     	|
 |---------	|----------------------------------------------------------------------------------------------------	|----------------------------------------	|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|--------------------------------------------------------------------------	|
 | 4.8.1   	| 0: Databanken kopiëren van rood > oranje                                                           	| maandag 13 november 13:00              	| geen                                                                                                                                                                              	| De redactie is niet meer beschikbaar van maandag 13:00 tot woensdagavond 	|
@@ -91,6 +92,8 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 | 4.8.1.i 	| 9: Yapla modules                                                                                   	| woensdag 15 november tussen 9u en 17u. 	| <ul><li>zero downtime</li> <li>verificatie 10 min</li> <li>geen events, broadcast en redactie logs</li> <li>recovery max 1 min</li></ul>                                          	| De redactie is niet meer beschikbaar van maandag 13:00 tot woensdagavond 	|
 | 4.8.1.j 	| 11: Firewall gaatjes (oranje > rood) ontmantelen die nodig waren tijdens deze gefaseerde overstap. 	| woensdag 15 november tussen 9u en 17u. 	| zero downtime                                                                                                                                                                     	|                                                                          	|
 | 4.8.1.j 	| 10: Redactie UI afbouw 1 firewall regel                                                            	| dinsdag 5 december tussen 9u en 12u    	| geen                                                                                                                                                                              	| De redactie is beperkt down voor enkele minuten (DNS switch)             	|
+
+
 
 * het reduceren van de payload bij het ophalen van content via de WCM API is aangepast
     > [!attention|label:Breaking change]
