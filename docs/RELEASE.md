@@ -8,11 +8,10 @@ Hier vind je de release notes van **GPubP - Content beheer** (aka **De Redactie*
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
-| [4.10.0](#_4100) | Q4 2023 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.9.0](#_490) | Q4 2023 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
-| [4.8.4](#_484-2023-11) | Nov 2023 | Technische upgrade ikv Move To Orange - deel II | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.8.3](#_483-2023-11) | Nov 2023 | Solr afbouw + bug fixes (deel II) | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.8.2](#_482-2023-11) | Nov 2023 | GIS module v2 | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.10.0](#_4100) | Q2 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.9.0](#_490) | Q1 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.8.5](#_485-2024-02-06) | 06 feb 2024 | Move To Orange afwerking | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.8.2](#_482-2023-12-05) | 05 dec 2023 | Tech uopgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
 | [4.8.1](#_481-2023-11-15) | 15 Nov 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
 | [4.7.3](#_473-2023-08-31) | 23 aug 2023 | Solr afbouw + bug fixes (deel I) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.7.2.hotfix-1](#_472hotfix-1-2023-07-06) | 6 jul 2023 | fix voor ophalen taxonomy termen | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
@@ -60,17 +59,64 @@ Bij een **release** worden alle zaken die momenteel ontwikkeld zijn - zowel feat
 
 Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die gedeployed. Alle andere zaken die reeds klaar waren, worden dus niet mee gedeployed. 
 
- 
-## [4.9.0]
+## [4.10.0]
 
 **Visie:** Deze release laat toe om structuur te backupen en in een andere tenant te restoren. 
 
 [Terug naar het overzicht](#_index)
+ 
+## [4.9.0]
+
+**Visie:** In gebruik namen van de navigatie v2 module
+
+[Terug naar het overzicht](#_index)
+
+## [4.8.5]: 2024-02-06
+
+**Visie:** Afwerking van de MTO waaronder betere selfhealing, monitoring verbeteringen, GDPR verbeteringen, ...
+
+[Terug naar het overzicht](#_index)
+
+## [4.8.2]: 2023-12-05
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16908)
+
+### Added
+* **Events:** De content events krijgen nu een `revisionId` in de event payload
+* **Privacy**
+  * Er wordt een bewaartermijn gehanteerd van redacteur persoonsgegevens 
+  * Als tenant beheerder kan ik zien wie wanneer aan - en afmeld
+* **Monitoring** 
+  * Alle WCM services krijgen een K8S probe en worden (in app config) opgezet zodat ze zichzelf herstellen bij problemen
+  * Alle WCM services worden in lijn gebracht met de meest actuele [Monitoring Standaard van digipolis](https://github.com/digipolisantwerpdocumentation/status-monitoring)
+  * Connectiviteit naar de DB's en Kafka is robuuster opgezet en krijgen een verbeterd retry mechanisme ingeval van een uitval
+* **Search** 
+  * Extra documentatie en componenten die het maken van een Search Mapper vereenvoudigen voor andere contributors
+  * Via de Open Graph teaser mapper kan Open Graph description overgezet worden naar de Summary in de Elastic App Search Engine
+  * Content blokken kunnen nu mee opgenomen worden in Elastic App Search. De url van deze geïndexeerder content blokken kan ingesteld worden in de Index configuratie 
+  * Je kan aangeven om een content item niet mee op te nemen in een specifieke Index
+  * Er komt een extra search mapper om aan te geven welk content component de afbeelding zal leveren in de Index.
+  
+
+### Changed
+* **Redactie** 
+  * De verwijzing naar UME worden vervangen met Mijn Toegang info
+  * De redactie is geüpgraded naar React 18 inclusief een upgrade van alle dependencies
+
+
+### Fixed
+* **API:** Content items gemaakt via de API kunnen nu aangepast worden door de redacteur (ikv PZA content items 'afspraak locatie' en 'afspraak onderwerp')
+* **Navigatie:** [Site:url] placeholder optie wordt verwijderd bij de opbouw van een url patroon. Deze wordt steeds impliciet gebruikt bij het opbouwen van een url.
+* **Search** 
+  * Het herindexeren van content is verbeterd bij situaties waarbij content items te groot waren.
+  * Er worden nu het correct aantal indexen (engines) gemaakt in Elastic App Search op basis van de talen van de site (ipv de talen van een tenant)
+* **Content** 
+  * Bij een content referentie is het vuilbak icon weggehaald bij opmaak en doel.
+  * Publiceren van een mislukt geplande publicatie kan terug wel 
 
 ## [4.8.1]: 2023-11-15
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16911)
-
 
 ### Changed
 * alle services zijn gereviewed en aangepast zodat ze werken met de laatste nieuwe versie van programeertalen, frameworks en dependencies. 
