@@ -59,10 +59,10 @@ Een tenant aanmaken kan door te navigeren naar http://localhost:3999 en daar een
 3. Vul een naam in dat ook bestaat op DEV.
 
 > [!note] Users kunnen toegang krijgen tot een tenant via rechten, ingesteld op Mijn toegang.
-> De rechten worden gechecked op basis van systeemnaam. 
+> De rechten worden gechecked op basis van systeemnaam.
 > Hierdoor is het belangrijk dat de systeemnaam bij het aanmaken van een lokale tenant overeenkomt met een systeemnaam op dev.
 >
-> Zo kan je "meegenieten" van de UM rechten die reeds ingesteld zijn en hoef je geen eigen Mijn toegang rechten laten registeren voor je lokale omgeving.
+> Zo kan je "meegenieten" van de rechten die reeds ingesteld zijn en hoef je geen eigen Mijn toegang rechten laten registeren voor je lokale omgeving.
 
 1. Vink `enabled` aan.
 2. Valideer onder `Advanced` dat de `Name` overeenkomt met een `Name` op een tenant op dev (best een waar jouw gebruiker toegang toe heeft).
