@@ -11,8 +11,12 @@ Er zijn 3 soorten content componenten:
 ## Standaard content componenten
 Deze vormen de basis van het systeem, zo zijn er Tekstvakken, Keuzelijsten, Taxonomie (selectie), nummer, datum, e-mail, etc. Zeg maar de atomaire basis velden die een redacteur kan invullen.
 
-## Samengestelde content componenten
-## Custom content componenten
+## Samengestelde of custom content componenten
+Een samengesteld content component is wanneer twee of meerdere standaard content componenten samengevoegd zijn als een nieuw standaard content component. Dit kan je niet zelf doen. De samengestelde content componenten worden door het systeem zelf voorzien.
+
+Je kan zelf een samenstelling maken van twee of meerdere content componenten. 
+
+?> [Lees hier](/common/content/concept-cc) meer over.
 
 ## Lees meer
 * Elk content component heeft enkele [basis eigenschappen](/redactie/content/inrichten-cc-basis), lees er hier meer over.
