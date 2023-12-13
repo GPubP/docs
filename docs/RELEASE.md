@@ -10,7 +10,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 |---|---|---|---|
 | [4.10.0](#_4100) | Q2 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
 | [4.9.0](#_490) | Q1 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.8.5](#_485-2024-02-06) | 06 feb 2024 | Move To Orange afwerking | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.8.5](#_485-2024-02-06) | 06 feb 2024 | GDPR features | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.8.4](#_484-2024-01) | jan 2024 | Monitoring & Self healing | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.2](#_482-2023-12-05) | 05 dec 2023 | Tech uopgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
 | [4.8.1](#_481-2023-11-15) | 15 Nov 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
 | [4.7.3](#_473-2023-08-31) | 23 aug 2023 | Solr afbouw + bug fixes (deel I) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
@@ -81,14 +82,9 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 ### Added
 
-* **Events:** De content events krijgen nu een `revisionId` in de event payload
 * **Privacy**
   * Er wordt een bewaartermijn gehanteerd van redacteur persoonsgegevens
   * Als tenant beheerder kan ik zien wie wanneer aan - en afmeld
-* **Monitoring**
-  * Alle WCM services krijgen een K8S probe en worden (in app config) opgezet zodat ze zichzelf herstellen bij problemen
-  * Alle WCM services worden in lijn gebracht met de meest actuele [Monitoring Standaard van digipolis](https://github.com/digipolisantwerpdocumentation/status-monitoring)
-  * Connectiviteit naar de DB's en Kafka is robuuster opgezet en krijgen een verbeterd retry mechanisme ingeval van een uitval
 * **Search**
   * Extra documentatie en componenten die het maken van een Search Mapper vereenvoudigen voor andere contributors
   * Via de Open Graph teaser mapper kan Open Graph description overgezet worden naar de Summary in de Elastic App Search Engine
@@ -98,9 +94,27 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   
 ### Changed
 
-* **Redactie**
-  * De verwijzing naar UME worden vervangen met Mijn Toegang info
-  * De redactie is geüpgraded naar React 18 inclusief een upgrade van alle dependencies
+* **Events:** De content events krijgen nu een `revisionId` in de event payload
+
+### Fixed
+
+
+[Terug naar het overzicht](#index)
+
+## [4.8.4]: 2024-01
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17004)
+
+### Added
+
+* **Monitoring**
+  * Alle WCM services krijgen een K8S probe en worden (in app config) opgezet zodat ze zichzelf herstellen bij problemen
+  * Alle WCM services worden in lijn gebracht met de meest actuele [Monitoring Standaard van digipolis](https://github.com/digipolisantwerpdocumentation/status-monitoring)
+  * Connectiviteit naar de DB's en Kafka is robuuster opgezet en krijgen een verbeterd retry mechanisme ingeval van een uitval
+  
+### Changed
+
+* **Redactie:** De verwijzing naar UME worden vervangen met Mijn Toegang info
 
 ### Fixed
 
@@ -114,6 +128,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   * Publiceren van een mislukt geplande publicatie kan terug wel
 
 [Terug naar het overzicht](#index)
+
 
 ## [4.8.2]: 2023-12-05
 
