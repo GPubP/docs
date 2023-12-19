@@ -12,9 +12,9 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 | [4.9.0](#_490) | Q1 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.5](#_485-2024-03-05) | 05 mar 2024 | GDPR features | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.4](#_484-2024-02-06) | 06 feb 2024 | Monitoring & Self healing | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.8.3](#_483-2024-01-16) | 16 jan 2024 | Tech upgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
-| [4.8.2](#_482-2024-01-09) | 09 jan 2024 | Tech upgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
-| [4.8.1](#_481-2023-11-15) | 15 Nov 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
+| [4.8.3](#_483-2024-01-16) | 16 jan 2024 | Kafka switch | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.8.2](#_482-2024-01-09) | 09 jan 2024 | Tech upgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
+| [4.8.1](#_481-2023-11-15) | 15 Nov 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.7.3](#_473-2023-08-31) | 23 aug 2023 | Solr afbouw + bug fixes (deel I) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.7.2.hotfix-1](#_472hotfix-1-2023-07-06) | 6 jul 2023 | fix voor ophalen taxonomy termen | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.7.2](#_472-2023-02-07) | 7 feb 2023 | Logboek v1, Nieuwsbrief v1.1 en Event module v1.1 | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
