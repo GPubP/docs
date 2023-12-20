@@ -1,8 +1,9 @@
-# GIS referentie
+# GIS kaart
 
-Laat toe om een GIS punt te kiezen uit een lijst van GIS lagen. bv één specifiek apother uit de GIS apother laag van Antwerpen.
+Laat toe om met een GEO kaart te werken.  
 
 > Zorg ervoor de de [GIS module](/modules/content/modules/module-gis) geactiveerd.
+
 
 ## Voor content beheerders
 
