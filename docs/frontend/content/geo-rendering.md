@@ -7,4 +7,3 @@ Met de [GIS module](/modules/content/modules/module-gis) kunnen redacteurs ofwel
 
 !> TODO:
 !> beschrijf hoe je via een leaflet dit kan opzetten
-!> hoe dat er ook via GIS server kan gewerkt worden als er een doorslag is opgezet (over de Search module)
