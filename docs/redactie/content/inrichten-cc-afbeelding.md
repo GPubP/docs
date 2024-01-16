@@ -173,4 +173,6 @@ Met de `uuid` kan je de afbeelding effectief ophalen via de [Assets API](/wcmv4/
 }
 ```
 
+?> Bekijk ook de tips voor [frontend ontwikkeling voor assets](/frontend/content/assets-rendering).
+
 ?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)
