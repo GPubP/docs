@@ -1,7 +1,7 @@
 # WCM Modules
 
 > [!info|label:Definitie]
-> WCM Modules bepalen wat functionaliteiten je kan gebruiken in je [tenant](/common/content/concept-tenant).
+> WCM Modules bepalen welke functionaliteiten je kan gebruiken in je [tenant](/common/content/concept-tenant).
 > Hoe meer modules je activeerd hoe meer features je unlocked.
 
 ## Generieke modules
