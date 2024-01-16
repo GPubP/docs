@@ -1,7 +1,8 @@
 # Toegang aanvragen
 
 > [!info|label:Definitie]
-> Toegang geeft je het recht om met de Redactie tool te werken maar nog niet het recht om te werken als redacteur of contentbeheerder. Hiervoor moet je nog een [rol](/redactie/content/toegang-werken-als) toebedeeld krijgen.
+> Toegang geeft je het recht om met de Redactie tool te werken maar nog niet het recht om te werken als redacteur of contentbeheerder.
+> Hiervoor moet je nog een [rol](/redactie/content/toegang-werken-als) toebedeeld krijgen.
 
 ## Toegang aanvragen als gebruiker
 
@@ -30,6 +31,7 @@ Wil je toegang tot de acceptatieomgeving - ACC (redactie-a.antwerpen.be) dan zal
 
 ## Toegang aanvragen als tenant beheerder
 
-Tenant beheerders worden bij de aanmaak van de tenant vastgelegd. Het gebeurt (zelden) dat er andere personen aangewezen worden om als tenant beheerder te moeten werken. Vaak vergissen mensen zich in [het beheren van de site](/redactie/content/toegang-site-beheerder) versus [het beheren van de hele tenant](/redactie/content/toegang-tenant-beheerder).
+Tenant beheerders worden bij de aanmaak van de tenant vastgelegd. Het gebeurt (zelden) dat er andere personen aangewezen worden om als tenant beheerder te moeten werken.
+Vaak vergissen mensen zich in [het beheren van de site](/redactie/content/toegang-site-beheerder) versus [het beheren van de hele tenant](/redactie/content/toegang-tenant-beheerder).
 
 Overtuigd dat je tenant beheerder wil worden? Vraag dit aan via een **servicedesk** ticket.
