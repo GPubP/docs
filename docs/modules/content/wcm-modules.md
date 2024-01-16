@@ -1,6 +1,11 @@
 # WCM Modules
 
+> [!info|label:Definitie]
+> WCM Modules bepalen wat functionaliteiten je kan gebruiken in je [tenant](/common/content/concept-tenant).
+> Hoe meer modules je activeerd hoe meer features je unlocked.
+
 ## Generieke modules
+
 | Module                                                               | [F](## "Frontend bundle module") | [B](## "Business Service module") | [E](## "Engine module") | Categorie  | Omschrijving                                                                                 | Core?               | Gebruik      | Oorsprong           | Gemaakt door      |
 |----------------------------------------------------------------------|----------------------------------|-----------------------------------|-------------------------|------------|----------------------------------------------------------------------------------------------|---------------------|--------------|---------------------|-------------------|
 | Assets                                                               | :fa-solid fa-check:              | :fa-solid fa-check:               | :fa-solid fa-check:     | Media      | Laat toe om met afbeeldingen te werken                                                       | :fa-solid fa-check: | Aanbevolen   | antwerpen.be        | Studio Hyperdrive |
@@ -43,6 +48,7 @@
 | Uitdatabank                   |                     | :fa-solid fa-check: |                     | <span class="a-badge a-badge--primary">Integratie</span>| Stuurt content items naar UIT in Vlaanderen systeem                                          | :fa-solid fa-code-pull-request: | Cultuur sites       | Studio Hyperdrive |
 
 ## Legende
+
 * F: Frontend bundle module
 * B: Business Service module
 * E: Engine module
