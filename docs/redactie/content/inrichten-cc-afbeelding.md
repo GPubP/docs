@@ -1,24 +1,33 @@
-# Afbeelding 
+# Afbeelding
+
 Kies een afbeelding, beschrijf het en stel de crop instellingen in.
 
-# Voor contentbeheerders
+## Voor contentbeheerders
+
 * stel toegelaten bestand extensies in
 * geef min hoogte en breedte zodat de redacteurs images uploaden met een minimum kwaliteit
 * crop / bijsnijden
-  * Stel één of meerder crops. 
+  * Stel één of meerder crops.
   * De redacteur zal voor elke crop een keuze moeten maken
   * keuze uit
     * Vrije crop: de redacteur kan een uitsnede kiezen
     * Begrensd, de redacteur kan een uitsnede kiezen, met een max hoogte/breedte.
     * Ratio: de redacteur kan een uitsnede kiezen waarbij de verhouding tussen hoogte en breedte gelijk blijft
     * Exact: de redacteur kan een uitsnede kiezen maar de maten staan vast
-* geef aan of het als decoratief beeld kan gebruikt worden. Bijvoorbeeld als afbeelding bovenaan in de pagina hoofding of als afbeelding in een kaartweergave voor een oplijsting, etc 
+* geef aan of het als decoratief beeld kan gebruikt worden. Bijvoorbeeld als afbeelding bovenaan in de pagina hoofding of als afbeelding in een kaartweergave voor een oplijsting, etc
+
+> [!Info|label:Performantie tip]
+>
+> We raden aan om steeds de crop opties `Begrensd` en `Exact` te gebruiken. 
+> Deze zijn evenwaardig aan de Vrije crop en Ratio crop respectievelijk, alleen zullen de eerste ook de image resizen naar de maximum ingestelde pixegrootte.
+> Op die manier kan je de bestandsgrootte in één keer verkleinen wat de performantie (over het netwerk) ten goede zal komen.
 
 ![Afbeelding configuratie](../assets/afbeelding-config.gif)
 
 ([Bekijk dit op YouTube](https://youtu.be/4qVawwLCHnU ':target="_blank"'))
 
-# Voor redacteurs
+## Voor redacteurs
+
 Je kan een afbeelding uploaden of kiezen uit een lijst van reeds opgeladen afbeeldingen
 Je krijgt een preview van de afbeelding die je gekozen hebt
 
@@ -26,8 +35,9 @@ Je krijgt een preview van de afbeelding die je gekozen hebt
 
 ([Bekijk dit op YouTube](https://youtu.be/XqYR2Klnikc ':target="_blank"'))
 
-# Voor ontwikkelaars
-## Lege output
+## Voor ontwikkelaars
+
+### Lege output
 
 ```json
 {
@@ -41,7 +51,9 @@ Je krijgt een preview van de afbeelding die je gekozen hebt
    ...
 }
 ```
-## Output met een afbeelding
+
+### Output met een afbeelding
+
 Je krijgt zowel de originele image alsook de bijgesneden images, inclusief de uitsnede informatie.
 
 ```json
