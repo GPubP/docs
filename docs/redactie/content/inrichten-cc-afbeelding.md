@@ -30,6 +30,12 @@ Kies een afbeelding, beschrijf het en stel de crop instellingen in.
 
 ([Bekijk dit op YouTube](https://youtu.be/4qVawwLCHnU ':target="_blank"'))
 
+### Extra configuratie
+
+Zoals eerder vermeld kan een content beheerder kiezen om de redacteur een zoom-in/uit effect te laten instellen. Eveneens kan de een focus punt gezet worden door de redacteur. Vink hiervoor de respectievelijk opties aan:
+
+![Afbeelding extra configuratie](../assets/afbeelding-extra-config.jpg 'Extra opties bij de afbeelding configuratie')
+
 ## Voor redacteurs
 
 Je kan een afbeelding uploaden of kiezen uit een lijst van reeds opgeladen afbeeldingen
@@ -38,6 +44,8 @@ Je krijgt een preview van de afbeelding die je gekozen hebt
 ![Afbeelding recactie](../assets/afbeelding-red.gif)
 
 ([Bekijk dit op YouTube](https://youtu.be/XqYR2Klnikc ':target="_blank"'))
+
+!> TODO: zet enkele afbeeldingen / gif over het gebruik van de zoom-in/uit en focuspunt editors voor de redacteur.
 
 ## Voor ontwikkelaars
 

@@ -1,5 +1,8 @@
 # Assets API
 
+> Om met assets te werken moet je de [Assets module](/modules/content/modules/module-assets) activeren voor je tenant.
+
+
 ## Assets ophalen
 Het ophalen van afbeeldingen of bestanden is vrij eenvoudig en je hebt hiervoor enkel een `id` nodig. Deze id kan je terugvinden wanneer je [content ophaalt](/wcmv4/content/content-item-read) waarin een [afbeelding content component](/redactie/content/inrichten-cc-afbeelding) voorkomt.
 
@@ -101,6 +104,12 @@ Wil je de originele afbeelding ophalen? gebruik dan de `afbeelding.original.asse
 
 > `afbeelding` in dit voorbeeld is de naam van het afbeelding content component op het content type.
 
+> [!Info|label:Performantie tip]
+>
+> We raden aan om **niet** te werken met de `original` afbeelding. Deze afbeelding is vaak te groot en niet geöptimaliseerd.
+>
+> Werk liever met de ge-cropte afbeelding, vooral als ze via de `begrensd` of `exact` [cropping methode zijn opgezet](/redactie/content/inrichten-cc-afbeelding?id=voor-contentbeheerders), die zorgt ervoor dat de gecropte versies ook verkleind worden waardoor er kleinere bestanden naar de afnemer z'n device gaan.
+
 ## Assets in een Tekstvak met Opmaak
 
 Assets in tekstvak met opmaak zien er als volgt uit:
@@ -121,9 +130,9 @@ Dit betekent dat er in de BFF een proxy moet voorzien worden dat dit pad omvormt
 GET .../assets/v1/sites/[siteId]/assets/[assetId]/file 
 ```
 
+?> Bekijk hier hoe je [afbeeldingen best gebruikt in een frontend](/frontend/content/assets-rendering)
 
-
-
+?> Bekijk hier hoe je een [afbeelding content component](/redactie/content/inrichten-cc-afbeelding) configureert.
 
 
 

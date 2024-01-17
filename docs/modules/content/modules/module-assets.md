@@ -16,6 +16,6 @@ Hiervoor configureer je respectievelijk de [modules](/modules/README) `Assets pl
 
 ## Bestanden
 
-!> Todo
+Deze module levert ook de [Bestand content component](/redactie/content/inrichten-cc-bestand) op.
 
-!> Deze pagina is nog niet helemaal gedocumenteerd. Geef een seintje aan <erik.lenaerts@digipolis.be> en we werken dit uit.
+?> Om als afnemer de afbeeldingen en bestanden te kunnen opvragen gebruik je de [Assets API](/wcmv4/content/assets).
