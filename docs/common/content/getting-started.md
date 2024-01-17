@@ -1,13 +1,12 @@
 # Getting started
 
 > [!tip|label: Latest releases]
-> Op *7 februari* is **[4.7.1](/RELEASE?id=_471-2022-11-09)** gereleased met daarin essentiële bugfixes.
-> 
-> Op *9 november* is **[4.7.0](/RELEASE?id=_470-2022-11-09)** gereleased met daarin de **WCM Event module**. Hiermee kan je kiezen welke events je wil afleveren aan de digipolis Event Handler Engine. 
-> 
-> Op *2 november* is **[4.6.5](/RELEASE?id=_465-2022-11-02)** gereleased met de content **WCM Broadcast module**. Deze kan je gebruiken voor het aansturen van e-mail campagne systemen (voorlopig enkel SendGrid). 
+> Op *9 januari 2024* is **[4.8.2](/RELEASE?id=_482-2024-01-09)** gereleased waarbij de [redactie](/redactie/README) naar oranje is gebracht.
+>
+> Op *15 november 2023* is **[4.8.1](/RELEASE?id=_481-2023-11-15)** gereleased waarbij de [WCM](/wcmv4/README) naar oranje is gebracht.
 
 ## Aan de slag
+
 Deze documentatie is voor iedereen die met het GPubP aan de slag wil. Je vindt hier de alle info om van start te gaan als *absolute beginner* tot specs voor de *doorgewinterde WCM developer*.  
 
 * Wil je de **basis concepten en terminologie** leren? Bekijk dan de [intro](common/content/intro) sectie.
@@ -19,9 +18,11 @@ Deze documentatie is voor iedereen die met het GPubP aan de slag wil. Je vindt h
 !> Is het GPubP nog allemaal wat nieuw voor jou, check dan zeker [de video's](/common/content/videos), altijd handig om het systeem in actie te zien ;).
 
 > [!warning|label: Wat vind je hier niet]
-> Deze docs gaan over het platform, de tools. Je zal hier geen documentatie vinden over specifieke redactionele werkingen. Elk redactieteam, elke site heeft z'n eigen procedures, z'n eigen [inrichting](/redactie/content/inrichten). De documentatie daarover vind je hier dus niet terug.
+> Deze docs gaan over het platform, de tools. Je zal hier geen documentatie vinden over specifieke redactionele werkingen. Elk redactieteam, elke site heeft z'n eigen procedures, z'n eigen [inrichting](/redactie/content/inrichten).
+> De documentatie daarover vind je hier dus niet terug.
 
 ## Vragen over deze docs?
+
 Heb je nog een vraag of een idee om iets te verbeteren/bij te dragen aan deze documentatie? Kijk even naar de [Contributie](/CONTRIBUTING.md) aanpak.
 
 De volledige changelog van de documentatie kan je [hier](/CHANGELOG.md) vinden.

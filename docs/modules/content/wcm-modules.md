@@ -1,9 +1,16 @@
 # WCM Modules
 
+> [!info|label:Definitie]
+> WCM Modules bepalen welke functionaliteiten je kan gebruiken in je [tenant](/common/content/concept-tenant).
+> Hoe meer modules je activeert hoe meer features je unlocked.
+
 ## Generieke modules
+
 | Module                                                               | [F](## "Frontend bundle module") | [B](## "Business Service module") | [E](## "Engine module") | Categorie  | Omschrijving                                                                                 | Core?               | Gebruik      | Oorsprong           | Gemaakt door      |
 |----------------------------------------------------------------------|----------------------------------|-----------------------------------|-------------------------|------------|----------------------------------------------------------------------------------------------|---------------------|--------------|---------------------|-------------------|
-| Assets                                                               | :fa-solid fa-check:              | :fa-solid fa-check:               | :fa-solid fa-check:     | Media      | Laat toe om met afbeeldingen te werken                                                       | :fa-solid fa-check: | Aanbevolen   | antwerpen.be        | Studio Hyperdrive |
+| [Assets](/modules/content/modules/module-assets)                                                               | :fa-solid fa-check:              | :fa-solid fa-check:               | :fa-solid fa-check:     | Media      | Laat toe om met afbeeldingen te werken                                                       | :fa-solid fa-check: | Aanbevolen   | antwerpen.be        | Studio Hyperdrive |
+| [Assets plugin kenburns module](/modules/content/modules/module-assets)                                                               | :fa-solid fa-check:              |                |     | Media      | Laat toe om een zoom-in/uit effect op een afbeelding te definiëren                                                       |  |    | politieantwerpen.be        | Studio Hyperdrive |
+| [Assets plugin focalpoint module](/modules/content/modules/module-assets)                                                               | :fa-solid fa-check:              |                |    | Media      | Laat toe om een focus punt aan te geven bij een afbeelding                                                       |  |    | politieantwerpen.be        | Studio Hyperdrive |
 | BRaaS                                                                | :fa-solid fa-check:              |                                   |                         | Security   | Voorziet in de aansturing van BRaaS waar de rollen en rechten worden opgeslagen              | :fa-solid fa-check: | Noodzakelijk | antwerpen.be        | Studio Hyperdrive |
 | [Broadcast](/modules/content/modules/module-broadcast)               | :fa-solid fa-check:              | :fa-solid fa-check:               | :fa-solid fa-check:     | Integratie | Verstuur content apart of gebundeld naar een externe service (e.g. sendgrid)                 |                     |              | politieantwerpen.be | Yapla             |
 | [Bynder](/modules/content/modules/module-bynder)                                                               | :fa-solid fa-check:              | :fa-solid fa-check:               |                         | Media      | Om beelden te zoeken en op te halen uit Bynder                                               |                     |              | antwerpen.be        | Studio Hyperdrive |
@@ -43,6 +50,7 @@
 | Uitdatabank                   |                     | :fa-solid fa-check: |                     | <span class="a-badge a-badge--primary">Integratie</span>| Stuurt content items naar UIT in Vlaanderen systeem                                          | :fa-solid fa-code-pull-request: | Cultuur sites       | Studio Hyperdrive |
 
 ## Legende
+
 * F: Frontend bundle module
 * B: Business Service module
 * E: Engine module
