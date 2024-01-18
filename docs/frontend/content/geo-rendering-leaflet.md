@@ -1,5 +1,7 @@
 # Renderen via leaflet
 
+Als redacteurs werken met een [GIS kaart](/redactie/content/inrichten-cc-gis-kaart) in de redactie geven we je hier enkele tips om hier in de frontend mee om te gaan.
+
 ## Render de kaart
 
 !> TODO: beschrijf hoe je via leaflet GIS data kan tonen (zowel de kaart als de referentie)
@@ -32,4 +34,3 @@ Daarnaast kan je de kaart **inzoomen** volgens de `zoom` waarde uit het content 
 !> TODO: beschrijf hoe je elementen rendert
 
 !> TODO: beschrijf specifiek hoe je met circles moet omgaan op een kaart
-

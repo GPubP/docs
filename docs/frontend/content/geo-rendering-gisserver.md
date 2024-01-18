@@ -1,5 +1,9 @@
 # Wegschrijven naar de GIS Server
 
+Werken redactuers met een [GIS kaart](/redactie/content/inrichten-cc-gis-kaart), dan kan je de elementen die ze erop tekenen laten doorvloeien naar je GIS server.
+
+## High level
+
 Laten we eerst even het geheel bekijken in onderstaand schema:
 
 ```plantuml
