@@ -103,9 +103,11 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 * **Monitoring**
   * Alle WCM services krijgen een K8S probe en worden (in app config) opgezet zodat ze zichzelf herstellen bij problemen
-  * Alle WCM services worden in lijn gebracht met de meest actuele [Monitoring Standaard van digipolis](https://github.com/digipolisantwerpdocumentation/status-monitoring)
-  * Connectiviteit naar de DB's en Kafka is robuuster opgezet en krijgen een verbeterd retry mechanisme ingeval van een uitval
-  
+  * Alle WCM services worden in lijn gebracht met de meest actuele [Monitoring Standaard van digipolis](https://github.com/digipolisantwerpdocumentation/status-monitoring).
+  * Connectiviteit naar de DB's en Kafka is robuuster opgezet en krijgen een verbeterd retry mechanisme ingeval van een uitval.
+* **Search**
+  * Je kan aangeven om een content item niet mee op te nemen in een specifieke Index
+
 ### Changed
 
 * **Redactie:** De verwijzing naar UME worden vervangen met Mijn Toegang info
@@ -113,13 +115,21 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 ### Fixed
 
 * **API:** Content items gemaakt via de API kunnen nu aangepast worden door de redacteur (ikv PZA content items 'afspraak locatie' en 'afspraak onderwerp')
-* **Navigatie:** [Site:url] placeholder optie wordt verwijderd bij de opbouw van een url patroon. Deze wordt steeds impliciet gebruikt bij het opbouwen van een url.
-* **Search**
-  * Het herindexeren van content is verbeterd bij situaties waarbij content items te groot waren.
-  * Er worden nu het correct aantal indexen (engines) gemaakt in Elastic App Search op basis van de talen van de site (ipv de talen van een tenant)
+* **Broadcast:** De rechten van de broadcast module kunnen nu wel correct in een rol ingesteld worden.
 * **Content**
   * Bij een content referentie is het vuilbak icon weggehaald bij opmaak en doel.
   * Publiceren van een mislukt geplande publicatie kan terug wel
+  * De oude slug werkt niet meer voor een content item na het wijzigen ervan.
+* **GIS**
+  * Import van GeoJSON geeft geen foutmelding meer.
+  * GIS kaart is nu conform de stijlgids.
+* **Navigatie**
+  * [Site:url] placeholder optie wordt verwijderd bij de opbouw van een url patroon. Deze wordt steeds impliciet gebruikt bij het opbouwen van een url (nav v2).
+  * Menu configuratie op een content type geeft op site niveau geeft geen fout meer (nav v2).
+  * Aanpassen van een URL patroon werkt terug (nav v2).
+* **Search**
+  * Het herindexeren van content is verbeterd bij situaties waarbij content items te groot waren.
+  * Er worden nu het correct aantal indexen (engines) gemaakt in Elastic App Search op basis van de talen van de site (ipv de talen van een tenant)
 
 [Terug naar het overzicht](#index)
 
