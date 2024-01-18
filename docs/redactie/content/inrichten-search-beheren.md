@@ -125,3 +125,5 @@ Als je bovenstaande gelezen hebt zal je nagenoeg elk scherm al gezien hebben om 
 > * **Curations:** Je wil voor specifieke zoektermen, andere pagina's vastpinnen bovenaan de zoekresultaten
 > 
 > In essentie maak je een nieuwe index als je voor één van deze redenen wil afwijken van reeds bestaande indexen. 
+
+?> Zie ook de [Search API](/wcmv4/content/search).

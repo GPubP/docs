@@ -8,9 +8,4 @@ De GIS module levert twee [standaard content componenten](/redactie/content/inri
 * [GIS kaart](/redactie/content/inrichten-cc-gis-kaart)
 * [GIS referentie](/redactie/content/inrichten-cc-gis-referentie)
 
-
-!> TODO: hoe dat er ook via GIS server kan gewerkt worden als er een doorslag is opgezet (over de Search module)
-
-
-
-!> Deze pagina is nog niet helemaal gedocumenteerd. Geef een seintje aan <erik.lenaerts@digipolis.be> en we werken dit uit.
+?> Bekijk ook hoe je met GIS data [aan de slag kan in de frontend](/frontend/content/geo-rendering).
