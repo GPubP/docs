@@ -205,6 +205,8 @@
   * [Events consumeren](/frontend/content/events-consumeren "Events consumeren | Frontent development | GPubP")
   * [Formulieren tonen](/frontend/content/form-renderer "Formulieren tonen | Frontent development | GPubP")
   * [GEO rendering](/frontend/content/geo-rendering" "GEO rendering | Frontent development | GPubP")
+    * [Leaflet](/frontend/content/geo-rendering-leaflet" "Leaflet | GEO rendering | Frontent development | GPubP")
+    * [GIS Server](/frontend/content/geo-rendering-gisserver" "GIS Server | GEO rendering | Frontent development | GPubP")
   * [Layout Renderer](/frontend/content/layout-renderer "Layout Renderer | Frontent development | GPubP")
 * [Status](/common/content/status "Status | GPubP")
 * [Interessante links](/common/content/links)
