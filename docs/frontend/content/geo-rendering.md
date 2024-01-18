@@ -1,26 +1,54 @@
 # Geo rendering
 
-Met de [GIS module](/modules/content/modules/module-gis) kunnen redacteurs ofwel 
+Met de [GIS module](/modules/content/modules/module-gis) kunnen redacteurs ofwel
 
 * GIS punten kiezen, via de [GIS referentie content component](/redactie/content/inrichten-cc-gis-referentie)
 * kaarten aanmaken en bewerken via de [GIS kaart content component](/redactie/content/inrichten-cc-gis-kaart)
 
 ## Werken met GEO data van de GIS kaart
 
-Een redacteur kan een content item maken waar hij/zij op een een GIS kaart elementen tekent zoals lijnen en polygonen. Vraag is, wat doen we met die extra data? Er zijn typisch 2 manieren om hiermee overweg te gaan: 
+Een redacteur kan een content item maken waar hij/zij op een een GIS kaart elementen tekent zoals lijnen en polygonen. Vraag is, wat doen we met die extra data?
+Er zijn typisch 2 manieren om hiermee overweg te gaan:
 
 1. de frontend haalt het content item op en rendert deze op een leaflet/mapbox kaart
 2. er wordt een routine gemaakt die deze data oppikt en gaat bewaren op de GIS server
 
 ### Renderen via leaflet
 
+#### Render de kaart
+
 !> TODO: beschrijf hoe je via leaflet GIS data kan tonen (zowel de kaart als de referentie)
 
-!> TODO: beschrijf specifiek hoe je met circles moet omgaan op een kaart 
+Als je de kaart presenteert kan je gebruik maken van de `mapControls` informatie die je op het content item terug vindt.
+Specifiek kan je de **positie** van de kaart zetten op basis van de `latlng` waardes uit het content item.
+Daarnaast kan je de kaart **inzoomen** volgens de `zoom` waarde uit het content item.
+
+```json
+{
+    "_id": "659d60edae970038264276cc",
+    "uuid": "dac8e1ce-8b6c-437a-9191-c8981ba19a28",
+    "fields": {
+        "gis-kaart": {
+            "mapControls": {
+                "latLng": {
+                    "lat": 51.23462231776156,
+                    "lng": 4.424743652343751
+                },
+                "zoom": 13
+            },
+            "mapData": { ... }
+        }
+    }
+}
+```
+
+#### Render de elementen op de kaart
+
+!> TODO: beschrijf specifiek hoe je met circles moet omgaan op een kaart
 
 ### Wegschrijven naar de GIS Server
 
-Laten we eerst even het geheel bekijken in onderstaand schema: 
+Laten we eerst even het geheel bekijken in onderstaand schema:
 
 ```plantuml
 @startuml
@@ -58,9 +86,11 @@ gis --> UC8
 @enduml@enduml
 ```
 
-Je zal je misschien afvragen waarom de content naar Elastic App Search wordt gestuurd? Dit is ons voorstel omdat je vanuit daar makkelijker kan opzoeken wanneer welke content is bijgekomen. [Lees hier ](/redactie/content/inrichten-search-beheren) hoe je de redactie kan inrichten om de content naar Elastic App Search te sturen.
+Je zal je misschien afvragen waarom de content naar Elastic App Search wordt gestuurd? Dit is ons voorstel omdat je vanuit daar makkelijker kan opzoeken wanneer welke content is bijgekomen.
+[Lees hier](/redactie/content/inrichten-search-beheren) hoe je de redactie kan inrichten om de content naar Elastic App Search te sturen.
 
-Eénnaal de data in Elastic App Search zit kan je gebruik maken onderstaande query via de Elastic App Search API. Hierin geef je aan welke documenten je wil die veranderd zijn sinds die dag. Je zal ook merken dat we enkel de data willen opvragen van `gis_kaart`, het content component waarin de redacteur de elementen tekende op de GIS kaart.
+Eénnaal de data in Elastic App Search zit kan je gebruik maken onderstaande query via de Elastic App Search API. Hierin geef je aan welke documenten je wil die veranderd zijn sinds die dag.
+Je zal ook merken dat we enkel de data willen opvragen van `gis_kaart`, het content component waarin de redacteur de elementen tekende op de GIS kaart.
 
 ```shell
 POST 'https://appsearch-ent1.antwerpen.be/api/as/v1/engines/{engine}/search' \
@@ -82,7 +112,7 @@ POST 'https://appsearch-ent1.antwerpen.be/api/as/v1/engines/{engine}/search' \
 }'
 ```
 
-Het resultaat van deze query ziet er als volgt uit: 
+Het resultaat van deze query ziet er als volgt uit:
 
 ```json
 {
