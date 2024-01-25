@@ -180,7 +180,7 @@ C. extra variabele informatie die de redacteur per [getekent element kan invoere
 
 Laten we deze 3 eens in beeld brengen.
 
-##### Standaard GeoJSOn data per getekend element
+##### Standaard GeoJSON data per getekend element
 
 Dit is een voorbeeld van de standaard GeoJSON data. Het bevat een `type` en `geometry` element.
 
@@ -215,16 +215,24 @@ Concreet bewaren we deze properties:
 
 - `id`: Een unieke id voor het getekend element.
 - `type`: Het type van wat we getekend hebben. Dit is verschillend van de info die in het GeoJSON geometry element zit. Zo kent de GeoJSON spec geen cirkel. Vandaar dat we dit zelf hier bijhouden.
+  Hier is het verband tussen beide:
+    | GIS kaart type 	| GeoJSON type 	|
+    |----------------	|--------------	|
+    | **point**      	| Point        	|
+    | **line**       	| LineString   	|
+    | **rectangle**  	| Polygon      	|
+    | **polygon**    	| Polygon      	|
+    | **cirkel**     	| Point        	|  
 - `name`: Dit is de naam die de redacteur aan het element gegeven heeft.
 - `color`: Dit is de code en het label van de kleur waarmee het element getekend is.
 - `dimensions`: Per getekend element berekenen we de dimensies en worden deze hier bewaard. De dimensies verschillen per type van het getekend element:
-    | type     | dimensions                                                    |
-    |-----------|-------------------------------------------------------------- |
-    | **point**     | N/A                                                           |
-    | **line**      | `length`: lengte van de lijn                                  |
-    | **rectangle** | _wordt beschouwd als een polygon_                             |
-    | **polygon**   | `area`: oppervlakte<br/> `perimeter`: omtrek                      |
-    | **cirkel**    | `radius`: de radius<br/> `area`: oppervlakte<br/> `perimeter`: omtrek |
+    | GIS kaart type 	| dimensions                                                            	|
+    |----------------	|-----------------------------------------------------------------------	|
+    | **point**      	| N/A                                                                   	|
+    | **line**       	| `length`: lengte van de lijn                                          	|
+    | **rectangle**  	| _wordt beschouwd als een polygon_                                     	|
+    | **polygon**    	| `area`: oppervlakte<br/> `perimeter`: omtrek                          	|
+    | **cirkel**     	| `radius`: de radius<br/> `area`: oppervlakte<br/> `perimeter`: omtrek 	|
 
 ```json
 {
