@@ -13,6 +13,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 | [4.8.5](#_485-2024-03-05) | 05 mar 2024 | GDPR stories | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.4](#_484-2024-02-06) | 06 feb 2024 | Monitoring & Self healing verbeteringen | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.3](#_483-2024-01-30) | 30 jan 2024 | Kafka switch | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.8.2.hotfix-1](#_482hotfix-1-2024-01-25) | 25 jan 2024 | hotfix voor Redactie | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.2](#_482-2024-01-09) | 09 jan 2024 | Tech upgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.1](#_481-2023-11-15) | 15 Nov 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.7.3](#_473-2023-08-31) | 23 aug 2023 | Solr afbouw + bug fixes (deel I) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
@@ -143,6 +144,25 @@ MTP is gepland voor 30 januari 2024
 ### Changed
 
 * **Redactie:** We hebben de switch gemaakt naar de Kafka in Oranje.
+
+[Terug naar het overzicht](#index)
+
+## [4.8.2.hotfix-1]: 2024-01-25
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17024)
+
+### Fixed
+
+* **API:** Gearchiveerde content items kunnen niet meer opgehaald worden via de API wanneer je gebruik maakt van `populate=true`.
+
+* **Redactie**
+  * Als redacteur kan ik opnieuw telefoonnummers invoeren en bewaren.
+  * Content items verschijnen niet meer dubbel in het overzicht van content
+  * De bewaar bevestiging worden nu terug correct op elkaar gestapeld.
+
+* **Search:** Bij het indexeren van vaste periode zonder openingsuren wordt nu rekening gehouden met zomer en winteruur.
+
+[Terug naar het overzicht](#index)
 
 ## [4.8.2]: 2024-01-09
 
