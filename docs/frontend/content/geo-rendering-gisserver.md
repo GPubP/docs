@@ -11,7 +11,7 @@ Laten we eerst even het geheel bekijken in onderstaand schema:
 left to right direction
 actor "Content beheerder" as cb
 actor "Redacteur" as red
-actor "GIS service" as gis
+actor "GIS script" as gis
 
 rectangle GPubP {
   usecase "Configureer Content model" as UC1
@@ -123,25 +123,34 @@ Vervolgens kan je uit `gis_kaart.raw` de json unescapen. Het resultaat is zoals 
   },
   "mapData": {
     "type": "FeatureCollection",
-    "features": [
+    "features": [ 
       {
         "type": "Feature",
         "properties": {
-          "id": 2314,
-          "name": "Markering 1",
-          "type": "marker",
-          "color": {
-            "label": "Afval en recyclage (petrol)",
-            "value": "#007FA3"
-          }
+            "id": 213,
+            "type": "polygon",
+            "name": "Veelhoek 1",
+            "color": {
+                "label": "Afval en recyclage (petrol)",
+                "value": "#007FA3"
+            },
+            "dimensions": {
+                  "area": 5632544.62,
+                  "perimeter": 10088.43,
+            },
+            "fields": {
+                "code": {
+                    "textType": "div",
+                    "text": "ABCDE"
+                },
+                "contact-e-mail": "erik.lenaerts@digipolis.be",
+                "contact-naam": {
+                    "textType": "div",
+                    "text": "Erik Lenaerts"
+                }
+            }
         },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.468386,
-            51.216669
-          ]
-        }
+        "geometry": { ... }
       }
     ]
   }
