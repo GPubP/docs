@@ -12,6 +12,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 | [4.9.0](#_490) | Q1 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.5](#_485-2024-03-05) | 05 mar 2024 | GDPR stories | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.4](#_484-2024-02-06) | 06 feb 2024 | Monitoring & Self healing verbeteringen | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.8.3.hotfix](#_483hotfix-2024-02-12) | 12 feb 2024 | Afbeeldingen WSOD | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
 | [4.8.3](#_483-2024-01-30) | 30 jan 2024 | Kafka switch | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
 | [4.8.2](#_482-2024-01-09) | 09 jan 2024 | Tech upgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.1](#_481-2023-11-15) | 15 Nov 2023 | Technische upgrade ikv Move To Orange | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
@@ -133,12 +134,15 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 [Terug naar het overzicht](#index)
 
+## [4.8.3.hotfix]: 2024-02-12
+
+### Fix
+
+* **Redactie:** Grotere afbeeldingen leiden niet meer tot een WSOD.
+
 ## [4.8.3]: 2024-01-30
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17005)
-
-MTA is gepland voor 23 januari 2024
-MTP is gepland voor 30 januari 2024
 
 ### Changed
 
