@@ -96,7 +96,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   
 [Terug naar het overzicht](#index)
 
-## [4.8.4]: 2024-02-06
+## [4.8.4]: 2024-02-13
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17004)
 
@@ -147,6 +147,25 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 ### Changed
 
 * **Redactie:** We hebben de switch gemaakt naar de Kafka in Oranje.
+
+[Terug naar het overzicht](#index)
+
+## [4.8.2.hotfix-1]: 2024-01-25
+
+Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17024)
+
+### Fixed
+
+* **API:** Gearchiveerde content items kunnen niet meer opgehaald worden via de API wanneer je gebruik maakt van `populate=true`.
+
+* **Redactie**
+  * Als redacteur kan ik opnieuw telefoonnummers invoeren en bewaren.
+  * Content items verschijnen niet meer dubbel in het overzicht van content
+  * De bewaar bevestiging worden nu terug correct op elkaar gestapeld.
+
+* **Search:** Bij het indexeren van vaste periode zonder openingsuren wordt nu rekening gehouden met zomer en winteruur.
+
+[Terug naar het overzicht](#index)
 
 ## [4.8.2]: 2024-01-09
 

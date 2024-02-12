@@ -105,7 +105,7 @@ Zo kan de frontend kiezen om dit over te nemen bij de presentatie van de kaart
 
 `mapData`: hier zit de GeoJSON data in met de getekende elementen.
 
-?> [Bekijk hier](/frontend/content/geo-rendering?id=renderen-via-leaflet) hoe je best omgaat met het renderen van deze GIS kaart en de elementen erop.
+Hier is een volledig voorbeeld:
 
 ```json
 {
@@ -126,13 +126,16 @@ Zo kan de frontend kiezen om dit over te nemen bij de presentatie van de kaart
                     {
                         "type": "Feature",
                         "properties": {
+                            "id": 213,
                             "type": "polygon",
                             "color": {
                                 "label": "Afval en recyclage (petrol)",
                                 "value": "#007FA3"
                             },
-                            "area": 5632544.62,
-                            "perimeter": 10088.43,
+                            "dimensions": {
+                                "area": 5632544.62,
+                                "perimeter": 10088.43,
+                            },
                             "name": "Veelhoek 1",
                             "fields": {
                                 "code": {
@@ -150,32 +153,13 @@ Zo kan de frontend kiezen om dit over te nemen bij de presentatie van de kaart
                             "type": "Polygon",
                             "coordinates": [
                                 [
-                                    [
-                                        4.431975,
-                                        51.22828
-                                    ],
-                                    [
-                                        4.431975,
-                                        51.24322
-                                    ],
-                                    [
-                                        4.480566,
-                                        51.24322
-                                    ],
-                                    [
-                                        4.480566,
-                                        51.22828
-                                    ],
-                                    [
-                                        4.431975,
-                                        51.22828
-                                    ]
+                                    [ 4.431975, 51.22828 ],
+                                    [ 4.431975, 51.24322 ],
+                                    [ 4.480566, 51.24322 ],
+                                    [ 4.480566, 51.22828 ],
+                                    [ 4.431975, 51.22828 ]
                                 ]
                             ]
-                        },
-                        "id": 213,
-                        "style": {
-                            "color": "#007FA3"
                         }
                     }
                 ]
@@ -185,3 +169,127 @@ Zo kan de frontend kiezen om dit over te nemen bij de presentatie van de kaart
     "modulesData": {}
 }
 ```
+
+#### GeoJSON vs custom data
+
+mapData bevat de GeoJSON data. Hier kan je 3 verschillende onderdelen in terugvinden:
+
+A. standaard GeoJSON data volgens de [RFC7946](https://datatracker.ietf.org/doc/html/rfc7946) specificatie
+B. extra vaste informatie van elk getekend element `properties` element
+C. extra variabele informatie die de redacteur per [getekent element kan invoeren](/redactie/content/inrichten-cc-gis-kaart?id=extra-velden-per-element).
+
+Laten we deze 3 eens in beeld brengen.
+
+##### Standaard GeoJSON data per getekend element
+
+Dit is een voorbeeld van de standaard GeoJSON data. Het bevat een `type` en `geometry` element.
+
+```json
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": { ...},
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [ 4.431975, 51.22828 ],
+                        [ 4.431975, 51.24322 ],
+                        [ 4.480566, 51.24322 ],
+                        [ 4.480566, 51.22828 ],
+                        [ 4.431975, 51.22828 ]
+                    ]
+                ]
+            }
+        }
+    ]
+}
+```
+
+##### Extra vaste informatie per getekend element
+
+Wanneer redacteurs tekenen op de GIS kaart kunnen ze onder meer de naam en de kleur bepalen. Deze informatie is steeds aanwezig en bewaren we in de `properties` van de GeoJSON data structuur.
+Concreet bewaren we deze properties:
+
+- `id`: Een unieke id voor het getekend element.
+- `type`: Het type van wat we getekend hebben. Dit is verschillend van de info die in het GeoJSON geometry element zit. Zo kent de GeoJSON spec geen cirkel. Vandaar dat we dit zelf hier bijhouden.
+  Hier is het verband tussen beide:
+    | GIS kaart type 	| GeoJSON type 	|
+    |----------------	|--------------	|
+    | **point**      	| Point        	|
+    | **line**       	| LineString   	|
+    | **rectangle**  	| Polygon      	|
+    | **polygon**    	| Polygon      	|
+    | **cirkel**     	| Point        	|  
+- `name`: Dit is de naam die de redacteur aan het element gegeven heeft.
+- `color`: Dit is de code en het label van de kleur waarmee het element getekend is.
+- `dimensions`: Per getekend element berekenen we de dimensies en worden deze hier bewaard. De dimensies verschillen per type van het getekend element:
+    | GIS kaart type 	| dimensions                                                            	|
+    |----------------	|-----------------------------------------------------------------------	|
+    | **point**      	| N/A                                                                   	|
+    | **line**       	| `length`: lengte van de lijn                                          	|
+    | **rectangle**  	| _wordt beschouwd als een polygon_                                     	|
+    | **polygon**    	| `area`: oppervlakte<br/> `perimeter`: omtrek                          	|
+    | **cirkel**     	| `radius`: de radius<br/> `area`: oppervlakte<br/> `perimeter`: omtrek 	|
+
+```json
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": 213,
+                "type": "polygon",
+                "name": "Veelhoek 1",
+                "color": {
+                    "label": "Afval en recyclage (petrol)",
+                    "value": "#007FA3"
+                },
+                "dimensions": {
+                    "area": 5632544.62,
+                    "perimeter": 10088.43,
+                },
+                "fields": { ... }
+            },
+            "geometry": { .. }
+        }
+    ]
+}
+```
+
+##### Extra variabele informatie per getekend element
+
+Als laatste tonen we waar de custom data staat per getekend element. Een redacteur geeft deze informatie in bij het tekenen van de elementen op de kaart.
+Wat hij/zij kan invullen is [bepaald door de content beheerder](/redactie/content/inrichten-cc-gis-kaart?id=extra-velden-per-element).
+In het onderstaande voorbeeld heeft de redacteur een code, email en naam opgegeven.
+
+```json
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                ...
+                "fields": {
+                    "code": {
+                        "textType": "div",
+                        "text": "ABCDE"
+                    },
+                    "contact-e-mail": "erik.lenaerts@digipolis.be",
+                    "contact-naam": {
+                        "textType": "div",
+                        "text": "Erik Lenaerts"
+                    }
+                }
+            },
+            "geometry": { ... }
+        }
+    ]
+}
+```
+
+?> [Bekijk hier](/frontend/content/geo-rendering?id=renderen-via-leaflet) hoe je best omgaat met het renderen van deze GIS kaart en de elementen erop.

@@ -11,7 +11,7 @@ Laten we eerst even het geheel bekijken in onderstaand schema:
 left to right direction
 actor "Content beheerder" as cb
 actor "Redacteur" as red
-actor "GIS service" as gis
+actor "GIS script" as gis
 
 rectangle GPubP {
   usecase "Configureer Content model" as UC1
@@ -72,22 +72,6 @@ Het resultaat van deze query ziet er als volgt uit:
 
 ```json
 {
-    "meta": {
-        "alerts": [],
-        "warnings": [],
-        "precision": 2,
-        "page": {
-            "current": 1,
-            "total_pages": 1,
-            "total_results": 6,
-            "size": 10
-        },
-        "engine": {
-            "name": "wcm-gis-data-el-pizza-slicer-evaluatie-production-nl",
-            "type": "default"
-        },
-        "request_id": "rpZTurxkSIOcJromE8F0lw"
-    },
     "results": [
         {
             "gis_kaart": {
@@ -119,11 +103,14 @@ Het resultaat van deze query ziet er als volgt uit:
                 "raw": "559cd4d9-40cf-44f7-85df-54d9834f26f1"
             }
         }
-    ]
+    ],
+    "meta": {
+        ...
+    }    
 }
 ```
 
-Vervolgens kan je de json unescapen en krijg je de `geojson` onder het mapdata element:
+Vervolgens kan je uit `gis_kaart.raw` de json unescapen. Het resultaat is zoals onderstaande:
 
 ```json
 {
@@ -136,30 +123,40 @@ Vervolgens kan je de json unescapen en krijg je de `geojson` onder het mapdata e
   },
   "mapData": {
     "type": "FeatureCollection",
-    "features": [
+    "features": [ 
       {
         "type": "Feature",
         "properties": {
-          "type": "marker",
-          "color": {
-            "label": "Afval en recyclage (petrol)",
-            "value": "#007FA3"
-          },
-          "name": "Markering 1"
+            "id": 213,
+            "type": "polygon",
+            "name": "Veelhoek 1",
+            "color": {
+                "label": "Afval en recyclage (petrol)",
+                "value": "#007FA3"
+            },
+            "dimensions": {
+                  "area": 5632544.62,
+                  "perimeter": 10088.43,
+            },
+            "fields": {
+                "code": {
+                    "textType": "div",
+                    "text": "ABCDE"
+                },
+                "contact-e-mail": "erik.lenaerts@digipolis.be",
+                "contact-naam": {
+                    "textType": "div",
+                    "text": "Erik Lenaerts"
+                }
+            }
         },
-        "geometry": {
-          "type": "Point",
-          "coordinates": [
-            4.468386,
-            51.216669
-          ]
-        },
-        "id": 2314,
-        "style": {
-          "color": "#007FA3"
-        }
+        "geometry": { ... }
       }
     ]
   }
 }
 ```
+
+Het elemenent `mapData` bevat de officiele **GeoJSOn** data.
+
+?> [Lees hier meer over](/redactie/content/inrichten-cc-gis-kaart?id=output-met-een-getekend-element-op-de-gis-kaart) hoe de GIS kaart data opgebouwd is.
