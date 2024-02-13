@@ -63,3 +63,5 @@ De layout Renderer:
 * kent een principe van datastores die achterliggende bronnen kunnen bevragen (zoals de WCM)
 
 ![GPubP frontend ](../assets/gpubp-frontend.jpg 'High level overzicht van frontend beheer in GPubP')
+
+?> Hier kan je meer lezen over de Layout Renderer: <https://layout-renderer-a.antwerpen.be/>
