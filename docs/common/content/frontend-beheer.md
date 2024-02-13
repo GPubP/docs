@@ -8,7 +8,7 @@ Frontends worden telkens op maat gemaakt door ontwikkelaars. Die kunnen gebruik 
 
 ## Layout Rendering Framework
 
-Dit bestaat uit:
+Dit framework is een verzameling van concepten, tools en componenten en bestaat uit:
 
 * Layouts
 * Widgets
@@ -64,4 +64,4 @@ De layout Renderer:
 
 ![GPubP frontend ](../assets/gpubp-frontend.jpg 'High level overzicht van frontend beheer in GPubP')
 
-?> Hier kan je meer lezen over de Layout Renderer: <https://layout-renderer-a.antwerpen.be/>
+?> Hier kan je meer lezen over het [werken met de Layout Renderer](/frontend/content/layout-renderer).
