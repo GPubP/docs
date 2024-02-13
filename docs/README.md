@@ -1,9 +1,9 @@
 # Introductie
 
-Het **G**eneriek **Pub**licatie **P**latform is een verzameling van *bouwstenen* en tools ter *ondersteuning* voor de bouw en uitbating van web platformen waaronder <www.antwerpen.be>, <www.politieantwerpen.be>, ... maar ook de Mijn Antwerpen App.
+Het **G**eneriek **Pub**licatie **P**latform is een verzameling van *bouwstenen* en *tools* ter ondersteuning voor de bouw en uitbating van web platformen waaronder <www.antwerpen.be>, <www.politieantwerpen.be>, ... maar ook de Mijn Antwerpen App.
 
-* De bouwstenen zijn er voor **afnemers** die websites willen *maken*. 
-* De tools voor hoofdzakelijk **redacteurs** die de websites willen *beheren*.
+* De **bouwstenen** zijn er voor **afnemers** die websites willen *maken*.
+* De **tools** voor hoofdzakelijk **redacteurs** die de websites willen *beheren*.
 
 ## Content versus Frontend
 
