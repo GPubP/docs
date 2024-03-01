@@ -6,7 +6,7 @@
 
 ## Widgets zoeken
 
-!> todo
+Het overzicht van de Widgets kan je hier vinden: <https://layout-widgets-a.antwerpen.be/#top>
 
 ## Widgets gebruiken
 
