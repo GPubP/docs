@@ -10,8 +10,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 |---|---|---|---|
 | [4.10.0](#_4100) | Q2 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
 | [4.9.0](#_490) | Q1 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.8.5](#_485-2024-03-05) | 05 mar 2024 | GDPR stories | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.8.4](#_484-2024-02-28) | 28 feb 2024 | Monitoring & Self healing verbeteringen | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.8.5](#_485-2024-03-17) | 17 mar 2024 | GDPR stories | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.8.4](#_484-2024-03-12) | 12 mar 2024 | Monitoring & Self healing verbeteringen | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.8.3.hotfix](#_483hotfix-2024-02-12) | 12 feb 2024 | Afbeeldingen WSOD | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
 | [4.8.3](#_483-2024-01-30) | 30 jan 2024 | Kafka switch | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
 | [4.8.2](#_482-2024-01-09) | 09 jan 2024 | Tech upgrade Redactie | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
@@ -78,7 +78,7 @@ Bij een **hotfix** worden heel specifieke user stories geselecteerd en enkel die
 
 [Terug naar het overzicht](#index)
 
-## [4.8.5]: 2024-03-05
+## [4.8.5]: 2024-03-17
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16908)
 
@@ -96,7 +96,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   
 [Terug naar het overzicht](#index)
 
-## [4.8.4]: 2024-02-28
+## [4.8.4]: 2024-03-12
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17004)
 
