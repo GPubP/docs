@@ -17,7 +17,10 @@
 
 [Paragrafen](https://watch.screencastify.com/v/8mwRM1CKMEjedbUVKsgJ ':target="_blank"'): Paragrafen systeem als basis voor dynamische pagina's op je website *(11 min)*
 
-[Taxonomieën](https://watch.screencastify.com/v/B1tt7ZMZ52bnPtYLyZO5 ':target="_blank"'): Klasseren van content via tags (termen) *(6 min)*
+[Taxonomieën](https://watch.screencastify.com/v/B1tt7ZMZ52bnPtYLyZO5 ':target="_blank"'): Klasseren van content via tags (termen) *(6 min)
+
+[GIS Kaart](https://app.screencastify.com/v3/watch/WtAE4vjNBYYZEvDXbytI ':target="_blank"'): Gebruik van de GIS kaart*(6 min)*
+
 
 !> tot hier geraak... nog wat werk om de volgende video's te maken ;)
 
