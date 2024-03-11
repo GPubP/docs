@@ -201,7 +201,7 @@
       * [Termen](/wcmv4/content/taxonomy-terms "Taxonomy termen | WCM API | GPubP")
     * [FAQ](/wcmv4/content/troubleshooting "FAQ | WCM API | GPubP")
   * [Search API](/wcmv4/content/search "Search API | WCM API | GPubP")
-* [|Frontend development](/frontend/content/frontend-development "Frontent development | GPubP")
+* [Frontend development](/frontend/content/frontend-development "Frontent development | GPubP")
   * [Assets tonen](/frontend/content/assets-rendering" "Assets rendering | Frontent development | GPubP")
   * [Events consumeren](/frontend/content/events-consumeren "Events consumeren | Frontent development | GPubP")
   * [Formulieren tonen](/frontend/content/form-renderer "Formulieren tonen | Frontent development | GPubP")
