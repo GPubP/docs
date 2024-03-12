@@ -1,3 +1,9 @@
 # Gebruikers beheren
 
-Bekijk hoe je [toegang](/redactie/content/toegang-aanvragen) kan aanvragen en de verschillende [rollen](/redactie/content/toegang-werken-als) die het systeem kent.
+* [Vraag toegang aan](/redactie/content/toegang-aanvragen) als gebruiker
+* Wil je...
+  * werken als [Redacteur](/redactie/content/toegang-redacteur)
+  * werken als [Site beheerder](/redactie/content/toegang-site-beheerder)
+  * werken als [Content beheerder](/redactie/content/toegang-content-beheerder)
+  * werken als [Tenant beheerder](/redactie/content/toegang-tenant-beheerder)
+* Lees meer over de [rollen en rechten](/redactie/content/toegang-rollen-rechten).
