@@ -5,7 +5,7 @@
 > **De Redactie** is de tool waar je als [Redacteur](/redactie/content/toegang-redacteur) content mee maakt en [beheert](/redactie/content/content-beheren).
 > [Content beheerders](/redactie/content/toegang-content-beheerder) gebruiken de Redactie voor het [inrichten](/redactie/content/inrichten) van het content model.
 
-![Screenshot van het content overzicht in de Redactie](/assets/redactie-content-overzicht.jpg 'Screenshot van het content overzicht in de Redactie')
+![Screenshot van het content overzicht in de Redactie](../assets/redactie-content-overzicht.jpg 'Screenshot van het content overzicht in de Redactie')
 
 * [Vraag toegang aan](/redactie/content/toegang-aanvragen) als gebruiker
 * Aan de slag gaan als [redacteur](/redactie/content/content-beheren)
@@ -15,3 +15,4 @@
 
 > [!info|labelVisibility:hidden|iconVisibility:hidden]
 > FYI; de Redactie is de User Interface dat bovenop de **WCMv4** draait.
+    
