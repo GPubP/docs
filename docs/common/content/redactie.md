@@ -15,4 +15,3 @@
 
 > [!info|labelVisibility:hidden|iconVisibility:hidden]
 > FYI; de Redactie is de User Interface dat bovenop de **WCMv4** draait.
-> 
