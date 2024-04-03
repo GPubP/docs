@@ -15,7 +15,7 @@ Om de search helper package te installeren voer je volgend commando uit:
 npm install @wcm/images-bsl-helper
 ```
 ## De instantie aanmaken
-In mijn voorbeeld maak ik gebruik van nestjs. Bij de opstart van de module en wanneer de tenantConfig klaar is met registreren van de modules, registreer ik de search helper package met de nieuw helpers. 
+In dit voorbeeld wordt er gebruik gemaakt van NestJS. Bij de opstart van de module en wanneer de tenantConfig klaar is met registreren van de modules, wordt de search helper package met de nieuw helpers geregistreerd. 
 ```typescript
 export class IndexModule {
 	configure() {
