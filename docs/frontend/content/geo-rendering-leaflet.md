@@ -54,8 +54,9 @@ const [position, setPosition] = useState<[number, number]>([
 
 Aan de hand van bovenstaande code zul je een kaart zien met een focus op Antwerpen. Om elementen te renderen maken we gebruik van het `GeoJSON` format. Dit is een standaard formaat voor het uitwisselen van geografische data. Hier is een voorbeeld van hoe je dit kan doen:
 
-Om bovenstaande data te renderen op de kaart gebruiken we de `FeatureGroup` component van `react-leaflet`. 
+Om bovenstaande data te renderen op de kaart gebruiken we de `FeatureGroup` component van `react-leaflet`.
 We voegen dit component als volgt toe in de `MapContainer` en gebruiken de `useRef` hook om een referentie naar de `FeatureGroup` te krijgen.
+
 ```tsx
 const yourMapComponent: FC<mapComponentType> = (mapData) => {
 const geoData = useRef<FeatureGroup>(null);
@@ -78,6 +79,7 @@ return (
 );
 }
 ```
+
 ### Cirkels en Markers en kleuren renderen
 
 In een useEffect hook kunnen we de data toevoegen aan de `FeatureGroup` component. In dit code voorbeeld zie je ook dat we de kleur van elke layer anders moeten mappen.
