@@ -83,9 +83,9 @@ return (
 ### Cirkels en Markers en kleuren renderen
 
 In een useEffect hook kunnen we de data toevoegen aan de `FeatureGroup` component. In dit code voorbeeld zie je ook dat we de kleur van elke layer anders moeten mappen.
-Dit is belangrijk, als je dit niet doet gaat de kleur niet doorkomen. 
+Dit is belangrijk, als je dit niet doet gaat de kleur niet doorkomen.
 
-Om Circles en Markers te renderen moeten we nog een stap toevoegen in onze useEffect hook. `react-leaflet` verwacht namelijk dat elke maker ern cirkel een unieke instantie zijn.
+Om Circles en Markers te renderen moeten we nog een stap toevoegen in onze useEffect hook. `react-leaflet` verwacht namelijk dat elke marker en cirkel een unieke instantie zijn.
 Door een nieuwe instantie van Marker of Circle aan te maken, zorg je ervoor dat elke Marker of Circle op de kaart afzonderlijk wordt behandeld en dat eventuele wijzigingen die je aanbrengt alleen van invloed zijn op die specifieke Marker of Circle.
 Kortom, het aanmaken van een nieuwe instantie van Marker of Circle is essentieel voor de juiste werking van React Leaflet en om ervoor te zorgen dat je kaartcomponent correct wordt weergegeven en bijgewerkt.
 
