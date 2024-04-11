@@ -90,12 +90,14 @@ Kortom, het aanmaken van een nieuwe instantie van Marker of Circle is essentieel
 ```tsx
 useEffect(()=> {
     // in deze pointToLayer functie maken we telkens een niewe instantie van Marker of Circle aan
-    const pointToLayer = (feature: any, latlng: any): Circle | Marker => {
-        if (feature?.properties?.radius) {
-            return L.circle(latlng, feature?.properties?.radius);
+     const pointToLayer = (feature: any, latlng: any): Circle | Marker => {
+        if (feature?.properties?.dimensions?.radius) {
+            return new Circle(
+                latlng,
+                feature?.properties?.dimensions.radius
+            );
         }
-
-        return L.marker(latlng);
+        return new Marker(latlng);
     };
     
     // we maken een nieuwe GeoJSON aan met de data van de kaart
