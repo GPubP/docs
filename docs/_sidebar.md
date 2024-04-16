@@ -127,6 +127,7 @@
           * [Hoofdstuk 5 - Greetings endpoint aanspreken](/modules/content/developer-guides/greetings/step-5-greetings-endpoint-access "GPubP Content - Hello world example")
           * [Hoofdstuk 6 - Werken met events](/modules/content/developer-guides/greetings/step-6-events "GPubP Content - Hello world example")
           * [Extra - Eigen user als afzender weergeven](/modules/content/developer-guides/greetings/extra-own-user-display "GPubP Content - Hello world example")
+        * [Search helper module](/modules/content/developer-guides/search-helper/index "GPubP Content - Search helper example")
       * [Oplevering](/modules/content/oplevering/oplevering "Eigen module opleveren | WCM Modules | GPubP")
         * [DoD](/modules/content/oplevering/dod "DoD | Eigen module opleveren | WCM Modules | GPubP")
         * [Review](/modules/content/oplevering/review "Review aanvragen | Eigen module opleveren | WCM Modules | GPubP")
