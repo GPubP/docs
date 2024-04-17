@@ -68,7 +68,7 @@ Soms kan je kiezen uit meerdere methodes. Achterliggend spreken we over `Search 
 | Hoofdafbeelding mapper | [Afbeelding](/redactie/content/inrichten-cc-afbeelding) | `image` | Een JSON met url's van de originele afbeelding en crop varianten.  |
 | Taxonomie mapper | [Taxonomie](/redactie/content/inrichten-cc-taxonomie) | `tax_<naam>`, `tax_labels` | Taxonomie data wordt in 2 velden gesplitst.In de eerste komen de taxonomie term id's, in de 2e de verzameling van labels |
 | Titel mapper | Standaard titel | `title` | Zet de titel (enkel tekst) van een content item naar dit veld. |
-| Teaser mapper | Standaard tekstvak met opmaak, Open Graph Protocol | `teaser` | Zet de teaser (enkel tekst) van een content item naar dit veld. |
+| Teaser mapper | Standaard tekstvak met opmaak, [Open Graph Protocol](/redactie/content/inrichten-cc-opengraph) | `teaser` | Zet de teaser (enkel tekst) van een content item naar dit veld. |
 | Text mapper | [Tekstlijn](/redactie/content/inrichten-cc-tekstlijn), [Tekstvak](/redactie/content/inrichten-cc-tekstvak), [Tekstvak met opmaak](/redactie/content/inrichten-cc-tekstvak-met-opmaak), [Keuzerondje](/redactie/content/inrichten-cc-keuzerondje), [Nummer](/redactie/content/inrichten-cc-nummer), [Keuzelijst](/redactie/content/inrichten-cc-keuzelijst), [Keuzevakje](/redactie/content/inrichten-cc-keuzevakje), [Telefoonnummer](/redactie/content/inrichten-cc-telefoonnummer), [e-mail](/redactie/content/inrichten-cc-email), [Adres](/redactie/content/inrichten-cc-adres) | te kiezen | Extract de tekst van het content component en zet deze over. |
 | Value mapper | Alle componenten | te kiezen | Gaat de JSON as-is overnemen. |
 
