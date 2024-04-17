@@ -57,18 +57,20 @@ Het component zal zich ontvouwen en je kan hier kiezen **hoe** je de inhoud wil 
 Eerst kies je de `indexering methode` en vervolgens het `veld in Elastic` waar de inhoud wordt geplaatst. Soms kan je niets kiezen zoals in de afbeelding hierboven waar je een taxonomie wil opnemen in de index. Hier heb je geen keuze; er is maar één manier hoe het systeem weet om taxonomie info op te nemen. 
 
 #### Search Mappers
-Soms kan je kiezen uit meerdere methodes. Achterliggend spreken we over `Search Mappers`. Deze zijn gelinked aan een content component. Dus voor Taxonomie is er maar één Search mapper 'Taxonomy mapper'. Voor een tekstveld zijn er bv 2 methodes i.e. een 'value mapper' of 'tekst mapper'. 
+Soms kan je kiezen uit meerdere methodes. Achterliggend spreken we over `Search Mappers`. Deze zijn gelinked aan een content component. Dus voor Taxonomie is er maar één Search mapper 'Taxonomy mapper'. Voor een tekstveld zijn er bv 2 methodes i.e. een 'value mapper' of 'tekst mapper'.
 
-Dit zijn de mappers die het systeem reeds kent:
+**Value Mappers**: Alle content componenten hebben een value mapper. Deze gaat de (json) data as-is overzetten naar Elastic.
+**Specifieke mappers**: Dit zijn de mappers die het systeem reeds kent:
 
-| Content component 	| Mapper 	| Wat komt er in de Elastic App Search engine? 	|
-|---	|---	|---	|
-| Afbeelding 	| Value mapper 	| Gaat JSON data opnemen met alle info van de paragraaf. 	|
-| Paragraaf 	| Value mapper 	| Gaat JSON data opnemen met alle info van de paragraaf. 	|
-| Taxonomie 	| Taxonomie mapper 	| Gaat de data splitsen in tax_<naam> en tax_labels	|
-| Tekstlijn 	| Tekst mapper 	| Gaat enkel de tekst van deze tekstlijn opnemen. 	|
-| Tekstlijn 	| Value mapper 	| Gaat JSON data opnemen met de tekst en andere attributen van de tekstlijn (zoals hoofding stijl etc) 	|
-| Todo 	| Todo	| Todo 	|
+| Mapper | Content componenten | Veld in EAS | Wat wordt overgezet? |
+|---|---|---|---|
+| Afbeelding mapper | [Afbeelding](/redactie/content/inrichten-cc-afbeelding) | te kiezen | Een JSON met url's van de originele afbeelding en crop varianten. |
+| Hoofdafbeelding mapper | [Afbeelding](/redactie/content/inrichten-cc-afbeelding) | `image` | Een JSON met url's van de originele afbeelding en crop varianten.  |
+| Taxonomie mapper | [Taxonomie](/redactie/content/inrichten-cc-taxonomie) | `tax_<naam>`, `tax_labels` | Taxonomie data wordt in 2 velden gesplitst.In de eerste komen de taxonomie term id's, in de 2e de verzameling van labels |
+| Titel mapper | Standaard titel | `title` | Zet de titel (enkel tekst) van een content item naar dit veld. |
+| Teaser mapper | Standaard tekstvak met opmaak, Open Graph Protocol | `teaser` | Zet de teaser (enkel tekst) van een content item naar dit veld. |
+| Text mapper | [Tekstlijn](/redactie/content/inrichten-cc-tekstlijn), [Tekstvak](/redactie/content/inrichten-cc-tekstvak), [Tekstvak met opmaak](/redactie/content/inrichten-cc-tekstvak-met-opmaak), [Keuzerondje](/redactie/content/inrichten-cc-keuzerondje), [Nummer](/redactie/content/inrichten-cc-nummer), [Keuzelijst](/redactie/content/inrichten-cc-keuzelijst), [Keuzevakje](/redactie/content/inrichten-cc-keuzevakje), [Telefoonnummer](/redactie/content/inrichten-cc-telefoonnummer), [e-mail](/redactie/content/inrichten-cc-email), [Adres](/redactie/content/inrichten-cc-adres) | te kiezen | Extract de tekst van het content component en zet deze over. |
+| Value mapper | Alle componenten | te kiezen | Gaat de JSON as-is overnemen. |
 
 #### Meta data
 
