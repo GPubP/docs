@@ -1,6 +1,9 @@
-# Release notes [4.8.5]: 2024-04-30
+# Release notes [4.8.5]
 
-Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16908)
+* **MTA**: 16 april 2024
+* **Release datum:** 30 april 2024
+* **Jira release:** Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16908)
+* 
 
 ## Nieuwe features
 
@@ -25,7 +28,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 ## Veranderingen
 
 * **Algemeen**
-  * **`Redacteur`** De boodschap op het portaal om toegang aan te vragen is bijgewerkt. Verwijzingen naar UM zijn verdwenen. [Lees meer](/common/content/concept-tenant)
+  * **`Redacteur`** De boodschap op het portaal om toegang aan te vragen is bijgewerkt. [Verwijzingen naar UM zijn verdwenen](/common/content/concept-tenant).
 
 ## Bug fixes
 
