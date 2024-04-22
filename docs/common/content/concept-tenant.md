@@ -7,7 +7,7 @@ In het voorbeeld hieronder heb ik rechten op 2 verschillende tenants als gebruik
 
 ![Multi tenant](../assets/gpubp-multi-tenant.jpg 'Een instantie met 2 tenants')
 
-Sinds release 4.8.5 hebben we de informatie om toegang aan te vragen bijgewerkt
+Sinds [release 4.8.5](/common/content/release-4-8-5) hebben we de informatie om toegang aan te vragen bijgewerkt
 
 ![Multi tenant](../assets/gpubp-multi-tenant-2.png 'Nieuwe manier om toegang te vragen')
 

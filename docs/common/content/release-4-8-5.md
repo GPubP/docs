@@ -25,7 +25,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 ## Veranderingen
 
 * **Algemeen**
-  * **`Redacteur`** De boodschap op het portaal om toegang aan te vragen is bijgewerkt. Verwijzingen naar UM zijn verdwenen.
+  * **`Redacteur`** De boodschap op het portaal om toegang aan te vragen is bijgewerkt. Verwijzingen naar UM zijn verdwenen. [Lees meer](/common/content/concept-tenant)
 
 ## Bug fixes
 
