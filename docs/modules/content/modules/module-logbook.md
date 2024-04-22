@@ -20,10 +20,10 @@ Merk op dat het logbook beschikbaar is zowel op [tenant](/common/content/concept
 Elk log entry bevat informatie over:
 
 * Het tijdstip
+* Een type (release 4.11)
 * De site
-* Een type (TODO)
-* Een omschrijving
 * De module van waar de entry komt zoals bv. de `Audit` module.  
+* Een omschrijving
 
 ## Zoeken in het logbook
 
