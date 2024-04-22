@@ -2,12 +2,21 @@
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16908)
 
-## Added
+## Nieuwe features
+
+### Redacteur
+
+* **`Content`** De GIS kaart werkt nu op basis van de meest recente kaart van Antwerpen.
+* **`Privacy`** De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je `Naam auteur gewist (GDPR)`.
+* **`Search`** Je kan per content item aangeven of deze opgenomen moet worden in een Elastic App Search index of niet.
+* **`Search`** Je kan per content item zien wanneer deze laatst geïndexeerd is per index
+* **`Search`** Je kan elk content item apart herindexeren
+* **`Search`** Je kan elk content item apart uit een index verwijderen
 
 * **Content**
+  * (`Redacteur`) De GIS kaart werkt nu op basis van de meest recente kaart van Antwerpen.
   * (`Ontwikkelaar`) Extra documentatie voor het werken met de nieuwe [GIS kaart](/redactie/content/inrichten-cc-gis-kaart).
   * (`Ontwikkelaar`) De JSON GIS data van de [GIS kaart](/redactie/content/inrichten-cc-gis-kaart) is bijgewerkt zodat alles een consistente plaats heeft.
-  * (`Redacteur`) De GIS kaart werkt nu op basis van de meest recente kaart van Antwerpen.
 
 * **Privacy**
   * (`Redacteur`) De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je `Naam auteur gewist (GDPR)`.
@@ -22,12 +31,12 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   * (`Content beheerder`) Content blokken kunnen nu mee opgenomen worden in Elastic App Search. De url van deze geïndexeerder content blokken kan ingesteld worden in de Index configuratie
   * (`Content beheerder`) Er is een extra Hoofdafbeelding search mapper om aan te geven welk content component de afbeelding zal leveren in de Index.
 
-## Changed
+## Veranderingen
 
 * **Algemeen**
   * (`Redacteur`) De boodschap op het portaal om toegang aan te vragen is bijgewerkt. Verwijzingen naar UM zijn verdwenen.
 
-## Fixed
+## Bug fixes
 
 * **API**
   * (`Ontwikkelaar`) Bij het ophalen van content worden referenties opnieuw gepopuleerd.
