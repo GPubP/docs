@@ -11,7 +11,7 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 * **Privacy**
   * **`Redacteur`** De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je `Naam auteur gewist (GDPR)`.
-  * `Beheerder` Als tenant beheerder kan ik zien wie wanneer aan - en afmeld, ook wanneer iemand werkt met een specifieke tenant.
+  * **`Beheerder`** Als tenant beheerder kan ik zien wie wanneer aan - en afmeld, ook wanneer iemand werkt met een specifieke tenant.
 * **Search**
   * **`Redacteur`** Je kan per content item aangeven of deze opgenomen moet worden in een Elastic App Search index of niet.
   * **`Redacteur`** Je kan per content item zien wanneer deze laatst geïndexeerd is per index
@@ -46,6 +46,6 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   * **`Content beheerder`** De `site:url` pattern was onnodig en is verwijderd.
 
 * **System**
-  * **`Support`** Firewall regels bijgewerkt tgv de Move To Orange.
+  * **`Support`** Firewall regels bijgewerkt ten gevolge van de Move To Orange.
 
 ?> Bekijk hier het overzicht van [alle releases](/RELEASE).
