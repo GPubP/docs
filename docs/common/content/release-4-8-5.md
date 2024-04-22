@@ -13,10 +13,10 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
   * **`Redacteur`** De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je *'Naam auteur gewist (GDPR)'*.
   * **`Tenant beheerder`** Je kan zien wie wanneer aan - en afmeld, ook wanneer iemand werkt met een specifieke tenant. (Deze log entries worden voorzien door de Audit module).
 * **Search**
-  * **`Redacteur`** Je kan per content item aangeven of deze opgenomen moet worden in een Elastic App Search index of niet.
-  * **`Redacteur`** Je kan per content item zien wanneer deze laatst geïndexeerd is per index
-  * **`Redacteur`** Je kan elk content item apart herindexeren
-  * **`Redacteur`** Je kan elk content item apart uit een index verwijderen
+  * **`Redacteur`** Je kan per content item [aangeven](/redactie/content/content-beheren-search) of deze opgenomen moet worden in een Elastic App Search index of niet.
+  * **`Redacteur`** Je kan per content item [zien](/redactie/content/content-beheren-search) wanneer deze laatst geïndexeerd is per index.
+  * **`Redacteur`** Je kan elk content item [apart herindexeren](/redactie/content/content-beheren-search).
+  * **`Redacteur`** Je kan elk content item apart [uit een index verwijderen](/redactie/content/content-beheren-search).
   * **`Ontwikkelaar`** [Extra documentatie en componenten](/modules/content/developer-guides/search-helper/index) die het maken van een Search Mapper vereenvoudigen voor andere contributors.
   * **`Content beheerder`** Via de [Open Graph teaser mapper](/redactie/content/inrichten-search-beheren?id=search-mappers) kan [Open Graph](/redactie/content/inrichten-cc-opengraph) description overgezet worden naar de Summary in de Elastic App Search Engine
   * **`Content beheerder`** Content blokken kunnen nu mee opgenomen worden in Elastic App Search. De url van deze geïndexeerder content blokken kan ingesteld worden in de Index configuratie

@@ -17,7 +17,7 @@
 * [Getting Started](/common/content/getting-started "Getting started | GPubP")
 * [Release notes](/RELEASE "Release notes | GPubP")
   * [Release 4.8.5](/common/content/release-4-8-5 "Release notes | 4.8.5 | GPubP")
-  * [Release 4 t.e.m. release 4.8.4](/common/content/release-4-tot-4-8-4 "Release notes | 4 t.e.m. 4.8.4 | GPubP")
+  * [Release 4 >> 4.8.4](/common/content/release-4-tot-4-8-4 "Release notes | 4 t.e.m. 4.8.4 | GPubP")
 * [Redactie](/common/content/redactie "De Redactie | GPubP")
   * [Gebruikers beheren](/redactie/content/toegang-gebruikers "Gebruikers | Redactie | GPubP")
     * [Toegang aanvragen](/redactie/content/toegang-aanvragen "Toegang aanvragen | Redactie | GPubP")
