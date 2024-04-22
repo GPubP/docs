@@ -1,9 +1,11 @@
-# Release notes [4.8.5]
+# 4.8.5 Release notes
 
 * **MTA**: 16 april 2024
 * **Release datum:** 30 april 2024
 * **Jira release:** Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=16908)
-* 
+* **Getest door:** Axel Claeys, Erik Lenaerts, Serguye Putilin
+* **Release lead:** Jeroen Valcke
+* **Product Owner:** Erik Lenaerts
 
 ## Nieuwe features
 
