@@ -6,21 +6,21 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 ### Redacteur
 
-* **`Content`** De GIS kaart werkt nu op basis van de meest recente kaart van Antwerpen.
-* **`Privacy`** De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je `Naam auteur gewist (GDPR)`.
-* **`Search`** Je kan per content item aangeven of deze opgenomen moet worden in een Elastic App Search index of niet.
+* `Content` De GIS kaart werkt nu op basis van de meest recente kaart van Antwerpen.
+* `Privacy` De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je `Naam auteur gewist (GDPR)`.
+* `Search` Je kan per content item aangeven of deze opgenomen moet worden in een Elastic App Search index of niet.
 * **`Search`** Je kan per content item zien wanneer deze laatst geïndexeerd is per index
 * **`Search`** Je kan elk content item apart herindexeren
 * **`Search`** Je kan elk content item apart uit een index verwijderen
 
 * **Content**
-  * (`Redacteur`) De GIS kaart werkt nu op basis van de meest recente kaart van Antwerpen.
-  * (`Ontwikkelaar`) Extra documentatie voor het werken met de nieuwe [GIS kaart](/redactie/content/inrichten-cc-gis-kaart).
-  * (`Ontwikkelaar`) De JSON GIS data van de [GIS kaart](/redactie/content/inrichten-cc-gis-kaart) is bijgewerkt zodat alles een consistente plaats heeft.
+  * **`Redacteur`** De GIS kaart werkt nu op basis van de meest recente kaart van Antwerpen.
+  * **`Ontwikkelaar`** Extra documentatie voor het werken met de nieuwe [GIS kaart](/redactie/content/inrichten-cc-gis-kaart).
+  * **`Ontwikkelaar`** De JSON GIS data van de [GIS kaart](/redactie/content/inrichten-cc-gis-kaart) is bijgewerkt zodat alles een consistente plaats heeft.
 
 * **Privacy**
-  * (`Redacteur`) De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je `Naam auteur gewist (GDPR)`.
-  * (`Beheerder`) Als tenant beheerder kan ik zien wie wanneer aan - en afmeld, ook wanneer iemand werkt met een specifieke tenant.
+  * `Redacteur` De persoonsgegevens van een redacteur worden gewist van zodra gearchiveerde content ouder is 1 jaar. Nadien zie je `Naam auteur gewist (GDPR)`.
+  * `Beheerder` Als tenant beheerder kan ik zien wie wanneer aan - en afmeld, ook wanneer iemand werkt met een specifieke tenant.
 * **Search**
   * (`Redacteur`) Je kan per content item aangeven of deze opgenomen moet worden in een Elastic App Search index of niet.
   * (`Redacteur`) Je kan per content item zien wanneer deze laatst geïndexeerd is per index
