@@ -59,8 +59,8 @@ Eerst kies je de `indexering methode` en vervolgens het `veld in Elastic` waar d
 #### Search Mappers
 Soms kan je kiezen uit meerdere methodes. Achterliggend spreken we over `Search Mappers`. Deze zijn gelinked aan een content component. Dus voor Taxonomie is er maar één Search mapper 'Taxonomy mapper'. Voor een tekstveld zijn er bv 2 methodes i.e. een 'value mapper' of 'tekst mapper'.
 
-**Value Mappers**: Alle content componenten hebben een value mapper. Deze gaat de (json) data as-is overzetten naar Elastic.
-**Specifieke mappers**: Dit zijn de mappers die het systeem reeds kent:
+* **Value Mappers**: Alle content componenten hebben een value mapper. Deze gaat de (json) data as-is overzetten naar Elastic.
+* **Specifieke mappers**: Dit zijn de mappers die het systeem reeds kent:
 
 | Mapper | Content componenten | Veld in EAS | Wat wordt overgezet? |
 |---|---|---|---|
