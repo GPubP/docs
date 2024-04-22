@@ -47,3 +47,5 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 * **System**
   * (`Support`) Firewall regels bijgewerkt tgv de Move To Orange.
+
+?> Bekijk hier het overzicht van [alle releases](/RELEASE).

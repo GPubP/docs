@@ -1,3 +1,6 @@
+> [!info|label]
+> We zijn veranderd van release notes. Vanaf 4.8.5 staat elke release op een aparte pagina. Daarvoor kan je alle release notes hieronder vinden.
+
 ## [4.8.4]: 2024-03-12
 
 Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17004)
