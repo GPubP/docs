@@ -84,7 +84,6 @@
       * [Voorbereiding](/redactie/content/inrichten-search-voorbereiding "Voorbereiding | Search module | WCM modules | GPubP")
       * [Index vs Engine](/redactie/content/inrichten-search-indexvsengine "Index vs Engine | Search module | WCM modules | GPubP")
       * [Indexen beheren](/redactie/content/inrichten-search-beheren "Indexen beheren | Search module | WCM modules | GPubP")
-      * [Voor](/redactie/content/inrichten-search-zoekervaring "Zoekervaring | Search module | WCM modules | GPubP")
       * [Zoekervaring](/redactie/content/inrichten-search-zoekervaring "Zoekervaring | Search module | WCM modules | GPubP")
     * [Events](/redactie/content/inrichten-events "Events inrichten | Redactie | GPubP")
     * [Broadcast](/redactie/content/inrichten-broadcast "Broadcast inrichten | Redactie | GPubP")

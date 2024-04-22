@@ -16,48 +16,53 @@ Je krijgt een boodschap dat de index is aangemaakt zoals in onderstaande screens
 
 ![Nieuwe index](../assets/search-index-create.jpg 'Index succesvol aangemaakt')
 
-In essentie kan je hier al ophouden met configureren. Er wordt standaard al heel wat achter de schermen voor je gedaan waaronder: 
+In essentie kan je hier al ophouden met configureren. Er wordt standaard al heel wat achter de schermen voor je gedaan waaronder:
 
 * Alle [content types](/common/content/concept-ct) worden automatisch mee opgenomen in de index (geen [content blokken](/common/content/concept-cb)).
 * Voor elk content type dat opgenomen is in de index wordt de titel en teaser reeds standaard mee opgenomen.
 
 ### Wat wordt er geïndexeerd?
 
-**Per index** kan je bepalen wat er geïndexeerd wordt. Je kiest zelf de content types die je wil opnemen in de Elastic App Search engines. 
+**Per index** kan je bepalen wat er geïndexeerd wordt. Je kiest zelf de content types die je wil opnemen in de Elastic App Search engines.
 
 1. Open de details van een index in de Redactie
 2. Klik op de `content` tab
 
-Hier zie je 2 lijsten `Indexeren` en `Niet indexeren`. Wat in de bovenste lijst staat wordt mee opgenomen, wat in de onderste lijst staat niet. Je kan via het `vuilbak` en `+` icoon kiezen of je content mee wil opnemen of niet. 
+Hier zie je 2 lijsten `Indexeren` en `Niet indexeren`. Wat in de bovenste lijst staat wordt mee opgenomen, wat in de onderste lijst staat niet.
+Je kan via het `vuilbak` en `+` icoon kiezen of je content mee wil opnemen of niet. 
 
 ![Index content](../assets/search-index-content-overview.jpg 'Content overzicht van een index')
 
-Je kan nog verder gaan en bepalen wat je precies van een content type wil opnemen in de Elastic App Search enige. 
+Je kan nog verder gaan en bepalen wat je precies van een content type wil opnemen in de Elastic App Search enige.
 
 1. Open de details van een index in de Redactie
 2. Klik op de `content` tab
 3. Kies een content type uit de lijst `indexeren` en klik op de naam
 
-Hier kan je via een schakelaar bepalen of het mee opgenomen wordt in de index of niet. In essentie is het hetzelfde als in het vorige scherm dit content type in de bovenste of onderste lijst te plaatsen. 
+Hier kan je via een schakelaar bepalen of het mee opgenomen wordt in de index of niet. In essentie is het hetzelfde als in het vorige scherm dit content type in de bovenste of onderste lijst te plaatsen.
 
 ![Index content](../assets/search-index-contenttype-overview.jpg 'De content types die geïndexeerd gaan worden')
 
 4. klik vervolgens op de `componenten` tab
 
-Hier zie je het overzicht van alle componenten. Ook hier maken we gebruik van 2 lijsten. een bovenste lijst wat mee geïndexeerd gaat worden en de onderste lijst niet. Zelfste patroon via het `vuilbak` en `+` icoon om de indexering aan te passen. 
+Hier zie je het overzicht van alle componenten. Ook hier maken we gebruik van 2 lijsten. een bovenste lijst wat mee geïndexeerd gaat worden en de onderste lijst niet. Zelfste patroon via het `vuilbak` en `+` icoon om de indexering aan te passen.
 
 ![Index componenten](../assets/search-index-contenttype-details.jpg 'De componenten van een content type die geïndexeerd gaan worden')
 
 5. Kies uit de lijst onderaan een component uit en druk op de `+` knop.
 
-Het component zal zich ontvouwen en je kan hier kiezen **hoe** je de inhoud wil opnemen in Elastic App Search. 
+Het component zal zich ontvouwen en je kan hier kiezen **hoe** je de inhoud wil opnemen in Elastic App Search.
 
 ![Index content](../assets/search-index-contenttype-component.jpg 'Component mee opnemen in de index')
 
-Eerst kies je de `indexering methode` en vervolgens het `veld in Elastic` waar de inhoud wordt geplaatst. Soms kan je niets kiezen zoals in de afbeelding hierboven waar je een taxonomie wil opnemen in de index. Hier heb je geen keuze; er is maar één manier hoe het systeem weet om taxonomie info op te nemen. 
+Eerst kies je de `indexering methode` en vervolgens het `veld in Elastic` waar de inhoud wordt geplaatst.
+Soms kan je niets kiezen zoals in de afbeelding hierboven waar je een taxonomie wil opnemen in de index.
+Hier heb je geen keuze; er is maar één manier hoe het systeem weet om taxonomie info op te nemen.
 
 #### Search Mappers
-Soms kan je kiezen uit meerdere methodes. Achterliggend spreken we over `Search Mappers`. Deze zijn gelinked aan een content component. Dus voor Taxonomie is er maar één Search mapper 'Taxonomy mapper'. Voor een tekstveld zijn er bv 2 methodes i.e. een 'value mapper' of 'tekst mapper'.
+
+Soms kan je kiezen uit meerdere methodes. Achterliggend spreken we over `Search Mappers`. Deze zijn gelinked aan een content component. Dus voor Taxonomie is er maar één Search mapper 'Taxonomy mapper'.
+Voor een tekstveld zijn er bv 2 methodes i.e. een 'value mapper' of 'tekst mapper'.
 
 * **Value Mappers**: Alle content componenten hebben een value mapper. Deze gaat de (json) data as-is overzetten naar Elastic.
 * **Specifieke mappers**: Dit zijn de mappers die het systeem reeds kent:
@@ -96,7 +101,7 @@ Naast de content componenten die je kiest om mee op te nemen in de index, zal he
 
 ## Index activeren
 
-Wanneer een index gemaakt wordt zal deze by default **niet geactiveerd** zijn. Dit hebben we gedaan zodat je zelf eerst de configuratie kan bekijken en aanpassen daar waar nodig. 
+Wanneer een index gemaakt wordt zal deze by default **niet geactiveerd** zijn. Dit hebben we gedaan zodat je zelf eerst de configuratie kan bekijken en aanpassen daar waar nodig.
 
 > [!warning|label:Activeer je index]
 > Vergeet niet je index te activeren wat erop neerkomt dat vanaf dan alle content dat gepubliceerd wordt mee zal opgenomen worden in je index.
@@ -105,11 +110,11 @@ Wanneer een index gemaakt wordt zal deze by default **niet geactiveerd** zijn. D
 
 Soms is er al content dat bestaat vooraleer je een index maakt. Soms heb je een index tijdelijk gedactiveerd. In deze gevallen kan je via herindexeren alle content van de Redactie opnieuw overlopen en overzetten naar Elastic App Search. 
 
-Hiervoor zie je in het overzicht het verschil tussen hoeveel online content items er in de Redactie zitten en hoeveel in Elastic App Search. 
+Hiervoor zie je in het overzicht het verschil tussen hoeveel online content items er in de Redactie zitten en hoeveel in Elastic App Search.
 
 ![Index content](../assets/search-index-content-overview.jpg 'Content overzicht van een index')
 
-Je kan kiezen om **partieel te herindexeren** of de **volledige index**. In het eerste geval kan je bv één content type herindexeren van de index. 
+Je kan kiezen om **partieel te herindexeren** of de **volledige index**. In het eerste geval kan je bv één content type herindexeren van de index.
 
 > [!info|label:Wat gebeurt er met herindexeren]
 > Een herindexatie zal de engine behouden maar (partieel) leegmaken om daarna terug op te vullen. Alle settings zoals schema, tuning, synoniemen etc blijven met andere woorden behouden.
@@ -121,11 +126,16 @@ Als je bovenstaande gelezen hebt zal je nagenoeg elk scherm al gezien hebben om 
 !> Wil je een index **verwijderen**, dat kan. Let er wel op dat alle respectievelijke Elastic App Search engines mee verwijderd zullen worden. Alle configuratie dat je in Elastic App Search gedaan hebt zal bijgevolg verdwenen zijn.
 
 > [!info|label:Hoeveel indexen maak je best]
-> Je kan kiezen om één index te maken waar alle content samen zit of meerdere indexen met elks een deel van de content. Wat is het beste? Wel, dit hangt af van: 
+> Je kan kiezen om één index te maken waar alle content samen zit of meerdere indexen met elks een deel van de content. Wat is het beste? Wel, dit hangt af van:
+> 
 > * **Search relevantie tuning:** je wil gewichten en boosts anders inrichten 
 > * **Synoniemen:** de situatie vereist andere synoniemen, zo is `bank` iets heel anders in een recreatieve context of een financiële context.
 > * **Curations:** Je wil voor specifieke zoektermen, andere pagina's vastpinnen bovenaan de zoekresultaten
 > 
-> In essentie maak je een nieuwe index als je voor één van deze redenen wil afwijken van reeds bestaande indexen. 
+> In essentie maak je een nieuwe index als je voor één van deze redenen wil afwijken van reeds bestaande indexen.
+
+## Rechten
+
+TODO
 
 ?> Zie ook de [Search API](/wcmv4/content/search).

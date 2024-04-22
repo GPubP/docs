@@ -14,7 +14,7 @@ Er kunnen meerdere redenen zijn waarom je het `Elastic App Search` compartiment 
 * De [Search module](/modules/content/modules/module-search) is niet geactiveerd voor je tenant.
 * Er zijn geen [indexen](/redactie/content/inrichten-search-beheren) ingericht door de Content Beheerder.
 * Er zijn wel indexen, maar niet voor dit [Content Type](/common/content/concept-ct).
-* Je hebt niet de juiste rechten om indexering informatie te mogen zien.
+* Je hebt niet de [juiste rechten](/redactie/content/inrichten-search-beheren?id=rechten) om indexering informatie te mogen zien.
 
 ## Wat kan ik als Redacteur doen?
 
