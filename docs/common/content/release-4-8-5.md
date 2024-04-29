@@ -45,7 +45,7 @@
   
 * **Search**
   * **`Support`** Het systeem zal niet meer vastlopen wanneer teveel rubrieken worden toegevoegd aan een paragraaf.
-  * **`Content beheerder`** De rechten van de Search module worden nu correct afgedwongen.
+  * **`Content beheerder`** De [rechten van de Search module](/redactie/content/inrichten-search-beheren?id=rechten) worden nu correct afgedwongen.
 
 * **Site**
   * **`Content beheerder`** De `site:url` pattern was onnodig en is verwijderd.

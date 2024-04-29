@@ -24,7 +24,7 @@ Als je content item voorkomt in een index en je hebt de nodige rechten, dan kan 
 2. Het content item verwijderen uit een index
 3. Het content item herindexeren
 
-TODO: voeg screenshot toe.
+![Indexeren van een content item](../assets/search-content-include.png "Indexeren van een content item")
 
 > [!info|label]
 > Weet dat een content item automatisch geïndexeerd wordt wanneer je het publiceert. Het wordt ook automatisch uit de index gehaald van zodra je het archiveert of verwijdert.
