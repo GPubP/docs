@@ -10,7 +10,8 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 |---|---|---|---|
 | 4.10.0 | Q2 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
 | 4.9.0 | Q1 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.8.5](/common/content/release-4-8-5) | 30 april 2024 | GDPR stories | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.8.6](/common/content/release-4-8-6) | mei 2024 | Bugfixe release | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.8.5](/common/content/release-4-8-5) | 30 april 2024 | GDPR stories | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.4](/common/content/release-4-tot-4-8-4) | 12 mar 2024 | Monitoring & Self healing verbeteringen | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.3.hotfix](/common/content/release-4-tot-4-8-4?id=_483hotfix-2024-02-12) | 12 feb 2024 | Afbeeldingen WSOD | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.3](/common/content/release-4-tot-4-8-4?id=_483-2024-01-30) | 30 jan 2024 | Kafka switch | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
