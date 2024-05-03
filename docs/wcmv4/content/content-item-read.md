@@ -7,9 +7,10 @@ GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug={slug}&lang={lang}
 ```
 
 De slug vind je terug in de redactie tool.
-Merk op dat de **lang** parameter verplicht is (heeft meestal de waarde `nl` voor nederlands)
 
-Het resultaat van deze GET operatie is een JSON document (aka de result payload) met volgende structuur:
+?> Merk op dat de **lang** parameter verplicht is (heeft meestal de waarde `nl` voor nederlands)
+
+Het resultaat van deze **GET** operatie is een JSON document (aka de result payload) met volgende structuur:
 
 ```json
 {
@@ -21,10 +22,17 @@ Het resultaat van deze GET operatie is een JSON document (aka de result payload)
   "meta": {
     ...
   },
+  "references": {
+    ...
+  }
 }
 ```
 
-Wanneer je in de redactie een nieuw content type maakt, zal er hier standaard een `titel` en `teaser` in zitten naast SEO metadata velden. Een content beheerder kan extra content componenten toevoegen zoals bv een adres. De content van een content item - gebaseerd op de geconfigureerd content componenten - vind je terug onder `fields` in de result payload. 
+## Content
+
+Wanneer je in de redactie een nieuw content type maakt, zal er hier standaard een `titel` en `teaser` in zitten naast SEO metadata velden.
+Een content beheerder kan extra content componenten toevoegen zoals bv een adres. 
+De content van een content item - gebaseerd op de geconfigureerd content componenten - vind je terug onder `fields` in de result payload.
 
 ```json
 {
@@ -48,6 +56,8 @@ Wanneer je in de redactie een nieuw content type maakt, zal er hier standaard ee
 }
 ```
 
+## Metadata
+
 Onder meta vind je metadata terug van het content item. Dit is informatie dat de WCMv4 bijhoud en nodig heeft om te kunnen werken, waaronder de slug, het `contenttype` waar dit item van gemaakt is, etc.
 
 ```json
@@ -68,6 +78,8 @@ Onder meta vind je metadata terug van het content item. Dit is informatie dat de
 }
 ```
 
+## References
+
+!> TODO: nog uitwerken.
+
 ?> Wil je draft content ophalen, oftewel content dat niet online staat, gebruik dan de WCM Content Manager [API history call](/wcmv4/content/content-history).
-
-
