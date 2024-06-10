@@ -1,4 +1,4 @@
-# 4.8.5 Release notes
+# 4.8.6 Release notes
 
 * **MTA**: 28 mei 2024
 * **Release datum:** 18 juni 2024
