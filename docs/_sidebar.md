@@ -219,6 +219,7 @@
     * [GIS Server](/frontend/content/geo-rendering-gisserver" "GIS Server | GEO rendering | Frontent development | GPubP")
   * [Layout Renderer Framework](/frontend/content/layout-renderer "Layout Renderer Framework | Frontent development | GPubP")
     * [Layout Renderer Widgets](/frontend/content/layout-renderer-widgets "Layout Renderer Widgets | Frontent development | GPubP")
+  * [Elastic App Search](/frontend/content/elastic-app-search" "Elastic App Search | Frontent development | GPubP")
 * [Status](/common/content/status "Status | GPubP")
 * [Interessante links](/common/content/links)
 * [Meewerken aan de docs](/CONTRIBUTING "GPubP Content - Contributie")
