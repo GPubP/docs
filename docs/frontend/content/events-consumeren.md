@@ -62,10 +62,12 @@ Wil je een **event ontvangen** in jouw toepassing komt het kort gezegd hier op n
 
 ### Maak een ontvanger
 
-Zorg dat je een http endpoint hebt dat door de Event Handler aangesproken kan worden. De event handler zal  via een HTTP post de payload van het event afleveren op dit endpoint. Je hoort deze endpoint te beveiligen via Basic Authentication, OAuth of een API Key.
+Zorg dat je een http endpoint hebt dat door de Event Handler aangesproken kan worden. De event handler zal  via een HTTP post de payload van het event afleveren op dit endpoint.
+Je hoort deze endpoint te beveiligen via Basic Authentication, OAuth of een API Key.
 
 > [!Tip]
-> Wat als je nog aan't testen bent en je nog geen ontvanger voorhanend hebt? Wel, een tijdje geleden gebruikte we allerlei webooksites maar deze kunnen niet meer gebruikt worden in de Event Handler configuratie.
+> Wat als je nog aan't testen bent en je nog geen ontvanger voorhanden hebt?
+> Wel, een tijdje geleden gebruikte we allerlei webooksites maar deze kunnen niet meer gebruikt worden in de Event Handler configuratie voor security redenen.
 > Er is wel een alternatieve aanpak:
 >
 > 1. Ga naar deze service op de Digipolis API marketplace: <https://marketplace.digipolis.be/publications/4f9acc9a-d819-46aa-8296-bf11698cbe8d/version/4ee68235-1749-4eca-8ed5-291d550964d6/endpoint>
