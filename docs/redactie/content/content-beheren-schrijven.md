@@ -1,14 +1,16 @@
 # Content schrijven
 
-Het belangrijkste doel van de Redactie is het maken, aanpassen en publiceren van content.
+Het belangrijkste doel van de Redactie is het maken, aanpassen en publiceren van `content`.
 
 > [!info|label:Definitie]
-> `Content` is een term die je vaak zal teruglezen hier. We zouden het kunnen vertalen naar `inhoud` maar... 
+> `Content` is een algemen term die we gebruiken voor de teksten die je schrijft, de beelden of bestanden die je toevoegt, linken die je legt, etc.
 
-## Toegang voorbereiden
+In [de introductie](/common/content/content-beheer) kan je meer leren van het Redactie systeem zelf en de vaak voorkomende termen.
 
-Voor je als redacteur aan de slag kunt moet je eerst [toegang krijgen als gebruiker](/redactie/content/toegang-aanvragen) tot de Redactie.
-Eenmaal je toegang hebt, kan je aan een [beheerder](/redactie/content/toegang-site-beheerder) vragen om toegang te krijgen tot een site. Hij of zij zal je dan een [een rol toekennen](/redactie/content/toegang-rollen-rechten).
+## Voorbereidingen
+
+1. Voor je als redacteur aan de slag kunt moet je eerst [toegang krijgen als gebruiker](/redactie/content/toegang-aanvragen) tot de Redactie.
+2. Eenmaal je toegang hebt, kan je aan een [beheerder](/redactie/content/toegang-site-beheerder) vragen om toegang te krijgen tot een site. Hij of zij zal je dan een [een rol toekennen](/redactie/content/toegang-rollen-rechten).
 
 ## De basics
 
