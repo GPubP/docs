@@ -81,3 +81,29 @@ Je kan content publiceren door naar het status compartiment te gaan en daar de s
 !> Van zodra je de content gepubliceerd hebt is het een natuurlijke reflex om te gaan kijken naar de website om je werk daar te kunnen nakijken. Afhankelijk hoe de website gebouwd is zal je je aanpassingen niet meteen zien maar pas na enkele minuten. Deze vertraging kan weggewerkt worden door de makers van de website als ze gebruik maken van het [Event systeem](/redactie/content/inrichten-events?id=hou-je-content-cache-up-to-date). Alternatief kan je ook hier gebruik maken van de [preview functie](/redactie/content/content-beheren-preview).
 
 ?> Wist je dat je ook [publicaties kan plannen](/redactie/content/content-beheren-plannen)?
+
+## Content archiveren
+
+`Archiveren` betekent dat je als redacteur content terug offline haalt zodat deze niet meer zichtbaar is voor bezoekers van je website.
+Ga naar het status compartiment en kies voor `gearchiveerd` en bewaar het content item.
+
+![Content archiveren](../assets/redactie-content-status-archiveren.png "Content archiveren via de status")
+
+## Content verwijderen
+
+Naast archiveren kan je content items ook permanent verwijderen. Als je het recht hebt om dit te doen zal er een rode vuilbak knop onderaan de knoppenbalk verschijnen.
+
+!>Let op: je kan een verwijderd content item niet terughalen, er is geen herstel functie voor.
+
+![Content archiveren](../assets/redactie-content-status-archiveren.png "Content archiveren")
+
+## Content lifecycle
+
+Telkens als je een content item bewaart, krijg je een nieuwe revisie. Telkens als je content publiceert ga je de content van dat moment life zetten. Telkens als je archiveert haal je de content offline.
+Het is heel normaal dat je als redacteur vele aanpassingen maakt aan een content item met verschillende publicaties tussendoor.
+Om goed te begrijpen wat er nu life staat kan je best de [Content life cycle lezen uit de introductie](/common/content/content-life-cycle).
+
+In het content overzicht kan je zien of een content item online staat (groen bolletje) of offline (rood bolletje).Daarnaast zie je de de huidige status (werkversie, klaar voor nakijken, gepubliceerd, ...).
+Zie je bevoorbeeld `werkversie` en een groen bolletje dan betekent dit dat dit content item online staat maar dat je ondertussen bezig bent aan een nieuwere (werk)versie die nog niet klaar en gepubliceerd is. 
+
+![Content status](../assets/redactie-content-overzicht-status.png "Content status bekijken in het overzicht")
