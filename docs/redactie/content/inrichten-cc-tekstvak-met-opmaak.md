@@ -1,6 +1,7 @@
 # Tekstvak met opmaak
 
 Dit is een tekstvak waarin je één of meerdere paragrafen **tekst kan invoeren** en je kan **de vormgeving ervan aanpassen** (in beperkte mate), i.e.:
+
 - de stijl, paragraaf of hoofding 1-6
 - vet, cursief, onderlijnd of doorgehaald
 - markering (bv in het geel) zet de achtergrondkleur van de geselecteerde tekst
@@ -9,14 +10,14 @@ Dit is een tekstvak waarin je één of meerdere paragrafen **tekst kan invoeren*
 - links, rechts, gecentreerd of volledig uitlijnen
 - link toevoegen (*)
 - een paragraaf als een quote opmaken
-- een (programmatie) code block 
+- een (programmatie) code block
 - een tabel
-- een horizontale lijn 
+- een horizontale lijn
 - een speciaal symbool zoals bv ©
 
-# Voor content beheerders
+## Voor content beheerders
 
-## Profielen
+### Profielen
 
 Als contentbeheerder kan je enkel een ‘profiel’ kiezen waarmee je in essentie de knoppen instelt van de toolbar boven het tekstvak met opmaak.
 
@@ -48,7 +49,7 @@ Hieronder is een overzicht van welke knoppen de redacteuren ter beschikking krij
 | een tabel                   |             |           |         |      x     |
 | een horizontale lijn        |             |           |         |      x     |
 | een speciaal symbool        |             |           |    x    |      x     |
-                
+
 (*) er is een [uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#Uitbreidingen) die het standaard gedrag van de link knop veranderd (zie hieronder)
 
 > [!info|label:Tip]
@@ -56,47 +57,49 @@ Hieronder is een overzicht van welke knoppen de redacteuren ter beschikking krij
 > essentie komt dit profiel overeen met het gedrag van een gewoon Tekstvak. Door toch te kiezen voor een Tekstvak met opmaak en het ‘geen opmaak’-profiel kan je nog alle 
 > richtingen uit.
 
-## Uitbreidingen
+### Uitbreidingen
 
 Volgende uitbreidingen kunnen aangevraagd worden bij de Tenant Beheerder die extra WCM [modules](https://docs.google.com/spreadsheets/d/1OIwIALMTWy9D8o6iJOCiN6axOqGOdtirJ0Khe3-6BFQ/edit#gid=0) zal activeren voor jouw tenant. 
 
-### Afbeeldingen of bestanden invoegen
+#### Afbeeldingen of bestanden invoegen
 
 **Module**: Ckeditor assets upload plugin
 
-Via deze module komen er 2 opties bij voor de redacteurs 
-- invoegen van afbeeldingen
-    - enkel uploads, deze komen wel in de beeldenbank terecht
-- invoegen van bijlagen
-    - enkel uploads, deze komen wel in de beeldenbank terecht
+Via deze module komen er 2 opties bij voor de redacteurs:
 
-### Ondersteuning voor interne linken
+- invoegen van afbeeldingen
+  - enkel uploads, deze komen wel in de beeldenbank terecht
+- invoegen van bijlagen
+  - enkel uploads, deze komen wel in de beeldenbank terecht
+
+#### Ondersteuning voor interne linken
 
 **Module**: CKEditor plugin link module
 
 Deze module vervangt de standaard link knop zodat een redacteur naast een externe link (andere websites) ook een link kan leggen naar een ander content item vanuit een Tekstvak met opmaak.
 
-# Voor redacteurs
+## Voor redacteurs
 
-Redacteurs krijgen een tekstvak met meerdere lijnen te zien. Van zodra ze hun cursor hier in plaatsen verschijnt er bovenaan het tekstvak een knoppenbalk (toolbar) met de beschikbare opties obv het gekozen profiel van de contentbeheerder. 
+Redacteurs krijgen een tekstvak met meerdere lijnen te zien.
+Van zodra ze hun cursor hier in plaatsen verschijnt er bovenaan het tekstvak een knoppenbalk (toolbar) met de beschikbare opties obv het gekozen profiel van de contentbeheerder.
 
 ![tekstvak-opmaak-redactie](../assets/tekstvak-opmaak-redactie.png)
 
-## Afbeelding of bijlages
+### Afbeelding of bijlages
 
 !> to do
 
-## Interne linken
+### Interne linken
 
 ![tekstvak-opmaak-redactie2](../assets/tekstvak-opmaak-redactie2.png)
 
 ([Bekijk dit op YouTube](https://youtu.be/UoJ9B8n7ylo':target="_blank"'))
 
-# Voor ontwikkelaars
+## Voor ontwikkelaars
 
-## Tekstvak
+### Tekstvak
 
-Een Tekstvak met opmaak zal resulteren in HTML. 
+Een Tekstvak met opmaak zal resulteren in HTML.
 
 ```json
 {
@@ -109,7 +112,7 @@ Een Tekstvak met opmaak zal resulteren in HTML.
 }
 ```
 
-## Interne linken
+### Interne linken
 
 Wanneer een interne link wordt gelegd (als [deze uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#Ondersteuning-voor-interne-linken) geactiveerd is)
 
@@ -123,13 +126,15 @@ Wanneer een interne link wordt gelegd (als [deze uitbreiding](/redactie/content/
    ...
 }
 ```
+
 Je krijgt volgende data terug:
+
 - href = volledig absoluut pad
 - data-redactie-internal-link=true -> geeft aan dat het een interne link is
 - data-content-uuid: de uuid van het content item waarnaar verwezen wordt
 - data-siteurl: de url die is ingesteld op site niveau
 
-# Voor bezoekers
+## Voor bezoekers
 
 NA
 
