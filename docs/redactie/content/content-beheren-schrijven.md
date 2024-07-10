@@ -7,12 +7,24 @@ Het belangrijkste doel van de Redactie is het maken, aanpassen en publiceren van
 
 In [de introductie](/common/content/content-beheer) kan je meer leren over het Redactie systeem en de vaak voorkomende termen.
 
+## Index
+
+- [Index](#index)
+- [Voorbereidingen](#voorbereidingen)
+- [Content overzicht](#content-overzicht)
+- [Nieuwe content maken](#nieuwe-content-maken)
+- [Content bewaren](#content-bewaren)
+- [Content publiceren](#content-publiceren)
+- [Content archiveren](#content-archiveren)
+- [Content verwijderen](#content-verwijderen)
+- [Content lifecycle](#content-lifecycle)
+
 ## Voorbereidingen
 
 1. Voor je als redacteur aan de slag kunt moet je eerst [toegang krijgen als gebruiker](/redactie/content/toegang-aanvragen) tot de Redactie.
 2. Eenmaal je toegang hebt, kan je aan een [beheerder](/redactie/content/toegang-site-beheerder) vragen om toegang te krijgen tot een site. Hij of zij zal je dan een [een rol toekennen](/redactie/content/toegang-rollen-rechten).
 
-## De basics
+## Content overzicht
 
 1) Open de redactie via volgende url: <https://redactie.antwerpen.be>. Hier krijg je een overzicht van [tenants](/common/content/concept-tenant) te zien waar je toegang tot hebt.
 
