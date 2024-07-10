@@ -95,7 +95,7 @@ Naast archiveren kan je content items ook permanent verwijderen. Als je het rech
 
 !>Let op: je kan een verwijderd content item niet terughalen, er is geen herstel functie voor.
 
-![Content archiveren](../assets/redactie-content-status-archiveren.png "Content archiveren")
+![Content archiveren](../assets/redactie-content-verwijderen.png "Content archiveren")
 
 ## Content lifecycle
 
