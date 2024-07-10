@@ -78,12 +78,6 @@ Je kan content publiceren door naar het status compartiment te gaan en daar de s
 
 ![Content publiceren](../assets/redactie-content-status.png "Content publiceren")
 
-!> Van zodra je de content gepubliceerd hebt is het een natuurlijke reflex om te gaan kijken naar de website om je werk daar te kunnen nakijken.
-!> Afhankelijk hoe de website gebouwd is zal je je aanpassingen niet meteen zien maar pas na enkele minuten.
-!> Deze vertraging kan weggewerkt worden door de makers van de website als ze gebruik maken van het [Event systeem](/redactie/content/inrichten-events?id=hou-je-content-cache-up-to-date).
-!> Alternatief kan je ook hier gebruik maken van de [preview functie](/redactie/content/content-beheren-preview).
+!> Van zodra je de content gepubliceerd hebt is het een natuurlijke reflex om te gaan kijken naar de website om je werk daar te kunnen nakijken. Afhankelijk hoe de website gebouwd is zal je je aanpassingen niet meteen zien maar pas na enkele minuten. Deze vertraging kan weggewerkt worden door de makers van de website als ze gebruik maken van het [Event systeem](/redactie/content/inrichten-events?id=hou-je-content-cache-up-to-date). Alternatief kan je ook hier gebruik maken van de [preview functie](/redactie/content/content-beheren-preview).
 
-
-- validaties
-- meertaligheid
-
+?> Wist je dat je ook [publicaties kan plannen](/redactie/content/content-beheren-plannen)?
