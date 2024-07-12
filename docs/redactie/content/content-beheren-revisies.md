@@ -1,6 +1,8 @@
 # Revisies
 
-Elke keer dat je [content bewaart](/redactie/content/content-beheren-schrijven?id=content-bewaren) wordt er een nieuwe revisie gemaakt. De redactie bewaart alle revisies doorheen de tijd.
+> [!info|label:Definitie]
+> `Revisie` is een ander woord voor 'versie'. Elke keer dat je [content bewaart](/redactie/content/content-beheren-schrijven?id=content-bewaren) wordt er een nieuwe revisie gemaakt.
+> De redactie bewaart alle revisies doorheen de tijd.
 
 Dit systeem heeft enkele voordelen:
 
@@ -52,6 +54,7 @@ In het overzicht van de revisies selecteer je twee revisies door ze te selectere
 
 ## Terugdraaien naar een eerdere revisie
 
-In het overzicht van de revisies selecteer je één revisie en klik je onderaan op `herstellen`. Na een bevestiging zal er een nieuwe revisie gemaakt worden met de inhoud van de revisie die je koos bij de herstelling.
+In het overzicht van de revisies selecteer je één revisie en klik je onderaan op `herstellen`.
+Na een bevestiging zal er een nieuwe revisie gemaakt worden met de inhoud van de revisie die je koos bij de herstelling.
 
 ![Content revisies](../assets/redactie-content-revisies-herstellen.png "Herstel een revisie.")
