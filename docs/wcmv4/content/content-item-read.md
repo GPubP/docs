@@ -78,6 +78,40 @@ Onder meta vind je metadata terug van het content item. Dit is informatie dat de
 }
 ```
 
+## Preview content
+
+Via het [WCM Proxy endpoint](/wcmv4/content/endpoint-proxy) kan je een preview opvragen van een content item via z’n slug:
+
+```shell
+GET /wcm-proxy/v4/content/v1/sites/{id}/content?slug={slug}&lang={lang}&preview={token}
+```
+
+Het resultaat van deze **GET** operatie is een JSON document zoals je gewoon bent bij het ophalen van een content item.
+Vermits je content kan ophalen dat nog niet gepubliceerd is zal je in de meta data de status op `DRAFT` oftwel `werkversie` terugvinden.
+
+```json
+{
+  "_id": "60b9ec5811264300093a98e2", 
+  "uuid": "0d37b868-5e76-405f-9f2c-faf3f2e4de13",
+  "fields": {
+    ...
+  },
+  "meta": {
+    ...
+    "status": "DRAFT",
+    "workflowState": "werkversie",
+    ...
+  },
+  "references": {
+    ...
+  }
+}
+```
+
+> Merk op dat deze call enkel zal werken als de [Preview module](/modules/content/modules/module-preview) geactiveerd is voor jouw tenant. Daarnaast moet de preview ook [ingericht zijn in de Redactie](/redactie/content/inrichten-preview).
+
+?> Wil je meer weten over hoe je de preview inbouwt in je frontend, [bekijk dan deze info](/frontend/content/frontend-previews).
+
 ## References
 
 !> TODO: nog uitwerken.
