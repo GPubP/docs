@@ -1,4 +1,4 @@
-# GIS
+# GIS module
 
 > [!info|label:Definitie]
 > Met deze module kan je werken met het **G**eo **I**nformatie **S**ysteem van de Stad Antwerpen.  
