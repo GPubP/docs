@@ -28,6 +28,17 @@ Zo is het vaak dat er een index `algemeen` is waar alle content in voorkomt en d
 Als [Redacteur](/redactie/content/toegang-redacteur) kan je ook nagaan wanneer een [content item](/common/content/concept-ci) opgenomen is in een [index](/redactie/content/inrichten-search-indexvsengine).
 Hiervoor bestaat er een compartiment op het content item `Elastic App Search`.
 
+![Indexeren van een content item](../assets/search-content-include.png "Indexeren van een content item")
+
+### Wat kan ik als Redacteur doen?
+
+Als je content item voorkomt in een index en je hebt de nodige rechten, dan kan je:
+
+1. Zien wanneer het content item laatst geïndexeerd is
+2. Het content item verwijderen uit een index
+3. Het content item herindexeren
+4. Aangeven dat dit content item niet mag opgenomen worden in de index. Dit doe je door vooraan het vinkje uit te zetten.
+
 ### Waarom zie ik het Elastic App Search compartiment niet?
 
 Er kunnen meerdere redenen zijn waarom je het `Elastic App Search` compartiment niet ziet:
@@ -37,12 +48,3 @@ Er kunnen meerdere redenen zijn waarom je het `Elastic App Search` compartiment 
 - Er zijn wel indexen, maar niet voor dit [Content Type](/common/content/concept-ct).
 - Je hebt niet de [juiste rechten](/redactie/content/inrichten-search-beheren?id=rechten) om indexering informatie te mogen zien.
 
-### Wat kan ik als Redacteur doen?
-
-Als je content item voorkomt in een index en je hebt de nodige rechten, dan kan je:
-
-1. Zien wanneer het content item laatst geïndexeerd is
-2. Het content item verwijderen uit een index
-3. Het content item herindexeren
-
-![Indexeren van een content item](../assets/search-content-include.png "Indexeren van een content item")
