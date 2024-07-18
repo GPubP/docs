@@ -53,13 +53,21 @@ Hieronder is een overzicht van welke knoppen de redacteuren ter beschikking krij
 (*) er is een [uitbreiding](/redactie/content/inrichten-cc-tekstvak-met-opmaak#Uitbreidingen) die het standaard gedrag van de link knop veranderd (zie hieronder)
 
 > [!info|label:Tip]
-> Merk op dat er ook een ‘geen opmaak’-profiel  bestaat. Deze is handig in geval je als contentbeheerder nog niet zeker bent dat je wel of niet opmaak wil toestaan. In 
-> essentie komt dit profiel overeen met het gedrag van een gewoon Tekstvak. Door toch te kiezen voor een Tekstvak met opmaak en het ‘geen opmaak’-profiel kan je nog alle 
+> Merk op dat er ook een ‘geen opmaak’-profiel  bestaat. Deze is handig in geval je als contentbeheerder nog niet zeker bent dat je wel of niet opmaak wil toestaan.
+> In essentie komt dit profiel overeen met het gedrag van een gewoon Tekstvak. Door toch te kiezen voor een Tekstvak met opmaak en het ‘geen opmaak’-profiel kan je nog alle
 > richtingen uit.
+
+### Invoer controle
+
+Wil je uw redacteurs ondersteunen doordat ze teksten voorzien van een zekere lengte.
+Gebruik dan de invoercontrole optie waar je kan instellen hoeveel karakters er minimaal en maximaal ingevoerd mogen worden.
+Het systeem gaat deze controle niet afdwingen enkel duidelijk maken aan de redacteur.
+
+![tekstvak-opmaak-config](../assets/tekstvak-met-opmaak-invoer-controle-config.png)
 
 ### Uitbreidingen
 
-Volgende uitbreidingen kunnen aangevraagd worden bij de Tenant Beheerder die extra WCM [modules](https://docs.google.com/spreadsheets/d/1OIwIALMTWy9D8o6iJOCiN6axOqGOdtirJ0Khe3-6BFQ/edit#gid=0) zal activeren voor jouw tenant. 
+Volgende uitbreidingen kunnen aangevraagd worden bij de Tenant Beheerder die extra WCM [modules](https://docs.google.com/spreadsheets/d/1OIwIALMTWy9D8o6iJOCiN6axOqGOdtirJ0Khe3-6BFQ/edit#gid=0) zal activeren voor jouw tenant.
 
 #### Afbeeldingen of bestanden invoegen
 
@@ -84,6 +92,13 @@ Redacteurs krijgen een tekstvak met meerdere lijnen te zien.
 Van zodra ze hun cursor hier in plaatsen verschijnt er bovenaan het tekstvak een knoppenbalk (toolbar) met de beschikbare opties obv het gekozen profiel van de contentbeheerder.
 
 ![tekstvak-opmaak-redactie](../assets/tekstvak-opmaak-redactie.png)
+
+Als er een invoer controle is ingesteld dan zal je als redacteur geholpen worden door een karakter teller rechtsonderaan. Van zodra deze groen kleurt zit je goed.
+Kleurt deze oranje voldoe je niet aan het minimum of maximum aantal karakters.
+Het systeem zal je wel niet beletten om dit te bewaren. Het is een hulpmiddel in plaats van een harde regel.
+
+![tekstvak-opmaak-config](../assets/tekstvak-met-opmaak-invoer-controle.png)
+
 
 ### Afbeelding of bijlages
 
