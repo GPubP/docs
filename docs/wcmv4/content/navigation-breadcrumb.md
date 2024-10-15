@@ -3,7 +3,7 @@
 Als je van een content item het broodkruimelpad wil opvragen dan kan je gebruik maken van onderstaande call via [het WCM Proxy endpoint](/wcmv4/content/endpoint-proxy):
 
 ```shell
-GET .../proxy/public/navigations/v1/sites/{siteId}/content/{contentId}/breadcrumbs
+GET .../navigations/v1/sites/{siteId}/content/{contentId}/breadcrumbs
 ```
 
 Met deze payload:
