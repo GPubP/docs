@@ -1,10 +1,5 @@
 # Getting started
 
-> [!tip|label: Latest releases]
-> Op *9 januari 2024* is **[4.8.2](/RELEASE?id=_482-2024-01-09)** gereleased waarbij de [redactie](/redactie/README) naar oranje is gebracht.
->
-> Op *15 november 2023* is **[4.8.1](/RELEASE?id=_481-2023-11-15)** gereleased waarbij de [WCM](/wcmv4/README) naar oranje is gebracht.
-
 ## Aan de slag
 
 Deze documentatie is voor iedereen die met het GPubP aan de slag wil. Je vindt hier de alle info om van start te gaan als *absolute beginner* tot specs voor de *doorgewinterde WCM developer*.  

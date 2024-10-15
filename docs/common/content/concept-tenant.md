@@ -7,6 +7,10 @@ In het voorbeeld hieronder heb ik rechten op 2 verschillende tenants als gebruik
 
 ![Multi tenant](../assets/gpubp-multi-tenant.jpg 'Een instantie met 2 tenants')
 
+Sinds [release 4.8.5](/common/content/release-4-8-5) hebben we de informatie om toegang aan te vragen bijgewerkt
+
+![Multi tenant](../assets/gpubp-multi-tenant-2.png 'Nieuwe manier om toegang te vragen')
+
 Belangrijk om te vermelden is dat je per tenant kan kiezen welke [modules](/common/content/concept-modules) je gaat hanteren. Dit is de lijst van geïnstalleerde [WCM modules](/modules/content/wcm-modules.md) voor de instantie die we hosten op het datacenter van Digipolis. In tenant één maken we alle modules beschikbaar, in tenant twee enkel 6 modules. Wil je echter één module anders inzetten (dus het gedrag veranderen door het anders te configureren), dan richt je best verschillende instanties in.
 
 ![Modules per tenant](../assets/gpubp-basisbegrippen-modules-per-tenant.png 'De verschillende modules per tenant')

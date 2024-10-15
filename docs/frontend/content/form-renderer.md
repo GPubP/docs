@@ -49,7 +49,7 @@ curl --location --request GET 'https://api-gw-a.antwerpen.be/acpaas/form-survey-
 
 ## De form renderer inbouwen in jouw frontend toepassing
 
-> <https://bitbucket.antwerpen.be/projects/ACPFSE/repos/forms_engine_docs/browse/pages/widget.md?at=9e47b54ac349f94374d7c3702c269058cb69c78e>
+> Zie [docs van de form renderer widget op bitbucket](https://bitbucket.antwerpen.be/projects/ACPFSE/repos/forms_engine_docs/browse/pages/widget.md).
 
 Zet de [Form renderer](https://formwidget.antwerpen.be) op je frontend pagina.
 

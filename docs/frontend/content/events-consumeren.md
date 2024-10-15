@@ -62,7 +62,19 @@ Wil je een **event ontvangen** in jouw toepassing komt het kort gezegd hier op n
 
 ### Maak een ontvanger
 
-Zorg dat je een http endpoint hebt dat door de Event Handler aangesproken kan worden. De event handler zal  via een HTTP post de payload van het event afleveren op dit endpoint. Je hoort deze endpoint te beveiligen via Basic Authentication, OAuth of een API Key.
+Zorg dat je een http endpoint hebt dat door de Event Handler aangesproken kan worden. De event handler zal  via een HTTP post de payload van het event afleveren op dit endpoint.
+Je hoort deze endpoint te beveiligen via Basic Authentication, OAuth of een API Key.
+
+> [!Tip]
+> Wat als je nog aan't testen bent en je nog geen ontvanger voorhanden hebt?
+> Wel, een tijdje geleden gebruikte we allerlei webooksites maar deze kunnen niet meer gebruikt worden in de Event Handler configuratie voor security redenen.
+> Er is wel een alternatieve aanpak:
+>
+> 1. Ga naar deze service op de Digipolis API marketplace: <https://marketplace.digipolis.be/publications/4f9acc9a-d819-46aa-8296-bf11698cbe8d/version/4ee68235-1749-4eca-8ed5-291d550964d6/endpoint>
+> 2. Maak een contract (al dan niet met een app of met je persoonlijke API sleutel)
+> 3. Configureer een nieuwe Event Handler subscription op je gewenste namespace/topic. Gebruik hiervoor deze url <https://api-gw-a.antwerpen.be/peke/echo/v9>.
+> Vergeet je `apikey` header niet in te stellen. Met je sleutel van het contract (stape 2).
+> 4. Laat de events stromen en volg ze op door [deze logs te bekijken in de container logging](https://container-logging.antwerpen.be/app/dashboards#/view/dashboard-kubernetes-openshift-logs?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-15m,to:now))&_a=(description:'',filters:!(('state':(store:appState),meta:(alias:!n,disabled:!f,index:pattern-k8s-logs,key:k8s_labels.antwerpen.be%2Fapp.keyword,negate:!f,params:(query:echochamber),type:phrase),query:(match_phrase:(k8s_labels.antwerpen.be%2Fapp.keyword:echochamber)))),fullScreenMode:!f,options:(hidePanelTitles:!f,useMargins:!t),query:(language:kuery,query:''),timeRestore:!f,title:'Kubernetes%20-%20Openshift%20Logs',viewMode:view)). Die toont alles wat er in de echo kamer aankomt. 
 
 ### Event Handler configuratie
 

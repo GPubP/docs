@@ -1,23 +1,24 @@
-# Video's 
+# Video's
+
 ## Voor iedereen
 
-[Intro](https://watch.screencastify.com/v/6ZDRvr2HjzdGkRUks6G4" ':target="_blank"'): high level overzicht van het GPubP *(5 min)*
+[Intro](https://app.screencastify.com/v3/watch/6ZDRvr2HjzdGkRUks6G4" ':target="_blank"'): high level overzicht van het GPubP *(5 min)*
 
-[Toegang aanvragen](https://watch.screencastify.com/v/EVbwFYYCuD1hEs2ZcF8G ':target="_blank"'): Van start gaan en toegang aanvragen via UM *(4 min)* 
+[Toegang aanvragen](https://app.screencastify.com/v3/watch/EVbwFYYCuD1hEs2ZcF8G ':target="_blank"'): Van start gaan en toegang aanvragen via UM *(4 min)* 
 
 !> TODO: maak nieuwe video op basis van `Mijn toegang`.
 
-[Rollen en rechten](https://watch.screencastify.com/v/mFKQnDDjDayw8rKRm1p2 ':target="_blank"'): Welke rollen zijn er en wat kan je ermee *(9 min)*
+[Rollen en rechten](https://app.screencastify.com/v3/watch/mFKQnDDjDayw8rKRm1p2 ':target="_blank"'): Welke rollen zijn er en wat kan je ermee *(9 min)*
 
-[Content beheren](https://watch.screencastify.com/v/cT6PcWKM6wmLkvyLUP4x ':target="_blank"'): Content maken en publiceren *(23 min)*
+[Content beheren](https://app.screencastify.com/v3/watch/cT6PcWKM6wmLkvyLUP4x ':target="_blank"'): Content maken en publiceren *(23 min)*
 
-[Content Types](https://watch.screencastify.com/v/ZjyAq5pCSHnIbBx61Ayx ':target="_blank"'): Hoe maak je een content type *(12 min)*
+[Content Types](https://app.screencastify.com/v3/watch/ZjyAq5pCSHnIbBx61Ayx ':target="_blank"'): Hoe maak je een content type *(12 min)*
 
-[Afbeeldingen](https://watch.screencastify.com/v/F9tMVZ0axwyBZe2VrHjc ':target="_blank"'): Werken met afbeeldingen *(14 min)*
+[Afbeeldingen](https://app.screencastify.com/v3/watch/F9tMVZ0axwyBZe2VrHjc ':target="_blank"'): Werken met afbeeldingen *(14 min)*
 
-[Paragrafen](https://watch.screencastify.com/v/8mwRM1CKMEjedbUVKsgJ ':target="_blank"'): Paragrafen systeem als basis voor dynamische pagina's op je website *(11 min)*
+[Paragrafen](https://app.screencastify.com/v3/watch/8mwRM1CKMEjedbUVKsgJ ':target="_blank"'): Paragrafen systeem als basis voor dynamische pagina's op je website *(11 min)*
 
-[Taxonomieën](https://watch.screencastify.com/v/B1tt7ZMZ52bnPtYLyZO5 ':target="_blank"'): Klasseren van content via tags (termen) *(6 min)
+[Taxonomieën](https://app.screencastify.com/v3/watch/B1tt7ZMZ52bnPtYLyZO5 ':target="_blank"'): Klasseren van content via tags (termen) *(6 min)
 
 [GIS Kaart](https://app.screencastify.com/v3/watch/WtAE4vjNBYYZEvDXbytI ':target="_blank"'): Gebruik van de GIS kaart*(6 min)*
 

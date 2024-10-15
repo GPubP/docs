@@ -1,19 +1,29 @@
 # Video embed
+
 Geef een url van een videofragment. Dit werkt heel gelijkaardig zoals een [audio embed](/redactie/content/inrichten-cc-audio-embed.md) component.
 
-# Voor contentbeheerders
-De enige configuratie optie is om aan te geven aan de frontend dat een videofragment automatisch mag afgespeeld worden.
+## Voor contentbeheerders
 
-![Video embed configuratie](../assets/video-embed-config.png)
+Er zijn geen specifieke instellingen voorzien voor de video embed.
 
-# Voor redacteurs
-Een redacteur kan eenvoudigweg een videolink plakken in het voorziene vak en er komt een preview zodat de redacteur kan zien / horen of de juiste link geplakt is.
+## Voor redacteurs
+
+Een redacteur kan eenvoudigweg een videolink plakken in het voorziene vak en er komt een preview zodat de redacteur kan zien en horen of de juiste link geplakt is.
 
 ![Video embed redactie](../assets/video-embed-redactie.png)
 
-# Voor ontwikkelaars
+> [!info]
+> Je kan als redacteur met verschillende soorten YouTube url's werken; waaronder:
+>
+> * <https://www.youtube.com/watch?v=bH7AfOm4_vc>
+> * <https://www.youtube.com/embed/bH7AfOm4_vc>
+> * <https://youtu.be/bH7AfOm4_vc>
+>
+> Al deze varianten worden ondersteund. Het systeem zal ze automatisch omzetten naar de juiste Url zodat deze getoond kunnen worden in een YouTube video player op website.
 
-## Output met autostart van videofragment
+## Voor ontwikkelaars
+
+### Output met autostart van videofragment
 
 ```json
 {
@@ -31,33 +41,3 @@ Een redacteur kan eenvoudigweg een videolink plakken in het voorziene vak en er 
 ```
 
 ?> Ga terug naar het [overzicht van alle content componenten](/redactie/content/inrichten-cc-standaard.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

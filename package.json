@@ -25,5 +25,9 @@
   "homepage": "https://github.com/GPubP/docs#readme",
   "dependencies": {
     "docsify": "^4.12.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.5"
   }
 }
