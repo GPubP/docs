@@ -66,6 +66,11 @@ Referentie naar richtlijnen: [Multi-tenancy](/modules/content/core-principles?id
 Zorg ervoor dat de credentials van Kafka, MongoDB en dergelijke steeds correct worden gebruikt.
 Neem niet zomaar credentials over van andere services en zorg steeds voor eigen credentials per service / module.
 
+#### 1.6 Vulnerabilities in dependencies
+
+De module wordt door een SAST tool gehaald (npm audit en snyk).
+Er mogen geen vulnerabilities aanwezig zijn in het resultaat daarvan tenzij duidelijk aangetoond kan worden dat deze geen effect hebben op de module (of het systeem in zijn geheel).
+
 ### 2. Core principles
 
 #### 2.1 Voorzien van testen
@@ -183,5 +188,13 @@ Er is binnen GPubP Content beheer gekozen om altijd met functional components te
 - Code is leesbaarder voor iedereen vanwege consistentie
 - Door steeds op dezelfde manier te werken, reduceren we de kans op bugs
 
+#### 3.8 Gebruik van standaard packages
 
+We raden aan om standaard packages over te nemen van de boilerplate backend en frontend modules zodat bij een vulnerability en/of een EOL, gemakkelijker een algemeen migratie plan kan opgesteld worden.
 
+Enkele voorbeelden:
+- Axios (of AxiosGotWrapper indien vroeger got gebruikt werd)
+- Mongoose
+- TypeORM
+- Ramda
+- ...
