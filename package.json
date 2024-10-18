@@ -23,8 +23,12 @@
     "url": "https://github.com/GPubP/docs/issues"
   },
   "homepage": "https://github.com/GPubP/docs#readme",
+  "dependencies": {
+    "docsify": "^4.12.2"
+  },
   "devDependencies": {
-    "docsify": "^4.13.1",
-    "docsify-cli": "^4.4.4"
+    "docsify-cli": "^4.4.4",
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.5"
   }
 }
