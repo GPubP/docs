@@ -53,8 +53,8 @@ curl --location --request GET 'https://api-gw-a.antwerpen.be/acpaas/form-survey-
 
 Zet de [Form renderer](https://formwidget.antwerpen.be) op je frontend pagina.
 
-* Hier is een [example implementatie](https://bitbucket.antwerpen.be/projects/AUI/repos/widgets_app_nodejs/browse/frontend/src/app/pages/examples/form-renderer-example)
-* Hier is een [demo](https://widgets.antwerpen.be/examples/form-renderer)
+* Hier is een [example implementatie](https://bitbucket.antwerpen.be/projects/AUI/repos/widgets_app_nodejs/browse/frontend/src/app/pages/examples/form-renderer-example/form-renderer-example.page.html?at=development-upco-84)
+* Hier is een [demo](https://formwidget.antwerpen.be/demo/renderer)
 * Hier is de [algemene info over widgets](https://widgets.antwerpen.be/welcome)
 De widget verwacht het form schema en eventuele form data te krijgen.
 
