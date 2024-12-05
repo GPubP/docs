@@ -17,24 +17,21 @@ Het resultaat van de voorbereiding is dat je een `identifier` van het gekozen fo
 Eerst moet je een geldig access token aanvragen:
 
 ```shell
-curl --location --request POST 'https://api-gw.antwerpen.be/acpaas/form-survey-engine/v1/oauth2/authorize' \
---header 'apikey: <key>' \
+curl --location 'https://api-gw-p.antwerpen.be/acpaas/form-survey-engine/v1/oauth2/token' \
 --header 'Content-Type: application/json' \
---data-raw '{
-  "client_id": <client_id>,
-  "client_secret": <client_secret>,
-  "response_type": "token",
-  "scope": "",
-  "provision_key": <provision_key>,
-  "authenticated_userid": <authenticated_userid>
-}'
+--header 'Authorization: Bearer YbIwS57adOnZnAZ6b7xM0ptwyx6sAbYG' \
+--form 'client_secret=<client_secret>' \
+--form 'client_id=<client_id>' \
+--form 'grant_type="client_credentials"'
 ```
 
 Als reply krijg je het volgende, hier kan je de waarde van de access_token uitvissen.
 
 ```json
 {
-    "redirect_uri": "https://...auth/login/callback#access_token=alNt...56EPb&expires_in=7200&token_type=bearer"
+    "token_type": "bearer",
+    "access_token": "LvxWQsy7zXkHHMvzhfeIs7b4JOH0BKhg",
+    "expires_in": 7200
 }
 ```
 
