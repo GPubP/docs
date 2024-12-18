@@ -17,24 +17,21 @@ Het resultaat van de voorbereiding is dat je een `identifier` van het gekozen fo
 Eerst moet je een geldig access token aanvragen:
 
 ```shell
-curl --location --request POST 'https://api-gw.antwerpen.be/acpaas/form-survey-engine/v1/oauth2/authorize' \
---header 'apikey: <key>' \
+curl --location 'https://api-gw-p.antwerpen.be/acpaas/form-survey-engine/v1/oauth2/token' \
 --header 'Content-Type: application/json' \
---data-raw '{
-  "client_id": <client_id>,
-  "client_secret": <client_secret>,
-  "response_type": "token",
-  "scope": "",
-  "provision_key": <provision_key>,
-  "authenticated_userid": <authenticated_userid>
-}'
+--header 'Authorization: Bearer YbIwS57adOnZnAZ6b7xM0ptwyx6sAbYG' \
+--form 'client_secret=<client_secret>' \
+--form 'client_id=<client_id>' \
+--form 'grant_type="client_credentials"'
 ```
 
 Als reply krijg je het volgende, hier kan je de waarde van de access_token uitvissen.
 
 ```json
 {
-    "redirect_uri": "https://...auth/login/callback#access_token=alNt...56EPb&expires_in=7200&token_type=bearer"
+    "token_type": "bearer",
+    "access_token": "LvxWQsy7zXkHHMvzhfeIs7b4JOH0BKhg",
+    "expires_in": 7200
 }
 ```
 
@@ -49,12 +46,12 @@ curl --location --request GET 'https://api-gw-a.antwerpen.be/acpaas/form-survey-
 
 ## De form renderer inbouwen in jouw frontend toepassing
 
-> <https://bitbucket.antwerpen.be/projects/ACPFSE/repos/forms_engine_docs/browse/pages/widget.md?at=9e47b54ac349f94374d7c3702c269058cb69c78e>
+> Zie [docs van de form renderer widget op bitbucket](https://bitbucket.antwerpen.be/projects/ACPFSE/repos/forms_engine_docs/browse/pages/widget.md).
 
 Zet de [Form renderer](https://formwidget.antwerpen.be) op je frontend pagina.
 
-* Hier is een [example implementatie](https://bitbucket.antwerpen.be/projects/AUI/repos/widgets_app_nodejs/browse/frontend/src/app/pages/examples/form-renderer-example)
-* Hier is een [demo](https://widgets.antwerpen.be/examples/form-renderer)
+* Hier is een [example implementatie](https://bitbucket.antwerpen.be/projects/AUI/repos/widgets_app_nodejs/browse/frontend/src/app/pages/examples/form-renderer-example/form-renderer-example.page.html?at=development-upco-84)
+* Hier is een [demo](https://formwidget.antwerpen.be/demo/renderer)
 * Hier is de [algemene info over widgets](https://widgets.antwerpen.be/welcome)
 De widget verwacht het form schema en eventuele form data te krijgen.
 

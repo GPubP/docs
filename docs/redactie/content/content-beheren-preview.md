@@ -19,3 +19,9 @@ Eenmaal alle voorbereidingen getroffen zijn, kan je een preview opvragen. Bekijk
 ![Content preview](../assets/redactie-content-preview.jpg "Content preview")
 
 !> Als je erop klikt is de kans groot dat je **browser je goedkeuring gaat vragen** voor een 'popup window'. Deze moet je (eenmalig) aanvaarden.
+
+Enkele aandachtspunten over deze 'preview-url':
+
+- de url kan gedeeld worden met andere mensen zodat ze mee kunnen zien wat er gaat komen
+- de url blijft 24h geldig.
+- de preview url toont steeds de laatste stand van zaken, ook al zijn er wijzigingen gemaakt nadat deze link werd uitgegeven
