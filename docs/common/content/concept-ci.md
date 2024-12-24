@@ -1,3 +1,3 @@
 # Content item
 
-!> Interesse in deze pagina? Geef een seintje aan erik.lenaerts@digipolis.be en we werken dit uit.
+!> Interesse in deze pagina? Geef een seintje aan mikis.putseys@digipolis.be en we werken dit uit.

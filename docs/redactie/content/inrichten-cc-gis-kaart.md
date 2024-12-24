@@ -142,7 +142,7 @@ Hier is een volledig voorbeeld:
                                     "textType": "div",
                                     "text": "ABCDE"
                                 },
-                                "contact-e-mail": "erik.lenaerts@digipolis.be",
+                                "contact-e-mail": "mikis.putseys@digipolis.be",
                                 "contact-naam": {
                                     "textType": "div",
                                     "text": "Erik Lenaerts"
@@ -279,7 +279,7 @@ In het onderstaande voorbeeld heeft de redacteur een code, email en naam opgegev
                         "textType": "div",
                         "text": "ABCDE"
                     },
-                    "contact-e-mail": "erik.lenaerts@digipolis.be",
+                    "contact-e-mail": "mikis.putseys@digipolis.be",
                     "contact-naam": {
                         "textType": "div",
                         "text": "Erik Lenaerts"

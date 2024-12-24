@@ -852,4 +852,4 @@ Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa
 
 ## Vragen?
 
-De releases worden op basis van een lange termijn en korte termijn planning samengesteld op basis van de behoefte van de afnemers van het platform. Staat er iets niet tussen of heb je een vraag over de release notes? contacteer dan erik.lenaerts@digipolis.be
+De releases worden op basis van een lange termijn en korte termijn planning samengesteld op basis van de behoefte van de afnemers van het platform. Staat er iets niet tussen of heb je een vraag over de release notes? contacteer dan mikis.putseys@digipolis.be

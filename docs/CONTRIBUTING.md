@@ -21,7 +21,7 @@ Ben je niet helemaal zeker? Vraag het even na op het :fa-brands fa-microsoft: [G
 Digipolis beheert het product en de [roadmap](https://github.com/GPubP/getting-started/blob/main/RELEASE.md). Ontbreekt er een feature, niet zeker wanneer een bug wordt opgelost?
 Voor meer info kan je steeds terecht bij:
 
-* <erik.lenaerts@digipolis.be>
+* <mikis.putseys@digipolis.be>
 * <mireille.termolle@digipolis.be>
 
 ### Technical

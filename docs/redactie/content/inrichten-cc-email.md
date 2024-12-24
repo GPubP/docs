@@ -17,7 +17,7 @@ Bij de invoer wordt er nagegaan of het een geldig e-mail adres is.
 {
    "_id": "616588e5ce65be000a5466eb",
    "fields": {
-       "e-mail": "erik.lenaerts@digipolis.be"
+       "e-mail": "mikis.putseys@digipolis.be"
    },
    "uuid": "4c370038-2417-483a-a3df-1acd57742e60", 
    ...

@@ -134,7 +134,7 @@ Met deze payload:
         "lastEditor": {
             "address": null,
             "domain": "ICA",
-            "email": "Erik.Lenaerts@digipolis.be",
+            "email": "mikis.putseys@digipolis.be",
             "externalMutableReference": "ex02536@digant.antwerpen.local",
             "firstname": "Erik",
             "id": "a0c55f11-a545-48c8-a1ee-4a5e2ce9a1f7",

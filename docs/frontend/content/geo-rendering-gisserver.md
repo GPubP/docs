@@ -143,7 +143,7 @@ Vervolgens kan je uit `gis_kaart.raw` de json unescapen. Het resultaat is zoals 
                     "textType": "div",
                     "text": "ABCDE"
                 },
-                "contact-e-mail": "erik.lenaerts@digipolis.be",
+                "contact-e-mail": "mikis.putseys@digipolis.be",
                 "contact-naam": {
                     "textType": "div",
                     "text": "Erik Lenaerts"
