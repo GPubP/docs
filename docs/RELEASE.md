@@ -15,7 +15,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 | 4.10.1 | Q3 2024 | Navigation v2 uitbreidingen | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.10.0](/common/content/release-4-10-0) | Q3 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.9.1](/common/content/release-4-9-1) | Q3 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
-| [4.9.0](/common/content/release-4-9-0) | Q3 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-DEV-yellow.svg)]() |
+| [4.9.0](/common/content/release-4-9-0) | Q3 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
 
 ### Huidige releases
 
