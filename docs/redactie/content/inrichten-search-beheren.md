@@ -71,6 +71,8 @@ Voor een tekstveld zijn er bv 2 methodes i.e. een 'value mapper' of 'tekst mappe
 |---|---|---|---|
 | Afbeelding mapper | [Afbeelding](/redactie/content/inrichten-cc-afbeelding) | te kiezen | Een JSON met url's van de originele afbeelding en crop varianten. |
 | Hoofdafbeelding mapper | [Afbeelding](/redactie/content/inrichten-cc-afbeelding) | `image` | Een JSON met url's van de originele afbeelding en crop varianten.  |
+| Content Referentie (link) mapper | [Content referentie](/redactie/content/inrichten-cc-content-ref) | `content referentie` | Een JSON met ondermeer de url van het content referentie.  |
+| Content Referentie (full) mapper | [Content referentie](/redactie/content/inrichten-cc-content-ref) | `content referentie` | Een JSON met het gehele content item waar naar verwezen wordt.  |
 | Taxonomie mapper | [Taxonomie](/redactie/content/inrichten-cc-taxonomie) | `tax_<naam>`, `tax_labels` | Taxonomie data wordt in 2 velden gesplitst.In de eerste komen de taxonomie term id's, in de 2e de verzameling van labels |
 | Titel mapper | Standaard titel | `title` | Zet de titel (enkel tekst) van een content item naar dit veld. |
 | Teaser mapper | Standaard tekstvak met opmaak, [Open Graph Protocol](/redactie/content/inrichten-cc-opengraph) | `teaser` | Zet de teaser (enkel tekst) van een content item naar dit veld. |
