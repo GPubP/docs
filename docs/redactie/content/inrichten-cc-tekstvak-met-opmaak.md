@@ -110,6 +110,11 @@ Het systeem zal je wel niet beletten om dit te bewaren. Het is een hulpmiddel in
 
 ([Bekijk dit op YouTube](https://youtu.be/UoJ9B8n7ylo':target="_blank"'))
 
+Sinds [release 4.9.0](/common/content/release-4-9-0) is er een optie bijgekomen waarbij je kan aangeven of de pagina waar je naar verwijst in een nieuw tabblad moet openenen op de gebruiker z'n computer.
+
+![tekstvak-opmaak-redactie2](../assets/tekstvak-opmaak-interne-link-nieuw-venster.png)
+
+
 ## Voor ontwikkelaars
 
 ### Tekstvak
