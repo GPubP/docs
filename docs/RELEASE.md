@@ -13,9 +13,9 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 | 4.11.2 | 2025 | Roadmap uitbreidingen voor A-Stad | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | 4.11.1 | 2025 | LCM release | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | 4.11.0 | Q3 2024 | Navigation v2 API verbeteringen + Redactie refactorings | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.10.0](/common/content/release-4-10-0) | Q3 2024 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() |
-| [4.9.1](/common/content/release-4-9-1) | Q3 2024 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
-| [4.9.0](/common/content/release-4-9-0) | Q3 2024 | Mix van heel wat changes en bugfixes | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
+| [4.10.0](/common/content/release-4-10-0) | Q1 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() |
+| [4.9.1](/common/content/release-4-9-1) | Q1 2025 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
+| [4.9.0](/common/content/release-4-9-0) | Q1 2025 | Mix van heel wat changes en bugfixes | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
 
 ### Huidige releases
 
