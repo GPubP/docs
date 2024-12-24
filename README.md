@@ -12,4 +12,4 @@ Bekijk hier de [RELEASE notes](/docs/RELEASE.md), hier staan ook reeds de eerstv
 Voor redacteurs, content beheerders, ontwikkelaars, project leiders, ... https://gpubp.antwerpen.be
 
 ## Contact
-Digipolis - erik.lenaerts@digipolis.be
+Digipolis - mikis.putseys@digipolis.be
