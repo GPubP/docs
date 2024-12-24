@@ -27,7 +27,11 @@ Elk log entry bevat informatie over:
 
 ## Zoeken in het logbook
 
-!> todo
+Je kan filteren en zoeken in het logboek door bovenaan de log entries het zoek en filter luik te hanteren.
+
+## Visualisatie
+
+[![Logbook module](../../assets/logbook-module.png)](../../assets/logbook-module.png)
 
 ## Hoe gebruik ik als ontwikkelaar het logbook
 
@@ -126,8 +130,5 @@ De `references` parameter is optioneel en kan gebruikt worden om extra informati
   }]
 }
 ```
-
-## Visualisatie
-[![](../../assets/logbook-module.png)](../../assets/logbook-module.png)
 
 ?> Ga terug naar het [overzicht van alle modules](/modules/content/wcm-modules)
