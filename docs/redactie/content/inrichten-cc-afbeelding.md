@@ -20,6 +20,8 @@ Kies een afbeelding, beschrijf het en stel de crop instellingen in.
 * geef aan of de redacteur een zoom-in of zoom-out effect mag instellen.
 * geef aan of de redacteur een focus punt kan toevoegen.
 
+In [release 4.9.0](/common/content/release-4-9-0) is het scherm waar je de meta data invoert aanzienlijk verbeterd en duidelijker geworden.  
+
 > [!Info|label:Performantie tip]
 >
 > We raden aan om steeds de crop opties `Begrensd` en `Exact` te gebruiken.
