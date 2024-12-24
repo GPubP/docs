@@ -116,7 +116,11 @@ Hiervoor zie je in het overzicht het verschil tussen hoeveel online content item
 
 Je kan kiezen om **partieel te herindexeren** of de **volledige index**. In het eerste geval kan je bv één content type herindexeren van de index.
 
-> [!info|label:Wat gebeurt er met herindexeren]
+Sinds [release 4.9.0](/common/content/release-4-9-0) kan je ook partieel herindexeren in functie van de tijd. Hiermee kan je kiezen om alle content te herindexeren van het laatste kwartier of halfuur of ...
+
+![Partieel herindexeren](../assets/search-index-partial.png 'Indexeer in functie van de tijd.')
+
+> [!info|label:Wat gebeurt er tijdens herindexeren]
 > Een herindexatie zal de engine behouden maar (partieel) leegmaken om daarna terug op te vullen. Alle settings zoals schema, tuning, synoniemen etc blijven met andere woorden behouden.
 
 ## Indexen aanpassen en verwijderen
