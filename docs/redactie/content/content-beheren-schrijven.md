@@ -14,6 +14,7 @@ In [de introductie](/common/content/content-beheer) kan je meer leren over het R
 - [Content overzicht](#content-overzicht)
 - [Nieuwe content maken](#nieuwe-content-maken)
 - [Content bewaren](#content-bewaren)
+- [Content bekijken](#content-bekijken)
 - [Content publiceren](#content-publiceren)
 - [Content archiveren](#content-archiveren)
 - [Content verwijderen](#content-verwijderen)
@@ -81,6 +82,12 @@ Telkens als je content bewaart zal je een nieuwe `revisie` maken waarbij de vori
 [Lees hier](/redactie/content/content-beheren-revisies) hoe je vorige revisies kan bekijken en er naar terug gaan.
 
 Wil je het tussentijds resultaat al eens bekijken, dan kan je gebruik maken van de `preview` functie. Lees er [hier meer over](/redactie/content/content-beheren-preview).
+
+## Content bekijken
+
+Wil je content item bekijken, dan open je het content item in ga je naar het `Overzicht`. Je zal merken dat er daar handige kopieer functies zitten naast een korte samenvatting van de belangrijkste informatie over dit content item.
+![Content bekijken](../assets/redactie-content-bekijken.png "Content bekijken")
+
 
 ## Content publiceren
 
