@@ -13,15 +13,16 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 | 4.11.2 | 2025 | Roadmap uitbreidingen voor A-Stad | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | 4.11.1 | 2025 | LCM release | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | 4.11.0 | Q2 2025 | Navigation v2 API verbeteringen + Redactie refactorings | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| [4.10.0](/common/content/release-4-10-0) | Q1 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Contrib-ACC-blue.svg)]() |
-| [4.9.1](/common/content/release-4-9-1) | Q1 2025 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
-| [4.9.0](/common/content/release-4-9-0) | Q1 2025 | Mix van heel wat changes en bugfixes | [![Generic badge](https://img.shields.io/badge/Core-ACC-blue.svg)]() |
+
 
 ### Huidige releases
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
-| [4.8.6.hotfix-1](/common/content/release-4-8-6-hotfix-1) | 09 oktober 2024 | Hotfix release (current) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
+| [4.10.0](/common/content/release-4-10-0) | Q1 2025 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
+| [4.9.1](/common/content/release-4-9-1) | Q1 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
+| [4.9.0](/common/content/release-4-9-0) | Q1 2025 | Mix van heel wat changes en bugfixes (current) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
+| [4.8.6.hotfix-1](/common/content/release-4-8-6-hotfix-1) | 09 oktober 2024 | Hotfix release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.6](/common/content/release-4-8-6) | 18 juni 2024 | Bugfix release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.5](/common/content/release-4-8-5) | 30 april 2024 | GDPR features | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.4](/common/content/release-4-tot-4-8-4) | 12 mar 2024 | Monitoring & Self healing verbeteringen | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
