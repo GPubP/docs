@@ -19,9 +19,9 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
-| [4.10.0](/common/content/release-4-10-0) | Q1 2025 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
-| [4.9.1](/common/content/release-4-9-1) | Q1 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
-| [4.9.0](/common/content/release-4-9-0) | Q1 2025 | Mix van heel wat changes en bugfixes (current) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
+| [4.10.0](/common/content/release-4-10-0) | 14 jan 2025 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
+| [4.9.1](/common/content/release-4-9-1) | 14 jan 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
+| [4.9.0](/common/content/release-4-9-0) | 14 jan 2025 | Mix van heel wat changes en bugfixes (current) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.6.hotfix-1](/common/content/release-4-8-6-hotfix-1) | 09 oktober 2024 | Hotfix release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.6](/common/content/release-4-8-6) | 18 juni 2024 | Bugfix release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.5](/common/content/release-4-8-5) | 30 april 2024 | GDPR features | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
