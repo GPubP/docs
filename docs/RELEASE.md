@@ -6,7 +6,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 
 ## Index
 
-### Toekomstige releases
+### Toekomstige releasess
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
