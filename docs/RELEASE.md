@@ -6,19 +6,20 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 
 ## Index
 
-### Toekomstige releasess
+### Toekomstige releases
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
-| 4.10.2 | 2025 | Roadmap uitbreidingen voor A-Stad | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| 4.10.1 | 2025 | LCM release | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| 4.10.0 | Q2 2025 | Navigation v2 API verbeteringen + Redactie refactorings | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| 4.12.2 | 2025 | Roadmap uitbreidingen voor A-Stad | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+
 
 
 ### Huidige releases
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
+| [4.12.0](/common/content/release-4-12-0) | 20 mei 2025 | Uit integratie | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
+| [4.11.0](/common/content/release-4-11-0) | 20 mei 2025 | LCM release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.9.2](/common/content/release-4-9-2) | 14 jan 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.9.1](/common/content/release-4-9-1) | 14 jan 2025 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.9.0](/common/content/release-4-9-0) | 14 jan 2025 | Mix van heel wat changes en bugfixes (current) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
