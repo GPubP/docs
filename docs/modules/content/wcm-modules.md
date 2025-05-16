@@ -47,7 +47,7 @@
 
 | Module                        | F                   | B                   | E                   | Categorie                                               | Omschrijving                                                                                 | Core?                           | Oorsprong           | Gemaakt door      | 
 |:------------------------------|:--------------------|:--------------------|:--------------------|:--------------------------------------------------------|:---------------------------------------------------------------------------------------------|:--------------------------------|:--------------------|:------------------|
-| Uitdatabank                   |                     | :fa-solid fa-check: |                     | <span class="a-badge a-badge--primary">Integratie</span>| Stuurt content items naar UIT in Vlaanderen systeem                                          | :fa-solid fa-code-pull-request: | Cultuur sites       | Studio Hyperdrive |
+| [Uitdatabank](/modules/content/modules/module-uit)                   |                     | :fa-solid fa-check: |                     | <span class="a-badge a-badge--primary">Integratie</span>| Stuurt content items naar UIT in Vlaanderen systeem                                          | :fa-solid fa-code-pull-request: | Cultuur sites       | Studio Hyperdrive |
 
 ## Legende
 
