@@ -20,7 +20,7 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 |---|---|---|---|
 | [4.12.0](/common/content/release-4-12-0) | 20 mei 2025 | Uit integratie | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.11.0](/common/content/release-4-11-0) | 20 mei 2025 | LCM release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
-| [4.9.2](/common/content/release-4-9-2) | 14 jan 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
+| [4.10.0](/common/content/release-4-10-0) | 14 jan 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.9.1](/common/content/release-4-9-1) | 14 jan 2025 | Navigation v2 | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.9.0](/common/content/release-4-9-0) | 14 jan 2025 | Mix van heel wat changes en bugfixes (current) | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.8.6.hotfix-1](/common/content/release-4-8-6-hotfix-1) | 09 oktober 2024 | Hotfix release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |

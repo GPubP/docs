@@ -1,7 +1,7 @@
 # 4.9.1 Release notes
 
 * **MTA**: Q3 2024
-* **Release datum:** 15 januari 20255
+* **Release datum:** 15 januari 2025
 * **Jira release:** Bekijk de [Jira release notes](https://jira.antwerpen.be/secure/ReleaseNote.jspa?projectId=14114&version=17713)
 * **Getest door:** Axel Claeys, Mahsun Pinar, Mikis Putseys
 * **Release lead:** Jeroen Valcke
