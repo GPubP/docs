@@ -11,6 +11,6 @@
 
 ## Veranderingen
 
-## Bug fixes
+## Bug fixess
 
 ?> Bekijk hier het overzicht van [alle releases](/RELEASE).
