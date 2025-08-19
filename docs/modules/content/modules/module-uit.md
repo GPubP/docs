@@ -1,5 +1,5 @@
 # Uitdatabank
 
-Met deze module kunnen redacteurs activiteiten publiceren in de Uit in Vlaanderen databank.
+Met deze module kunnen redacteurs activiteiten synchroniseren naar de Uit in Vlaanderen databank.
 
 
