@@ -9,8 +9,6 @@
 
 ## Nieuwe features
 
-## Veranderingen
-
-## Bug fixes
+Met deze release wordt een nieuwe [Uitdatabank](/modules/content/modules/module-uit) module in gebruik genomen. Redacteurs kunnen hiermee content synchroniseren naar de Uitdatabank van Vlaanderen.
 
 ?> Bekijk hier het overzicht van [alle releases](/RELEASE).
