@@ -7,10 +7,13 @@
 * **Release lead:** Jeroen Valcke
 * **Product Owner:** Mikis Putseys
 
-## Nieuwe features
 
 ## Veranderingen
 
+LCM updates voor Q3 en Q4 2024
+
 ## Bug fixes
+
+Fixes voor een aantal regressie issues
 
 ?> Bekijk hier het overzicht van [alle releases](/RELEASE).

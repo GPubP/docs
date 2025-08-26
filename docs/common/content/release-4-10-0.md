@@ -9,8 +9,6 @@
 
 ## Nieuwe features
 
-## Veranderingen
-
-## Bug fixes
+In gebruikname van een nieuwe [Backup & Restore](/modules/content/modules/module-backup-restore) module
 
 ?> Bekijk hier het overzicht van [alle releases](/RELEASE).
