@@ -43,7 +43,7 @@
 | Translations                                                         | :fa-solid fa-check:              | :fa-solid fa-check:               |                         | Talen      | Voorziet de labels & vertalingen van de Redactie zelf alsook de BSL voor de Language module  | :fa-solid fa-check: | Noodzakelijk | antwerpen.be        | Studio Hyperdrive |
 | Views                                                                | :fa-solid fa-check:              |                                   |                         | Content    | Laat toe om met views te werken                                                              | :fa-solid fa-check: | Aanbevolen   | antwerpen.be        | Studio Hyperdrive |
 | Workflow                                                             | :fa-solid fa-check:              | :fa-solid fa-check:               | :fa-solid fa-check:     | Workflow   | Om te werken met content life cycle en de rechten daarop                                     | :fa-solid fa-check: | Noodzakelijk | antwerpen.be        | Studio Hyperdrive |
-| [XML sitemap module](/modules/content/modules/module-xml-sitemap)     | :fa-solid fa-check:              | :fa-solid fa-check:               | :fa-solid fa-check:     | SEO   | Om een XML-sitemap te exposen aan search engines                                     | :fa-solid fa-check: | Aanbevolen | antwerpen.be        | Studio Hyperdrive |
+| [XML-sitemap module](/modules/content/modules/module-xml-sitemap)    | :fa-solid fa-check:             | :fa-solid fa-check:               |                 | Search   | Om een XML-sitemap te exposen aan search engines                                     | :fa-solid fa-check: | Aanbevolen | antwerpen.be        | Studio Hyperdrive |
 
 ## Specifieke modules
 
