@@ -1,10 +1,8 @@
 # Menu's inrichten
 
-De meeste websites maken gebruik van één of meerdere navigatie menu’s. De redactie voorziet in een eenvoudig beheer van deze menu's. 
+De meeste websites maken gebruik van één of meerdere navigatie menu’s. De redactie voorziet in een eenvoudig beheer van deze menu's. Menu's zorgen er voor dat de bezoeker makkelijk zijn weg vindt op de site. 
 
-Menu's zorgen er voor dat de bezoeker makkelijk zijn weg vindt op de site. 
-
-Opgelet ! Het is de frontend applicatie die verantwoordelijk is voor de ontsluiting naar de bezoeker implementatie 
+Opgelet ! Het is de frontend applicatie die verantwoordelijk is voor de ontsluiting naar de bezoeker. 
 
 
 ## Inrichting op tenant niveau 
