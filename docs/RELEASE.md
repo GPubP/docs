@@ -10,15 +10,16 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
-| 4.12.2 | 26 aug 2025 | LCM release + XML-sitemap | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| 4.12.2 | 26 aug 2025 | Roadmap uitbreidingen voor A-Stad | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
-| 4.12.1 | 19 aug 2025 | Migratie A-Stad tenant naar Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| 4.14.0 | najaar 2025 | LCM release Q3 2025 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 
 
 ### Huidige releases
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
+| [4.13.0](/common/content/release-4-13-0) | 26 aug 2025 | LCM release + XML-sitemap | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.12.2](/common/content/release-4-12-2) | 26 aug 2025 | Roadmap uitbreidingen voor A-Stad | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| [4.12.1](/common/content/release-4-12-1) | 19 aug 2025 | Migratie A-Stad tenant naar Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.12.0](/common/content/release-4-12-0) | 20 mei 2025 | Uit integratie | [![Generic badge](https://img.shields.io/badge/Contrib-PROD-green.svg)]() |
 | [4.11.0](/common/content/release-4-11-0) | 20 mei 2025 | LCM release | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |
 | [4.10.0](/common/content/release-4-10-0) | 14 jan 2025 | Backup & restore van structuren | [![Generic badge](https://img.shields.io/badge/Core-PROD-green.svg)]() |

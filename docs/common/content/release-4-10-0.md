@@ -1,4 +1,4 @@
-# 4.10.1 Release notes
+# 4.10.0 Release notes
 
 * **MTA**: Q2 2024
 * **Release datum:** 15 januari 2025
