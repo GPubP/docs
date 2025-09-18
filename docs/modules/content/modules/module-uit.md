@@ -56,9 +56,9 @@ Toegang is enkel beschikbaar voor beheerders
 * PROD : https://wcm-admin.antwerpen.be/home
 
 **Werkwijze**
-Per tenant (websites in de interface) kan de Uitdatabank module geactiveerd worden. 
+Per tenant (websites in de interface) kan de Uitdatabank module geactiveerd worden.
 
-In de configuratie van de Uitdatabank BSL kan er configuratie per site toegevoegd worden : 
+In de configuratie van de Uitdatabank BSL kan er configuratie per site toegevoegd worden:
 
 ```json
 "moduleConfig": {
