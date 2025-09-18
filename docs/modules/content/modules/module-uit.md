@@ -137,7 +137,7 @@ structuur :
 
   - Indien de locatie niet in de tussentabel zit wordt deze aangemaakt in UiT (Place model)
     - bij succesvole synchronisatie naar UiT :  :
-      - wordt gelogd in het logboek 
+      - wordt dit gelogd in het logboek 
       - wordt een entry aangemaakt in de tussentabel  (met Statuscode 0)
     - indien de synchronisatie fout loopt :  
       - wordt de fout gelogd in het logboek 
@@ -152,7 +152,7 @@ Enkel indien de locatie succesvol werd gesynced naar UiT wordt de Activiteit ges
 
 **Indien het om een insert gaat :**
 
-* bij succesvole synchronisatie naar UiT :
+* bij succesvolle synchronisatie naar UiT :
   * wordt dit gelogd in het logboek 
   * wordt een item weggeschreven naar de tussentabel  (met Statuscode 0)
 
