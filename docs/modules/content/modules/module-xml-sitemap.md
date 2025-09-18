@@ -20,12 +20,10 @@ Meer over de configuratie van Elastic vind je [hier](/redactie/content/inrichten
 
 #### WCM admin configuratie
 
-Per tenant (toegang is enkel WCM Admins) kan de XML sitemap module geactiveerd worden. :
+Per tenant (toegang is enkel WCM voor Admins) kan de XML sitemap module geactiveerd worden. :
 
 * ACC : https://wcm-admin-a.antwerpen.be/home
 * PROD : https://wcm-admin.antwerpen.be/home
-
-
 
 Na het activeren van de XML Sitemap module kan er in de XML Sitemap BSL configuratie per site toegevoegd worden via volgende JSON structuur :
 

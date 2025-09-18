@@ -4,20 +4,21 @@ Met deze module kunnen redacteurs activiteiten synchroniseren naar de Uit in Vla
 
 De synchronisatie naar UiT gebeurt op basis van records in elastic. De synchronisatie kan asynchroon en kan, omwille van performantie redenen, op worker pods gedaan worden
 
+## Flow
 
-## Elastic configuratie
+### Redactioneel
+
+* de redacteur maakt de activiteit aan , publiceert deze en zet de Uit integratie aan
+* als de activiteit naar elastic is gesynced bepaalt de ‘Sync naar UiT’ flag of deze effectief naar UiT wordt gestuurd (value  : sync-to-uit)
+* **Opgelet :**  een aantal velden zijn optioneel in de redactie maar verplicht voor de synchronisatie !
+
+
+### Elastic App Search
 
 Vermits de naamgeving van de content types per site kan verschillen hebben we een extra ‘Uit type’ veld voorzien dat standaard op event (activiteit) en place (locatie) is gezet. Hierdoor kunnen verschillende sites op eenvoudige wijze hun content types mappen naar de standaard Elastic configuratie die nodig is om de sync succesvol te laten verlopen. 
 
 
-**Aandachtspunten bij de configuratie :**
-
-* Component type, Mapper en Schema veldnaam liggen vast
-* Uit type value ligt vast : event voor activiteit en place voor locatie
-* Elastic configuratie kan per site geactiveerd worden 
-
-
-### Content type Locatie (place)
+#### Content type Locatie (place)
 
 Aandachtspunt : Een aantal velden zijn niet verplicht in de redactie maar wel verplicht voor de synchronisatie
 
@@ -29,7 +30,7 @@ Aandachtspunt : Een aantal velden zijn niet verplicht in de redactie maar wel ve
 |x|Uit in vlaanderen taxonomie|Uit in vlaanderen taxonomie|Uit taxonomy|naamgeving is automatisch|
 |x|Uit Type|Tekstlijn|Tekst Mapper|uit_type (value : place)|
 
-### Content type Activiteit (Event)
+#### Content type Activiteit (Event)
 
 Aandachtspunt : Een aantal velden zijn niet verplicht in de redactie maar wel verplicht voor de synchronisatie
 
@@ -48,17 +49,24 @@ Aandachtspunt : Een aantal velden zijn niet verplicht in de redactie maar wel ve
 |x|Uit in vlaanderen taxonomie|Uit in vlaanderen taxonomie|Uit taxonomy|naamgeving is automatisch|
 |x|Uit Type|Tekstlijn|Tekst Mapper|uit_type (value : event)|
 
-## WCM admin
+Aandachtspunten bij de configuratie :
 
-Toegang is enkel beschikbaar voor beheerders
+* Component type, Mapper en Schema veldnaam liggen vast
+* Uit type value ligt vast : event voor activiteit en place voor locatie
+* Elastic configuratie kan per site geactiveerd worden 
+
+Meer over de configuratie van Elastic vind je [hier](/redactie/content/inrichten-search-beheren)
+
+
+### WCM admin configuratie
+
+Per tenant (toegang is enkel voor WCM Admins) kan de Uitdatabank module geactiveerd worden.
 
 * ACC : https://wcm-admin-a.antwerpen.be/home
 * PROD : https://wcm-admin.antwerpen.be/home
 
-**Werkwijze**
-Per tenant (websites in de interface) kan de Uitdatabank module geactiveerd worden.
-
-In de configuratie van de Uitdatabank BSL kan er configuratie per site toegevoegd worden:
+Na het activeren van de Uitdatabank module kan er in de Uitdatabank BSL configuratie per site toegevoegd worden via volgende 
+structuur :
 
 ```json
 "moduleConfig": {
@@ -98,14 +106,6 @@ In de configuratie van de Uitdatabank BSL kan er configuratie per site toegevoeg
 
 ## UiT Synchronisatie
 
-### Redactioneel
-
-* de redacteur maakt de activiteit aan , publiceert deze en zet de Uit integratie aan
-* we kunnen nog niet conditioneel indexeren dus alle activiteiten worden naar elastic gesynced
-* de ‘Sync naar UiT’ flag bepaalt of de activiteit effectief naar UiT wordt gestuurd (value  : 0 of 1)
-* **Opgelet :**  een aantal velden zijn optioneel in de redactie maar verplicht voor de synchronisatie !
-
-
 ### Synchronisatie flow
 
 * Via een cron (frequentie te bepalen) worden de activiteiten opgehaald uit Elastic (op basis van Last indexed & sync Flag)
@@ -114,7 +114,7 @@ In de configuratie van de Uitdatabank BSL kan er configuratie per site toegevoeg
 
 * Indien de activiteit nog niet gesynced werd naar UiT  wordt een check gedaan of alle velden die nodig zijn voor de synchronisatie naar UiT ingevuld zijn.
 
-* Indien **niet** alle verplichte velden heeft
+* Indien **niet** alle verplichte velden heingevuld zijn : 
   - wordt de sync onderbroken
   - wordt de fout gelogd in het logboek
   - wordt een entry aangemaakt in de tussentabel (met Statuscode 1)
@@ -122,8 +122,7 @@ In de configuratie van de Uitdatabank BSL kan er configuratie per site toegevoeg
 
 * Indien de activiteit alle verplichte velden heeft  : 
 
-*************** SYNC LOCATIE ********************
-   
+        *************** SYNC LOCATIE ********************
 * wordt de locatie opgehaald uit Elastic (op basis van location_ref)
 
 
@@ -149,12 +148,12 @@ In de configuratie van de Uitdatabank BSL kan er configuratie per site toegevoeg
 
 Enkel indien de locatie succesvol werd gesynced naar UiT wordt de Activiteit gesynced
 
-*************** SYNC ACTIVITEIT ********************
+        *************** SYNC ACTIVITEIT ********************
 
 **Indien het om een insert gaat :**
 
 * bij succesvole synchronisatie naar UiT :
-  * wordt gelogd in het logboek 
+  * wordt dit gelogd in het logboek 
   * wordt een item weggeschreven naar de tussentabel  (met Statuscode 0)
 
 * indien de synchronisatie fout loopt :  
@@ -165,7 +164,7 @@ Enkel indien de locatie succesvol werd gesynced naar UiT wordt de Activiteit ges
 **Indien het om een update gaat :**
 
 * bij succesvolle synchronisatie naar UiT :
-  * wordt gelogd in het logboek
+  * wordt dit gelogd in het logboek
   * wordt de tussentabel geüpdate
 * indien de synchronisatie fout loopt :  
   * wordt gelogd in het logboek 
