@@ -15,7 +15,10 @@ De andere velden (i.e. last_modified datum)  worden automatisch aangemaakt in El
 
 Meer over de configuratie van Elastic vind je [hier](/redactie/content/inrichten-search-beheren)
 
+#### Cron frequentie
 
+* In **acceptatie** wordt de sitemap om de 5 minuten gegenereerd
+* In **productie** gebeurt dit om het uur (op de 0de minuut)
 
 
 #### WCM admin configuratie
