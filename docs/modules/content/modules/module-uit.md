@@ -10,7 +10,10 @@ De synchronisatie naar UiT gebeurt op basis van records in elastic. De synchroni
 
 * de redacteur maakt de activiteit aan , publiceert deze en zet de Uit integratie aan
 * als de activiteit naar elastic is gesynced bepaalt de ‘Sync naar UiT’ flag of deze effectief naar UiT wordt gestuurd (value  : sync-to-uit)
-* **Opgelet :**  een aantal velden zijn optioneel in de redactie maar verplicht voor de synchronisatie !
+* Hou er rekening mee dat er een vertraging zit in de synchronisatie naar UiT
+* **Opgelet :**  
+  *  een aantal velden zijn optioneel in de redactie maar verplicht voor de synchronisatie !
+  * fouten worden gelogd in het logboek
 
 
 ### Elastic App Search
