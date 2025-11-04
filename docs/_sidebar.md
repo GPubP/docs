@@ -124,6 +124,7 @@
     * [Preview](/modules/content/modules/module-preview "Preview module | WCM modules | GPubP")
     * [Search](/modules/content/modules/module-search "Search module | WCM modules | GPubP")
     * [Uitdatabank](/modules/content/modules/module-uit "Uit databank module | WCM modules | GPubP")
+    * [XML Sitemap](/modules/content/modules/module-xml-sitemap "XML Sitemap module | WCM modules | GPubP")
   * [Maak je eigen module](/modules/content/getting-started "Maak je eigen module | WCM Modules | GPubP")  
     * [Architectuur](/modules/content/architecture/index "GPubP Content - Architectuur")
     * [Best practices](/modules/content/best-practices "GPubP Content - Best principes")
