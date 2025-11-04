@@ -10,13 +10,14 @@ Hier vind je de release notes van **GPubP - Content beheer** (a.k.a. **De Redact
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
-| 4.14.0 | najaar 2025 | LCM release Q3 2025 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
+| 4.13.2 | begin 2026 | LCM release Q4 2025 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 
 
 ### Huidige releases
 
 | Release | Release Datum | Inhoud | Status |
 |---|---|---|---|
+| [4.13.1](/common/content/release-4-13-1) | 4 nov 2025 | LCM release Q3 2025 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.13.0](/common/content/release-4-13-0) | 26 aug 2025 | LCM release + XML-sitemap | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.12.2](/common/content/release-4-12-2) | 26 aug 2025 | Roadmap uitbreidingen voor A-Stad | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |
 | [4.12.1](/common/content/release-4-12-1) | 19 aug 2025 | Migratie A-Stad tenant naar Navigation v2 | [![Generic badge](https://img.shields.io/badge/Core-TODO-teal.svg)]() |

@@ -16,6 +16,7 @@
     * [Layout Renderer Widgets](/common/content/layout-renderer-widgets "Layout Renderer Widgets | Frontend beheer | GPubP")
 * [Getting Started](/common/content/getting-started "Getting started | GPubP")
 * [Release notes](/RELEASE "Release notes | GPubP")
+  * [Release 4.13.1](/common/content/release-4-13-1 "Release notes | 4.13.1 | GPubP")
   * [Release 4.13.0](/common/content/release-4-13-0 "Release notes | 4.13.0 | GPubP")
   * [Release 4.12.2](/common/content/release-4-12-2 "Release notes | 4.12.2 | GPubP")
   * [Release 4.12.1](/common/content/release-4-12-1 "Release notes | 4.12.1 | GPubP")
