@@ -13,7 +13,6 @@ Toegang aanvragen kan via volgende kanalen:
 |Acceptatie | redactie-a.antwerpen.be | Fresh ticket bij groep DA - TB DOSIIOS | Fresh ticket bij groep DA - TB DOSIIOS |
 |Productie | redactie.antwerpen.be | Mijn Toegang (Stad Antwerpen > Redactie) | Fresh ticket bij groep DA - TB DOSIIOS |
 
-
 ## Toegang aanvragen als gebruiker
 
 ### Productie
@@ -45,3 +44,23 @@ Tenant beheerders worden bij de aanmaak van de tenant vastgelegd. Het gebeurt (z
 Vaak vergissen mensen zich in [het beheren van de site](/redactie/content/toegang-site-beheerder) versus [het beheren van de hele tenant](/redactie/content/toegang-tenant-beheerder).
 
 Overtuigd dat je tenant beheerder wil worden? Vraag dit aan via een **servicedesk** ticket.
+
+## Goedkeurders
+
+Momenteel worden toegangsaanvragen behandeld door volgende teams en medewerkers:
+
+
+| Tenant | Stap 1 goedkeurder(s) | Stap 1 security group | Stap 2 goedkeurder(s) | Stap 1 security group |
+|---|---|---|---|---|
+| archieven |  |  |  |  |
+| astad |  |  |  |  |
+| coc |  |  |  |  |
+| evaluatie |  |  |  |  |
+| hrm |  |  |  |  |
+| inc |  |  |  |  |
+| omg |  |  |  |  |
+| oor-3 |  |  |  |  |
+| pza |  |  |  |  |
+| schouwburgen |  |  |  |  |
+| sna |  |  |  |  |
+| svm |  |  |  |  |
