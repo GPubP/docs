@@ -10,8 +10,8 @@ Toegang aanvragen kan via volgende kanalen:
 
 | Omgeving | Adres redactie | Gebruiker | Tenant beheerder |
 |---|---|---|---|
-|Acceptatie | redactie-a.antwerpen.be | Fresh ticket bij groep DA - TB DOSIIOS | Fresh ticket bij groep DA - TB DOSIIOS |
-|Productie | redactie.antwerpen.be | Mijn Toegang (Stad Antwerpen > Redactie) | Fresh ticket bij groep DA - TB DOSIIOS |
+|Acceptatie | redactie-a.antwerpen.be | servicedesk ticket bij groep DA - TB DOSIIOS | servicedesk ticket bij groep DA - TB DOSIIOS |
+|Productie | redactie.antwerpen.be | Mijn Toegang (Stad Antwerpen > Redactie) | servicedesk ticket bij groep DA - TB DOSIIOS |
 
 ## Toegang aanvragen als gebruiker
 
