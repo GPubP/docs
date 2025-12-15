@@ -1,6 +1,7 @@
 # Gebruikers beheren
 
 * [Vraag toegang aan](/redactie/content/toegang-aanvragen) als gebruiker
+* [Toegang beheren](/redactie/content/toegang-beheren) als GPubP beheerder
 * Wil je...
   * werken als [Redacteur](/redactie/content/toegang-redacteur)
   * werken als [Site beheerder](/redactie/content/toegang-site-beheerder)

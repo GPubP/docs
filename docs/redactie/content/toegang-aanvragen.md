@@ -4,6 +4,16 @@
 > Toegang geeft je het recht om met de Redactie tool te werken maar nog niet het recht om te werken als redacteur of contentbeheerder.
 > Hiervoor moet je nog een [rol](/redactie/content/toegang-werken-als) toebedeeld krijgen.
 
+## Snel overzicht
+
+Toegang aanvragen kan via volgende kanalen:
+
+| Omgeving | Adres redactie | Gebruiker | Tenant beheerder |
+|---|---|---|---|
+|Acceptatie | redactie-a.antwerpen.be | Fresh ticket bij groep DA - TB DOSIIOS | Fresh ticket bij groep DA - TB DOSIIOS |
+|Productie | redactie.antwerpen.be | Mijn Toegang (Stad Antwerpen > Redactie) | Fresh ticket bij groep DA - TB DOSIIOS |
+
+
 ## Toegang aanvragen als gebruiker
 
 ### Productie
