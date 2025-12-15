@@ -32,6 +32,7 @@
 * [Redactie](/common/content/redactie "De Redactie | GPubP")
   * [Gebruikers beheren](/redactie/content/toegang-gebruikers "Gebruikers | Redactie | GPubP")
     * [Toegang aanvragen](/redactie/content/toegang-aanvragen "Toegang aanvragen | Redactie | GPubP")
+    * [Toegang aanvragen](/redactie/content/toegang-beheren "Toegang beheren | Redactie | GPubP")
     * [Rollen](/redactie/content/toegang-werken-als "Werken als | Redactie | GPubP")
       * [Redacteur](/redactie/content/toegang-redacteur "Redacteur | Redactie | GPubP")
       * [Site beheerder](/redactie/content/toegang-site-beheerder "Site beheerder | Redactie | GPubP")
