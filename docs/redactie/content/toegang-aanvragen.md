@@ -52,10 +52,10 @@ Momenteel worden toegangsaanvragen behandeld door volgende teams en medewerkers:
 
 | Tenant | Stap 1 goedkeurder(s) | Stap 1 security group | Stap 2 goedkeurder(s) | Stap 1 security group |
 |---|---|---|---|---|
-| archieven |  |  |  |  |
-| astad |  |  |  |  |
-| coc |  |  |  |  |
-| evaluatie |  |  |  |  |
+| archieven | Filip Boudrez, David Van Ostade | Flow_Redactie_archieven_generiek_1 | Axel Claeys, Mikis Putseys | Flow_Redactie_archieven_generiek_2 |
+| astad | Els Engelen, Cindy Broeckaert, Axel Claeys, Kirsten Gysels, Mieke Smeyers, Mikis Putseys, Saskia Videler, Sven Baetens | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_Astad_G1 | Jannes Pockelé |  |
+| coc | Axel Claeys                                                                                                     |  |  |  |
+| evaluatie | Geert Van den Bossche, Axel Claeys  |  | Jannes Pockelé |  |
 | hrm |  |  |  |  |
 | inc |  |  |  |  |
 | omg |  |  |  |  |
