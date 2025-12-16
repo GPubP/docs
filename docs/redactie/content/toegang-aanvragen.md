@@ -50,8 +50,8 @@ Overtuigd dat je tenant beheerder wil worden? Vraag dit aan via een **servicedes
 Momenteel worden toegangsaanvragen behandeld door volgende gebruikersgroepen:
 
 
-| Tenant | Stap 1 goedkeurder(s) | Stap 1 security group | Stap 2 goedkeurder(s) | Stap 1 security group | Stap 3 goedkeurder(s) | Stap 3 security group |
-|---|---|---|---|---|
+| Tenant | Stap 1 goedkeurder(s) | Stap 1 security group | Stap 2 goedkeurder(s) | Stap 2 security group | Stap 3 goedkeurder(s) | Stap 3 security group |
+|---|---|---|---|---|---|---|
 | archieven | Filip Boudrez, David Van Ostade | Flow_Redactie_archieven_generiek_1 | Axel Claeys, Mikis Putseys | Flow_Redactie_archieven_generiek_2 |  |  |
 | astad | Els Engelen, Cindy Broeckaert, Axel Claeys, Kirsten Gysels, Mieke Smeyers, Mikis Putseys, Saskia Videler, Sven Baetens | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_Astad_G1 | Cindy Broeckaert, Els Engelen, Kirsten Gysels, Mieke Smeyers, Saskia Videler | GRP_ENT_DU_OS_Digitale_Media | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |
 | coc | Axel Claeys, Mikis Putseys | Flow_Redactie_coc_Generiek | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
