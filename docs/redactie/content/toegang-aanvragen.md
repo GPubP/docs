@@ -47,20 +47,20 @@ Overtuigd dat je tenant beheerder wil worden? Vraag dit aan via een **servicedes
 
 ## Goedkeurders
 
-Momenteel worden toegangsaanvragen behandeld door volgende teams en medewerkers:
+Momenteel worden toegangsaanvragen behandeld door volgende gebruikersgroepen:
 
 
-| Tenant | Stap 1 goedkeurder(s) | Stap 1 security group | Stap 2 goedkeurder(s) | Stap 1 security group |
+| Tenant | Stap 1 goedkeurder(s) | Stap 1 security group | Stap 2 goedkeurder(s) | Stap 1 security group | Stap 3 goedkeurder(s) | Stap 3 security group |
 |---|---|---|---|---|
-| archieven | Filip Boudrez, David Van Ostade | Flow_Redactie_archieven_generiek_1 | Axel Claeys, Mikis Putseys | Flow_Redactie_archieven_generiek_2 |
-| astad | Els Engelen, Cindy Broeckaert, Axel Claeys, Kirsten Gysels, Mieke Smeyers, Mikis Putseys, Saskia Videler, Sven Baetens | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_Astad_G1 | Jannes Pockelé |  |
-| coc | Axel Claeys                                                                                                     |  |  |  |
-| evaluatie | Geert Van den Bossche, Axel Claeys  |  | Jannes Pockelé |  |
-| hrm |  |  |  |  |
-| inc |  |  |  |  |
-| omg |  |  |  |  |
-| oor-3 |  |  |  |  |
-| pza |  |  |  |  |
-| schouwburgen |  |  |  |  |
-| sna |  |  |  |  |
-| svm |  |  |  |  |
+| archieven | Filip Boudrez, David Van Ostade | Flow_Redactie_archieven_generiek_1 | Axel Claeys, Mikis Putseys | Flow_Redactie_archieven_generiek_2 |  |  |
+| astad | Els Engelen, Cindy Broeckaert, Axel Claeys, Kirsten Gysels, Mieke Smeyers, Mikis Putseys, Saskia Videler, Sven Baetens | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_Astad_G1 | Cindy Broeckaert, Els Engelen, Kirsten Gysels, Mieke Smeyers, Saskia Videler | GRP_ENT_DU_OS_Digitale_Media | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |
+| coc | Axel Claeys, Mikis Putseys | Flow_Redactie_coc_Generiek | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
+| evaluatie | Mikis Putseys, Axel Claeys, Sven Baetens  | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_EVAL_Gebruiker_G1 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
+| hrm | Mikis Putseys, Rudi Nuytkens | Flow_Redactie_HRMGeneriek_G1 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
+| inc | Kristof Van Mieghem | Flow_Redactie_inc_Gebruiker_G1 | Wim Stalpaert | Flow_Redactie_inc_Gebruiker_G2 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |
+| omg | Axel Claeys | Flow_Redactie_OMG_Gebruiker_G1 | Mikis Putseys | Flow_Redactie_OMG_Gebruiker_G2 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |
+| oor-3 | Evi Vlaminck, Jony Janse, Mahmoud Ahmed, Roel Camps | GRP_ENT_DU_UME_Stad_Antwerpen_OOR_G1 | Mahmoud Ahmed, Roel Camps, Steven Grysolle | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_oor-3_G1 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |
+| pza | Elke Hendrickx, Mikis Putseys | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_PZA_G1 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
+| schouwburgen | Filip Martens, Timothy Goetmaeker, Wout Gijsels | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_Schouwburgen_G1 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
+| sna | Wim Stalpaert, Silke Lamoen | Flow_REDACTIE_sna_gebruiker_G1 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
+| svm | Axel Claeys | Flow_Redactie_SVM_Gebruiker_G1 | Geen leden | Flow_Redactie_SVM_Generiek | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |
