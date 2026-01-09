@@ -48,16 +48,29 @@ Om niet met meerdere partijen dezelfde module aan te maken kunnen we best de `[n
 
 Daarna moet de module een eerste maal geïnstalleerd, gebuild en gepubliceerd worden.
 
-```bash
-npm i
+Een module publiceren op de Digipolis Nexus gebeurd via de standaar Digipolis manier:
+- Voorzien van een `bamboo-specs/bamboo.yml` bestand in je Digipolis Bitbucket repository
+- Je repo toevoegen als "Linked repository" in de Digipolis Bamboo omgeving (Deze stap is mogelijks niet meer nodig)
+- Je repository met bamboo fie pushen naar de Bitbucket repository
 
-npm run build
+Meer info over dit proces en wat precies in de bamboo.yml file moet geplaatst worden, vind je hier: [NPM deployment](https://bitbucket.antwerpen.be/projects/PLAT/repos/documentation/browse/npm.md)
 
-npm version patch
 
-# De `publishConfig` in de package.json file zal ervoor zorgen dat de module gepublished wordt op de Digipolis Nexus
-npm publish
-```
+
+> [!info]
+> Indien je de module niet op de Digipolis Nexus wil plaatsen, kan je de publicatie manueel uitvoeren.\
+> We raden echter aan om altijd met de Digipolis Nexus te werken!
+>
+> ```bash
+> npm i
+>
+> npm run build
+>
+> npm version patch
+>
+> # De `publishConfig` in de package.json file zal ervoor zorgen dat de module gepublished wordt op de Digipolis Nexus
+> npm publish
+> ```
 
 Het publiceren van een initiële versie is nodig om op deze module te ontwikkelen.\
 Er moet een versie op de Digipolis Nexus repository of main NPM repository staan om deze te kunnen inladen binnen de Redactie app.
@@ -79,9 +92,6 @@ Als laatste moet de nieuw geregistreerde module nog [ingesteld worden op een ten
 ## Stap 4: Module lokaal mounten
 
 De module is nu ingesteld op de tenant en zal al doorkomen als we op onze lokale instantie van de redactie app navigeert naar de tenant.
-
-<!-- TODO: afbeelding toevoegen van tenant -->
-[TODO: afbeelding]
 
 De versie die momenteel ingeladen wordt is de versie die we net gepubiceerd hebben in een NPM registry.\
 Om effectief lokaal te onwikkelen moeten we deze module lokaal overschrijven.\
