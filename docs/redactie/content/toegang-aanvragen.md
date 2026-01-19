@@ -52,7 +52,7 @@ Momenteel worden toegangsaanvragen behandeld door volgende gebruikersgroepen:
 
 | Tenant | Stap 1 goedkeurder(s) | Stap 1 security group | Stap 2 goedkeurder(s) | Stap 2 security group | Stap 3 goedkeurder(s) | Stap 3 security group |
 |---|---|---|---|---|---|---|
-| archieven | Filip Boudrez, David Van Ostade | Flow_Redactie_archieven_generiek_1 | Axel Claeys, Geert Van den Bossche | Flow_Redactie_archieven_generiek_2 |  |  |
+| archieven | Vanessa Van Hal, Elly van Oijen, David Van Ostade | Flow_Redactie_archieven_generiek_1 | Axel Claeys, Geert Van den Bossche | Flow_Redactie_archieven_generiek_2 |  |  |
 | astad | Els Engelen, Cindy Broeckaert, Axel Claeys, Kirsten Gysels, Mieke Smeyers, Geert Van den Bossche, Saskia Videler, Sven Baetens | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_Astad_G1 | Cindy Broeckaert, Els Engelen, Kirsten Gysels, Mieke Smeyers, Saskia Videler | GRP_ENT_DU_OS_Digitale_Media | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |
 | coc | Axel Claeys, Geert Van den Bossche | Flow_Redactie_coc_Generiek | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
 | evaluatie | Geert Van den Bossche, Axel Claeys, Sven Baetens  | GRP_ENT_DU_UME_Stad_Antwerpen_REDACTIE_EVAL_Gebruiker_G1 | Jannes Pockelé, Dirk Van Ackerbroeck | DA_API_team |  |  |
